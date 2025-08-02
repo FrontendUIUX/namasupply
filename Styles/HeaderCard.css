@@ -1,3 +1,7 @@
+html:not(.designer) body form{
+	position:relative!important;
+}
+
 html:not(.designer) #custom-sticky-header {
 	position: fixed;
 	top: 9px;

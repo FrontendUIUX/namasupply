@@ -6,7 +6,7 @@
     margin-right: 0;
 }
 html:not(.designer) body.theme-entry {
-    padding-top: 6rem !important;
+    padding-top: 9rem !important;
     width: 100% !important;
 }
 @media(min-width:992px){
