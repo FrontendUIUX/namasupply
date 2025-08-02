@@ -29,7 +29,7 @@ html:not(.designer) #custom-sticky-header {
 	padding: 1rem;
 }
 html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table img{
-	width:2rem;
+	width: 2rem!important;
 	height:2rem!important
 }
 html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table *{width:fit-content!important;}
