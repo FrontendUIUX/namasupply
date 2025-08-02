@@ -301,19 +301,17 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 }
 
 @media(min-width:992px){
-	div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
-    display: flex;
-    align-items: center;
-	justify-content: flex-end;
-}
-	html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
+	html:not(.designer) div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+html:not(.designer) div#dd6240dc-b93e-1eb3-cf9f-e2ca8d12f39f_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
     display: flex;
     align-items: center;
 		justify-content:flex-end;
 }
+
 html:not(.designer)	#custom-sticky-header {
-			left: 15.3rem;
-			width: calc(100% - 17.3rem);
+			left: 17.5rem;
+			width: calc(100% - 19.5rem);
 			padding: 1vw;
 		}
 	#custom-sticky-header {
