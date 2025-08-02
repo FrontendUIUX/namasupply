@@ -286,6 +286,9 @@ span.styling-font{
  .overlay-content {
     align-items: center;
  }
+ .sidebar{
+    transform:translateX(-100%);
+ }
 @media(min-width:992px){
      .overlay-content {
     align-items: flex-start;
