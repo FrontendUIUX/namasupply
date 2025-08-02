@@ -296,9 +296,7 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 	left: 0rem;
 	right: auto;
 }
-[name^="Worklist"]{
-	border-radius: .7rem;
-}
+
 @media(min-width:992px){
 	div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
     display: flex;
