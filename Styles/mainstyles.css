@@ -232,11 +232,21 @@ html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-but
     min-height:2.9rem;
     overflow: hidden;
 }
-a#\30 0000000-0000-0000-0000-000000000000_2e4b9221-ddd9-6be1-e3d3-9a540d9641e9{
+html[dir="ltr"] a#\30 0000000-0000-0000-0000-000000000000_2e4b9221-ddd9-6be1-e3d3-9a540d9641e9{
     margin-left:0!important;
+    margin-right:.5rem!important
 }
-a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57cb-d2d34fee830e{
+html[dir="ltr"]a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57cb-d2d34fee830e{
     margin-right:0!important;
+    margin-left:.5rem!important;
+}
+html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_2e4b9221-ddd9-6be1-e3d3-9a540d9641e9{
+    margin-right:0!important;
+    margin-left:.5rem!important;
+}
+html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57cb-d2d34fee830e{
+    margin-left:0!important;
+    margin-right:.5rem!important
 }
 .theme-entry .input-control .input-control-watermark, 
 .theme-entry .input-control.select-box .input-control-watermark, 
