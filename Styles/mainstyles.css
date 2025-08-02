@@ -149,7 +149,8 @@ html,body{
 [name*="FullName Text Box"],
 [name*="CivilIDNumber Text Box"],
 [name*="MobileNumber Text Box"],
-[name*="Email Text Box"]{
+[name*="Email Text Box"],
+[name*="Text Box"]{
      border:1px solid var(--border-color)!important;
     font-size:1rem!important;
     border-radius: .5rem!important;

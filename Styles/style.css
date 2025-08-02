@@ -1,3 +1,6 @@
+ :root{
+   --zonePadding:1rem;
+ }
  .sidebar{
     transform:translateX(-100%);
  }
@@ -23,6 +26,12 @@ html:not(.designer) body.theme-entry {
 }
 [name="ar ToolBar Button"]{
    padding: 0!important;
+}
+.theme-entry .grid-toolbars {
+    background-color: var(--white);
+    border-radius: 0;
+    padding: var(--zonePadding);
+    margin-bottom: 1rem;
 }
 /* Responsive Tables */
 @media(max-width:600px){
@@ -92,6 +101,9 @@ html:not(.designer) td#\33 23ea00c-e7ff-0c23-5326-5917791b6878::before{
     }
 }
 @media(min-width:992px){
+   :root{
+   --zonePadding:2rem;
+ }
     .sidebar{
     transform:translateX(0%);
  }
