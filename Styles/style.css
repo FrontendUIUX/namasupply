@@ -54,6 +54,11 @@ html:not(.designer) body.theme-entry {
     min-height: 3rem!important;
     height: 3rem!important;
 }
+.mobile .theme-entry .filterContainer .searchDdl,
+.mobile .theme-entry .filterContainer .filterTxt{
+   min-width: 23rem!important;
+   width: 23rem!important;
+}
 /* Responsive Tables */
 @media(max-width:600px){
    .theme-entry .grid-footer .grid-paging-control .input-control-m-c, html body.theme-entry .grid-footer .grid-paging-control{
