@@ -275,6 +275,9 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 	left: 0rem;
 	right: auto;
 }
+span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
+    width: fit-content;
+}
 @media(min-width:992px){
 	#custom-sticky-header {
 	left: 16.6rem;
