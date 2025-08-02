@@ -265,6 +265,12 @@ html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57c
 .theme-entry .input-control.select-box .input-control-buttons a{
     height:unset!important;
 }
+.mobile .theme-entry div.picker-input.select-box.double-buttons .input-control-buttons.styling-right{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2.9rem;
+}
 @media(min-width:992px){
     .theme-entry .popup.id-calendar-control-popup {
     width: 18rem !important;
