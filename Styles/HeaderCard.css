@@ -1,0 +1,284 @@
+#custom-sticky-header {
+	position: fixed;
+	top: 9px;
+	left: 0rem;
+	width: 100%;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	border-bottom: 1px solid #ddd;
+	z-index: 1000;
+	padding: 1rem;
+}
+
+.theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
+	height: unset !important;
+	width: fit-content !important;
+}
+
+.theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
+	position: relative;
+	bottom: 0.8rem;
+	right: 2rem;
+}
+
+.theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
+	font-size: .9rem;
+}
+
+.theme-entry #custom-sticky-header .styling-font {
+	font-size: 0.7rem !important;
+	height: unset !important;
+	width: fit-content !important;
+}
+
+[name^="HeaderCard"] {
+	width: 100%;
+	text-align: left;
+	font-weight: bold;
+	padding-bottom: 5px;
+}
+
+[name^="HeaderCard"] .editor-cell {
+	padding: 0 !important;
+}
+
+.theme-entry ul.tab-box-tabs {
+	border: none;
+	border-top: 1px solid #ECECEC;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	gap: 5px;
+	height: unset;
+	padding: 0 3rem;
+}
+
+.theme-entry a.tab>span>span {
+	font-size: 1rem;
+	color: #828282;
+}
+
+.theme-entry ul.tab-box-tabs li {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.theme-entry ul.tab-box-tabs li a.tab {
+	padding: 1.4rem 1rem 0.5rem;
+	position: relative;
+}
+
+.theme-entry ul.tab-box-tabs li a.tab.selected::after {
+	content: "";
+	position: absolute;
+	height: 5px;
+	width: 100%;
+	background-color: red;
+	bottom: -1rem;
+	left: 0;
+}
+
+.theme-entry ul.tab-box-tabs li a.tab.selected span {
+	color: black;
+}
+
+/* Optional: Hover Effect */
+.theme-entry ul.tab-box-tabs li:hover {
+	color: black;
+}
+
+.theme-entry a.tab,
+.theme-entry a.tab.selected .tab-wrapper,
+.theme-entry .tab-wrapper {
+	border: none;
+}
+
+.theme-entry .drop-menu {
+
+	z-index: 5000 !important;
+	background-color: white;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	width: 100%
+}
+
+#custom-sticky-header [name="Cell Cell270"] {
+	border: 1px solid #ddd !important;
+	padding: .4rem 2rem !important;
+	border-radius: 4rem;
+	margin-right: 1.6rem;
+}
+
+[name="CustomerDp"] .select-box {
+	width: 18rem !important;
+	position: relative !important;
+	line-height: 1;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 8px;
+	background-color: #e62b37;
+	z-index: 100000;
+}
+
+[name="CustomerDp"] {
+	height: 1.4rem !important;
+}
+
+[name="CustomerDp"] .select-box * {
+	font-size: 1rem !important;
+	background-color: transparent !important;
+	border: none !important;
+	line-height: 1 !important;
+}
+
+[name="ProfileTable"] {
+	display: flex !important;
+	align-items: center !important;
+	border: 1px solid #ddd;
+	border-radius: 4rem !important;
+	padding: 0.6rem 0.7rem 0.2rem !important;
+	width: fit-content;
+	margin: 0 0rem;
+	height: 3rem;
+}
+
+[name="ProfileTable"] .theme-entry .input-control.select-box {
+	width: 100% !important
+}
+
+[name="ProfileTable"] [name="ProfilePhoto"] {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	height: 30px;
+	width: 30px !important;
+	margin-right: 0.6rem;
+	padding: 0 !important;
+	margin-top: -.4rem;
+}
+
+html[dir=ltr] .theme-entry [name="CustomerDp"] .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+	padding: 0 !important;
+	border-radius: 0 !important;
+}
+
+[name="ProfileTable"] [name="Table3"] {
+	padding: 0 !important;
+}
+
+html[dir=ltr] .theme-entry [name="ProfileTable"] .input-control.select-box .input-control-buttons {
+	padding: 0 !important;
+	position: absolute !important;
+	bottom: 0.1rem !important;
+}
+
+.theme-entry [name="ProfileTable"] .input-control a.input-control span,
+.theme-entry .input-control.watermark a.input-control span {
+	padding: 0;
+	line-height: 1;
+}
+
+.theme-entry [name="ProfileTable"] .input-control.select-box .input-control-buttons a.dropdown>span span {
+	position: absolute;
+	bottom: 1.3rem;
+	right: 1rem;
+}
+
+[name="English Lang"],
+[name="Arabic Lang"] {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center;
+	border: 1px solid #ddd !important;
+	width: fit-content;
+}
+
+html[dir=ltr] [name^="HeaderCard"] .editor-cell[name="English Lang"] {
+	display: none !important;
+}
+
+html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
+	display: none !important;
+}
+
+[name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+[name^="HeaderCard"] .editor-cell[name="English Lang"] {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center;
+	font-size: 1rem;
+	border: 1px solid #d9d9d9 !important;
+	padding: 0.55rem 1rem 0.55rem !important;
+	border-radius: 2rem;
+	opacity: 1;
+	cursor: pointer;
+	position: relative;
+	left: 1rem;
+}
+
+html[dir=rtl] .theme-entry #custom-sticky-header a.toolbar-button {
+	display: block !important;
+	padding: 0 !important;
+	min-height: unset;
+}
+
+html[dir=ltr] .theme-entry a.toolbar-button[name="ar ToolBar Button"] span {
+	opacity: 1;
+	margin-left: 0.2rem;
+	text-align: center;
+}
+
+[name^="HeaderCard"] .editor-cell[name="Arabic Lang"] * {
+	height: unset !important;
+	vertical-align: middle;
+	padding: 0;
+	min-height: unset;
+}
+
+.theme-entry .SourceCodeFormsControlsWorklist .WorkListItemTable .WorklistItemGridRow>td {
+	width: auto;
+}
+
+.theme-entry [name="ProfileTable"] .input-control.watermark a.input-control span {
+	font-size: .85rem !important;
+}
+
+/* ARABIC PAGES */
+html[dir="rtl"] #custom-sticky-header {
+	right: 21.6rem;
+	left: auto;
+}
+
+html[dir="rtl"] #custom-sticky-header .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+	padding: 0 !important;
+}
+
+html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
+	left: 0rem;
+	right: auto;
+}
+@media(min-width:992px){
+	#custom-sticky-header {
+	left: 16.6rem;
+	width: calc(100% - 18.6rem);
+}
+}
+@media(min-width:1440px){
+	#custom-sticky-header {
+		left: 16.6vw;
+		width: calc(100% - 18.6vw);
+		padding: 1vw;
+	}
+	html[dir="rtl"] #custom-sticky-header {
+    right: 16.6vw;
+    width: calc(100% - 18.6vw);
+}
+}
