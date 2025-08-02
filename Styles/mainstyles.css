@@ -145,7 +145,11 @@ html,body{
 }
 [name*="s_textbox"],
 [name*="Username Text Box"],
-[name*="Password Text Box"]{
+[name*="Password Text Box"],
+[name*="FullName Text Box"],
+[name*="CivilIDNumber Text Box"],
+[name*="MobileNumber Text Box"],
+[name*="Email Text Box"]{
      border:1px solid var(--border-color)!important;
     font-size:1rem!important;
     border-radius: .5rem!important;
