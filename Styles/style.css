@@ -9,6 +9,13 @@ html:not(.designer) body.theme-entry {
     padding-top: 9rem !important;
     width: 100% !important;
 }
+.mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
+    height:40%!important;
+    width:80%!important;
+    top:50%!important;
+    left:50%!important;
+    transform:translate(-50% , -50%);
+}
 @media(min-width:992px){
     .sidebar{
     transform:translateX(0%);
