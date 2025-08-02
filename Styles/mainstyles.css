@@ -222,7 +222,7 @@ html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepi
 .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-buttons,
 .searchDdl .select-box .input-control-m-c,
 .searchDdl .select-box .input-control-buttons{
-    border:none!important;
+    /* border:none!important; */
 }
 html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker *,
 [name*="OBB_textbox"],[name*="OBB_textarea"] ,textarea,
