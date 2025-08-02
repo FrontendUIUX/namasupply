@@ -195,7 +195,9 @@ html .theme-entry span[name~="customerTypeCell"] .SFC.SourceCode-Forms-Controls-
 .theme-entry .drop-menu ul.drop-menu li a span{
 	font-size: 0.9rem;
 }
-
+html:not(.designer) .theme-entry .editor-cell{
+    padding: 0!important;
+}
 @media(max-width:992px) {
     .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):nth-child(10n+1) {
         margin-left: 0;
