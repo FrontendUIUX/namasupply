@@ -33,6 +33,19 @@ html:not(.designer) body.theme-entry {
     padding: var(--zonePadding);
     margin-bottom: 1rem;
 }
+[name*="Text Box"]{
+     border:1px solid var(--border-color)!important;
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-family: var(--regularFont)!important;
+    width: 100%;
+    min-height: 3rem!important;
+    height: 3rem!important;
+}
 /* Responsive Tables */
 @media(max-width:600px){
    div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 table tbody tr{
@@ -40,7 +53,6 @@ html:not(.designer) body.theme-entry {
     flex-direction:column;
     width: 100%!important;
     min-width:calc(100vw - 1rem);
-    padding: 1rem 0;
 }
 div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 table tbody tr td{
     width:100%!important;
