@@ -8,6 +8,7 @@
 html:not(.designer) body.theme-entry {
     padding-top: 9rem !important;
     width: 100% !important;
+    padding: 0 1rem;
 }
 .mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
     height:40%!important;
@@ -18,6 +19,26 @@ html:not(.designer) body.theme-entry {
 }
 [name^="Worklist"] .stylewrapper{
 	border-radius: .7rem;
+}
+/* Responsive Tables */
+@media(max-width:600px){
+   div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 table tbody tr{
+    display:flex;
+    flex-direction:column;
+    width: 100%!important;
+    min-width:calc(100vw - 1rem);
+}
+div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 table tbody tr td{
+    width:100%!important;
+    overflow:visible!important;
+    
+}
+div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 col{
+    width:100%!important;
+}
+div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 .grid-column-header-table{
+   display: none;
+}
 }
 @media(min-width:992px){
     .sidebar{
