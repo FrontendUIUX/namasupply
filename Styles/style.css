@@ -59,7 +59,14 @@ html:not(.designer)[dir="ltr"] div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5
    content: "Building No";
    font-size: 1rem;
 }
-
+html:not(.designer)[dir="ltr"] div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 table tr td:nth-child(6)::before{
+   content: "Flat No";
+   font-size: 1rem;
+}
+html:not(.designer)[dir="ltr"] div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37 table tr td:nth-child(7)::before{
+   content: "View";
+   font-size: 1rem;
+}
 }
 @media(min-width:992px){
     .sidebar{
