@@ -280,7 +280,16 @@ span.styling-font{
  .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
     min-height: unset!important;
  }
+ .theme-entry .input-control.select-box.picker-input[data-maxrows="1"] div.editable-area{
+    height: unset!important;
+ }
+ .overlay-content {
+    align-items: center;
+ }
 @media(min-width:992px){
+     .overlay-content {
+    align-items: flex-start;
+ }
     .theme-entry .popup.id-calendar-control-popup {
     width: 18rem !important;
     height: auto !important;
