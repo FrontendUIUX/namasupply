@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.appendChild(toggleButton); // or document.body.insertBefore(toggleButton, sidebar);
 
     toggleButton.addEventListener('click', () => {
-      sidebar.classList.toggle('collapsed');
-      document.body.classList.toggle('sidebarCollapsed');
+      sidebar.classList.toggle('visible');
+      document.body.classList.toggle('collapseSidebar');
     });
   }
 });
