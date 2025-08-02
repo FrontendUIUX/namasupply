@@ -214,22 +214,13 @@ span#bd295d85-e79f-03ae-cc53-fa3232b7037d,
 span#f05eb119-7f02-9a38-0486-4a976275db5a{
     display: none;
 }
-html:not(.designer) .input-control.select-box.dropdown-box .input-control-m-c,
-html:not(.designer) .input-control.select-box.dropdown-box  .input-control-buttons,
-html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c,
-html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker  .input-control-buttons,
-.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
-.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-buttons,
-.searchDdl .select-box .input-control-m-c,
-.searchDdl .select-box .input-control-buttons{
-    /* border:none!important; */
-}
+
 html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker *,
-[name*="OBB_textbox"],[name*="OBB_textarea"] ,textarea,
-.input-control-watermark,
-[name*="OBB_dropdown"] *{
-	font-family:var(--regularFont);
+.input-control-watermark{
 	font-size:1rem!important;
+}
+[name="DateOfBirthCalendar"]{
+    height:3rem!important;
 }
 html:not(.designer) [name*="OBB_dropdown"] .select-box,
 html:not(.designer) .select-box[name*="OBB_calendar"],
@@ -240,4 +231,24 @@ html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-but
     height:2.9rem;
     min-height:2.9rem;
     overflow: hidden;
+}
+a#\30 0000000-0000-0000-0000-000000000000_2e4b9221-ddd9-6be1-e3d3-9a540d9641e9{
+    margin-left:0!important;
+}
+a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57cb-d2d34fee830e{
+    margin-right:0!important;
+}
+.theme-entry .input-control .input-control-watermark, 
+.theme-entry .input-control.select-box .input-control-watermark, 
+.theme-entry .input-control.select-box div.editable-area, 
+.theme-entry .input-control.select-box input[type=text]{
+    font-size:1rem!important;
+}
+@media(min-width:1600px){
+.theme-entry .input-control .input-control-watermark, 
+.theme-entry .input-control.select-box .input-control-watermark, 
+.theme-entry .input-control.select-box div.editable-area, 
+.theme-entry .input-control.select-box input[type=text]{
+    font-size:1rem!important;
+}
 }
