@@ -127,9 +127,6 @@ html:not(.designer) td#\33 23ea00c-e7ff-0c23-5326-5917791b6878::before{
       font-size:1rem;
       padding:0 1rem;
    }
-    html:not(.designer) table tr:nth-child(even){
-       /* background-color: #f0f0f0 !important; */
-    }
     div#\30 ebda806-4711-413c-ea04-8bce34261b42_f8682b73-aa3c-6043-7e80-e1478ae38c3e_Table {
     display: flex;
     align-items: center;
@@ -159,7 +156,7 @@ span#\34 3080a78-1436-70ef-5317-0eaa7a62cac7{
     .sidebar{
     transform:translateX(0%);
  }
- html[dir="ltr"] body {
+ html:not(.designer)[dir="ltr"] body {
     margin-left: 16.6rem!important;
     margin-right: 0;
 }
