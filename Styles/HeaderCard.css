@@ -1,7 +1,7 @@
 html:not(.designer) body form{
 	position:relative!important;
 }
-[name*="ProfileTable"] img{
+html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351fe  img{
 	height:2rem!important;
 	width:2rem!important;
 }
