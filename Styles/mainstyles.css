@@ -143,6 +143,18 @@ html,body{
     font-size: 1rem;
     color: var(--text-color);
 }
-[name*="s_textbox"]{
-    border: 1px solid var(--border-color);
+[name*="s_textbox"],
+[name*="Username Text Box"],
+[name*="Password Text Box"]{
+     border:1px solid var(--border-color)!important;
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-family: var(--regularFont)!important;
+    width: 100%;
+    min-height: 3rem!important;
+    height: 3rem!important;
 }
