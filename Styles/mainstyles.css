@@ -271,6 +271,12 @@ html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57c
 	justify-content: center;
 	height: 2.9rem;
 }
+span.styling-font{
+    font-size: 1rem!important;
+}
+.theme-entry .input-control a.input-control{
+    height: 3rem;
+}
 @media(min-width:992px){
     .theme-entry .popup.id-calendar-control-popup {
     width: 18rem !important;
@@ -278,6 +284,9 @@ html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57c
 }
 }
 @media(min-width:1600px){
+span.styling-font{
+    font-size: 1vw!important;
+}
 .theme-entry .input-control .input-control-watermark, 
 .theme-entry .input-control.select-box .input-control-watermark, 
 .theme-entry .input-control.select-box div.editable-area, 
