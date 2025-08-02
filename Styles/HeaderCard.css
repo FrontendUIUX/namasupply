@@ -1,4 +1,4 @@
-#custom-sticky-header {
+html:not(.designer) #custom-sticky-header {
 	position: fixed;
 	top: 9px;
 	left: 0rem;
@@ -12,40 +12,42 @@
 	z-index: 1000;
 	padding: 1rem;
 }
-
-.theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table *{
+width:fit-content!important;
+}
+html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
 	height: unset !important;
 	width: fit-content !important;
 }
 
-.theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
+html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
 	position: relative;
 	bottom: 0.8rem;
 	right: 2rem;
 }
 
-.theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
+html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
 	font-size: .9rem;
 }
 
-.theme-entry #custom-sticky-header .styling-font {
+html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
 	font-size: 0.7rem !important;
 	height: unset !important;
 	width: fit-content !important;
 }
 
-[name^="HeaderCard"] {
+html:not(.designer) [name^="HeaderCard"] {
 	width: 100%;
 	text-align: left;
 	font-weight: bold;
 	padding-bottom: 5px;
 }
 
-[name^="HeaderCard"] .editor-cell {
+html:not(.designer) [name^="HeaderCard"] .editor-cell {
 	padding: 0 !important;
 }
 
-.theme-entry ul.tab-box-tabs {
+html:not(.designer) .theme-entry ul.tab-box-tabs {
 	border: none;
 	border-top: 1px solid #ECECEC;
 	display: flex;
@@ -56,22 +58,22 @@
 	padding: 0 3rem;
 }
 
-.theme-entry a.tab>span>span {
+html:not(.designer) .theme-entry a.tab>span>span {
 	font-size: 1rem;
 	color: #828282;
 }
 
-.theme-entry ul.tab-box-tabs li {
+html:not(.designer) .theme-entry ul.tab-box-tabs li {
 	cursor: pointer;
 	font-weight: bold;
 }
 
-.theme-entry ul.tab-box-tabs li a.tab {
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
 	padding: 1.4rem 1rem 0.5rem;
 	position: relative;
 }
 
-.theme-entry ul.tab-box-tabs li a.tab.selected::after {
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected::after {
 	content: "";
 	position: absolute;
 	height: 5px;
@@ -81,22 +83,22 @@
 	left: 0;
 }
 
-.theme-entry ul.tab-box-tabs li a.tab.selected span {
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected span {
 	color: black;
 }
 
 /* Optional: Hover Effect */
-.theme-entry ul.tab-box-tabs li:hover {
+html:not(.designer) .theme-entry ul.tab-box-tabs li:hover {
 	color: black;
 }
 
-.theme-entry a.tab,
-.theme-entry a.tab.selected .tab-wrapper,
-.theme-entry .tab-wrapper {
+html:not(.designer) .theme-entry a.tab,
+html:not(.designer) .theme-entry a.tab.selected .tab-wrapper,
+html:not(.designer) .theme-entry .tab-wrapper {
 	border: none;
 }
 
-.theme-entry .drop-menu {
+html:not(.designer) .theme-entry .drop-menu {
 
 	z-index: 5000 !important;
 	background-color: white;
@@ -104,20 +106,20 @@
 	width: 100%
 }
 
-#custom-sticky-header [name="Cell Cell270"] {
+html:not(.designer) #custom-sticky-header [name="Cell Cell270"] {
 	border: 1px solid #ddd !important;
 	padding: .4rem 2rem !important;
 	border-radius: 4rem;
 	margin-right: 1.6rem;
 }
 
-[name="CustomerDp"] .select-box {
+html:not(.designer) [name="CustomerDp"] .select-box {
 	width: 18rem !important;
 	position: relative !important;
 	line-height: 1;
 }
 
-body::before {
+html:not(.designer) body::before {
 	content: "";
 	position: fixed;
 	top: 0;
@@ -128,18 +130,18 @@ body::before {
 	z-index: 100000;
 }
 
-[name="CustomerDp"] {
+html:not(.designer) [name="CustomerDp"] {
 	height: 1.4rem !important;
 }
 
-[name="CustomerDp"] .select-box * {
+html:not(.designer) [name="CustomerDp"] .select-box * {
 	font-size: 1rem !important;
 	background-color: transparent !important;
 	border: none !important;
 	line-height: 1 !important;
 }
 
-[name="ProfileTable"] {
+html:not(.designer) [name="ProfileTable"] {
 	display: flex !important;
 	align-items: center !important;
 	border: 1px solid #ddd;
@@ -150,11 +152,11 @@ body::before {
 	height: 3rem;
 }
 
-[name="ProfileTable"] .theme-entry .input-control.select-box {
+html:not(.designer) [name="ProfileTable"] .theme-entry .input-control.select-box {
 	width: 100% !important
 }
 
-[name="ProfileTable"] [name="ProfilePhoto"] {
+html:not(.designer) [name="ProfileTable"] [name="ProfilePhoto"] {
 	display: flex !important;
 	align-items: center !important;
 	justify-content: center !important;
