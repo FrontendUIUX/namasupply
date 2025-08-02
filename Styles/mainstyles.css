@@ -277,6 +277,9 @@ span.styling-font{
 .theme-entry .input-control a.input-control{
     height: 3rem;
 }
+ .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+    min-height: unset!important;
+ }
 @media(min-width:992px){
     .theme-entry .popup.id-calendar-control-popup {
     width: 18rem !important;
