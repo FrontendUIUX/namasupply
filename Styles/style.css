@@ -18,8 +18,11 @@
    height:100vh;
    width:100vw;
 }
-.theme-entry.collapseSidebar #toggleSidebarBtn{
+.theme-entry.collapseSidebar #toggleSidebarBtn svg{
    transform:scaleX(-1);
+}
+button#toggleSidebarBtn svg{
+   transition:all .3s ease-in-out;
 }
 button#toggleSidebarBtn {
     background-color: var(--red);
@@ -39,6 +42,7 @@ html,body{
  }
 .sidebar.visible{
    transform:translateX(0);
+   transition: all .3s ease-in-out;
 }
  html[dir="ltr"] body {
     margin-left: 0rem!important;
