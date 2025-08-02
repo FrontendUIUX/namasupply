@@ -1,6 +1,9 @@
 :root{
     --red:#e62b37;
     --mainColor:#e62b37;
+    --text-color:#3E3E3E;
+    --field-label:#303030;
+    --border-color:#D7D7D7;
 }
 html,body{
     font-size: 14px!important;
@@ -134,4 +137,12 @@ html,body{
     background: var(--mainColor) !important;
     border-color: var(--mainColor) !important;
     color: white !important;
+}
+/* label Branding Start */
+[name*="s_label"]{
+    font-size: 1rem;
+    color: var(--text-color);
+}
+[name*="s_textbox"]{
+    border: 1px solid var(--border-color);
 }
