@@ -1,7 +1,19 @@
 html:not(.designer) body form{
 	position:relative!important;
 }
+html:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
+    width: fit-content;
+}
 
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
+    display: flex;
+    align-items: center;
+}
+
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_c3463596-afb1-716a-6371-d974af820942_Table {
+    display: flex;
+    width: fit-content;
+}
 html:not(.designer) #custom-sticky-header {
 	position: fixed;
 	top: 9px;
@@ -211,6 +223,7 @@ html[dir=ltr] .theme-entry [name="ProfileTable"] .input-control.select-box .inpu
 
 html[dir=ltr] [name^="HeaderCard"] .editor-cell[name="English Lang"] {
 	display: none !important;
+	width: 0!important;
 }
 
 html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
@@ -274,9 +287,6 @@ html[dir="rtl"] #custom-sticky-header .input-control.select-box:not(.hide-button
 html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
 	left: 0rem;
 	right: auto;
-}
-span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
-    width: fit-content;
 }
 @media(min-width:992px){
 	#custom-sticky-header {
