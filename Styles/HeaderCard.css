@@ -289,6 +289,16 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 	right: auto;
 }
 @media(min-width:992px){
+	html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
+    display: flex;
+    align-items: center;
+		justify-content:flex-end;
+}
+html:not(.designer)	#custom-sticky-header {
+			left: 15.3rem;
+			width: calc(100% - 17.3rem);
+			padding: 1vw;
+		}
 	#custom-sticky-header {
 	left: 16.6rem;
 	width: calc(100% - 18.6rem);
