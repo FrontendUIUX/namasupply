@@ -10,6 +10,7 @@ html:not(.designer) body.theme-entry {
     width: 100% !important;
     padding: 0 1rem;
 }
+
 .mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
     height:40%!important;
     width:80%!important;
@@ -19,6 +20,9 @@ html:not(.designer) body.theme-entry {
 }
 [name^="Worklist"] .stylewrapper{
 	border-radius: .7rem;
+}
+[name="ar ToolBar Button"]{
+   padding: 0!important;
 }
 /* Responsive Tables */
 @media(max-width:600px){
@@ -69,6 +73,10 @@ html:not(.designer)[dir="ltr"] div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5
 }
 html:not(.designer)[dir="ltr"] table tbody tr td .runtime-list-item{
    text-align: left!important;
+}
+html:not(.designer) td#\33 23ea00c-e7ff-0c23-5326-5917791b6878::before{
+   content: "";
+   display: none;
 }
 }
 @media(min-width:992px){
