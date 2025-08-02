@@ -211,7 +211,7 @@ html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
 	display: none !important;
 }
 
-[name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 [name^="HeaderCard"] .editor-cell[name="English Lang"] {
 	display: flex !important;
 	align-items: center !important;
@@ -223,7 +223,9 @@ html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
 	opacity: 1;
 	cursor: pointer;
 	position: relative;
-	left: 1rem;
+	/* left: 1rem; */
+	margin-right: .5rem;
+	padding:.5rem 1rem!important;
 }
 
 html[dir=rtl] .theme-entry #custom-sticky-header a.toolbar-button {
