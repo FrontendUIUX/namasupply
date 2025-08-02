@@ -6,6 +6,14 @@
     --border-color:#D7D7D7;
     --zonePadding:1rem;
 }
+button#toggleSidebarBtn {
+    background-color: var(--red);
+    position: absolute;
+    left: -1rem;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+}
 html,body{
     font-size: 14px!important;
 }

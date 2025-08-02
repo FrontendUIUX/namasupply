@@ -14,13 +14,11 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
 
     // Optional styling
-    toggleButton.style.backgroundColor = "#333";
     toggleButton.style.border = "none";
     toggleButton.style.padding = "8px";
     toggleButton.style.margin = "10px";
     toggleButton.style.cursor = "pointer";
     toggleButton.style.zIndex = "1000";
-    toggleButton.style.position = "fixed";
     toggleButton.style.top = "10px";
     toggleButton.style.left = "10px";
 
