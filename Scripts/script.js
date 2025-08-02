@@ -19,8 +19,6 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleButton.style.margin = "10px";
     toggleButton.style.cursor = "pointer";
     toggleButton.style.zIndex = "1000";
-    toggleButton.style.top = "10px";
-    toggleButton.style.left = "10px";
 
     document.body.appendChild(toggleButton); // or document.body.insertBefore(toggleButton, sidebar);
 
