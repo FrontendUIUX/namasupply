@@ -214,3 +214,30 @@ span#bd295d85-e79f-03ae-cc53-fa3232b7037d,
 span#f05eb119-7f02-9a38-0486-4a976275db5a{
     display: none;
 }
+html:not(.designer) .input-control.select-box.dropdown-box .input-control-m-c,
+html:not(.designer) .input-control.select-box.dropdown-box  .input-control-buttons,
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c,
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker  .input-control-buttons,
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-buttons,
+.searchDdl .select-box .input-control-m-c,
+.searchDdl .select-box .input-control-buttons{
+    border:none!important;
+}
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker *,
+[name*="OBB_textbox"],[name*="OBB_textarea"] ,textarea,
+.input-control-watermark,
+[name*="OBB_dropdown"] *{
+	font-family:var(--regularFont);
+	font-size:1rem!important;
+}
+html:not(.designer) [name*="OBB_dropdown"] .select-box,
+html:not(.designer) .select-box[name*="OBB_calendar"],
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
+.searchDdl .select-box{
+    border:1px solid var(--borderColor)!important;
+    border-radius:.5rem!important;
+    height:2.9rem;
+    min-height:2.9rem;
+    overflow: hidden;
+}
