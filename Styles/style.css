@@ -1,8 +1,16 @@
  .sidebar{
     transform:translateX(-100%);
  }
+ html[dir="ltr"] body {
+    margin-left: 0rem!important;
+    margin-right: 0;
+}
 @media(min-width:992px){
     .sidebar{
     transform:translateX(0%);
  }
+ html[dir="ltr"] body {
+    margin-left: 16.6rem!important;
+    margin-right: 0;
+}
 }
