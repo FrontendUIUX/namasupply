@@ -250,6 +250,12 @@ a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57cb-d2d34fee830e{
 .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c{
     height: 3rem!important;
 }
+@media(min-width:992px){
+    .theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto !important;
+}
+}
 @media(min-width:1600px){
 .theme-entry .input-control .input-control-watermark, 
 .theme-entry .input-control.select-box .input-control-watermark, 
