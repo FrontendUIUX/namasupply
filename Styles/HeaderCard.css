@@ -1,6 +1,10 @@
 html:not(.designer) body form{
 	position:relative!important;
 }
+div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
+    display: flex;
+    align-items: center;
+}
 html:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
     width: fit-content;
 }
@@ -293,6 +297,11 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 	right: auto;
 }
 @media(min-width:992px){
+	div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
+    display: flex;
+    align-items: center;
+	justify-content: flex-end;
+}
 	html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
     display: flex;
     align-items: center;
