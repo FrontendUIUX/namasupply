@@ -4,12 +4,16 @@ html:not(.designer) body form{
 html:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
     width: fit-content;
 }
-
+div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table * {
+    width: fit-content!important;
+}
 html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
     display: flex;
     align-items: center;
 }
-
+a#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_9d76c288-51a3-44ed-b230-f14998f945f7_ToolbarButton{
+	padding: 0!important;
+}
 html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_c3463596-afb1-716a-6371-d974af820942_Table {
     display: flex;
     width: fit-content;
