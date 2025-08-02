@@ -119,6 +119,27 @@ html:not(.designer) td#\33 23ea00c-e7ff-0c23-5326-5917791b6878::before{
     html:not(.designer) table tr:nth-child(even){
        background-color: #f0f0f0 !important;
     }
+    div#\30 ebda806-4711-413c-ea04-8bce34261b42_f8682b73-aa3c-6043-7e80-e1478ae38c3e_Table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+    height: unset!important;
+    min-height: unset;
+    line-height: unset!important;
+    width: 90%!important;
+}
+
+span#\37 cd68721-9b5d-f798-0a5d-7c8a2a511c5e,
+span#b7aa4685-6d06-de83-3d6a-25b604a6f24a,
+span#\31 997727b-a275-719d-bd6a-21c2d184b8cd,
+span#\31 92fe139-41aa-bc5f-8312-039e919bc9e6,
+span#\30 d0c6892-1cfb-1211-b99b-234636b994ad,
+span#\34 3080a78-1436-70ef-5317-0eaa7a62cac7{
+    display: none;
+}
+
 }
 @media(min-width:992px){
    :root{
