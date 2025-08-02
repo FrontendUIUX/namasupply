@@ -103,6 +103,8 @@ html:not(.designer)[dir="ltr"] div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5
 }
 html:not(.designer)[dir="ltr"] table tbody tr td .runtime-list-item{
    text-align: left!important;
+   color: #7b7b7b;
+   padding-top: 0;
 }
 html:not(.designer) td#\33 23ea00c-e7ff-0c23-5326-5917791b6878::before{
    content: "";
