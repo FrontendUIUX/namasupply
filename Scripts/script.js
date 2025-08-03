@@ -28,3 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 });
+if (document.querySelector('.tab-box-tabs')) {
+  document.body.classList.add('pushdown');
+}
