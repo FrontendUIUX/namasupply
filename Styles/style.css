@@ -92,7 +92,7 @@ html:not(.designer) body.theme-entry {
    width: 23rem!important;
 }
 .SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
-    min-height: 100vh!important;
+    min-height: max-content;
     overflow: auto;
 }
 .stackContainer .stack {
