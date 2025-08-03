@@ -95,6 +95,7 @@ html:not(.designer) .theme-entry ul.tab-box-tabs {
 	gap: 5px;
 	height: unset;
 	padding: 0;
+	padding-top: 1rem;
 }
 
 html:not(.designer) .theme-entry a.tab>span>span {

@@ -91,6 +91,21 @@ html:not(.designer) body.theme-entry {
    min-width: 23rem!important;
    width: 23rem!important;
 }
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
+    min-height: 100vh!important;
+    overflow: auto;
+}
+.stackContainer .stack {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height:-webkit-fill-available!important;
+}
+.stackContainer .stack .hoverdiv.option{
+    width:100%!important;
+    margin:1rem auto!Important;
+}
 /* Responsive Tables */
 @media(max-width:600px){
    .theme-entry .grid-footer .grid-paging-control .input-control-m-c, html body.theme-entry .grid-footer .grid-paging-control{
