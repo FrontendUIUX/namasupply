@@ -109,8 +109,17 @@ html:not(.designer) body.theme-entry {
 .SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper .optionwrapper{
    position: unset!important;
 }
+
 /* Responsive Tables */
 @media(max-width:600px){
+	span#f0032494-05da-4cc5-920f-fb2277d5d5a8,
+span#\38 14d74d2-d6f9-42c7-9633-8520e79e21a3,
+	span#dfe31dca-73b1-4d63-ba30-8f4f9141e2d0,
+	span#\35 fd61d4d-818c-4e71-a710-211927cbbfac,
+	span#\37 c014e44-1086-44d5-aed4-4c76591d9e52,
+	span#da05326a-2197-42a4-a655-1dc39b0b6767{
+	display:none;
+}
    .theme-entry .grid-footer .grid-paging-control .input-control-m-c, html body.theme-entry .grid-footer .grid-paging-control{
       position: unset!important;
    }
