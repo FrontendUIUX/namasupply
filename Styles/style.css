@@ -202,7 +202,10 @@ span#\30 d0c6892-1cfb-1211-b99b-234636b994ad,
 span#\34 3080a78-1436-70ef-5317-0eaa7a62cac7{
     display: none;
 }
-
+div#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_4fed8ee2-32a5-4af7-8553-6f9f810df2d0_Table {
+    display: flex;
+    flex-direction: column;
+}
 }
 @media(min-width:992px){
    :root{
