@@ -106,6 +106,9 @@ html:not(.designer) body.theme-entry {
     width:100%!important;
     margin:1rem auto!Important;
 }
+.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper .optionwrapper{
+   position: unset!important;
+}
 /* Responsive Tables */
 @media(max-width:600px){
    .theme-entry .grid-footer .grid-paging-control .input-control-m-c, html body.theme-entry .grid-footer .grid-paging-control{
