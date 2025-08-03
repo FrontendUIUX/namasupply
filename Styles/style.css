@@ -6,6 +6,9 @@
     --border-color:#D7D7D7;
     --zonePadding:1rem;
 }
+html:not(.designer) body.theme-entry.pushdown{
+	padding-top: 11rem!important;
+}
 .theme-entry.collapseSidebar{
    position:relative;
 }
