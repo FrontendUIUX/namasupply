@@ -220,4 +220,36 @@ html:not(.designer) body.theme-entry {
     padding-top: 6rem !important;
     width: calc(100% - 16.6rem) !important;
 }
+   .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv{
+	height: 6rem!important;
+	width: 14rem!important;
+	margin: 0.5rem;
+	padding: 1rem!important;
+	box-shadow: none;
+	background-color: white;
+	border-radius: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center !important;
+	justify-content: center !important;
+	align-content: center;
+	transition: all .3s ease-in-out;
+	padding: 0 1rem;
+	font-size: .95rem;
+	cursor: pointer;
+      margin:1rem!important
+}
+	.stackContainer .stack{
+width:auto;
+	}
+}
+@media(min-width:1600px){
+       .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv {
+        height: 7vw !important;
+        width: 15vw!important;
+        margin: 1vw;
+        border-radius: 0.7vw;
+        padding: 0 1vw;
+        font-size: 1vw;
+    }
 }
