@@ -123,11 +123,7 @@ a#\38 be0aae4-96d2-4771-89aa-2168b6f15a37_f75f0229-0950-4523-bd69-8e2926e2629f,
 
 html:not(.designer) .theme-entry .message-box-content,
 
-html:not(.designer) .theme-entry .dialog .popup-body{
-
-    height: fit-content;
-
-}
+html:not(.designer) .theme-entry .dialog .popup-body{height: fit-content!important;}
 
 html:not(.designer) .theme-entry .popup.dialog.error-message:not(.runtime-message) .message-box-content .panel-body-m-c{
 
@@ -143,20 +139,7 @@ html:not(.designer) .theme-entry .popup-body,
 
 html:not(.designer) .theme-entry .popup-footer{/* position:relative!important; *//* top:unset!important; *//* bottom:unset!important; */left:unset!important;right:unset!important;width:100%;height:fit-content!important;}
 
-html:not(.designer) .theme-entry .popup-header{
-
-    padding:1rem 2rem;
-
-    background-color:#f7f7f7;
-
-    margin: 0!important;
-
-    position: relative!important;
-
-    height: fit-content!important;
-    left: 0;
-
-}
+html:not(.designer) .theme-entry .popup-header{padding: 1.5rem 1rem;background-color:#f7f7f7;margin: 0!important;position: relative!important;height: fit-content!important;left: 0;}
 
 html:not(.designer) .theme-entry .popup-body{
 
@@ -166,13 +149,7 @@ border-bottom:none!important
 
 }
 
-html:not(.designer) .theme-entry .popup-footer{
-
-    padding:0rem 2rem 1rem;
-
-    border-top:none!important;
-
-}
+html:not(.designer) .theme-entry .popup-footer{padding:0rem 2rem 1rem;border-top:none!important;}
 
 html:not(.designer) .popup.dialog{/* height: auto!important; */border-radius:1rem!important;overflow:hidden;}
 
