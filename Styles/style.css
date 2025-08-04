@@ -626,7 +626,7 @@ html:not(.designer) td#\33 23ea00c-e7ff-0c23-5326-5917791b6878::before{
    html:not(.designer) table tr td::before{
       font-weight:600;
       font-size:1rem;
-      padding:0 1rem;
+      /* padding:0 1rem; */
    }
     div#\30 ebda806-4711-413c-ea04-8bce34261b42_f8682b73-aa3c-6043-7e80-e1478ae38c3e_Table {
     display: flex;
