@@ -115,6 +115,27 @@ html:not(.designer) body.theme-entry {
 
 /* Responsive Tables */
 @media(max-width:600px){
+   span#dd2a29c6-446c-2448-8036-846eba81b775 {
+    display: none;
+}
+
+div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_de121480-4181-44f7-b2ff-f007a865983d_e63acb0d-eaf1-4dc6-98bc-9de2036e445d_7817eeff-576c-43a1-9848-825a1ad1748d table tr {
+    display: flex;
+    flex-direction: column;
+}
+
+div#e63acb0d-eaf1-4dc6-98bc-9de2036e445d_e52ccef8-6931-7407-8643-fbc5f42e8019_Table {
+    display: flex;
+    align-items: center;
+}
+
+span#\37 055646e-52f4-03c1-e253-2d5518cf0950 {
+    display: none;
+}
+
+input#e63acb0d-eaf1-4dc6-98bc-9de2036e445d_5ec68cd6-e217-f03a-e1ec-78c0dd05247e {
+    width: 100%!important;
+}
 	.theme-entry .grid table.grid-content-table td.center-align{
 		text-align:inherit;
 	}
