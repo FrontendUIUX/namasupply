@@ -722,10 +722,11 @@ html:not(.designer) body.theme-entry {
     width: calc(100% - 17.6rem) !important;
     margin-top: 6.1rem;
 }
-	html:not(.designer) body.theme-entry.doubleTop {
-    padding-top: 11rem !important;
-    width: calc(100% - 17.6rem) !important;
-}
+    html:not(.designer) body.theme-entry.doubleTop {
+        padding-top: 1rem !important;
+        width: calc(100% - 17.6rem) !important;
+        margin-top: 9.7rem;
+    }
    .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv{
 	height: 6rem!important;
 	width: 14rem!important;
