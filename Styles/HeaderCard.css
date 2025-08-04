@@ -267,7 +267,7 @@ html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 	position: relative;
 	/* left: 1rem; */
 	margin-right: .5rem;
-	padding:.5rem 1rem!important;
+	padding: .5rem!important;
 }
 
 html[dir=rtl] .theme-entry #custom-sticky-header a.toolbar-button {
