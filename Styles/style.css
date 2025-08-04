@@ -325,6 +325,9 @@ span#c173537d-d54a-2c8e-da42-c9fad6b54c6c {
 span#d9061a6b-bd52-20cb-1620-05e55e453b4b {
     width: 100%;
 }
+.grid-column-headers {
+    display: none;
+}
 }
 @media(min-width:992px){
    :root{
