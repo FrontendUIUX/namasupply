@@ -369,12 +369,16 @@ span#\30 0000000-0000-0000-0000-000000000000_d4820830-9e5a-7590-c6bd-da95847463c
     transform:translateX(0%);
  }
  html:not(.designer)[dir="ltr"] body {
-    margin-left: 16.6rem!important;
+    margin-left: 17.6rem!important;
     margin-right: 0;
 }
 html:not(.designer) body.theme-entry {
     padding-top: 6rem !important;
     width: calc(100% - 16.6rem) !important;
+}
+	html:not(.designer) body.theme-entry.doubleTop {
+    padding-top: 11rem !important;
+    width: calc(100% - 17.6rem) !important;
 }
    .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv{
 	height: 6rem!important;
