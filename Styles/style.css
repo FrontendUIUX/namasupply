@@ -112,6 +112,9 @@ html:not(.designer) .theme-entry td span.runtime-list-item{
 	padding: 0!important;
     text-align: inherit;
 }
+html:not(.designer) .theme-entry .grid-column-header-cell-content[style*="text-align:center;"] .grid-column-header-text{
+	padding:0!important;
+}
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-child{
 	border:none!important;
 }
