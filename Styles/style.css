@@ -16,6 +16,9 @@
 html:not(.designer),html:not(.designer) body.theme-entry{
     font-size:14px!important;
 }
+html:not(.designer) .theme-entry.doubleTop #custom-sticky-header {
+	height:unset;
+}
 html:not(.designer) body.theme-entry{
     margin-top: 5.65rem;
     padding:1rem!important;
