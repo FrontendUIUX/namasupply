@@ -15,7 +15,7 @@ html:not(.designer) .theme-entry  .SourceCode-Forms-Controls-Web-Button{
 /* BUTTON BRANDING END */
 /* TEXTBOX BRANDING START */
 html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox{
-    border:1px solid var(--borderColor)!important;
+    border:1px solid var(--border-color)!important;
     font-size:1rem!important;
     border-radius: .5rem!important;
     padding: .4rem 1rem!important;
@@ -28,8 +28,8 @@ html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
     height: 3rem!important;
 }
 /* TEXTBOX BRANDING END */
-span#\37 76a1338-0d84-08bb-3c66-42f507e489bc {
-    display: none;
+input#\35 6de97dc-fddf-97d1-9116-c2a8e36a8708_43294d0b-a55b-47e8-8657-52b652a72683{
+	display:none;
 }
 html:not(.designer) body.theme-entry.pushdown{
 	padding-top: 11rem!important;
