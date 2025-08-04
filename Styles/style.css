@@ -256,6 +256,9 @@ font-size:8pt!important;
  
 /* Responsive Tables */
 @media(max-width:600px){
+   html:not(.designer) .theme-entry .message-box-content, html:not(.designer) .theme-entry .dialog .popup-body{
+		height:unset;
+	}
    span#dd2a29c6-446c-2448-8036-846eba81b775 {
     display: none;
 }
