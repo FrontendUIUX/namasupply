@@ -450,7 +450,13 @@ div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf {
     background-color: transparent;
 }
 
-
+[name*="Text Area"]{
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    min-height: 3rem!important;
+    height: 3rem!important;
+}
 /* Responsive Tables */
 @media(max-width:600px){
 	html.mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
