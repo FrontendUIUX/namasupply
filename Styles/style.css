@@ -620,8 +620,8 @@ span#\30 0000000-0000-0000-0000-000000000000_d4820830-9e5a-7590-c6bd-da95847463c
     margin-right: 0;
 }
 html:not(.designer) body.theme-entry {
-    padding-top: 6rem !important;
-    width: calc(100% - 16.6rem) !important;
+    width: calc(100% - 17.6rem) !important;
+    margin-top: 6.1rem;
 }
 	html:not(.designer) body.theme-entry.doubleTop {
     padding-top: 11rem !important;
