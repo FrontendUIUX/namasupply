@@ -110,6 +110,7 @@ html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-family: var(--regularFont)!important;
 	font-weight: 300!important;
 	padding: 0!important;
+    text-align: inherit;
 }
 html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-child{
 	border:none!important;
