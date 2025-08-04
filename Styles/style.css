@@ -6,6 +6,13 @@
     --border-color:#D7D7D7;
     --zonePadding:1rem;
 }
+/* BUTTON BRANDING START */
+html:not(.designer) .theme-entry  .SourceCode-Forms-Controls-Web-Button{
+    height:unset!important;
+    min-height:unset!important;
+    padding:.8rem 1rem;
+}
+/* BUTTON BRANDING END */
 html:not(.designer) body.theme-entry.pushdown{
 	padding-top: 11rem!important;
 }
