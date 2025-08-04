@@ -170,6 +170,7 @@ html:not(.designer) .theme-entry .popup-header{
     position: relative!important;
 
     height: fit-content!important;
+    left: 0;
 
 }
 
