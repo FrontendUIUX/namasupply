@@ -75,12 +75,14 @@ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box
 
 html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
 	font-size: .9rem;
+	color: #131313;
 }
 
 html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
 	font-size: 0.7rem !important;
 	height: unset !important;
 	width: fit-content !important;
+	padding: 0!important;
 }
 
 html:not(.designer) [name^="HeaderCard"] {
