@@ -336,6 +336,21 @@ span#d9061a6b-bd52-20cb-1620-05e55e453b4b {
 span#\39 9d8ee52-1bad-7e30-06b1-52a9c2de1827 {
     width: 20%;
 }
+a#\38 be0aae4-96d2-4771-89aa-2168b6f15a37_7c09a884-c5fe-440f-831c-b445cf53e4bb,
+a#\38 be0aae4-96d2-4771-89aa-2168b6f15a37_f75f0229-0950-4523-bd69-8e2926e2629f{
+    padding: 0.9rem 1rem!important;
+    height: unset;
+    min-height: unset;
+}
+
+
+span#\34 3848706-e307-5fb6-6444-9dcff9d957ca {
+    display: none;
+}
+
+span#\39 379eb4e-b606-5a95-ae19-caeac6795ab5 {
+    display: none;
+}
 }
 @media(min-width:992px){
    :root{
