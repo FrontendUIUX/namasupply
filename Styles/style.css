@@ -19,6 +19,9 @@ html:not(.designer),html:not(.designer) body.theme-entry{
 html:not(.designer) .theme-entry.doubleTop #custom-sticky-header {
 	height:unset;
 }
+html:not(.designer)  .innerpanel > .grid{
+	padding:0!important;
+}
 html:not(.designer) body.theme-entry{
     margin-top: 5.65rem;
     padding:1rem!important;
