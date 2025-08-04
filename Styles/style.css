@@ -5,8 +5,25 @@
     --field-label:#303030;
     --border-color:#D7D7D7;
     --zonePadding:1rem;
+	 --white:#ffffff;
+	--main-color-hover:#c01f29;
+	--light-main-color: rgb(230 43 55 / 9%);
+	--zoneBorderRadius:1.5rem;
+	--zonePadding: 1.5rem;
 }
 /* GENERAL STYLES START */
+html:not(.designer) body.theme-entry{
+    margin-top:4.75rem;
+    padding:1rem!important;
+    height:calc(100% - (4.75rem + 1rem));
+    width: 100%!important;
+}
+html:not(.designer) body.theme-entry [name*="s_collapse"] {
+    padding: var(--zonePadding);
+    border-radius: var(--zoneBorderRadius)!important;
+    background-color: white!important;
+    width: calc(100% - (2 * var(--zonePadding)))!important;
+}
 html:not(.designer) .theme-entry .input-control .input-control-m-c, .theme-entry .input-control.select-box .input-control-m-c{
 	height:unset;
 	min-height:unset;
@@ -47,6 +64,8 @@ html:not(.designer) .theme-entry .input-control.select-box{
     height:3rem;
     min-height:3rem;
     border: 1px solid var(--border-color)!important;
+    max-width: 99%;
+    width: 100%!important;
 }
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
@@ -98,12 +117,12 @@ button#toggleSidebarBtn svg{
 }
 button#toggleSidebarBtn {
     background-color: var(--red);
-    position: absolute;
+    position: fixed;
     left: -1rem;
     top: 1rem;
     display: flex;
     align-items: center;
-   transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
 }
 html,body{
     font-size: 14px!important;
@@ -128,9 +147,9 @@ html,body{
     margin-right: 0;
 }
 html:not(.designer) body.theme-entry {
-    padding-top: 9rem !important;
-    width: 100% !important;
-    padding: 0 1rem;
+    /* padding-top: 9rem !important; */
+    /* width: 100% !important; */
+    /* padding: 0 1rem; */
 }
 
 .mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
@@ -147,10 +166,9 @@ html:not(.designer) body.theme-entry {
    padding: 0!important;
 }
 .theme-entry .grid-toolbars {
-    background-color: var(--white);
-    border-radius: 0;
-    padding: var(--zonePadding);
-    margin-bottom: 1rem;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
 }
 [name*="Text Box"]{
      border:1px solid var(--border-color)!important;
@@ -167,8 +185,9 @@ html:not(.designer) body.theme-entry {
 }
 .mobile .theme-entry .filterContainer .searchDdl,
 .mobile .theme-entry .filterContainer .filterTxt{
-   min-width: 23rem!important;
-   width: 23rem!important;
+   min-width: 100%!important;
+   width: 100%!important;
+   margin: 0;
 }
 .SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
     min-height: max-content;
@@ -292,11 +311,12 @@ html:not(designer)[dir=ltr] .theme-entry .input-control.select-box:not(.hide-but
     /* height: unset !important; */
     /* border-top-left-radius: 0.5rem; */
     /* border-bottom-left-radius: 0.5rem; */
-	border:none;
-	padding:0;
-	height:unset;
-	border-top-left-radius:0;
-	border-bottom-left-radius:0;
+    border:none;
+    padding:0;
+    height:unset;
+    border-top-left-radius:0;
+    border-bottom-left-radius:0;
+    width: 100%;
 }
 html:not(.designer)[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons
 {
