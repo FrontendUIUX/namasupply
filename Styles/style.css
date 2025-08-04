@@ -141,23 +141,7 @@ html:not(.designer) .theme-entry .popup-header,
 
 html:not(.designer) .theme-entry .popup-body,
 
-html:not(.designer) .theme-entry .popup-footer{
-
-position:relative!important;
-
-top:unset!important;
-
-bottom:unset!important;
-
-left:unset!important;
-
-right:unset!important;
-
-width:100%;
-
-height:fit-content!important;
-
-}
+html:not(.designer) .theme-entry .popup-footer{/* position:relative!important; *//* top:unset!important; *//* bottom:unset!important; */left:unset!important;right:unset!important;width:100%;height:fit-content!important;}
 
 html:not(.designer) .theme-entry .popup-header{
 
@@ -256,8 +240,16 @@ font-size:8pt!important;
  
 /* Responsive Tables */
 @media(max-width:600px){
+	html.mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
+		height:unset!important;
+	}
+	html:not(.designer) .theme-entry .popup-body{
+    position: absolute;
+    top: 5.2rem;
+    bottom: 7.2rem;
+  }
    html:not(.designer) .theme-entry .message-box-content, html:not(.designer) .theme-entry .dialog .popup-body{
-		height:unset;
+		height: unset!important;
 	}
    span#dd2a29c6-446c-2448-8036-846eba81b775 {
     display: none;
