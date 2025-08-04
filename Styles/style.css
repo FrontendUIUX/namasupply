@@ -117,8 +117,9 @@ html:not(.designer) body.theme-entry {
 @media(max-width:600px){
    div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+	flex-direction: column;
+	width: 100% !important;
+	min-width: calc(100vw - 1rem);
 }
 div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 table.grid-column-header-table{
     display:none;
