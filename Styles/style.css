@@ -13,6 +13,21 @@ html:not(.designer) .theme-entry  .SourceCode-Forms-Controls-Web-Button{
     padding:.8rem 1rem;
 }
 /* BUTTON BRANDING END */
+/* TEXTBOX BRANDING START */
+html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox{
+    border:1px solid var(--borderColor)!important;
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-family: var(--regularFont)!important;
+    width: 100%;
+    min-height: 3rem!important;
+    height: 3rem!important;
+}
+/* TEXTBOX BRANDING END */
 html:not(.designer) body.theme-entry.pushdown{
 	padding-top: 11rem!important;
 }
