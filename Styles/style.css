@@ -13,9 +13,6 @@
     --regularFont: 'SWCC-Medium';
 }
 /* GENERAL STYLES START */
-html:not(.designer),html:not(.designer) body.theme-entry{
-    font-size:14px!important;
-}
 html:not(.designer) body.theme-entry{
     margin-top:4.75rem;
     padding:1rem!important;
@@ -123,6 +120,12 @@ background-color:transparent!important;
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
 	font-size: .8vw!important;
+}
+html:not(.designer) .theme-entry .grid .grid-column-header-text{
+	padding-left:.5rem;
+}
+html:not(.designer) .grid-column-header-cell-content[style="text-align:center;"] .grid-column-header-text{
+padding:0
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
