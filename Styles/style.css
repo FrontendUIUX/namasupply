@@ -297,7 +297,7 @@ div#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_4fed8ee2-32a5-4af7-8553-6f9f810df2d0_Ta
     flex-direction: column;
 }
 html:not(.designer) body.theme-entry.doubleTop {
-    padding-top: 12rem !important;
+    padding-top: 13rem !important;
     width: 100% !important;
     padding: 0 1rem;
 }
