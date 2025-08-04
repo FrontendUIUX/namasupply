@@ -13,6 +13,9 @@
     --regularFont: 'SWCC-Medium';
 }
 /* GENERAL STYLES START */
+html:not(.designer),html:not(.designer) body.theme-entry{
+    font-size:14px!important;
+}
 html:not(.designer) body.theme-entry{
     margin-top:4.75rem;
     padding:1rem!important;
@@ -23,8 +26,9 @@ html:not(.designer) body.theme-entry{
 html:not(.designer) body.theme-entry [name*="s_collapse"] {
     padding: var(--zonePadding);
     border-radius: var(--zoneBorderRadius)!important;
-    background-color: white!important;
+    background-color: #ffffff !important;
     width: calc(100% - (2 * var(--zonePadding)))!important;
+    margin-top:1rem;
 }
 html:not(.designer) .theme-entry .input-control .input-control-m-c, .theme-entry .input-control.select-box .input-control-m-c{
 	height:unset;
@@ -120,12 +124,6 @@ background-color:transparent!important;
 html:not(.designer) .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
 	font-size: .8vw!important;
-}
-html:not(.designer) .theme-entry .grid .grid-column-header-text{
-	padding-left:.5rem;
-}
-html:not(.designer) .grid-column-header-cell-content[style="text-align:center;"] .grid-column-header-text{
-padding:0
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
@@ -424,6 +422,19 @@ html:not(.deisgner) .theme-entry .input-control.text-input .input-control-m-c {
 	padding:0;
 	border:none!important;
 }
+/* CARD .CSS END */
+/* STYLES TO BE REMOVED FROM CUSTOMER COMPLAINT.CSS */
+div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf {
+    /* margin: 1vw; */
+    /* border-radius: var(--zoneBorderRadius); */
+    /* overflow: hidden; */
+    margin:0!important;
+    border-radius:0!important;
+    overflow:unset!important;
+    background-color: transparent;
+}
+
+
 /* Responsive Tables */
 @media(max-width:600px){
 	html.mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
