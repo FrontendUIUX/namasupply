@@ -311,6 +311,7 @@ input#\34 77ee387-720e-4437-ae04-fd85b3692398_286c040e-193e-4602-ba8c-2c74f2a477
 div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_de121480-4181-44f7-b2ff-f007a865983d_e63acb0d-eaf1-4dc6-98bc-9de2036e445d_7817eeff-576c-43a1-9848-825a1ad1748d {
     background-color: white!important;
     padding: 0 1rem;
+    width: calc(100% - 2rem)!important;
 }div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_de121480-4181-44f7-b2ff-f007a865983d_e63acb0d-eaf1-4dc6-98bc-9de2036e445d_7817eeff-576c-43a1-9848-825a1ad1748d {}
 
 span#\34 f04612f-179e-e66f-9d20-32e01800feac {
