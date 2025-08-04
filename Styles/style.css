@@ -500,6 +500,9 @@ span#\30 0000000-0000-0000-0000-000000000000_d4820830-9e5a-7590-c6bd-da95847463c
 }
 }
 @media(min-width:992px){
+	.sidebar{
+		top:0!important;
+	}
    :root{
    --zonePadding:2rem;
  }
