@@ -134,7 +134,8 @@ span#\37 055646e-52f4-03c1-e253-2d5518cf0950 {
 }
 
 input#e63acb0d-eaf1-4dc6-98bc-9de2036e445d_5ec68cd6-e217-f03a-e1ec-78c0dd05247e {
-    width: 100%!important;
+    width: 95%!important;
+    padding: 1rem;
 }
 	.theme-entry .grid table.grid-content-table td.center-align{
 		text-align:inherit;
@@ -327,6 +328,13 @@ span#d9061a6b-bd52-20cb-1620-05e55e453b4b {
 }
 .grid-column-headers {
     display: none;
+}
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_de121480-4181-44f7-b2ff-f007a865983d_e63acb0d-eaf1-4dc6-98bc-9de2036e445d_7817eeff-576c-43a1-9848-825a1ad1748d .grid-toolbars {
+    padding: 0!important;
+}
+
+span#\39 9d8ee52-1bad-7e30-06b1-52a9c2de1827 {
+    width: 20%;
 }
 }
 @media(min-width:992px){
