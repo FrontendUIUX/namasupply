@@ -13,6 +13,9 @@
     --regularFont: 'SWCC-Medium';
 }
 /* GENERAL STYLES START */
+html:not(.designer),html:not(.designer) body.theme-entry{
+    font-size:14px!important;
+}
 html:not(.designer) body.theme-entry{
     margin-top:4.75rem;
     padding:1rem!important;
