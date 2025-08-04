@@ -1,0 +1,301 @@
+@model SourceCode.Security.Claims.Sts.Forms.Models.LoginModel
+@using SourceCode.Security.Claims.Sts.Forms.Properties
+@using SourceCode.Security.Claims
+
+@{
+    ViewBag.Title = "Login";
+    Layout = "";
+    var currentURLWithQueryString = HttpContext.Current.Request.Url.AbsoluteUri;
+
+    var applicationTypes = new string[] { "designer", "workspace", "management", "runtime" };
+    var application = string.Empty;
+    if (this.Request.UrlReferrer != null)
+    {
+        var uri = this.Request.UrlReferrer.AbsoluteUri.ToLower();
+
+        foreach (var s in applicationTypes)
+        {
+            if (uri.Contains(String.Format("/{0}/", s)))
+            {
+                application = s;
+                break;
+            }
+        }
+    }
+}
+
+
+<!DOCTYPE html>
+<html dir="ltr" class="login @application">
+<head>
+    <title>STS Login - Forms Authentication</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Styles/Platinum/CSS/generic.css")" />
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Styles/Platinum/CSS/forms.css")" />
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Styles/Platinum/CSS/panels.css")" />
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Styles/Platinum/CSS/common.css")" />
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Styles/Platinum/CSS/popup.css")" />
+    <link type="text/css" rel="stylesheet" href="@Url.Content("~/Styles/stsFormLogin.css")" />
+
+    <script type="text/javascript" src="~/Scripts/jquery.js"></script>
+</head>
+<body>
+    <form method=post action="@currentURLWithQueryString">
+        @Html.AntiForgeryToken()
+
+        <div class="stsLoginInPanel">
+            <div class="stsHeader"></div>
+            <div class="stsMainLogo"></div>
+            <!-- layout system - center+middle, and scrollbars -->
+            <div class="stsMain">
+                <div class="layout-table">
+                    <div class="layout-table-row">
+                        <div class="layout-table-cell">
+                            <div class="layout-table-cell-alignment">
+                                <!-- content -->
+                                <div class="stsLoginDetails">
+                                    <div class="stsLoginUserName" title="@Resources.CommonLabels.UserNameTooltip">
+                                        <input id="UserName" class="input-control required watermark" name="UserName" type="text">
+                                        <div id="UserNameWatermark" class="input-control-watermark">
+                                            @Resources.CommonLabels.UserNameWatermark
+                                        </div>
+                                    </div>
+                                    <div class="stsLoginUserNamePlaceHolder validation-error">
+                                    </div>
+                                    <div class="stsPassword" class="input-control text-input" title="@Resources.CommonLabels.PasswordTooltip">
+                                        <input id="Password" class="input-control required watermark" name="Password" type="password">
+                                        <div id="PasswordWatermark" class="input-control-watermark">
+                                            @Resources.CommonLabels.PasswordWatermark
+                                        </div>
+                                    </div>
+                                    <div class="stsPasswordPlaceHolder validation-error">
+                                    </div>
+                                    <div class="stsRememberMe" style="display:none">
+                                        <label id="CheckBoxLabel" class="input-control checkbox checked" data-defaultvalue="false" title="@Resources.CommonLabels.RememberMeTooltip">
+                                            <input type="checkbox" id="RememberMe" class="input-control" value="true"><span class="input-control-img"></span>
+                                            <span class="input-control-text">@Resources.CommonActions.RememberMeText</span>
+                                        </label>
+                                    </div>
+                                    <div class="stsRememberMePlaceHolder">
+                                    </div>
+                                    <div class="stsSignInButton">
+                                        <a id="SignInButton" class="button" title="@Resources.CommonLabels.SignInTooltip" href="javascript:void(0)">
+                                            @Resources.CommonActions.SignInText
+                                        </a>
+                                    </div>
+                                    <div class="button preload-icon loading"></div>
+                                </div>
+                                <!-- content -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="stsFooter">
+                <div class='PageHelpLink'>@Html.Raw(Resources.Introduction.LoginHelpLink)</div>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+        $(function () {
+            try {
+                try {
+                    parent.postMessage("stsLoginReady", "*");
+                }
+                catch (e) {
+                    window.postMessage("stsLoginReady", "*");
+                };
+
+                if (checkExists(parent.location.href)) {
+                    var parentUrl = parent.location.href;
+                    var queryStringIndex = parentUrl.indexOf('?');
+                    if (queryStringIndex > 0) {
+                        parentUrl = parentUrl.substring(0, queryStringIndex);
+                    }
+                    if (parentUrl.toUpperCase().indexOf("HOST.ASPX") > 0) {
+                        $("body").addClass("collapsed-header");
+                    }
+                }
+            }
+            catch (e) {
+            }
+        });
+    </script>
+
+    <script type="text/javascript">
+
+        var Resources = {
+            MessageBox: {
+                Warning: "@Resources.MessageBox.Warning",
+                Error: "@Resources.MessageBox.Error"
+            },
+            WizardButtons: { OKButtonText: "@Resources.WizardButtons.OKButtonText" }
+        };
+
+        if ($.browser && $.browser.msie)
+        {
+            var version = parseInt($.browser.version);
+
+            if (version <= 11)
+            {
+                $("html").addClass("legacyIE");
+            }
+        }
+
+        $(document).ready(function ()
+        {
+            // Use the HTML5 placeholder for all other Browser except legacy IE browsers.
+            if ($("html").hasClass("legacyIE") === false) {
+                $(".input-control.text-input .input-control-watermark").remove();
+
+                var userNameTxtBox = document.getElementById("UserName");
+                var passwordTxtBox = document.getElementById("Password");
+
+                userNameTxtBox.setAttribute("placeholder", "@Resources.CommonLabels.UserNameWatermark");
+                passwordTxtBox.setAttribute("placeholder", "@Resources.CommonLabels.PasswordWatermark");
+            }
+            else
+            {
+                $("#UserNameWatermark").bind('click', function ()
+                {
+                    $("#UserName").focus();
+                });
+
+                $("#PasswordWatermark").bind('click', function ()
+                {
+                    $("#Password").focus();
+                });
+            }
+
+            $("#UserName").focus().select();
+
+            var signInButton = $("#SignInButton");
+
+            // Check if we are of the Login screen
+            if (signInButton.length != 0)
+            {
+                var form = $("form");
+
+                signInButton.click(function ()
+                {
+                    if (signInButton.hasClass("disabled"))
+                    {
+                        return;
+                    }
+
+                    if (form.data('submitted') !== true && validateLoginForm())
+                    {
+                        form.data('submitted', true);
+                        signInButton.addClass("loading");
+                        form[0].submit();
+                    }
+                });
+
+                $("#UserName, #Password").bind("keypress keyup keydown", function (e)
+                {
+                    showHideWatermark();
+
+                    switch (e.keyCode)
+                    {
+                        case 13:
+                            {
+                                if (form.data('submitted') !== true && validateLoginForm())
+                                {
+                                    form.data('submitted', true);
+                                    signInButton.addClass("loading");
+                                    form[0].submit();
+                                }
+                                break;
+                            }
+                    }
+                });
+            }
+
+            showServerSideValidationMessage();
+        });
+
+        function showServerSideValidationMessage()
+        {
+            var userName = $("#UserName");
+            var password = $("#Password");
+
+            var serverError = "@ViewBag.FriendlyErrorMessage";
+            if (serverError != "")
+            {
+                $(".stsPasswordPlaceHolder").html(serverError);
+
+                userName.addClass("invalid");
+                password.addClass("invalid");
+            }
+        }
+
+        function validateLoginForm()
+        {
+            var userName = $("#UserName");
+            var password = $("#Password");
+
+            if (userName.val() !== "" && password.val() !== "")
+            {
+                return true;
+            }
+            else
+            {
+                $(".stsPasswordPlaceHolder").text("@Resources.CommonPhrases.MissingUsernameAndPassword");
+
+                userName.toggleClass("invalid", (userName.val() === ""));
+
+                password.toggleClass("invalid", (password.val() === ""));
+            }
+
+            return false;
+        }
+
+        function enableDisabledLoginButton()
+        {
+            var signInButton = $("#SignInButton");
+
+            if ($("#UserName").val() !== "" && $("#Password").val() !== "")
+            {
+                signInButton.removeClass("disabled");
+
+                signInButton.removeAttr("tabindex");
+            }
+            else
+            {
+                signInButton.addClass("disabled");
+
+                //Prevent tab into a disabled button
+                signInButton.attr("tabindex", "-1");
+            }
+        }
+
+        function showHideWatermark()
+        {
+            if ($("html").hasClass("legacyIE") === false)
+            {
+                return;
+            }
+
+            if ($("#UserName").val() === "")
+            {
+                $("#UserNameWatermark").show();
+            }
+            else
+            {
+                $("#UserNameWatermark").hide();
+            }
+
+            if ($("#Password").val() === "")
+            {
+                $("#PasswordWatermark").show();
+            }
+            else {
+                $("#PasswordWatermark").hide();
+            }
+        }
+    </script>
+</body>
+</html>
