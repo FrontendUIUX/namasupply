@@ -174,15 +174,7 @@ html:not(.designer) .theme-entry .popup-footer{
 
 }
 
-html:not(.designer) .popup.dialog{
-
-    height:fit-content!important;
-
-    border-radius:1rem!important;
-
-    overflow:hidden;
-
-}
+html:not(.designer) .popup.dialog{/* height: auto!important; */border-radius:1rem!important;overflow:hidden;}
 
 html:not(.designer) .popup.dialog .popup-header .popup-header-text{
 
