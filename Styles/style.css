@@ -129,6 +129,12 @@ html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
 	width: 100%!important;
 }
+html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text{
+	padding-left:.5rem;
+}
+html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
+	padding-right:.5rem;
+}
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
 	background-color: transparent;
 	padding:1rem 0!important;
