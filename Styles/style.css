@@ -28,6 +28,12 @@ html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
     height: 3rem!important;
 }
 /* TEXTBOX BRANDING END */
+html:not(.designer) .popup-header-button-bar-wrapper {
+    width: fit-content!important;
+}
+html:not(.designer) .popup-header-button-bar-wrapper .close{
+    margin:0!important;
+}
 input#\35 6de97dc-fddf-97d1-9116-c2a8e36a8708_43294d0b-a55b-47e8-8657-52b652a72683{
 	display:none;
 }
