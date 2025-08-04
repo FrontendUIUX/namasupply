@@ -402,6 +402,10 @@ html:not(.designer) body.theme-entry {
 	.stackContainer .stack{
 width:auto;
 	}
+   div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_de121480-4181-44f7-b2ff-f007a865983d_e63acb0d-eaf1-4dc6-98bc-9de2036e445d_7817eeff-576c-43a1-9848-825a1ad1748d {
+    padding: 1rem;
+    background-color: white!important;
+}
 }
 @media(min-width:1600px){
        .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv {
