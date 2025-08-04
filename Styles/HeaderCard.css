@@ -47,7 +47,7 @@ html:not(.designer) #custom-sticky-header {
 	align-items: stretch;
 	justify-content: flex-start;
 	border-bottom: 1px solid #ddd;
-	z-index: 1000;
+	z-index: 1;
 	padding: 1rem;
 }
 html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table img{
