@@ -84,7 +84,16 @@ html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
 	width: fit-content !important;
 	padding: 0!important;
 }
-
+html:not(.designer)[dir="ltr"] .theme-entry .input-control, 
+html:not(.designer)[dir="ltr"] .theme-entry .input-control.select-box{
+	padding-left:1rem;
+	width:calc(100% - 1rem)!important;
+}
+html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
+html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
+	padding-right:1rem;
+	width:calc(100% - 1rem)!important;
+}
 html:not(.designer) [name^="HeaderCard"] {
 	width: 100%;
 	text-align: left;
