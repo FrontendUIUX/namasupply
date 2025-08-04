@@ -5,11 +5,12 @@
     --field-label:#303030;
     --border-color:#D7D7D7;
     --zonePadding:1rem;
-	 --white:#ffffff;
-	--main-color-hover:#c01f29;
-	--light-main-color: rgb(230 43 55 / 9%);
-	--zoneBorderRadius:1rem;
-	--zonePadding: 1.5rem;
+    --white:#ffffff;
+    --main-color-hover:#c01f29;
+    --light-main-color: rgb(230 43 55 / 9%);
+    --zoneBorderRadius:1rem;
+    --zonePadding: 1.5rem;
+    --regularFont: 'SWCC-Medium';
 }
 /* GENERAL STYLES START */
 html:not(.designer) body.theme-entry{
@@ -92,6 +93,64 @@ html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrap
 	overflow:hidden!important;
 }
 /* WORKLIST BRANDING END */
+/* TABLE BRANDING START */
+html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
+	background-color: #f6f6f6;
+	border-right: 1px solid rgb(220 220 220 / 80%);
+	cursor: pointer;
+}
+html:not(.designer) .theme-entry .grid-body-content table td{
+	padding: 0 1rem!important;
+}
+html:not(.designer) .theme-entry td span.runtime-list-item{
+	font-family: var(--regularFont)!important;
+	font-weight: 300!important;
+	padding: 0!important;
+}
+html:not(.designer) .theme-entry .grid table.grid-column-header-table td:last-child{
+	border:none!important;
+}
+html:not(.designer) .theme-entry table.grid-column-header-table {
+    border-bottom: 1px solid rgb(220 220 220 / 80%);
+    background-color:transparent!important;
+}
+html:not(.designer) .theme-entry  .grid-column-headers{
+background-color:transparent!important;
+}
+html:not(.designer) .theme-entry .grid .grid-column-header-text{
+	font-family:var(--regularFont)!important;
+	font-size: .8vw!important;
+}
+html:not(.designer) .theme-entry .grid .grid-column-header-cell{
+	padding: 0;
+	width: 100%!important;
+}
+html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
+	background-color: transparent;
+	padding:1rem 0!important;
+}
+html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
+	background-color:#F9F9FB!important;
+}
+html:not(.designer) .grid-body{
+	margin: 1rem!important;
+	width: calc(100% - 2rem);
+	border: 1px solid rgb(220 220 220 / 80%)!important;
+	border-radius: .7rem;
+}
+html:not(.designer) .grid-content-cell-wrapper{
+	width: 100%!important;
+}
+tr.selected img[src="https://ck2-app-tst-1.obc.local/Runtime/Style/eye.png"]{
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(89deg) brightness(103%) contrast(101%);
+}
+body.theme-entry.topbarExists {
+    margin-top: 13rem;
+}
+html:not(.designer) .grid-column-header-cell{
+	background-color: transparent;
+}
+/* TABLE BRANDING END */
 html:not(.designer) .popup-header-button-bar-wrapper {
     width: fit-content!important;
 }
