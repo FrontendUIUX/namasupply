@@ -653,9 +653,10 @@ div#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_4fed8ee2-32a5-4af7-8553-6f9f810df2d0_Ta
     flex-direction: column;
 }
 html:not(.designer) body.theme-entry.doubleTop {
-    padding-top: 13rem !important;
+    padding-top: 1rem !important;
     width: 100% !important;
     padding: 0 1rem;
+    margin-top: 9.7rem;
 }
 input#\34 77ee387-720e-4437-ae04-fd85b3692398_286c040e-193e-4602-ba8c-2c74f2a477fc {
     border-radius: .5rem;
