@@ -123,6 +123,15 @@ span#\38 14d74d2-d6f9-42c7-9633-8520e79e21a3,
 	span#da05326a-2197-42a4-a655-1dc39b0b6767{
 	display:none;
 }
+div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-toolbars div#\34 77ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9_toolbarGroup table#\34 77ee387-720e-4437-ae04-fd85b3692398_f1b02abc-2bbd-44ab-800d-811baaa523ed tbody tr td div#\34 77ee387-720e-4437-ae04-fd85b3692398_cd840a02-a6ba-4ff1-b8da-c6d06fff9b9b_Table{
+ display:flex!important;
+ flex-direction:column!important;
+}
+span#\36 de5c1ed-e5a5-428b-a231-471f2c31ea74,
+span#f8ddf747-31ce-14d6-df43-ccd116c9f00c{
+ display:none;
+}
+
    .theme-entry .grid-footer .grid-paging-control .input-control-m-c, html body.theme-entry .grid-footer .grid-paging-control{
       position: unset!important;
    }
