@@ -308,6 +308,22 @@ input#\34 77ee387-720e-4437-ae04-fd85b3692398_286c040e-193e-4602-ba8c-2c74f2a477
 [name="CustomerComplaint.Form Area Item4"] .grid-header .grid-header-wrapper .grid-header-text, [name="Tariff.TPR.TariffRequests.Form Area Item2"] .grid-header .grid-header-wrapper .grid-header-text, [name="Tariff.TPR.TariffRequests.Form Area Item"] .grid-header .grid-header-wrapper .grid-header-text, [name *="UpdateGovertmentForm"] .grid-header .grid-header-wrapper .grid-header-text, div#ae2a35f6-b593-4c5e-9d6a-2c3e0c759acf_17e4e3e7-7c5f-4c8e-b790-0e6bcde571fa_eb0e2dfe-47a8-4f89-a1e3-2c6c22e1775b_e588b459-8f37-43e2-a741-d3f159b81fdd .grid-header-text{
    font-size:1.3rem!important;
 }
+div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_de121480-4181-44f7-b2ff-f007a865983d_e63acb0d-eaf1-4dc6-98bc-9de2036e445d_7817eeff-576c-43a1-9848-825a1ad1748d {
+    background-color: white!important;
+    padding: 0 1rem;
+}div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_de121480-4181-44f7-b2ff-f007a865983d_e63acb0d-eaf1-4dc6-98bc-9de2036e445d_7817eeff-576c-43a1-9848-825a1ad1748d {}
+
+span#\34 f04612f-179e-e66f-9d20-32e01800feac {
+    display: none;
+}
+
+span#c173537d-d54a-2c8e-da42-c9fad6b54c6c {
+    display: none;
+}
+
+span#d9061a6b-bd52-20cb-1620-05e55e453b4b {
+    width: 100%;
+}
 }
 @media(min-width:992px){
    :root{
