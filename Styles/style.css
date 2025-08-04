@@ -301,6 +301,10 @@ html:not(.designer) body.theme-entry.doubleTop {
     width: 100% !important;
     padding: 0 1rem;
 }
+input#\34 77ee387-720e-4437-ae04-fd85b3692398_286c040e-193e-4602-ba8c-2c74f2a477fc {
+    border-radius: .5rem;
+    padding: 1rem;
+}
 }
 @media(min-width:992px){
    :root{
