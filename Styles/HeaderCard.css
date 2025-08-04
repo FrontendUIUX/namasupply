@@ -5,6 +5,9 @@ html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351f
 	height:2rem!important;
 	width:2rem!important;
 }
+html:not(.designer) body.theme-entry [name*="ProfileTable"] .input-control.select-box{
+	border:none!important;
+}
 [name*="urlTextBox"]{
 	display: none!important;
 }

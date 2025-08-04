@@ -6,6 +6,13 @@
     --border-color:#D7D7D7;
     --zonePadding:1rem;
 }
+/* GENERAL STYLES START */
+html:not(.designer) .theme-entry .input-control .input-control-m-c, .theme-entry .input-control.select-box .input-control-m-c{
+	height:unset;
+	min-height:unset;
+	line-height:unset
+}
+/* GENERAL STYLES END */
 /* BUTTON BRANDING START */
 html:not(.designer) .theme-entry  .SourceCode-Forms-Controls-Web-Button{
     height:unset!important;
@@ -14,7 +21,9 @@ html:not(.designer) .theme-entry  .SourceCode-Forms-Controls-Web-Button{
 }
 /* BUTTON BRANDING END */
 /* TEXTBOX BRANDING START */
-html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox{
+html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox,
+html:not(.designer) .theme-entry  .filterTxt .input-control-m-c,
+html:not(.designer) .theme-entry .filterTxt input{
     border:1px solid var(--border-color)!important;
     font-size:1rem!important;
     border-radius: .5rem!important;
@@ -22,10 +31,14 @@ html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
     vertical-align: middle;
     display: flex;
     align-items: center;
-    font-family: var(--regularFont)!important;
+    font-family: 'SWCC-Medium';
     width: 100%;
+    max-width: 100%;
     min-height: 3rem!important;
     height: 3rem!important;
+}
+.theme-entry .filterContainer .quickSearch .filterTxt .input-control .input-control-wrapper{
+	width:100%;
 }
 /* TEXTBOX BRANDING END */
 /* DROPDOWN BRANDING START */
@@ -50,6 +63,7 @@ html:not(.designer) .theme-entry .input-control.select-box.read-only .input-cont
 html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
     font-size:1rem;
     color:#131313;
+    padding: 0 1rem!important;
 }
 /* DROPDOWN BRANDING END */
 html:not(.designer) .popup-header-button-bar-wrapper {
@@ -270,7 +284,54 @@ font-size:8pt!important;
 [name*="txt.AccountNo"]{
 	 padding:1rem!important;
  }
- 
+/* TO BE REMOVED LATER ON */
+/* DROPDOWN STYLES TO BE REMOVED FROM CARD.CSS */
+html:not(designer)[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+    /* border-color: #D7D7D7; */
+    /* padding: 0rem 1rem; */
+    /* height: unset !important; */
+    /* border-top-left-radius: 0.5rem; */
+    /* border-bottom-left-radius: 0.5rem; */
+	border:none;
+	padding:0;
+	height:unset;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+}
+html:not(.designer)[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons
+{
+	/* border-color: #D7D7D7;
+	padding: 0;
+	height: unset !important;
+	border-top-right-radius:0.5rem;
+	border-bottom-right-radius:0.5rem; */
+	border:none;
+	
+}
+html:not(.designer)html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons
+{
+	/* border-color: #D7D7D7;
+	padding: 0;
+	height: unset !important;
+	border-top-left-radius:0.5rem;
+	border-bottom-left-radius:0.5rem; */
+	border:none;
+}
+html:not(.deisgner) .theme-entry .filterTxt .input-control.text-input .input-control-m-c{
+	/* padding: 0.4rem 1rem !important; */
+	/* border-radius: .5rem !important;*/
+	padding: 0!important;
+	border-radius: 0!important;
+}
+html:not(.deisgner) .theme-entry .input-control.text-input .input-control-m-c {
+    /* padding: 1rem;
+    border-color: #D7D7D7;
+    border-radius: .5rem;
+    height: unset;
+    min-height: unset !important; */
+	padding:0;
+	border:none!important;
+}
 /* Responsive Tables */
 @media(max-width:600px){
 	html.mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
