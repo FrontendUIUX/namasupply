@@ -28,6 +28,9 @@ html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
     height: 3rem!important;
 }
 /* TEXTBOX BRANDING END */
+span#\37 76a1338-0d84-08bb-3c66-42f507e489bc {
+    display: none;
+}
 html:not(.designer) body.theme-entry.pushdown{
 	padding-top: 11rem!important;
 }
