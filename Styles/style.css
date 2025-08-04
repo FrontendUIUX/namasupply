@@ -236,7 +236,9 @@ font-size:8pt!important;
 
 }
 
-/* OBB SERVICES START */
+[name*="txt.AccountNo"]{
+	 padding:1rem!important;
+ }
  
 /* Responsive Tables */
 @media(max-width:600px){
