@@ -8,7 +8,7 @@
 	 --white:#ffffff;
 	--main-color-hover:#c01f29;
 	--light-main-color: rgb(230 43 55 / 9%);
-	--zoneBorderRadius:1.5rem;
+	--zoneBorderRadius:1rem;
 	--zonePadding: 1.5rem;
 }
 /* GENERAL STYLES START */
@@ -86,6 +86,12 @@ html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrap
     padding: 0 1rem!important;
 }
 /* DROPDOWN BRANDING END */
+/* WORKLIST BRANDING START */
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-Worklist.ControlPack-Worklist .stylewrapper .SourceCodeFormsControlsWorklist{
+	border-radius:var(--zoneBorderRadius)!important;
+	overflow:hidden!important;
+}
+/* WORKLIST BRANDING END */
 html:not(.designer) .popup-header-button-bar-wrapper {
     width: fit-content!important;
 }
@@ -161,7 +167,7 @@ html:not(.designer) body.theme-entry {
     transform:translate(-50% , -50%);
 }
 [name^="Worklist"] .stylewrapper{
-	border-radius: .7rem;
+	/* border-radius: .7rem; */
 }
 [name="ar ToolBar Button"]{
    padding: 0!important;
