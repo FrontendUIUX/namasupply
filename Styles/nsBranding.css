@@ -1,0 +1,54 @@
+ :root{
+    --red:#e62b37;
+    --mainColor:#e62b37;
+    --text-color:#3E3E3E;
+    --field-label:#303030;
+    --border-color:#D7D7D7;
+    --zonePadding:1rem;
+}
+/* BUTTON BRANDING START */
+html:not(.designer) .theme-entry  .SourceCode-Forms-Controls-Web-Button{
+    height:unset!important;
+    min-height:unset!important;
+    padding:.8rem 1rem;
+}
+/* BUTTON BRANDING END */
+/* TEXTBOX BRANDING START */
+html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox{
+    border:1px solid var(--border-color)!important;
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-family: var(--regularFont)!important;
+    width: 100%;
+    min-height: 3rem!important;
+    height: 3rem!important;
+}
+/* TEXTBOX BRANDING END */
+/* DROPDOWN BRANDING START */
+html:not(.designer) .theme-entry .input-control.select-box{
+    border-radius:.5rem;
+    height:3rem;
+    min-height:3rem;
+    border: 1px solid var(--border-color)!important;
+}
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:focus>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span{
+    background-image:url("https://frontenduiux.github.io/namasupply/images/chevron-down.svg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:2rem;
+}
+html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
+    font-size:1rem;
+    color:#131313;
+}
+/* DROPDOWN BRANDING END */

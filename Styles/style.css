@@ -35,6 +35,22 @@ html:not(.designer) .theme-entry .input-control.select-box{
     min-height:3rem;
     border: 1px solid var(--border-color)!important;
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:focus>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span, 
+html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span{
+    background-image:url("https://frontenduiux.github.io/namasupply/images/chevron-down.svg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:2rem;
+}
+html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
+    font-size:1rem;
+    color:#131313;
+}
 /* DROPDOWN BRANDING END */
 html:not(.designer) .popup-header-button-bar-wrapper {
     width: fit-content!important;
