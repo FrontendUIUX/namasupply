@@ -121,6 +121,34 @@ html:not(.designer) body.theme-entry {
 	width: 100% !important;
 	min-width: calc(100vw - 1rem);
 }
+	   div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(2)::before{
+		   content:"Account No";
+	   }
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(3)::before{
+		   content:"Customer Name Arabic";
+	   }
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(4)::before{
+		   content:"Customer Name English";
+	   }
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(5)::before{
+		   content:"Customer Type";
+	   }
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(6)::before{
+		   content:"Mobile";
+	   }
+	/* div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(7)::before{
+		   content:"Mobile";
+	   } */
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(8)::before{
+		   content:"Tariff Name";
+	   }
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(10)::before{
+		   content:"Primary";
+	   }
+	div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(12)::before{
+		   content:"Aggregate";
+	   }
+	
 div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 table.grid-column-header-table{
     display:none;
 }
