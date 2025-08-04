@@ -28,6 +28,14 @@ html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
     height: 3rem!important;
 }
 /* TEXTBOX BRANDING END */
+/* DROPDOWN BRANDING START */
+html:not(.designer) .theme-entry .input-control.select-box{
+    border-radius:.5rem;
+    height:3rem;
+    min-height:3rem;
+    border: 1px solid var(--border-color)!important;
+}
+/* DROPDOWN BRANDING END */
 html:not(.designer) .popup-header-button-bar-wrapper {
     width: fit-content!important;
 }
