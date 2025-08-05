@@ -270,7 +270,11 @@ html[dir=ltr] [name^="HeaderCard"] .editor-cell[name="English Lang"] {
 html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
 	display: none !important;
 }
-
+html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="English Lang"]{
+	right:0;
+	padding:.4rem!important;
+	margin-left:.5rem;
+}
 html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 [name^="HeaderCard"] .editor-cell[name="English Lang"] {
 	display: flex !important;
@@ -287,7 +291,9 @@ html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 	margin-right: .5rem;
 	padding: .5rem!important;
 }
-
+html[dir=rtl]:not(.designer) body.theme-entry [name="Arabic Lang"]{
+	display:none!important;
+								  }
 html[dir=rtl] .theme-entry #custom-sticky-header a.toolbar-button {
 	display: block !important;
 	padding: 0 !important;
