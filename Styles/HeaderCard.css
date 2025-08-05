@@ -317,7 +317,7 @@ html[dir=ltr] .theme-entry a.toolbar-button[name="ar ToolBar Button"] span {
 
 /* ARABIC PAGES */
 html[dir="rtl"] #custom-sticky-header {
-	right: 21.6rem;
+	right: 0rem;
 	left: auto;
 }
 
@@ -331,6 +331,10 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 }
 
 @media(min-width:992px){
+	html[dir="rtl"] #custom-sticky-header {
+	right: 21.6rem;
+	left: auto;
+}
 	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
 	padding: 1.4rem 1rem 0.5rem;
 	position: relative;

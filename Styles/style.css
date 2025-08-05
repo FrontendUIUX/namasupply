@@ -201,7 +201,7 @@ html:not(.designer) body.theme-entry.pushdown{
 button#toggleSidebarBtn svg{
    transition:all .3s ease-in-out;
 }
-button#toggleSidebarBtn {
+html[dir="ltr"] button#toggleSidebarBtn {
     background-color: var(--red);
     position: fixed;
     left: -1rem;
@@ -209,6 +209,16 @@ button#toggleSidebarBtn {
     display: flex;
     align-items: center;
     transition:all .3s ease-in-out;
+}
+html[dir="rtl"] button#toggleSidebarBtn {
+    background-color: var(--red);
+    position: fixed;
+    right: -1rem;
+    top: 1rem;
+    display: flex;
+    align-items: center;
+	transform:scaleX(-1);    
+	transition:all .3s ease-in-out;
 }
 html,body{
     font-size: 14px!important;
@@ -225,7 +235,7 @@ html,body{
 	overflow: auto;
 }
 .sidebar.visible{
-   transform:translateX(0);
+   transform: translateX(0)!important;
    transition: all .3s ease-in-out;
 }
  html[dir="ltr"] body {
@@ -453,6 +463,10 @@ div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf {
     min-height: 3rem!important;
     height: 3rem!important;
 }
+html[dir="rtl"]:not(.designer) .sidebar {
+   right:0;
+   transform: translateX(100%);
+}
 /* Responsive Tables */
 @media(max-width:600px){
 	html.mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
@@ -483,7 +497,9 @@ div#e63acb0d-eaf1-4dc6-98bc-9de2036e445d_e52ccef8-6931-7407-8643-fbc5f42e8019_Ta
 span#\37 055646e-52f4-03c1-e253-2d5518cf0950 {
     display: none;
 }
-
+html[dir="rtl"] body {
+		margin-right: 0rem;
+	}
 input#e63acb0d-eaf1-4dc6-98bc-9de2036e445d_5ec68cd6-e217-f03a-e1ec-78c0dd05247e {
     width: 95%!important;
     padding: 1rem;
@@ -704,6 +720,9 @@ span#\30 0000000-0000-0000-0000-000000000000_d4820830-9e5a-7590-c6bd-da95847463c
 }
 }
 @media(min-width:992px){
+	html[dir="rtl"] body {
+		margin-right: 16.6rem!important;
+	}
 	.sidebar{
 		top:0!important;
 	}
