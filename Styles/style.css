@@ -58,7 +58,7 @@ html:not(.designer) .theme-entry .filterTxt input{
     border-radius: .5rem!important;
     padding: .4rem 1rem!important;
     vertical-align: middle;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     font-family: 'SWCC-Medium';
     width: 100%;
