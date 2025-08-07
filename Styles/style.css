@@ -474,6 +474,52 @@ html:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .i
 }
 /* Responsive Tables */
 @media(max-width:600px){
+    html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td{
+    position:relative;
+}
+html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td:nth-child(6)::before{
+    content: "رقم الحساب"!important;
+    font-size:1rem;
+    display:block;
+    color:#131313;
+}
+html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td:nth-child(7)::before{
+    content: "رقم الهاتف"!important;
+    font-size:1rem;
+    display:block;
+    color:#131313;
+}
+html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td:nth-child(8)::before{
+    content: "البريد الالكتروني"!important;
+    font-size:1rem;
+    display:block;
+    color:#131313;
+}
+html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td:nth-child(9)::before{
+    content: "قرية"!important;
+    font-size:1rem;
+    display:block;
+    color:#131313;
+}
+html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td:nth-child(10)::before{
+    content: "رقم المبنى"!important;
+    font-size:1rem;
+    display:block;
+    color:#131313;
+}
+html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td:nth-child(10)::before{
+    content: "رقم المبنى"!important;
+    font-size:1rem;
+    display:block;
+    color:#131313;
+}
+html[dir="rtl"] div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_523a7d62-6fc9-c082-43d9-b7d5ebc0b79f_bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_761ee5c7-3435-47da-a846-dca64204146c td:nth-child(11)::before{
+    content: "رقم الشقة"!important;
+    font-size:1rem;
+    display:block;
+    color:#131313;
+}
+
     html[dir="rtl"]:not(.designer) span#\30 eda83c0-6d26-e40f-b6fd-1f94bfb74acc_3a2fbef6-382d-4cc9-a974-b461405fd6ba {
         margin-left: 1rem;
         margin-right: 0;
