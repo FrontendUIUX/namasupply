@@ -871,4 +871,7 @@ width:auto;
         font-size: 1vw;
         line-height: 1.5vw !important;
     }
+    .theme-entry span{
+        font-size:1vw!important;
+    }
 }
