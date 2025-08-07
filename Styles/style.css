@@ -467,6 +467,11 @@ html[dir="rtl"]:not(.designer) .sidebar {
    right:0;
    transform: translateX(100%);
 }
+html:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	border: none;
+	padding: 0;
+	border-radius: 0;
+}
 /* Responsive Tables */
 @media(max-width:600px){
 	html.mobile .theme-entry .dialog, .mobile .theme-entry .dialog#PickerSearchDialog{
