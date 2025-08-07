@@ -867,4 +867,8 @@ width:auto;
     margin-left: 16.6vw!important;
     margin-top: 6.1vw;
 }
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
+        font-size: 1vw;
+        line-height: 1.5vw !important;
+    }
 }
