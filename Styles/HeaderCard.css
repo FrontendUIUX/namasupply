@@ -362,16 +362,17 @@ html:not(.designer)	#custom-sticky-header {
 			width: calc(100% - 19.5rem);
 			padding: 1vw;
 		}
-	#custom-sticky-header {
+	html:not(.designer) #custom-sticky-header {
 	left: 16.6rem;
 	width: calc(100% - 18.6rem);
 }
 }
 @media(min-width:1440px){
-	#custom-sticky-header {
-		left: 16.6vw;
-		width: calc(100% - 18.6vw);
-		padding: 1vw;
+	
+	html:not(.designer) #custom-sticky-header {
+		left: 16.6vw!important;
+		width: calc(100% - 18.6vw)!important;
+		padding: 1vw!important;
 	}
 	html[dir="rtl"] #custom-sticky-header {
     right: 16.6vw;
