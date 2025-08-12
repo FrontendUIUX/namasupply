@@ -287,6 +287,9 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
     height: fit-content!important;
 
 }
+div#\30 cc04833-8fb3-8c15-3e13-da74f9220f57_12b688f4-183c-4073-8b0d-f7a33a91a1e5_Table {
+    padding: 0 1rem;
+}
 .stackContainer .stack {
     width: 100%;
     display: flex;
