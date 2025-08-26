@@ -12,6 +12,10 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+.modal{
+    height: 100vh;
+    width: 100vw;
+}
 /* GENERAL STYLES START */
 html:not(.designer),html:not(.designer) body.theme-entry{
     font-size:14px!important;
