@@ -155,6 +155,7 @@ html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text{
 }
 html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
 	padding-right:.5rem;
+    text-align: right!important;
 }
 html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr{
 	background-color: transparent;
