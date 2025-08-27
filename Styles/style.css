@@ -40,6 +40,9 @@ html:not(.designer) body.theme-entry{
     width: 100%!important;
     background-color: #f5f5f5!important;
 }
+html:not(.designer).mobile body.theme-entry{
+	margin-top:0!important;
+}
 html:not(.designer) body.theme-entry [name*="s_collapse"] {
     padding: var(--zonePadding)!important;
     border-radius: var(--zoneBorderRadius)!important;
