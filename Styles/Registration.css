@@ -2,19 +2,19 @@
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
 }
-.theme-entry .month, 
-.theme-entry .year, 
-.theme-entry .month:hover, 
-.theme-entry .year:hover{
+html:not(.designer) .theme-entry .month, 
+html:not(.designer) .theme-entry .year, 
+html:not(.designer) .theme-entry .month:hover, 
+html:not(.designer) .theme-entry .year:hover{
 height:3rem!important;
 }
-.input-control.select-box.lookup-box.picker-input.double-buttons,
-.input-control.select-box.lookup-box.calendar-control.datepicker,
-.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
-.input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c{
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker,
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c{
     height: 3rem!important;
 }
-.theme-entry .input-control .input-control-watermark, .theme-entry .input-control.select-box .input-control-watermark, .theme-entry .input-control.select-box div.editable-area, .theme-entry .input-control.select-box input[type=text]{
+html:not(.designer) .theme-entry .input-control .input-control-watermark, .theme-entry .input-control.select-box .input-control-watermark, .theme-entry .input-control.select-box div.editable-area, .theme-entry .input-control.select-box input[type=text]{
 	height: 100%!important;
 	min-height:unset!important;
 	line-height:unset!important;
@@ -24,21 +24,21 @@ height:3rem!important;
 	align-items: center;
 	padding: 0;
 }
-.styling-font{
+html:not(.designer) .styling-font{
 	font-size:1vw!important;
 }
-html, html body *{
+html:not(.designer), html:not(.designer) body *{
 	 font-family: 'SWCC-Medium'!important;
 }
-html[dir=rtl] .theme-entry .input-control.select-box div.editable-area{
+html:not(.designer)[dir=rtl] .theme-entry .input-control.select-box div.editable-area{
 	padding:0;
 }
-html[dir="ltr"] span#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_bdc6867f-898e-7e3c-8f80-7fd081546614,
-html[dir="ltr"] span#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_31b0c9d4-8e2f-b133-e0c6-1cd83a87b9c0,
-html[dir="ltr"] span#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_c44a0f9c-5fad-e3c1-ce31-2b977743d622{
+html:not(.designer)[dir="ltr"] span#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_bdc6867f-898e-7e3c-8f80-7fd081546614,
+html:not(.designer)[dir="ltr"] span#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_31b0c9d4-8e2f-b133-e0c6-1cd83a87b9c0,
+html:not(.designer)[dir="ltr"] span#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_c44a0f9c-5fad-e3c1-ce31-2b977743d622{
     direction: rtl;
 }
-html body.theme-entry .message-box-content:before {
+html:not(.designer) body.theme-entry .message-box-content:before {
     content: '';
     position: absolute;
     display: block;
@@ -48,8 +48,8 @@ html body.theme-entry .message-box-content:before {
     transform: translateY(-50%);
     left: 0;
 }
-.calendar-row.months a,
-.calendar-row.years a  {
+html:not(.designer) .calendar-row.months a,
+html:not(.designer) .calendar-row.years a  {
     height: 3rem!important;
     display: flex;
     align-items: center;
