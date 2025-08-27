@@ -209,6 +209,7 @@ html:not(.designer) [name="ProfileTable"] {
 	width: fit-content;
 	margin: 0 0rem;
 	height: 3rem;
+	min-width: max-content;
 }
 
 html:not(.designer) [name="ProfileTable"] .theme-entry .input-control.select-box {
