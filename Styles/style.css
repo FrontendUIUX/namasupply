@@ -13,7 +13,7 @@
     --regularFont: 'SWCC-Medium';
 }
 html:not(.designer) .theme-entry .drop-menu{
-    width:100%!important;
+    width:fit-content!important;
 }
 .modal{
     height: 100vh;
