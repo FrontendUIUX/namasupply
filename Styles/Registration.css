@@ -309,6 +309,7 @@ span#\36 203e583-81e9-503b-62d5-efa834029060{
 	display:flex!important;
 	align-items:center!important;
 	flex-wrap:wrap!important;
+	justify-content: flex-end;
 }
 @media(min-width:992px){
 	.overlay-content {
