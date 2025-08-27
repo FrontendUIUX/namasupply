@@ -8,18 +8,6 @@
 .theme-entry .year:hover{
 height:3rem!important;
 }
-html:not(.designer)[dir="rtl"] .row:nth-child(2) .formcontrol:first-child .innerpanel:first-child {
-    margin-left: auto !important;
-    margin-right: unset !important;
-}
-html:not(.designer)[dir="ltr"] .row:nth-child(2) .formcontrol:first-child .innerpanel:first-child {
-    margin-right: auto !important;
-    margin-left: unset !important;
-}
-h2#\30 0000000-0000-0000-0000-000000000000_d9387832-ae23-a824-6aa0-ebb8db84505b,
-h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589{
-	text-align:inherit!important;
-}
 .input-control.select-box.lookup-box.picker-input.double-buttons,
 .input-control.select-box.lookup-box.calendar-control.datepicker,
 .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
@@ -312,9 +300,6 @@ h2#\30 0000000-0000-0000-0000-000000000000_d9387832-ae23-a824-6aa0-ebb8db84505b
 }
 body.theme-entry{
 	background-color: #ffffff;
-}
-div#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_1a1e5fc6-f673-d4d8-3182-e2380b3d5daf_Table{
-	grid-template-columns : 5.0000% 90% 1fr !important;
 }
 .form-video-wrapper{
 	height : 100vh;
