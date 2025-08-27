@@ -341,15 +341,9 @@ html:not(.designer) .theme-entry .popup.dialog.error-message:not(.runtime-messag
 
 .theme-entry .base2.base1.modalizer html:not(.designer) .theme-entry .popup-header, html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body, html:not(.designer) .theme-entry .popup-footer{/* position:relative!important; *//* top:unset!important; *//* bottom:unset!important; */left:unset!important;right:unset!important;width:100%;height:fit-content!important;}
 
-html:not(.designer) .theme-entry .popup-header{padding: 1.5rem 1rem;background-color:#f7f7f7;margin: 0!important;position: relative!important;height: fit-content!important;left: 0;}
+html:not(.designer) .theme-entry .popup-header{padding: 1rem 1rem;background-color:#f7f7f7;margin: 0!important;position: relative!important;height: fit-content!important;left: 0;}
 
-html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body{
-
-padding:1rem 2rem 0;
-
-border-bottom:none!important
-
-}
+html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body{padding:1rem 2rem 0;border-bottom:none!important;top: 5.7rem;}
 
 html:not(.designer) .theme-entry .popup-footer{padding:0rem 2rem 1rem;border-top:none!important;}
 
