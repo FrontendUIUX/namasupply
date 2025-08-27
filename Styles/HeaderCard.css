@@ -31,6 +31,9 @@ html:not(.designer) .theme-entry ul.tab-box-tabs{
 [name="ProfileTable"] *{
    width: fit-content!important;
 }
+.theme-entry [name="ProfileTable"] .styling-outer-wrapper{
+	height:1rem;
+}
 html:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
     width: fit-content;
 }
@@ -275,7 +278,7 @@ html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
 	display: none !important;
 }
 html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="English Lang"]{
-	right:0;
+	right: 2rem;
 	padding:.4rem!important;
 	margin-left: 0;
 	width: 5rem;
