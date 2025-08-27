@@ -1,0 +1,702 @@
+:root {
+    --red: #E52A36;
+    --redHover:#b1212a;
+    --white: #ffffff;
+    --black: #000000;
+    --lightBlack: #454545;
+    --textColor: #3E3E3E;
+    --inputBgColor: #F5F5F5;
+    --placeHolderColor: #868686;
+    --transition: all .3s ease-in-out;
+    --regularfont:"avenir regular";
+    --boldfont:"avenir bold";
+    --mediumfont:"avenir medium";
+    --demifont:"avenir demi";
+    --langFont:"Ge Dinar Medium";
+}
+@font-face {
+    font-family: "avenir regular";
+    src: url("../fonts/avenir-next-regular.ttf");
+}
+@font-face {
+    font-family: "avenir medium";
+    src: url("../fonts/avenir-next-medium.ttf");
+}
+@font-face {
+    font-family: "avenir bold";
+    src: url("../fonts/avenir-next-bold.ttf");
+}
+@font-face {
+    font-family: "avenir demi";
+    src: url("../fonts/avenir-next-demi.ttf");
+}
+@font-face {
+    font-family: "Ge Dinar Medium";
+    src: url("../fonts/GE-Dinar-One-Medium.otf");
+}
+html,html body{
+    font-size:16px;
+    font-family: var(--regularfont);
+}
+.modal.fade .modal-dialog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginContainer .videoContainer .card .card-img-top img{
+		height:100%;
+		width:100%;
+		object-fit:cover;
+	}
+.gray-filter{
+	filter:grayscale(100%);
+}
+.modal-header .btn-close{
+	background-color:transparent!important;
+	box-shadow:none!important;
+}
+#togglePassword{
+    width:fit-content;
+    right: 1rem;
+    left: auto;
+    position: absolute;
+}
+.modal .modal-header{
+	background-color:#f5f5f5;
+	padding: 1rem;
+}
+.modal{
+	align-items:center;
+	justify-content:center;
+}
+.modal.show{
+	display:flex!important;
+}
+.modal .modal-dialog{
+	height: auto;
+	min-width: fit-content;
+	width: 70%;
+	border-radius: 1.5rem;
+	overflow: hidden;
+	overflow-y: hidden !important;
+}
+.modal .modal-body{
+	padding: 0;
+}
+.modal .modal-body iframe{
+	height: 100%!important;
+	width:100%;
+}
+.container{
+    max-width: 100%!important;
+    margin: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+input{
+    box-shadow: none!important;
+}
+iframe#resetPassIframe
+{
+	height:-webkit-fill-container !important;
+	min-height: 20rem;
+	overflow-y : hidden !important;
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+.loginContainer {
+    height: 100vh;
+}
+
+.loginContainer .videoContainer {
+    height: 100%;
+    position: absolute;
+}
+
+.loginContainer .videoContainer .card,
+.loginContainer .videoContainer .card .card-img-top {
+    overflow: hidden;
+    height: 100%;
+    border-radius: 0;
+}
+
+.loginContainer .videoContainer .card .card-img-top video {
+    object-fit: cover;
+    height: 100%;
+    width:100%;
+}
+
+.loginContainer .videoContainer .card .card-img-top::after {
+    /* content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../media/patterns/LoginPattern.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.2; */
+}
+.stsLoginInPanel{
+	background-color:white;
+}
+.stsLoginUserNamePlaceHolder {
+    height: auto;
+	margin: .5rem 0;
+}
+.loginContainer .formContainer{
+	margin-bottom:1rem;
+}
+.loginContainer .videoContainer .card .card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 34%), rgb(0 0 0 / 55%));
+}
+
+.loginContainer .videoContainer .card .card-img-overlay .logo {
+    width: 8rem;
+    margin: 0 auto;
+}
+.loginContainer .videoContainer .card .card-img-overlay .heroTitle{
+    color: var(--white);
+    font-family: var(--demifont);
+    font-size: 2rem;
+    width: 80%;
+    line-height: 1.3;
+    display: none;
+}
+.loginContainer .languageSwitch button {
+    border: 1px solid #DBDBDB;
+    border-radius: 2rem;
+    color: var(--lightBlack);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    align-items: baseline;
+	height:unset;
+}
+.loginContainer .languageSwitch button span{
+    font-family:var(--langFont);
+}
+.loginContainer .languageSwitch button .icon{
+    margin-right:.5rem;
+    height:1rem;
+    width:1rem;
+}
+.loginContainer .languageSwitch button .icon img{
+    height:100%;
+    width:100%;
+    object-fit:contain;
+}
+.loginIntro{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+    margin-bottom: 0rem;
+}
+.loginTitle{
+    font-family: var(--demifont);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.loginIntro .description {
+    color: var(--textColor);
+    margin-top: 0.7rem;
+    display:none;
+}
+
+.loginContainer .loginBtn {
+    background-color: var(--red);
+    color: var(--white);
+    width: 100%;
+    transition: var(--transition);
+    border: none;
+    border-radius: .4rem;
+    padding: .7rem;
+    margin-top: 2.5rem;
+}
+.loginContainer .loginBtn:hover{
+    background-color:var(--redHover);
+}
+.loginContainer .createNewAccount {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: fit-content;
+    margin-top: 0.9rem;
+    color: var(--black);
+}
+
+.loginContainer .createNewAccount a {
+    color: var(--red);
+    text-decoration: none;
+    margin: 0 .3rem;
+}
+.loginContainer .createNewAccount a:hover{
+    color:var(--redHover);
+}
+.loginContainer input.form-control{
+    background-color:transparent!important;
+    padding: .7rem 1rem;
+    border:1px solid #dddddd;
+    box-shadow: none;
+    font-family: "avenir regular";
+    font-size: 1rem!important;
+}
+input:-internal-autofill-selected{
+    background-color: var(--inputBgColor)!important;
+}
+.form .formContainer{
+    margin-bottom:2rem;
+    position: relative;
+}
+.form .formContainer.error input{
+    border:1px solid var(--red);
+    background-color: rgba(229, 42, 54, 0.051);
+    color: var(--red);
+}
+.form .formContainer.error input:checked{
+    border:1px solid var(--red);
+    background-color: var(--red);
+    color: var(--red);
+}
+.form .formContainer.error input::placeholder{
+    color:var(--red);
+}
+.loginContainer input::placeholder {
+    color: var(--placeHolderColor);
+}
+.loginContainer .forgotPassword{
+    color:var(--red);
+}
+.loginContainer .forgotPassword:hover{
+    color:var(--redHover);
+}
+.loginContainer .form-label{
+    font-family: var(--mediumfont);
+}
+.formContainer .error-message{
+  font-size: 0.7rem;
+  height: 1rem;
+  display: none;
+  width: 1rem;
+  background-image: url("../media/svg/error.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 3;
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+  right: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.formContainer .error-message::after {
+    content: attr(title);
+    position: relative;
+    font-size: .8rem;
+    color: var(--red);
+    background-color: white;
+    padding: 0.8rem 1rem;
+    text-wrap: nowrap;
+    height: fit-content;
+    border-radius: 0.7rem;
+    transform: translateX(-78%) translateY(-100%) translateZ(0) scale(1);
+    border: 1px solid #d3d3d3;
+    top: -1.2rem;
+    opacity: 0;
+    display: none;
+    width: max-content;
+}
+.formContainer .error-message:hover::after,
+.formContainer .error-message:hover::before{
+    display: flex;
+    opacity: 1;
+}
+.formContainer .error-message::before{
+    content: "";
+    position: absolute;
+    margin: 0;
+    top: -1.3rem;
+    right: 0rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    border-right: 1px solid #d3d3d3;
+    border-bottom: 1px solid #d3d3d3;
+    background-color: white;
+    z-index: 3;
+    opacity: 0;
+    display: none;
+}
+.formContainer.error .error-message{
+    display: flex;
+}
+.loginSection{
+    padding: 2rem 1rem;
+    position: fixed;
+    background-color: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    top: auto;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 72%;
+    overflow-y: auto;
+    width: 100%;
+}
+.form-check-input:checked{
+    background-color:var(--red);
+    border-color:var(--red);
+}
+.form-check-input{
+    box-shadow: none!important;
+}
+.inputZone{
+    position: relative;
+}
+.showPassword{
+    position: absolute;
+    right: 1rem;
+    top:50%;
+    transform: translateY(-50%);
+}
+.error .showPassword{
+    right: 2.5rem;
+    transition: var(--transition);
+}
+/* forgot password popup */
+.forgot-password .modal-header {
+    padding: 2rem 1rem;
+    border: unset;
+    background-color: rgb(251, 251, 251);
+    border-top-left-radius: 1.5rem;
+    border-top-right-radius:1.5rem;
+}
+.forgot-password.show{
+    display: flex !important;
+    padding: 0 !important;
+}
+.forgot-password .modal-dialog .modal-content {
+    border-radius: 1rem;
+    border: none;
+    overflow: hidden;
+}
+.forgot-password .swiper {
+    width: 100%;
+}
+.forgot-password .swiper-slide {
+    background-color: white;
+    border-radius: 1.5rem;
+}
+.forgot-password .swiper-slide-active h4.modal-title {
+    color: black;
+}
+.forgot-password .close-modal-fp {
+    background-color: transparent !important;
+    height: 3rem;
+    width: 3rem;
+    /* margin-top: 2rem; */
+    padding: 0px;
+    border: none;
+    transition: var(--transition);
+    cursor: pointer;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    z-index: 1;
+}
+.forgot-password .modal-header .close-modal-fp {
+    height: 2rem;
+    width: 2rem;
+    min-width: auto;
+    margin: 0;
+}
+.forgot-password .modal-body .first-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0rem;
+    text-align: left;
+    width: 100%;
+}
+.forgot-password .modal-body button {
+    background-color: rgb(244, 244, 244);
+    border: none;
+    position: relative;
+    padding: 0.9rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    transition: var(--transition);
+    border:1px solid transparent;
+	height:unset;
+}
+.forgot-password .modal-body button.active {
+    background-color: rgba(229, 42, 54, 0.051);
+    border:1px solid var(--red);
+}
+.forgot-password .modal-body button .icon {
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+}
+.forgot-password .modal-body button span {
+    color: black;
+    font-size: 1rem;
+    font-family: var(--sora-bold);
+    text-align: left;
+}
+.forgot-password .modal-body button.active::after {
+    content: "";
+    position: absolute;
+    height: 1.5rem;
+    width: 1.5rem;
+    right: 1rem;
+    background-image: url("../media/svg/Checked Icon.svg");
+    background-position: right center;
+    background-size: 100%;
+  }
+  .forgot-password .modal-body button .icon svg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+  .forgot-password .modal-footer button:hover {
+    background-color: var(--redHover);
+  }
+  
+  .forgot-password .modal-footer {
+    padding: 1.5rem 1rem;
+    border: unset;
+  
+  }
+  .forgot-password .modal-body button.active .icon svg path {
+    stroke: var(--red);
+}
+.forgot-password .modal-footer button {
+    background-color: var(--red);
+    color: white!important;
+    padding: 0.7rem 3.6rem;
+    border-radius: 1rem;
+    transition: var(--transition);
+	height:unset;
+}
+.forgot-password .modal-footer button:hover{
+    background-color: var(--redHover);
+}
+.forgot-password .swiper .swiper-wrapper .swiper-slide .input-group:focus,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group:active,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group:visited,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group:focus-within,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group:focus-visible {
+    border: 1px solid var(--purple);
+    outline: none;
+  }
+  
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .digit-group input:focus,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .digit-group input:active,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .digit-group input:visited,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .digit-group input:focus-within,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .digit-group input:focus-visible {
+    border: 1px solid var(--purple);
+    outline: none;
+  }
+  
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group.error-field,
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .digit-group input.error-field {
+    border: 1px solid var(--error-field-color);
+  }
+  
+  
+  .forgot-password .swiper .swiper-wrapper .swiper-slide:nth-child(4) .digit-group .error-field {
+    background-image: none;
+  }
+  
+  
+  
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group-text {
+    background-color: rgb(247, 247, 247);
+    align-items: center;
+    border: none;
+    padding: 0.8rem 1rem;
+    border: 1px solid #dee2e6;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: none;
+  }
+  
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group-text .icon {
+    width: 1.7rem;
+    margin-right: 0.5rem;
+  }
+  
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .input-group-text .icon img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .forgot-password .swiper .swiper-wrapper .swiper-slide .imgContainer {
+    height: 12rem;
+    width: 12rem;
+  }
+  .forgot-password .modal-body.centered .first-slide .digit-group input{
+    width: 2.6rem;
+    height: 3.3rem;
+    background-color: rgb(235, 235, 235);
+    border: none;
+    line-height: 2;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: black;
+    margin: 0px 0.3rem;
+    text-align: center;
+    border-radius: 0.3rem;
+    padding: 0;
+}
+.forgot-password .modal-body.centered .first-slide{
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.forgot-password .modal-body.centered .first-slide button.proceedmbOTP,
+.verifyOTP .modal-body.centered .first-slide button.proceedmbOTP {
+  background-color: var(--red);
+  padding: 0.8rem 4rem;
+  color: white;
+  border-radius: 1.1rem;
+  transition: var(--transition);
+}
+.forgot-password .login button{
+    background-color: transparent;
+    min-width: fit-content;
+    margin: 0 .3rem;
+    color: var(--red);
+    padding: 0;
+}
+.forgot-password .swiper .swiper-wrapper .swiper-slide .imgContainer img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.forgot-password .swiper .swiper-wrapper .swiper-slide .resetpass{
+    margin-bottom: 1rem;
+}
+.forgot-password .modal-body button.backtoLogin{
+    background-color: var(--red);
+    color: white;
+    padding: 0.7rem 3.6rem;
+    border-radius: 1rem;
+}
+.forgot-password .modal-body button.backtoLogin:hover{
+    background-color: var(--redHover);
+}
+.forgot-password .modal-body .input-group input{
+    padding: .7rem 1rem;
+}
+.otpError{
+    margin: 1rem 0;
+}
+.forgot-password{
+    display: none;
+    z-index: 2;
+}
+.modal-backdrop{
+    z-index: 0;
+}
+.fade:not(.show){
+    display: none!important;
+}
+@media(min-width:992px){
+	.loginSection{
+    padding: 2rem 4rem;
+}
+	.loginTitle{
+    font-size: 3rem;
+}
+    .loginSection{
+        position: relative;
+        height: auto;
+        width: 50%;
+        top: unset;
+        bottom: unset;
+        overflow: unset;
+        background-color: transparent;
+        border-radius: 0;
+    }
+    .loginContainer .videoContainer{
+        position:relative;
+    }
+    .loginIntro {
+        margin-top:0;
+        margin-bottom:3rem;
+        justify-content:center;
+        align-items:center;
+    }
+    .loginContainer {
+        padding: 1rem;
+    }
+    .loginIntro .description {
+        display:block;
+    }
+    .loginContainer .videoContainer .card,
+    .loginContainer .videoContainer .card .card-img-top {
+        border-radius: 1rem;
+    }
+    .loginContainer .videoContainer .card .card-img-overlay .logo{
+        margin:0;
+    }
+    .loginContainer .videoContainer .card .card-img-overlay .heroTitle{
+        display:block;
+    }
+    .loginTitle{
+        margin:0;
+    }
+    .forgot-password .modal-body .first-slide, .forgot-password .modal-header {
+        padding: 2rem;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+}
+@media(min-width:1600px){
+	.loginContainer input.form-control{
+		font-size:1vw!important;
+	}
+	body{
+		font-size:1vw!important;
+	}
+	.loginContainer .loginBtn {
+    border-radius: .4vw;
+    padding: .7vw;
+    margin-top: 2.5vw;
+		font-size:1vw
+}
+	.loginContainer .videoContainer .card .card-img-overlay .heroTitle{
+		font-size:2vw;
+	}
+	.loginContainer .videoContainer .card .card-img-overlay{
+		padding:2vw 3vw
+	}
+	.loginContainer .videoContainer .card .card-img-overlay .logo {
+    width: 8vw;
+}
+}
