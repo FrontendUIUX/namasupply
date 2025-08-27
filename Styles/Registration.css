@@ -518,7 +518,7 @@ html .theme-entry .input-control.select-box.lookup-box.picker-input.double-butto
     transform: translateY(-50%);
 }
 
-@media(min-width:1440px){
+@media(min-width:1600px){
 	.input-control.select-box.lookup-box.picker-input.double-buttons,
 .input-control.select-box.lookup-box.calendar-control.datepicker,
 .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
