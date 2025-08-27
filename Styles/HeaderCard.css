@@ -74,7 +74,7 @@ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box
 }
 
 html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
-	font-size: .9rem;
+	font-size: .85rem;
 	color: #131313;
 }
 
@@ -273,7 +273,8 @@ html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
 html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="English Lang"]{
 	right:0;
 	padding:.4rem!important;
-	margin-left:.5rem;
+	margin-left: 0;
+	width: 5rem;
 }
 html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 [name^="HeaderCard"] .editor-cell[name="English Lang"] {
