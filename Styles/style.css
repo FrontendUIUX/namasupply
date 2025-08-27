@@ -804,6 +804,10 @@ span#\30 0000000-0000-0000-0000-000000000000_d4820830-9e5a-7590-c6bd-da95847463c
 }
 }
 @media(min-width:992px){
+	html[dir="rtl"]:not(.designer) .sidebar {
+   right:0;
+   transform: translateX(0%);
+}
 	html[dir="rtl"] body {
         .popup-body-content .panel-body-wrapper>.scroll-wrapper{
             overflow: auto!important;
