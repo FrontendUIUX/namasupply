@@ -484,6 +484,7 @@ html:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .i
 }
 html:not(.designer) body.theme-entry.runtime-view{
 	margin:0!important;
+	width: 100%!important;
 }
 /* Responsive Tables */
 @media(max-width:600px){
