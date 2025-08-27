@@ -15,6 +15,10 @@
 html:not(.designer) .theme-entry .drop-menu{
     width:fit-content!important;
 }
+input#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37_pagingtxtbox {
+    width: 2rem!important;
+    border: 1px solid rgb(0 0 0 / 10%);
+}
 .modal{
     height: 100vh;
     width: 100vw;
