@@ -264,7 +264,7 @@ html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57c
 }
 .theme-entry .select-box.lookup-box.calendar-control.datepicker .input-control-buttons a,
 .theme-entry .input-control.select-box .input-control-buttons a{
-    height:unset!important;
+    height: 100%!important;
 }
 .mobile .theme-entry div.picker-input.select-box.double-buttons .input-control-buttons.styling-right{
 	display: flex;
