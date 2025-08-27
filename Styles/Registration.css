@@ -2,6 +2,10 @@
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
 }
+html:not(.designer) .theme-entry .picker-input .editable-area .entity>span{
+	padding: .4rem 1rem;
+    font-size: 1rem;
+}
 html:not(.designer) .theme-entry .month, 
 html:not(.designer) .theme-entry .year, 
 html:not(.designer) .theme-entry .month:hover, 
@@ -555,7 +559,7 @@ font-size: 1vw !important; /* added by silvana */
 		font-size:2vw!important;
 	}
 	.overlay-content {
-	  padding:3vw;
+	  padding:2vw 3vw;
 		border-radius:1vw;
 	}
 	.logo {
