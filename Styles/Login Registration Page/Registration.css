@@ -6,6 +6,9 @@ html:not(.designer) .theme-entry .picker-input .editable-area .entity>span{
 	padding: .4rem 1rem;
     font-size: 1rem;
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a{
+	height: 100%!important;
+}
 [name="HiddenFileFrame"]{
 	display: none!important;
 }
