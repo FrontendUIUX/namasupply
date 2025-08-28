@@ -270,17 +270,18 @@ html[lang="ar"] .overlay-content {
 	border-color: #e62b37    !important;
 	color : white !important;
 	margin: 0.5rem!important;
+	margin-left: 0!important;
 }
 
 
 .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
 {
-	color:#303030;
-	font-size: 16px;
+	color: #303030!important;
+	font-size: 1rem!important;
 	color: #333;
 	border: 1px solid #D7D7D7;
-	border-radius: .5vw;
-	padding-right: 4px;
+	border-radius: .5rem;
+	height: 3rem;
 }
 
 .theme-entry span.SourceCode-Forms-Controls-Web-Label, .theme-entry h1.SourceCode-Forms-Controls-Web-Label, 
