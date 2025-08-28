@@ -196,7 +196,7 @@ html:not(.designer) body::before {
 	top: 0;
 	left: 0;
 	width: 100vw;
-	height: 8px;
+	height: .7rem;
 	background-color: #e62b37;
 	z-index: 100000;
 }
