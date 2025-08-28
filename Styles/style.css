@@ -37,7 +37,7 @@ html:not(.designer) body.theme-entry{
     margin-top: 5.65rem;
     padding:1rem!important;
     height:calc(100% - (4.75rem + 1rem));
-    width: 100%!important;
+    width: calc(100% - 2rem)!important;
     background-color: #f5f5f5!important;
 }
 html:not(.designer).mobile body.theme-entry{
@@ -305,6 +305,7 @@ html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr
 }
 div#\30 cc04833-8fb3-8c15-3e13-da74f9220f57_12b688f4-183c-4073-8b0d-f7a33a91a1e5_Table {
     padding: 0 1rem;
+    height: 100%;
 }
 .stackContainer .stack {
     width: 100%;
