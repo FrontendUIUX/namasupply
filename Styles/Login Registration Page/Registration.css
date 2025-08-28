@@ -320,6 +320,7 @@ html[lang="ar"] .overlay-content {
 	border: 1px solid #D7D7D7;
 	border-radius: .5rem;
 	height: 3rem;
+	min-height: unset;
 	padding: .3rem 1rem!important;
 }
 
