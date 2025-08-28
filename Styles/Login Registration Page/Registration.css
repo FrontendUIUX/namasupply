@@ -296,6 +296,7 @@ html[lang="ar"] .overlay-content {
 	border: 1px solid #D7D7D7;
 	border-radius: .5rem;
 	height: 3rem;
+	padding: .3rem 1rem;
 }
 
 .theme-entry span.SourceCode-Forms-Controls-Web-Label, .theme-entry h1.SourceCode-Forms-Controls-Web-Label, 
@@ -426,23 +427,15 @@ html[dir="rtl"] .theme-entry .dropdown-box.input-control .input-control-wrapper 
 	text-align:right!important;
 }
 html[dir=rtl] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
-	border-top:1px solid #D7D7D7!important;
-	border-bottom:1px solid #D7D7D7!important;
-	border-right:1px solid #D7D7D7!important;
-	border-left: none!important;
-	border-top-right-radius: .5rem;
-	border-bottom-right-radius: .5rem;
+	border: none!important;
 }
 html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons{
 	border: none!important;
 	background-color: transparent;
 }
-html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons{
-	border-top:1px solid #D7D7D7!important;
-	border-bottom:1px solid #D7D7D7!important;
-	border-left:1px solid #D7D7D7!important;
-	border-top-left-radius: 0.5rem!important;
-	border-bottom-left-radius: 0.5rem!important;
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons{
+	border: none!important;
+	background-color: transparent;
 }
 
 .tooltip.validation{
