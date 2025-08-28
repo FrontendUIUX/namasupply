@@ -284,9 +284,9 @@ html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
 	display: none !important;
 }
 html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="English Lang"]{
-	right: 2rem;
+	right: 0rem;
 	padding:.4rem!important;
-	margin-left: 0;
+	margin-left: .5rem;
 	width: 5rem;
 }
 html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
