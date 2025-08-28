@@ -652,8 +652,20 @@ input:-internal-autofill-selected{
     }
 }
 @media(min-width:1600px){
+.loginContainer .languageSwitch button {
+    border-radius: 2vw;
+    padding: 0.5vw 1vw;
+}
+	.loginContainer .languageSwitch button span{
+		font-size:1vw;
+	}
+	.loginContainer .createNewAccount {
+    margin-top: 0.9vw;
+	font-size:1vw;
+}
 	.loginContainer input.form-control{
 		font-size:1vw!important;
+		height: 3vw;
 	}
 	body{
 		font-size:1vw!important;
