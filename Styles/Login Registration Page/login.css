@@ -8,35 +8,15 @@
     --inputBgColor: #F5F5F5;
     --placeHolderColor: #868686;
     --transition: all .3s ease-in-out;
-    --regularfont:"avenir regular";
-    --boldfont:"avenir bold";
-    --mediumfont:"avenir medium";
-    --demifont:"avenir demi";
-    --langFont:"Ge Dinar Medium";
+    --regularfont:"SWCC-Medium";
 }
 @font-face {
-    font-family: "avenir regular";
-    src: url("../fonts/avenir-next-regular.ttf");
-}
-@font-face {
-    font-family: "avenir medium";
-    src: url("../fonts/avenir-next-medium.ttf");
-}
-@font-face {
-    font-family: "avenir bold";
-    src: url("../fonts/avenir-next-bold.ttf");
-}
-@font-face {
-    font-family: "avenir demi";
-    src: url("../fonts/avenir-next-demi.ttf");
-}
-@font-face {
-    font-family: "Ge Dinar Medium";
-    src: url("../fonts/GE-Dinar-One-Medium.otf");
+    font-family: 'SWCC-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
 }
 html,html body{
     font-size:16px;
-    font-family: var(--regularfont);
+    font-family: var(--regularfont)!important;
 }
 .modal.fade .modal-dialog{
     display: flex;
@@ -126,20 +106,6 @@ iframe#resetPassIframe
     height: 100%;
     width:100%;
 }
-
-.loginContainer .videoContainer .card .card-img-top::after {
-    /* content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-image: url("../media/patterns/LoginPattern.png");
-    background-repeat:no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.2; */
-}
 .stsLoginInPanel{
 	background-color:white;
 }
@@ -199,7 +165,8 @@ iframe#resetPassIframe
     margin-bottom: 0rem;
 }
 .loginTitle{
-    font-family: var(--demifont);
+    font-weight: 700;
+    font-family: var(--regularfont);
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
     margin-bottom: 2rem;
@@ -208,6 +175,7 @@ iframe#resetPassIframe
     color: var(--textColor);
     margin-top: 0.7rem;
     display:none;
+    font-family: var(--regularfont);
 }
 
 .loginContainer .loginBtn {
@@ -409,7 +377,6 @@ input:-internal-autofill-selected{
     background-color: transparent !important;
     height: 3rem;
     width: 3rem;
-    /* margin-top: 2rem; */
     padding: 0px;
     border: none;
     transition: var(--transition);
