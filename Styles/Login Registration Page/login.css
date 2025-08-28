@@ -37,7 +37,7 @@ html,html body{
 }
 #togglePassword{
     width:fit-content;
-    right: 1rem;
+    right: 0rem;
     left: auto;
     position: absolute;
 }
