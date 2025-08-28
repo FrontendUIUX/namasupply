@@ -15,7 +15,7 @@ html:not(.designer) [name="HiddenFileFrame"]{
 	display: none!important;
 }
 h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589 {
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -49,7 +49,7 @@ html:not(.designer) .theme-entry .input-control .input-control-watermark, .theme
 	height: 100%!important;
 	min-height:unset!important;
 	line-height:unset!important;
-	font-size: 1vw!important;
+	font-size: 1rem!important;
 	vertical-align: middle;
 	display: flex;
 	align-items: center;
@@ -57,7 +57,7 @@ html:not(.designer) .theme-entry .input-control .input-control-watermark, .theme
 	color: #303030!important;
 }
 html:not(.designer) .styling-font{
-	font-size:1vw!important;
+	font-size: 1rem!important;
 }
 html:not(.designer), html:not(.designer) body *{
 	 font-family: 'SWCC-Medium'!important;
@@ -282,7 +282,7 @@ html[lang="ar"] .overlay-content {
 }
 
 .theme-entry a.SourceCode-Forms-Controls-Web-Button{
-	padding: 0.7rem 4rem !important;
+	padding: 0.7rem 3rem !important;
 	border-radius:.5rem;
 	font-size: 1rem;
 	background : #e62b37 !important;
@@ -290,6 +290,10 @@ html[lang="ar"] .overlay-content {
 	color : white !important;
 	margin: 0.5rem!important;
 	margin-left: 0!important;
+	/* min-width: 0rem; */
+	/* width: fit-content; */
+	height: unset!important;
+	min-height: unset!Important;
 }
 
 
@@ -301,7 +305,7 @@ html[lang="ar"] .overlay-content {
 	border: 1px solid #D7D7D7;
 	border-radius: .5rem;
 	height: 3rem;
-	padding: .3rem 1rem;
+	padding: .3rem 1rem!important;
 }
 
 .theme-entry span.SourceCode-Forms-Controls-Web-Label, .theme-entry h1.SourceCode-Forms-Controls-Web-Label, 
@@ -323,6 +327,9 @@ h2#\30 0000000-0000-0000-0000-000000000000_d9387832-ae23-a824-6aa0-ebb8db84505b
 	font-size: 2rem !important;
 	font-family: 'SWCC-Medium';
 }
+.webkit.safari .theme-entry .file-wrapper{
+	box-sizing:border-box!important;
+}
 body.theme-entry{
 	background-color: #ffffff;
 }
@@ -332,10 +339,13 @@ body.theme-entry{
 span#\36 203e583-81e9-503b-62d5-efa834029060{
 	display:flex!important;
 	align-items:center!important;
-	flex-wrap:wrap!important;
+	flex-wrap: nowrap!important;
 	justify-content: flex-end;
 }
 @media(min-width:992px){
+	h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589{
+		display:flex;
+	}
 	html:not(.designer) [name*="s_title"]{
 	font-size: 3rem;
 	font-weight: 700;
