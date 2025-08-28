@@ -9,7 +9,7 @@ html:not(.designer) .theme-entry .picker-input .editable-area .entity>span{
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a{
 	height: 100%!important;
 }
-[name="HiddenFileFrame"]{
+html:not(.designer) [name="HiddenFileFrame"]{
 	display: none!important;
 }
 html:not(.designer) .theme-entry .month, 
@@ -72,7 +72,7 @@ html:not(.designer) .calendar-row.years a  {
     align-items: center;
     justify-content: center;
 }
-input#\35 7d15e6e-95dd-f60b-ea82-9d5df07460a4_a8edcf92-9a87-45c0-929b-c959056b3ac3,
+html:not(.designer) input#\35 7d15e6e-95dd-f60b-ea82-9d5df07460a4_a8edcf92-9a87-45c0-929b-c959056b3ac3,
 [name="OTP Text Box"]{
 	border:1px solid #ddd;
 	padding:.7rem 1rem;
@@ -86,24 +86,24 @@ html[dir="ltr"] div#\35 7d15e6e-95dd-f60b-ea82-9d5df07460a4_0253ab5e-1f35-60cf-2
 html[dir="rtl"] div#\35 7d15e6e-95dd-f60b-ea82-9d5df07460a4_0253ab5e-1f35-60cf-2949-c17d6d375098_Table{
 	padding-right:2rem!important;
 }
-span#f4c5d97f-058c-3e9f-e854-f64142e7c142{
+html:not(.designer) span#f4c5d97f-058c-3e9f-e854-f64142e7c142{
 	padding:0;
 }
-[name="Cell Cell37 optverificationButton"]{
+html:not(.designer) [name="Cell Cell37 optverificationButton"]{
 	display:flex!important;
 	align-items:center;
 	width:100%;
 }
-span#f4c5d97f-058c-3e9f-e854-f64142e7c142 .textbox-style-wrapper{
+html:not(.designer) span#f4c5d97f-058c-3e9f-e854-f64142e7c142 .textbox-style-wrapper{
 	margin:0!important;
 }
-span#\36 390fb5d-de96-3dc3-0caa-499950ed3963{
+html:not(.designer) span#\36 390fb5d-de96-3dc3-0caa-499950ed3963{
 	padding:0!important;
 }
-span#ffd13702-efb3-f2ea-319f-f878d0714057{
+html:not(.designer) span#ffd13702-efb3-f2ea-319f-f878d0714057{
 	display:none;
 }
-.runtime-content{
+html:not(.designer) .runtime-content{
 	margin:0!important;
 }
 
@@ -124,7 +124,7 @@ html body .theme-entry h3.SourceCode-Forms-Controls-Web-Label[name="Data Label2"
 	color: #3E3E3E!important
 }
 /* asteristk */
-html body .theme-entry span[title="*"]{
+html:not(.designer) body .theme-entry span[title="*"]{
 	color:#e62b37!important;
 }
 .row:nth-child(2) .formcontrol:first-child .innerpanel:first-child {
@@ -154,7 +154,6 @@ html[dir="rtl"] .row:nth-child(2) .formcontrol:first-child .innerpanel:first-chi
 }
 .theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox, .theme-entry .input-control-watermark {
     font-size: 1rem!important;
-    /* margin-bottom: 1rem; */
     padding: 1rem;
 }
 .input-control-watermark{
@@ -183,23 +182,15 @@ html[dir="rtl"] .row:nth-child(2) .formcontrol:first-child .innerpanel:first-chi
     bottom: 0;
     left: 0;
 }
-h2 {
-	/* width:100vw;
-	font-weight:bold !important;
-	font-size : xx-large!important; */
-}
-h3{
-	/* width:100vw; */
-}
 .theme-entry .form {
-    overflow-y: auto; /* Enable vertical scrolling */
+    overflow-y: auto;
     padding: 0!important;
 }
 
 .video-container {
     flex: 1!important;
     max-width: 100%!important;
-    border-radius: 0rem; /* Rounded corners for a softer look */
+    border-radius: 0rem;
     overflow: hidden;
     position: absolute;
     top: 0;
@@ -236,7 +227,7 @@ html[lang="ar"] .overlay-content {
 }
 
 .logo {
-    width: 120px; /* Adjust size */
+    width: 120px;
     margin-bottom: 10px;
 }
 
@@ -453,10 +444,8 @@ html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons{
 }
 .tooltip.validation .tooltip-pointer,
 .tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
- /* border:none!important; */
  border-color:transparent!important;
  background: none!important;
- /* position:relative!important; */
 }
 .tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
   width: 0px;
