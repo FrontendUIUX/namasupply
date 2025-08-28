@@ -71,6 +71,7 @@ html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db
 html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
 	height: unset !important;
 	width: fit-content !important;
+	padding: 0;
 }
 
 html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
@@ -299,9 +300,8 @@ html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 	opacity: 1;
 	cursor: pointer;
 	position: relative;
-	/* left: 1rem; */
 	margin-right: .5rem;
-	padding: .5rem!important;
+	padding: .5rem 1.1rem!important;
 }
 html[dir=rtl]:not(.designer) body.theme-entry [name="Arabic Lang"]{
 	display:none!important;
