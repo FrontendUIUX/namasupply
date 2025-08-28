@@ -30,8 +30,8 @@ h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589 
     display: none;
     align-items: center;
     justify-content: center;
-	color: var(--placeHolderColor);
-    margin-top: 0.7rem;
+	color: var(--placeHolderColor)!important;
+    margin-top: 0.7rem!important;
     font-family: var(--regularfont);
 }
 html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
