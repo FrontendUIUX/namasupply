@@ -518,6 +518,12 @@ html .theme-entry .input-control.select-box.lookup-box.picker-input.double-butto
     top: 50%;
     transform: translateY(-50%);
 }
+html:not(.designer) .file-info.file-ellipsis {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;  /* show only first line */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 @media(min-width: 992px){
 	html:not(.designer) [name*="s_label"]{
 		display:flex;
