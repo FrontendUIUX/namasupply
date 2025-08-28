@@ -647,8 +647,8 @@ input:-internal-autofill-selected{
 }
 @media(min-width:1200px){
     .container{
-        padding-left: 7rem;
-        padding-right: 7rem;
+        /* padding-left: 7rem; */
+        /* padding-right: 7rem; */
     }
 }
 @media(min-width:1600px){
