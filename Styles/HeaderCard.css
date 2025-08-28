@@ -347,7 +347,9 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 	left: 0rem;
 	right: auto;
 }
-
+.styling-outer-wrapper {
+    min-width: auto;
+}
 @media(min-width:992px){
 	html[dir="rtl"] #custom-sticky-header {
 	right: 21.6rem;
