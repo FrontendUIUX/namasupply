@@ -523,6 +523,7 @@ html:not(.designer) .file-info.file-ellipsis {
     -webkit-line-clamp: 1;  /* show only first line */
     -webkit-box-orient: vertical;
     overflow: hidden;
+	font-size: 1rem;
 }
 @media(min-width: 992px){
 	html:not(.designer) [name*="s_label"]{
