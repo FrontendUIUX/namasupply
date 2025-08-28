@@ -26,7 +26,7 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 html:not(.designer) [name="HiddenFileFrame"]{
 	display: none!important;
 }
-h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589 {
+html:not(.designer) [name*="s_label"] {
     display: none;
     align-items: center;
     justify-content: center;
@@ -343,7 +343,7 @@ html[lang="ar"] .overlay-content {
 .SourceCode-Forms-Controls-Web-Table.Grid-Layout{
 	background-color: #ffffff;
 }
-h2#\30 0000000-0000-0000-0000-000000000000_d9387832-ae23-a824-6aa0-ebb8db84505b
+[name*="s_title"]
 {
     font-weight: 700;
     font-family: var(--regularfont);
@@ -366,14 +366,16 @@ span#\36 203e583-81e9-503b-62d5-efa834029060{
 	flex-wrap: nowrap!important;
 	justify-content: flex-end;
 }
-@media(min-width:992px){
-	h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589{
+@media(min-width: 992px){
+	html:not(.designer) [name*="s_label"]{
 		display:flex;
 	}
 	html:not(.designer) [name*="s_title"]{
-	font-size: 3rem;
+	font-size: 2.7rem!important;
 	font-weight: 700;
-	text-align: center;
+	text-align: center!important;
+	align-self: center;
+	margin: auto;
 }
 	.overlay-content {
     border-radius: 1rem;
@@ -391,12 +393,6 @@ span#\36 203e583-81e9-503b-62d5-efa834029060{
     display: flex!important;
     align-items: center;
     justify-content: center;
-}
-	h2#\30 0000000-0000-0000-0000-000000000000_d9387832-ae23-a824-6aa0-ebb8db84505b
-{
-	font-size: 3rem !important;
-	font-family: 'SWCC-Medium';
-	margin: auto;
 }
 	.form-wrapper {
     flex: 0 0 40%!important;
@@ -563,6 +559,9 @@ html .theme-entry .input-control.select-box.lookup-box.picker-input.double-butto
 }
 
 @media(min-width:1600px){
+	html:not(.designer) [name*="s_title"]{
+		font-size:2.7vw!important;
+	}
 	.input-control.select-box.lookup-box.picker-input.double-buttons,
 .input-control.select-box.lookup-box.calendar-control.datepicker,
 .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
@@ -609,7 +608,6 @@ font-size: 1vw !important; /* added by silvana */
 	.logo {
     width: 8vw;
 }
-
 	 .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
 	padding: 0.3vw 1vw;
 	height: unset!important;
