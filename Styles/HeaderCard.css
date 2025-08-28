@@ -163,14 +163,18 @@ html:not(.designer) .theme-entry .tab-wrapper {
 	border: none;
 }
 
-html:not(.designer) .theme-entry .drop-menu {
+html:not(.designer) .theme-entry >.drop-menu {
 
 	z-index: 5000 !important;
 	background-color: white;
 	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-	width: 100%
+	width: 100%;
+	right:1vw!important;
+	left: auto!important;
 }
-
+.theme-entry .input-control.select-box .styling-outer-wrapper {
+    display: flex;
+}
 html:not(.designer) #custom-sticky-header [name="Cell Cell270"] {
 	border: 1px solid #ddd !important;
 	padding: .4rem 2rem !important;
