@@ -12,6 +12,9 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+.modal-content {
+    border: none;
+}
 html:not(.designer) .theme-entry .drop-menu{
     width:fit-content!important;
 }
