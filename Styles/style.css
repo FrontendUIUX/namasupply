@@ -69,6 +69,7 @@ html:not(.designer).mobile body.theme-entry{
 	margin-top:0!important;
     background-color: white!important;
     width: 100%!important;
+    top: 5.7rem;
 }
 html:not(.designer) body.theme-entry [name*="s_collapse"] {
     padding: var(--zonePadding)!important;
