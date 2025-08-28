@@ -242,12 +242,14 @@ input:-internal-autofill-selected{
 }
 .loginContainer .forgotPassword{
     color:var(--red);
+    transition: var(--transition);
+    font-family: var(--regularfont);
 }
 .loginContainer .forgotPassword:hover{
     color:var(--redHover);
 }
 .loginContainer .form-label{
-    font-family: var(--mediumfont);
+    font-family: var(--regularfont);
 }
 .formContainer .error-message{
   font-size: 0.7rem;
