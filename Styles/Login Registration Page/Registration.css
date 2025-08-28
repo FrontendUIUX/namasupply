@@ -10,6 +10,10 @@
     --transition: all .3s ease-in-out;
     --regularfont:"SWCC-Medium";
 }
+.panel-body{
+	border: none!important;
+	outline:none!important;
+}
 @font-face {
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
