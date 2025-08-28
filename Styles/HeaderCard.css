@@ -83,6 +83,7 @@ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box
 html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
 	font-size: .85rem;
 	color: #131313;
+	margin: 0;
 }
 
 html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
