@@ -36,6 +36,17 @@ background-image:url(https://frontenduiux.github.io/namasupply/images/arrow%201.
 	background-size: 1rem!important;background-repeat:no-repeat!important;
 	background-position:center!important;
 }
+.theme-entry .input-control.select-box .input-control-buttons a.picker-search>span span, 
+.theme-entry .input-control.select-box .input-control-buttons a.picker-search:active>span span, 
+.theme-entry .input-control.select-box.active .input-control-buttons a.picker-search>span span, 
+.theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:hover>span span, 
+.theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:focus>span span, 
+.theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:hover>span span, 
+.theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:focus>span span{
+background-image:url(https://frontenduiux.github.io/namasupply/images/search.svg);
+	background-size: 1rem!important;background-repeat:no-repeat!important;
+	background-position:center!important;
+}
 @font-face {
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
