@@ -268,7 +268,7 @@ html,body{
     font-size: 14px!important;
 }
  .sidebar{
-    top:6rem;
+    top:5.7rem;
     transform:translateX(-100%);
 	 overflow:auto;
 	 height:100%;
