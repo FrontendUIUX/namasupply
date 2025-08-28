@@ -73,6 +73,9 @@ html:not(.designer) .theme-entry .input-control .input-control-watermark, .theme
 }
 html:not(.designer) .styling-font{
 	font-size: 1rem!important;
+	height: unset!important;
+	min-height: unset!important;
+	line-height: unset!important;
 }
 html:not(.designer), html:not(.designer) body *{
 	 font-family: 'SWCC-Medium'!important;
