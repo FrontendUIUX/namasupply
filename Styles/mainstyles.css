@@ -5,6 +5,9 @@
     --field-label:#303030;
     --border-color:#D7D7D7;
 }
+html:not(.designer) .panel-body{
+    border: none!important;
+}
 html,body{
     font-size: 14px!important;
 }
