@@ -146,7 +146,7 @@ iframe#resetPassIframe
 	height:unset;
 }
 .loginContainer .languageSwitch button span{
-    font-family:var(--langFont);
+    font-family:var(--regularfont);
 }
 .loginContainer .languageSwitch button .icon{
     margin-right:.5rem;
