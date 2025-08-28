@@ -381,6 +381,9 @@ html:not(.designer)	#custom-sticky-header {
 	left: 16.6rem;
 	width: calc(100% - 18.6rem);
 }
+html:not(.designer) .theme-entry >.drop-menu {
+    right: 1.3rem!important;
+}
 }
 @media(min-width:1440px){
 	
@@ -393,7 +396,7 @@ html:not(.designer)	#custom-sticky-header {
     right: 16.6vw;
     width: calc(100% - 18.6vw);
 }
- html:not(.designer) .theme-entry >.drop-menu {
+html:not(.designer) .theme-entry >.drop-menu {
     right: 1.3vw!important;
 }
 }
