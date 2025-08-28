@@ -19,6 +19,10 @@ h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589 
     align-items: center;
     justify-content: center;
 }
+html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    z-index: 100000;
+}
 html:not(.designer) .theme-entry .month, 
 html:not(.designer) .theme-entry .year, 
 html:not(.designer) .theme-entry .month:hover, 
