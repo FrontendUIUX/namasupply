@@ -272,6 +272,7 @@ html,body{
     transform:translateX(-100%);
 	 overflow:auto;
 	 height:100%;
+     transition: all .3s ease-in-out;
  }
 .doubleTop .sidebar{
 	top: 9.7rem;
