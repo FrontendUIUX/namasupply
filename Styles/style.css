@@ -962,7 +962,7 @@ width:auto;
     .sidebar-link{
         margin-bottom:1vw;
     }
-    		html:not(.designer) body.theme-entry	.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
+html:not(.designer) body.theme-entry .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
     height: 12vw!important;
     width: 12vw!important;
     border-radius: 0.7vw!important;

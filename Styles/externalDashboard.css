@@ -209,6 +209,12 @@ html:not(.designer) .theme-entry .editor-cell{
     }
 }
 @media(min-width:1600px) {
+    html:not(.designer) body.theme-entry {
+    margin-top: 5.65vw;
+    padding: 1vw !important;
+    height: calc(100% - (4.75vw + 1vw));
+    width: calc(100% - 17vw) !important;
+}
 	.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget .picture-control-inline{
 		width:5vw!important;
 		margin-bottom:.7vw;	
