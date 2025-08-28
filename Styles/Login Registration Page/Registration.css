@@ -34,9 +34,10 @@ html:not(.designer) [name*="s_label"] {
     display: none;
     align-items: center;
     justify-content: center;
-	color: var(--placeHolderColor)!important;
+    color: var(--placeHolderColor)!important;
     margin-top: 0.7rem!important;
     font-family: var(--regularfont);
+    padding: 0!important;
 }
 html:not(.designer) [name="Table"] [name*="s_label"]{
 	color:var(--black)!important;
@@ -176,6 +177,10 @@ html body .theme-entry h3.SourceCode-Forms-Controls-Web-Label[name="Data Label2"
 /* asteristk */
 html:not(.designer) body .theme-entry span[title="*"]{
 	color:#e62b37!important;
+	padding: 0!important;
+	height: unset!important;
+	min-height: unset!important;
+	line-height: unset!important;
 }
 .row:nth-child(2) .formcontrol:first-child .innerpanel:first-child {
     width: fit-content;
