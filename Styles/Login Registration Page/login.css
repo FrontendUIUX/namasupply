@@ -38,9 +38,12 @@ html,html body{
 	background-color:transparent!important;
 	box-shadow:none!important;
 }
+.formContainer .d-flex{
+    justify-content: flex-end;
+}
 #togglePassword{
     width:fit-content;
-    right: 1rem;
+    right: 0rem;
     left: auto;
     position: absolute;
     top: 50%;
