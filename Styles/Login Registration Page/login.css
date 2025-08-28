@@ -122,10 +122,11 @@ iframe#resetPassIframe
 }
 .stsLoginUserNamePlaceHolder {
     height: auto;
-	margin: .5rem 0;
+	margin: 1.6rem 0;
 }
 .loginContainer .formContainer{
 	margin-bottom:1rem;
+   
 }
 .loginContainer .videoContainer .card .card-img-overlay {
     display: flex;
@@ -183,7 +184,7 @@ iframe#resetPassIframe
     margin-bottom: 2rem;
 }
 .loginIntro .description {
-    color: var(--textColor);
+    color: var(--placeHolderColor);
     margin-top: 0.7rem;
     display:none;
     font-family: var(--regularfont);
@@ -210,7 +211,7 @@ iframe#resetPassIframe
     margin: auto;
     width: fit-content;
     margin-top: 0.9rem;
-    color: var(--black);
+    color: var(--placeHolderColor);
     font-family: var(--regularfont);
 }
 
@@ -258,6 +259,7 @@ input:-internal-autofill-selected{
     color:var(--red);
     transition: var(--transition);
     font-family: var(--regularfont);
+    font-size: .9rem;
 }
 .loginContainer .forgotPassword:hover{
     color:var(--redHover);
@@ -627,7 +629,7 @@ input:-internal-autofill-selected{
     }
     .loginIntro {
         margin-top:0;
-        margin-bottom:3rem;
+        margin-bottom:4rem;
         justify-content:center;
         align-items:center;
     }
@@ -660,6 +662,12 @@ input:-internal-autofill-selected{
         /* padding-right: 7rem; */
     }
 }
+@media(min-width:1400px){
+.loginContainer .formContainer{
+   width: 79%;
+   margin: auto;
+}
+}
 @media(min-width:1600px){
 .loginContainer .languageSwitch button {
     border-radius: 2vw;
@@ -681,7 +689,7 @@ input:-internal-autofill-selected{
 	}
 	.loginContainer .loginBtn {
     border-radius: .4vw;
-    padding: .7vw;
+    padding: .9vw;
     margin-top: 2.5vw;
 		font-size:1vw
 }
