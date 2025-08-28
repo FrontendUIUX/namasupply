@@ -1,3 +1,15 @@
+:root {
+    --red: #E52A36;
+    --redHover:#b1212a;
+    --white: #ffffff;
+    --black: #000000;
+    --lightBlack: #454545;
+    --textColor: #3E3E3E;
+    --inputBgColor: #F5F5F5;
+    --placeHolderColor: #868686;
+    --transition: all .3s ease-in-out;
+    --regularfont:"SWCC-Medium";
+}
 @font-face {
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
@@ -18,6 +30,9 @@ h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589 
     display: none;
     align-items: center;
     justify-content: center;
+	color: var(--placeHolderColor);
+    margin-top: 0.7rem;
+    font-family: var(--regularfont);
 }
 html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
     width: 18rem !important;
@@ -299,7 +314,7 @@ html[lang="ar"] .overlay-content {
 
 .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox
 {
-	color: #303030!important;
+	color: var(--placeHolderColor);
 	font-size: 1rem!important;
 	color: #333;
 	border: 1px solid #D7D7D7;
@@ -324,8 +339,11 @@ html[lang="ar"] .overlay-content {
 }
 h2#\30 0000000-0000-0000-0000-000000000000_d9387832-ae23-a824-6aa0-ebb8db84505b
 {
-	font-size: 2rem !important;
-	font-family: 'SWCC-Medium';
+    font-weight: 700;
+    font-family: var(--regularfont);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 .webkit.safari .theme-entry .file-wrapper{
 	box-sizing:border-box!important;
