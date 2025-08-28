@@ -14,6 +14,14 @@
 	border: none!important;
 	outline:none!important;
 }
+.theme-entry .input-control.select-box .input-control-buttons a.date>span span{
+	background-image:url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg);
+	background-size: 1rem!important;background-repeat:no-repeat!important;
+	background-position:center!important;
+	}
+.theme-entry .input-control-buttons a span{
+	height:3rem;
+}
 @font-face {
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
