@@ -38,6 +38,9 @@ html:not(.designer) [name*="s_label"] {
     margin-top: 0.7rem!important;
     font-family: var(--regularfont);
 }
+html:not(.designer) [name="Table"] [name*="s_label"]{
+	color:var(--black)!important;
+}
 html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
     width: 18rem !important;
     z-index: 100000;
@@ -47,6 +50,9 @@ html:not(.designer) .theme-entry .year,
 html:not(.designer) .theme-entry .month:hover, 
 html:not(.designer) .theme-entry .year:hover{
 height:3rem!important;
+}
+html:not(.designer) [name*="s_title"]{
+	color:var(--black);
 }
 html:not(.designer) .theme-entry .input-control.select-box,
 html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
@@ -340,9 +346,9 @@ html[lang="ar"] .overlay-content {
  .theme-entry h3.SourceCode-Forms-Controls-Web-DataLabel, .theme-entry h4.SourceCode-Forms-Controls-Web-DataLabel,
  .theme-entry label.SourceCode-Forms-Controls-Web-DataLabel, .theme-entry p.SourceCode-Forms-Controls-Web-DataLabel
 {
-	color: #000000 !important;
-    font-weight: 500;
-    font-size: 1rem !important;
+	/* color: #000000 !important; */
+	/* font-weight: 500; */
+	font-size: 1rem !important;
 }
 .SourceCode-Forms-Controls-Web-Table.Grid-Layout{
 	background-color: #ffffff;
