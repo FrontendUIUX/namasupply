@@ -297,6 +297,7 @@ html[lang="ar"] .overlay-content {
 }
 .theme-entry .input-control.select-box{
 	height:3rem;
+	box-sizing: border-box;
 }
 
 .theme-entry a.SourceCode-Forms-Controls-Web-Button{
@@ -447,6 +448,7 @@ span.styling-font{
 	 align-items:center;
 	 border: none!important;
 	 background-color: transparent;
+	 min-height: unset!important;
 	}
 .input-control.select-box:not(.hide-buttons).picker-input.double-buttons .input-control-m-c{
 	/* padding:0 1rem!important; */
