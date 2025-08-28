@@ -14,6 +14,9 @@
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
 }
+.showPassword img#toggleIcon{
+    width: 1.1rem;
+}
 [name="HiddenFileFrame"]{
 	display: none!important;
 }
@@ -254,6 +257,7 @@ input:-internal-autofill-selected{
 }
 .loginContainer input::placeholder {
     color: var(--placeHolderColor);
+    font-size: .9rem;
 }
 .loginContainer .forgotPassword{
     color:var(--red);
@@ -628,8 +632,8 @@ input:-internal-autofill-selected{
         position:relative;
     }
     .loginIntro {
-        margin-top:0;
-        margin-bottom:4rem;
+        margin-top:4rem;
+        margin-bottom:3rem;
         justify-content:center;
         align-items:center;
     }
