@@ -243,7 +243,13 @@ td#\34 dc37f6b-817e-a74b-2353-1b7d11c7e15e {
     border-top-left-radius: 2vw;
     border-bottom-left-radius: 2vw;
 }
-
+html:not(.designer) body.theme-entry {
+    margin-top: 5.65rem;
+    padding: 1rem !important;
+    height: calc(100% - (4.75rem + 1rem));
+    width: calc(100% - 2rem) !important;
+    background-color: #f5f5f5 !important;
+}
 .theme-entry .form{padding: 0!important;}
 html[dir=ltr] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-m-c{
     border-top-left-radius:2vw;
