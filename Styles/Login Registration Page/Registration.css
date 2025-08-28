@@ -22,6 +22,9 @@
 .theme-entry .input-control-buttons a span{
 	height:3rem;
 }
+html:not(.designer).mobile body.theme-entry{
+	background-color: #fff!important;
+}
 .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
 .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
 .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown>span span, 
