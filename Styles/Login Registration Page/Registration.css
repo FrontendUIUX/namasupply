@@ -3,11 +3,13 @@
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
 }
 html:not(.designer) .theme-entry .picker-input .editable-area .entity>span{
-	padding: 0.1rem 0.6rem;
-	font-size: 1rem;
+	padding: .4rem 1rem;
+    font-size: 1rem;
 }
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a{
 	height: 100%!important;
+	margin: 0;
+	padding: 0;
 }
 html:not(.designer) [name="HiddenFileFrame"]{
 	display: none!important;
@@ -23,22 +25,31 @@ html:not(.designer) .theme-entry .month:hover,
 html:not(.designer) .theme-entry .year:hover{
 height:3rem!important;
 }
+html:not(.designer) .theme-entry .input-control.select-box,
 html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
 html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker,
 html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
-html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c{
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c,
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons{
     height: 3rem!important;
+}
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c,
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c{
+	border:none!important;
+}
+html:not(.designer) .theme-entry .input-control.select-box{
+	border:1px solid #DCDCDC;
+	border-radius:.5rem;
 }
 html:not(.designer) .theme-entry .input-control .input-control-watermark, .theme-entry .input-control.select-box .input-control-watermark, .theme-entry .input-control.select-box div.editable-area, .theme-entry .input-control.select-box input[type=text]{
 	height: 100%!important;
 	min-height:unset!important;
 	line-height:unset!important;
-	font-size: 1rem!important;
+	font-size: 1vw!important;
 	vertical-align: middle;
 	display: flex;
 	align-items: center;
 	padding: 0;
-	color: #303030;
 }
 html:not(.designer) .styling-font{
 	font-size:1vw!important;
@@ -261,7 +272,9 @@ html[lang="ar"] .overlay-content {
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
 }
-
+.theme-entry .input-control.select-box{
+	height:3rem;
+}
 
 .theme-entry a.SourceCode-Forms-Controls-Web-Button{
 	padding: 0.7rem 4rem !important;
@@ -386,24 +399,20 @@ span.styling-font{
 	font-size:1rem;
 	padding: 0 1rem !important;
 }
-html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
-	display: flex;
-	border-top:1px solid #D7D7D7!important;
-	border-bottom:1px solid #D7D7D7!important;
-	border-left:1px solid #D7D7D7!important;
-	border-top-right-radius: 0!important;
-	border-bottom-right-radius: 0!important;
-	border-radius: .5rem;
-}
+
+
 .calendar-control .input-control-m-c{
 	padding:0 1rem!important;
 }
  .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
 	 display:flex;
 	 align-items:center;
- }
+	 border: none!important;
+	 background-color: transparent;
+	}
 .input-control.select-box:not(.hide-buttons).picker-input.double-buttons .input-control-m-c{
-	padding:0 1rem!important;
+	/* padding:0 1rem!important; */
+	border: none!important;
 }
 html[dir=rtl] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
 	border-top:1px solid #D7D7D7!important;
@@ -425,11 +434,8 @@ html[dir=rtl] .theme-entry .input-control.select-box:not(.hide-buttons) .input-c
 	border-bottom-right-radius: .5rem;
 }
 html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons{
-	border-top:1px solid #D7D7D7!important;
-	border-bottom:1px solid #D7D7D7!important;
-	border-right:1px solid #D7D7D7!important;
-	border-top-right-radius: 0.5rem!important;
-	border-bottom-right-radius: 0.5rem!important;
+	border: none!important;
+	background-color: transparent;
 }
 html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons{
 	border-top:1px solid #D7D7D7!important;
