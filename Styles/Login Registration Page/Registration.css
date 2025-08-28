@@ -12,6 +12,7 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 html:not(.designer) [name="HiddenFileFrame"]{
 	display: none!important;
 }
+
 html:not(.designer) .theme-entry .month, 
 html:not(.designer) .theme-entry .year, 
 html:not(.designer) .theme-entry .month:hover, 
@@ -310,6 +311,11 @@ span#\36 203e583-81e9-503b-62d5-efa834029060{
 	justify-content: flex-end;
 }
 @media(min-width:992px){
+	html:not(.designer) [name*="s_title"]{
+	font-size: 3rem;
+	font-weight: 700;
+	text-align: center;
+}
 	.overlay-content {
     border-radius: 1rem;
 }
