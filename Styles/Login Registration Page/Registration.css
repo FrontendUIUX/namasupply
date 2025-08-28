@@ -170,7 +170,7 @@ html:not(.designer) body .theme-entry span[title="*"]{
 .row:nth-child(2) .formcontrol:first-child .innerpanel:first-child {
     width: fit-content;
     border: 1px solid #ddd!important;
-    padding:.6rem 1rem;
+    padding: 0rem 1rem;
     border-radius:2rem;
     display:flex;
     align-items:center;
