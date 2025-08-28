@@ -12,6 +12,14 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+.theme-entry .input-control.select-box .input-control-buttons a.date>span span{
+	background-image:url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg);
+	background-size: 1rem!important;background-repeat:no-repeat!important;
+	background-position:center!important;
+	}
+.theme-entry .input-control-buttons a span{
+	height:3rem;
+}
 .modal-content {
     border: none;
 }
