@@ -6,6 +6,9 @@ html:not(.designer) .theme-entry .picker-input .editable-area .entity>span{
 	padding: .4rem 1rem;
     font-size: 1rem;
 }
+.HiddenFileFrame{
+	display: none!important;
+}
 html:not(.designer) .theme-entry .month, 
 html:not(.designer) .theme-entry .year, 
 html:not(.designer) .theme-entry .month:hover, 
