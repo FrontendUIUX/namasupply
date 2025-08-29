@@ -85,6 +85,7 @@ input#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf
 /* GENERAL STYLES START */
 html:not(.designer),html:not(.designer) body.theme-entry{
     font-size:14px!important;
+    font-family: var(--regularFont)!important;
 }
 html:not(.designer) .theme-entry.doubleTop #custom-sticky-header {
 	height:unset;
