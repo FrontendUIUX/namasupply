@@ -239,9 +239,17 @@ html:not(.designer) .theme-entry table.grid-column-header-table {
 html:not(.designer) .theme-entry  .grid-column-headers{
 background-color:transparent!important;
 }
-html:not(.designer) .theme-entry .grid .grid-column-header-text{
+html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
-	font-size: .8vw!important;
+	font-size: 1rem!important;
+	text-align: left!important;
+	color:#565656!important;
+}
+html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
+	font-family:var(--regularFont)!important;
+	font-size: 1rem!important;
+	text-align: right!important;
+	color:#565656!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
 	padding: 0;
@@ -985,6 +993,10 @@ width:auto;
 }
 }
 @media(min-width:1600px){
+	html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text,
+	html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
+	font-size: 1vw!important;
+}
     html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark{
 	font-size:1vw;
 }
