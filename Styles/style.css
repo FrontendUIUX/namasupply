@@ -31,6 +31,9 @@ html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup
     min-height: 3rem !important;
     height: 3rem !important;
 }
+html:not(.designer) .empty[name*="s_textbox"]{
+    background-color: #f3f3f3 !important;
+}
 .panel-body{
 	border:none!important;
 }
@@ -150,8 +153,9 @@ html:not(.designer) .theme-entry .input-control.select-box{
     height:3rem;
     min-height:3rem;
     border: 1px solid var(--border-color)!important;
-    max-width: 99%;
+    max-width: 100%;
     width: 100%!important;
+    box-sizing: border-box;
 }
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
@@ -474,7 +478,8 @@ font-size:8pt!important;
 html:not(designer)[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c {
     border:none;
     padding:0;
-    height:unset;
+    height: 100%!important;
+    line-height: 1.5vw!important;
     border-top-left-radius:0;
     border-bottom-left-radius:0;
     width: 100%;
@@ -950,6 +955,16 @@ width:auto;
 }
 }
 @media(min-width:1600px){
+	html:not(.designer) .input-control-wrapper{
+		height:100%!important;
+		min-height:unset!important
+	}
+	html:not(.designer) .input-control-watermark{
+		font-size:1vw!important;
+		height:unset!important;
+		min-height:unset!important;
+		line-height: 1.5vw!important;
+	}
 	html:not(.designer) [name*="s_textbox"],
 html:not(.designer) .filterTxt .input-control-m-c,
 html:not(.designer) .filterTxt input,
@@ -960,6 +975,11 @@ html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup
     padding: .4vw 1vw !important;
     min-height: 3vw !important;
     height: 3vw !important;
+}
+	html:not(.designer) .theme-entry .input-control.select-box{
+    border-radius:.5vw;
+    height:3vw;
+    min-height:3vw;
 }
     .sidebar-link{
         margin-bottom:1vw;
