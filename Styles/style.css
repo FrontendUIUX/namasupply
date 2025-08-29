@@ -12,6 +12,11 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c .editable-area.input-control.styling-font{
+	align-content:center;
+	min-height:100%;
+	height:100%;
+}
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a{
 	height:100%;
 	margin: 0;
