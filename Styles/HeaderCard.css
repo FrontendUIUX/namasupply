@@ -386,6 +386,15 @@ html:not(.designer) .theme-entry >.drop-menu {
 }
 }
 @media(min-width:1440px){
+	html:not(.designer)[dir="ltr"] .theme-entry .input-control, 
+html:not(.designer)[dir="ltr"] .theme-entry .input-control.select-box{
+	padding-left:1rem;
+	width:100%!important;
+}
+html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
+html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
+	width: 100%!important;
+}
 	
 	html:not(.designer) #custom-sticky-header {
 		left: 16.6vw!important;
