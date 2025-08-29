@@ -94,13 +94,13 @@ html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
 }
 html:not(.designer)[dir="ltr"] .theme-entry .input-control, 
 html:not(.designer)[dir="ltr"] .theme-entry .input-control.select-box{
-	padding-left:1rem;
-	width:calc(100% - 1rem)!important;
+	/* padding-left:1rem; */
+	/* width:calc(100% - 1rem)!important; */
 }
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
-	padding-right:1rem;
-	width:calc(100% - 1rem)!important;
+	/* padding-right:1rem;
+	width:calc(100% - 1rem)!important; */
 }
 html:not(.designer) [name^="HeaderCard"] {
 	width: 100%;
@@ -389,7 +389,7 @@ html:not(.designer) .theme-entry >.drop-menu {
 	html:not(.designer)[dir="ltr"] .theme-entry .input-control, 
 html:not(.designer)[dir="ltr"] .theme-entry .input-control.select-box{
 	padding-left:1rem;
-	width:100%!important;
+	/* width:100%!important; */
 }
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{

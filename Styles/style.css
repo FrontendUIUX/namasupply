@@ -15,6 +15,10 @@
 html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button{
 	padding:.7rem 1rem!important;
 }
+html:not(.designer) .theme-entry .styling-outer-wrapper{
+	height:100%!important;
+	min-height:unset!important;
+}
 .theme-entry .editor-cell{
 	overflow:inherit!important;
 }
@@ -159,6 +163,7 @@ html:not(.designer) .theme-entry .input-control.select-box{
     max-width: 100%;
     width: 100%!important;
     box-sizing: border-box;
+    padding: 0 1rem;
 }
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
