@@ -637,7 +637,7 @@ html:not(.designer) [name*="s_collapse"] .grid-header,
 html:not(.designer) [name*="s_collapse"] .grid-header-wrapper{
 	background-color:transparent;
 }
-html:not(.deisgner) .theme-entry div [name*="s_collapse"]  .grid-body {
+/* html:not(.deisgner) .theme-entry div [name*="s_collapse"]  .grid-body {
   overflow-x: auto !important; 
 }
 
@@ -649,7 +649,7 @@ html:not(.deisgner) .theme-entry div [name*="s_collapse"]  .grid-body table {
 html:not(.deisgner) .theme-entry div [name*="s_collapse"] .grid-body colgroup col {
   width: auto !important;
   align-items: center !important;
-}
+} */
 
 /* Responsive Tables */
 @media(max-width:600px){
