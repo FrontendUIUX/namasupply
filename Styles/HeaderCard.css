@@ -108,7 +108,6 @@ html:not(.designer) [name^="HeaderCard"] {
 	font-weight: bold;
 	padding-bottom: 5px;
 }
-
 html:not(.designer) [name^="HeaderCard"] .editor-cell {
 	padding: 0 !important;
 }
@@ -323,9 +322,17 @@ html[dir=ltr] .theme-entry a.toolbar-button[name="ar ToolBar Button"] span {
 	height: unset !important;
 	vertical-align: middle;
 	padding: 0;
-	min-height: unset;
+	min-height: unset!important;
+	margin: 0!important;
+	line-height: unset!important;
+	font-family: var(--regularFont);
 }
-
+html:not(.designer)[dir="ltr"] .theme-entry [name^="HeaderCard"] .editor-cell[name*="Lang"] img{
+	margin-right:.5rem!important;
+}
+html:not(.designer)[dir="rtl"] .theme-entry [name^="HeaderCard"] .editor-cell[name*="Lang"] img{
+	margin-left:.5rem!important;
+}
 .theme-entry .SourceCodeFormsControlsWorklist .WorkListItemTable .WorklistItemGridRow>td {
 	width: auto;
 }
@@ -389,7 +396,6 @@ html:not(.designer) .theme-entry >.drop-menu {
 	html:not(.designer)[dir="ltr"] .theme-entry .input-control, 
 html:not(.designer)[dir="ltr"] .theme-entry .input-control.select-box{
 	padding-left:1rem;
-	/* width:100%!important; */
 }
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
