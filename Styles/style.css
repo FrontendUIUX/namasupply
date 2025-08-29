@@ -61,7 +61,7 @@ html:not(.designer) [name*="s_label"] {
 }
 html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button{
 	padding:.7rem 1rem!important;
-	border-radius: .5rem;
+	border-radius: .5rem!important;
 	font-size: 1rem!important;
 	font-family: var(--regularFont);
 }
@@ -481,9 +481,9 @@ div#\30 cc04833-8fb3-8c15-3e13-da74f9220f57_12b688f4-183c-4073-8b0d-f7a33a91a1e5
 a#\38 be0aae4-96d2-4771-89aa-2168b6f15a37_7c09a884-c5fe-440f-831c-b445cf53e4bb,
 a#\38 be0aae4-96d2-4771-89aa-2168b6f15a37_f75f0229-0950-4523-bd69-8e2926e2629f,
 	a#\34 77ee387-720e-4437-ae04-fd85b3692398_1308973c-0515-4a72-baeb-d0dfc641714f{
-    padding: 0.9rem 1rem!important;
-    height: unset;
-    min-height: unset;
+    /* padding: 0.9rem 1rem!important; */
+    /* height: unset; */
+    /* min-height: unset; */
 }
 /* POPUP BRANDING START */
 
