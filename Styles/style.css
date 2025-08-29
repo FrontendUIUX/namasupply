@@ -19,7 +19,7 @@ html:not(.designer) [name*="s_textbox"],
 html:not(.designer) .filterTxt .input-control-m-c,
 html:not(.designer) .filterTxt input,
 html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box{
-    border: 1px solid var(--borderColor) !important;
+    border: 1px solid var(--border-color) !important;
     font-size: 1rem !important;
     border-radius: .5rem !important;
     padding: .4rem 1rem !important;
@@ -472,11 +472,6 @@ font-size:8pt!important;
 /* TO BE REMOVED LATER ON */
 /* DROPDOWN STYLES TO BE REMOVED FROM CARD.CSS */
 html:not(designer)[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c {
-    /* border-color: #D7D7D7; */
-    /* padding: 0rem 1rem; */
-    /* height: unset !important; */
-    /* border-top-left-radius: 0.5rem; */
-    /* border-bottom-left-radius: 0.5rem; */
     border:none;
     padding:0;
     height:unset;
@@ -484,46 +479,23 @@ html:not(designer)[dir=ltr] .theme-entry .input-control.select-box:not(.hide-but
     border-bottom-left-radius:0;
     width: 100%;
 }
-html:not(.designer)[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons
+html:not(.designer)[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons,
+html:not(.designer)html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons
 {
-	/* border-color: #D7D7D7;
-	padding: 0;
-	height: unset !important;
-	border-top-right-radius:0.5rem;
-	border-bottom-right-radius:0.5rem; */
 	border:none;
 	
 }
-html:not(.designer)html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons
-{
-	/* border-color: #D7D7D7;
-	padding: 0;
-	height: unset !important;
-	border-top-left-radius:0.5rem;
-	border-bottom-left-radius:0.5rem; */
-	border:none;
-}
 html:not(.deisgner) .theme-entry .filterTxt .input-control.text-input .input-control-m-c{
-	/* padding: 0.4rem 1rem !important; */
-	/* border-radius: .5rem !important;*/
 	padding: 0!important;
 	border-radius: 0!important;
 }
 html:not(.deisgner) .theme-entry .input-control.text-input .input-control-m-c {
-    /* padding: 1rem;
-    border-color: #D7D7D7;
-    border-radius: .5rem;
-    height: unset;
-    min-height: unset !important; */
 	padding:0;
 	border:none!important;
 }
 /* CARD .CSS END */
 /* STYLES TO BE REMOVED FROM CUSTOMER COMPLAINT.CSS */
 div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf {
-    /* margin: 1vw; */
-    /* border-radius: var(--zoneBorderRadius); */
-    /* overflow: hidden; */
     margin:0!important;
     border-radius:0!important;
     overflow:unset!important;
@@ -978,11 +950,17 @@ width:auto;
 }
 }
 @media(min-width:1600px){
-	 html:not(.designer) body.theme-entry.doubleTop {
-        padding-top: 1vw !important;
-        width: calc(100% - 17vw) !important;
-        margin-top: 8.3vw;
-    }
+	html:not(.designer) [name*="s_textbox"],
+html:not(.designer) .filterTxt .input-control-m-c,
+html:not(.designer) .filterTxt input,
+html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box{
+    border: 1px solid var(--border-color) !important;
+    font-size: 1vw !important;
+    border-radius: .5vw !important;
+    padding: .4vw 1vw !important;
+    min-height: 3vw !important;
+    height: 3vw !important;
+}
     .sidebar-link{
         margin-bottom:1vw;
     }
