@@ -978,6 +978,11 @@ width:auto;
 }
 }
 @media(min-width:1600px){
+	 html:not(.designer) body.theme-entry.doubleTop {
+        padding-top: 1vw !important;
+        width: calc(100% - 17vw) !important;
+        margin-top: 8.3vw;
+    }
     .sidebar-link{
         margin-bottom:1vw;
     }
