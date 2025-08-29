@@ -101,7 +101,6 @@ html:not(.designer) body.theme-entry{
 }
 html:not(.designer).mobile body.theme-entry{
 	margin-top:0!important;
-    /* background-color: white!important; */
     width: 100%!important;
     top: 5.7rem;
     padding-top: 2rem;
@@ -475,18 +474,9 @@ font-size:8pt!important;
  }
 /* TO BE REMOVED LATER ON */
 /* DROPDOWN STYLES TO BE REMOVED FROM CARD.CSS */
-html:not(designer)[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c {
-    border:none;
-    padding:0;
-    height: 100%!important;
-    line-height: 1.5vw!important;
-    border-top-left-radius:0;
-    border-bottom-left-radius:0;
-    width: 100%;
-}
+
 html:not(.designer)[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons,
-html:not(.designer)html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons
-{
+html:not(.designer)html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons{
 	border:none;
 	
 }
@@ -519,7 +509,7 @@ html[dir="rtl"]:not(.designer) .sidebar {
    transform: translateX(100%);
 }
 html:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
-	border: none;
+	border: none!important;
 	padding: 0;
 	border-radius: 0;
 }
