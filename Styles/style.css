@@ -12,6 +12,9 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button{
+	padding:.7rem 1rem!important;
+}
 .theme-entry .editor-cell{
 	overflow:inherit!important;
 }
@@ -946,6 +949,9 @@ width:auto;
 }
 }
 @media(min-width:1600px){
+    html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button{
+	padding:.7vw 1vw!important;
+}
 	html:not(.designer) .input-control-wrapper{
 		height:100%!important;
 		min-height:unset!important
