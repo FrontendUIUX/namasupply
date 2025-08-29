@@ -14,7 +14,7 @@
 }
 .theme-entry .panel .panel-body-wrapper, .root-table,
 .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
-	overflow:visible!important;
+	/* overflow:visible!important; */
 }
 html:not(.designer) .theme-entry .form-tabs > .tab-box-body .view .innerpanel > .panel[name *="s_collapse"]{
 	width:calc(100% - 4rem)!important;
