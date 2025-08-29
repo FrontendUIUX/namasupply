@@ -229,6 +229,7 @@ html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrap
     height: 100%!important;
     min-height: 100%!important;
     align-content: center;
+    padding: 0;
 }
 /* DROPDOWN BRANDING END */
 /* WORKLIST BRANDING START */
