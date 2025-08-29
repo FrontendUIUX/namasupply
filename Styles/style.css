@@ -58,6 +58,9 @@ html:not(.designer) [name*="s_label"] {
 }
 html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button{
 	padding:.7rem 1rem!important;
+	border-radius: .5rem;
+	font-size: 1rem!important;
+	font-family: var(--regularFont);
 }
 html:not(.designer) .theme-entry .styling-outer-wrapper{
 	height:100%!important;
@@ -1064,6 +1067,8 @@ width:auto;
 }
     html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button{
 	padding:.7vw 1vw!important;
+	border-radius: .5vw;
+	font-size: 1vw!important;
 }
 	html:not(.designer) .input-control-wrapper{
 		height:100%!important;
