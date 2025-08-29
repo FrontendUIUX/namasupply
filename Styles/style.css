@@ -16,6 +16,9 @@
 .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
 	/* overflow:visible!important; */
 }
+div#\30 0000000-0000-0000-0000-000000000000_974134b2-10c6-4f22-87a2-e237763e57f1_Table [name*="s_textbox"]{
+    margin-bottom:.5rem!important;
+}
 html:not(.designer) .theme-entry .form-tabs > .tab-box-body .view .innerpanel > .panel[name *="s_collapse"]{
 	width:calc(100% - 4rem)!important;
 	background-color:var(--white)!important;
