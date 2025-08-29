@@ -12,6 +12,10 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a{
+	height:100%;
+	margin: 0;
+}
 html:not(.designer) .theme-entry .styling-outer-wrapper .input-control-m .input-control-m-c .input-control-wrapper a {
 	min-height:100% !important;
 	height:100%!important;
@@ -35,6 +39,7 @@ html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button{
 html:not(.designer) .theme-entry .styling-outer-wrapper{
 	height:100%!important;
 	min-height:unset!important;
+	width: calc(100% - 1.4rem);
 }
 .theme-entry .editor-cell{
 	overflow:inherit!important;
@@ -99,7 +104,7 @@ background-image:url(https://frontenduiux.github.io/namasupply/images/search.svg
     border: none;
 }
 html:not(.designer) .theme-entry .drop-menu{
-    width:fit-content!important;
+    /* width:fit-content!important; */
 }
 input#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf_8c7b5464-f0cb-c421-4405-efeb293eaf88_0ebda806-4711-413c-ea04-8bce34261b42_c4660a85-3a62-4756-ab4d-1f3444b39e37_pagingtxtbox {
     width: 2rem!important;
