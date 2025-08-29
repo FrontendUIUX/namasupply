@@ -27,6 +27,9 @@ html:not(.designer) .theme-entry .styling-outer-wrapper{
 .theme-entry .editor-cell{
 	overflow:inherit!important;
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons{
+	border:none!important;
+}
 html:not(.designer) [name*="s_textbox"],
 html:not(.designer) .filterTxt .input-control-m-c,
 html:not(.designer) .filterTxt input,
