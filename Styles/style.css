@@ -12,6 +12,10 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+html:not(.designer) .theme-entry .styling-outer-wrapper .input-control-m .input-control-m-c .input-control-wrapper a {
+	min-height:100% !important;
+	height:100%!important;
+}
 html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark{
 	height: 100%!important;
 	min-height: 100%!important;
@@ -195,8 +199,10 @@ html:not(.designer) .theme-entry .input-control.select-box.read-only .input-cont
 }
 html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
     font-size:1rem;
-    color:#131313;
-    padding: 0 1rem!important;
+    font-family: var(--regularFont);
+    height: 100%!important;
+    min-height: 100%!important;
+    align-content: center;
 }
 /* DROPDOWN BRANDING END */
 /* WORKLIST BRANDING START */
