@@ -11,7 +11,7 @@
     --regularfont:"SWCC-Medium";
 }
 html:not(.designer){
-	font-size: 14px!important;
+	font-size: 16px!important;
 }
 .panel-body{
 	border: none!important;
@@ -19,8 +19,9 @@ html:not(.designer){
 }
 .theme-entry .input-control.select-box .input-control-buttons a.date>span span,
 .theme-entry .input-control.select-box .input-control-buttons a.date:hover>span span{
-	background-image:url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg);
-	background-size: 1rem!important;background-repeat:no-repeat!important;
+	background-image: url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg)!important;
+	background-size: 1rem!important;
+	background-repeat:no-repeat!important;
 	background-position:center!important;
 	}
 .theme-entry .input-control-buttons a span{
@@ -35,11 +36,7 @@ html:not(.designer).mobile body.theme-entry{
 .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:focus>span span, 
 .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown:hover>span span, 
 .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span, 
-.theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span{
-background-image:url(https://frontenduiux.github.io/namasupply/images/arrow%201.svg);
-	background-size: 1rem!important;background-repeat:no-repeat!important;
-	background-position:center!important;
-}
+.theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span{background-image: url(https://frontenduiux.github.io/namasupply/images/arrow%201.svg)!important;background-size: 1rem!important;background-repeat:no-repeat!important;background-position:center!important;}
 .theme-entry .input-control.select-box .input-control-buttons a.picker-search>span span, 
 .theme-entry .input-control.select-box .input-control-buttons a.picker-search:active>span span, 
 .theme-entry .input-control.select-box.active .input-control-buttons a.picker-search>span span, 
@@ -71,12 +68,15 @@ html:not(.designer) [name="HiddenFileFrame"]{
 	display: none!important;
 }
 html:not(.designer) [name*="s_label"] {
-    display: none;
+    /* display: none; */
     align-items: center;
     justify-content: center;
-	color: var(--placeHolderColor)!important;
+    color: var(--placeHolderColor)!important;
     margin-top: 0.7rem!important;
     font-family: var(--regularfont);
+}
+h3#\30 0000000-0000-0000-0000-000000000000_de5b1b8d-556b-506c-509a-25e07f576589{
+display:none;
 }
 html:not(.designer) [name="Table"] [name*="s_label"]{
 	color:var(--black)!important;
@@ -94,6 +94,7 @@ height:3rem!important;
 }
 html:not(.designer) [name*="s_title"]{
 	color:var(--black);
+	font-size: 1.2rem!important;
 }
 html:not(.designer) .theme-entry .input-control.select-box,
 html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
@@ -387,7 +388,7 @@ html[lang="ar"] .overlay-content {
 {
 	/* color: #000000 !important; */
 	/* font-weight: 500; */
-	font-size: 1rem !important;
+	font-size: 1rem;
 }
 .SourceCode-Forms-Controls-Web-Table.Grid-Layout{
 	background-color: #ffffff;
