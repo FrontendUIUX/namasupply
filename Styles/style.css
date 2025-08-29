@@ -12,6 +12,12 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark{
+	height:unset!important;
+	min-height:unset!important;
+	font-size:1rem;
+	font-family:var(--regularFont)!important;
+}
 html:not(.designer) [name*="s_label"] {
      color:var(--black)!important;
     font-size:1rem!important;
@@ -962,6 +968,9 @@ width:auto;
 }
 }
 @media(min-width:1600px){
+    html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark{
+	font-size:1vw;
+}
     html:not(.designer) [name*="s_label"] {
     font-size:1vw!important;
 }
