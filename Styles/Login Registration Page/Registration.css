@@ -309,6 +309,7 @@ html[dir="rtl"] .row:nth-child(2) .formcontrol:first-child .innerpanel:first-chi
     flex-direction: column;
     justify-content: space-between;
     border-radius: 0rem;
+    align-items: center;
 }
 
 html[lang="ar"] .overlay-content {
@@ -586,6 +587,7 @@ html:not(.designer) .file-info.file-ellipsis {
 }
 	.overlay-content {
     border-radius: 1rem;
+    align-items: flex-start;
 }
 	.theme-entry .top-calendar a {
     margin-top: 1rem;
