@@ -107,7 +107,11 @@ html:not(.designer) .theme-entry [name*="s_textarea"]{
 .panel-body{
 	border:none!important;
 }
-.theme-entry .input-control.select-box .input-control-buttons a.date>span span{
+.theme-entry .input-control.select-box .input-control-buttons a.date:hover{
+    background-color: transparent!important;
+}
+.theme-entry .input-control.select-box .input-control-buttons a.date>span span,
+.theme-entry .input-control.select-box .input-control-buttons a.date:hover>span span{
 	background-image:url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg);
 	background-size: 1rem!important;background-repeat:no-repeat!important;
 	background-position:center!important;

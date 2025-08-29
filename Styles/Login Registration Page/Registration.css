@@ -17,7 +17,8 @@ html:not(.designer){
 	border: none!important;
 	outline:none!important;
 }
-.theme-entry .input-control.select-box .input-control-buttons a.date>span span{
+.theme-entry .input-control.select-box .input-control-buttons a.date>span span,
+.theme-entry .input-control.select-box .input-control-buttons a.date:hover>span span{
 	background-image:url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg);
 	background-size: 1rem!important;background-repeat:no-repeat!important;
 	background-position:center!important;
@@ -62,6 +63,9 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 	height: 100%!important;
 	margin: 0;
 	padding: 0;
+}
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a:hover{
+background-color:transparent!important;
 }
 html:not(.designer) [name="HiddenFileFrame"]{
 	display: none!important;
