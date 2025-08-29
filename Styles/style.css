@@ -277,7 +277,8 @@ html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-family: var(--regularFont)!important;
 	font-weight: 300!important;
 	padding: 0!important;
-    text-align: inherit;
+	text-align: inherit;
+	font-size: 1rem!important;
 }
 html:not(.designer) .theme-entry .grid-column-header-cell-content[style*="text-align:center;"] .grid-column-header-text{
 	padding:0!important;
