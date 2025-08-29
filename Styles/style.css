@@ -605,6 +605,24 @@ html:not(.designer) body.theme-entry.runtime-view{
 	margin:0!important;
 	width: 100%!important;
 }
+html:not(.designer) .theme-entry h2.page-subtitle,
+html:not(.designer) .theme-entry h2,
+html:not(.designer) .theme-entry [name*="s_title"],
+html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text{
+    font-size: 1.8rem!important;
+    color: black !important;
+    position: relative;
+    overflow:visible!important;
+    padding: 0!important;
+    margin-bottom: 1.5rem!important;
+    font-weight: 600!important;
+    font-family: var(--regularFont)!important;
+	background-color:transparent!important;
+}
+html:not(.designer) [name*="s_collapse"] .grid-header,
+html:not(.designer) [name*="s_collapse"] .grid-header-wrapper{
+	background-color:transparent;
+}
 /* Responsive Tables */
 @media(max-width:600px){
     html[dir="ltr"] 
