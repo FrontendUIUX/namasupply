@@ -12,6 +12,19 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
+.theme-entry .panel .panel-body-wrapper, .root-table,
+.SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
+	overflow:visible!important;
+}
+html:not(.designer) .theme-entry .form-tabs > .tab-box-body .view .innerpanel > .panel[name *="s_collapse"]{
+	width:calc(100% - 4rem)!important;
+	background-color:var(--white)!important;
+	border-radius: 0!important;
+	padding: var(--zonePadding)!important;
+	margin-top: 0rem;
+	border-radius: 1rem!important;
+	overflow: hidden;
+}
 html:not(.designer) .theme-entry .input-control-watermark{
 	font-size:1rem!important;
 	font-family:var(--regularFont)!important;
