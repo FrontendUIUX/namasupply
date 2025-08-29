@@ -135,7 +135,7 @@ html:not(.designer) body.theme-entry [name*="s_collapse"] {
     margin-top:1rem;
 }
 html:not(.designer) .theme-entry .input-control .input-control-m-c, .theme-entry .input-control.select-box .input-control-m-c{
-	height:unset;
+	height: unset!important;
 	min-height:unset;
 	line-height:unset
 }
@@ -535,6 +535,8 @@ html:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .i
 	border: none!important;
 	padding: 0;
 	border-radius: 0;
+	height:unset!important;
+	min-height:unset!important;
 }
 html:not(.designer) body.theme-entry.runtime-view{
 	margin:0!important;
