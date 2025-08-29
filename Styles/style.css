@@ -92,8 +92,10 @@ html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup
     min-height: 3rem !important;
     height: 3rem !important;
 }
-html:not(.designer) .empty[name*="s_textbox"]{
-    background-color: #f3f3f3 !important;
+html:not(.designer) .empty[name*="s_textbox"],
+html:not(.designer) .read-only[name*="s_textbox"],
+html:not(.designer) .readonly[name*="s_textbox"]{
+    background-color: #efefef !important;
 }
 html:not(.designer) .theme-entry [name*="s_textarea"]{
 	 border: 1px solid var(--border-color) !important;
