@@ -807,6 +807,9 @@
         align-items:flex-start;
         justify-content:flex-start;
     }
+    	html:not(.designer).mobile .theme-entry div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table  span.editor-cell{
+		width:100%;
+	}
      html:not(.designer) .runtime-list-item-wrap {
          white-space: pre-wrap !important;
          width: 80% !important;
