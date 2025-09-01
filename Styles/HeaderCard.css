@@ -87,8 +87,7 @@ html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db
 html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
     /* height: unset !important; */
     /* width: fit-content !important; */
-    /* padding: 0; */
-
+    padding: 0;
 }
 
 html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
