@@ -250,7 +250,7 @@ html:not(.designer) .theme-entry .input-control.select-box.read-only .input-cont
     background-size:2rem;
 }
 html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
-    font-size:1rem;
+    font-size: 1rem!important;
     font-family: var(--regularFont);
     height: 100%!important;
     min-height: 100%!important;
