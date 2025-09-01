@@ -52,6 +52,9 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 	height:100%;
 	margin: 0;
 }
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a:hover{
+	background-color:transparent!important
+}
 html:not(.designer) .theme-entry .styling-outer-wrapper .input-control-m .input-control-m-c .input-control-wrapper a {
 	min-height:100% !important;
 	height:100%!important;
@@ -152,11 +155,7 @@ background-image:url(https://frontenduiux.github.io/namasupply/images/arrow%201.
 .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:hover>span span, 
 .theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:focus>span span, 
 .theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:hover>span span, 
-.theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:focus>span span{
-background-image:url(https://frontenduiux.github.io/namasupply/images/search.svg);
-	background-size: 1rem!important;background-repeat:no-repeat!important;
-	background-position:center!important;
-}
+.theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:focus>span span{background-image: url(https://frontenduiux.github.io/namasupply/images/search.svg)!important;background-size: 1rem!important;background-repeat:no-repeat!important;background-position:center!important;}
 
 .modal-content {
     border: none;
