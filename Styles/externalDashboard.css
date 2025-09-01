@@ -188,7 +188,10 @@ html .theme-entry span[name~="customerTypeCell"] .SFC.SourceCode-Forms-Controls-
     margin:0!important;
 }
 .theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
-	border-bottom:1px solid rgb(0 0 0 / 20%)!important;
+    border-bottom: 1px solid rgb(0 0 0 / 20%)!important;
+    min-height: unset;
+    height: unset;
+
 }
 .theme-entry .drop-menu ul.drop-menu li a:hover{
 	background-color:#e62b3736;
