@@ -16,6 +16,11 @@
 .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
 	/* overflow:visible!important; */
 }
+svg.editIcon{
+    height: 2rem;
+    width: 2rem;
+    align-content: center;
+}
 .theme-entry .grid table.grid-content-table td.center-align .grid-cell-content{
 	display:flex;
 	align-items:center;
