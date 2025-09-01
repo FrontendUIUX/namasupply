@@ -23,7 +23,7 @@
     align-content: center;
     transition: all .3s ease-in-out;
     padding: 0;
-    margin: 0 auto!important;
+    margin: 0 auto 1rem!important;
 }
 @media(min-width:992px){
 	html:not(.designer)	.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
@@ -199,15 +199,6 @@ html .theme-entry span[name~="customerTypeCell"] .SFC.SourceCode-Forms-Controls-
 html:not(.designer) .theme-entry .editor-cell{
     padding: 0!important;
 }
-@media(max-width:992px) {
-    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):nth-child(10n+1) {
-        margin-left: 0;
-    }
-
-    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):nth-child(10n+10) {
-        margin-right: 0;
-    }
-}
 @media(min-width:1600px) {
     html:not(.designer) body.theme-entry {
     margin-top: 5.65vw;
@@ -250,10 +241,10 @@ td#\34 dc37f6b-817e-a74b-2353-1b7d11c7e15e {
     border-bottom-left-radius: 2vw;
 }
 html:not(.designer) body.theme-entry {
-    margin-top: 5.65rem;
-    padding: 1rem !important;
-    height: calc(100% - (4.75rem + 1rem));
-    width: calc(100% - 2rem) !important;
+    margin-top: 5.65vw;
+    padding: 1vw !important;
+    height: calc(100% - (4.75vw + 1vw));
+    /* width: calc(100% - 2rem) !important; */
     background-color: #f5f5f5 !important;
 }
 .theme-entry .form{padding: 0!important;}
