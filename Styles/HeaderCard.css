@@ -420,7 +420,5 @@ html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
     right: 16.6vw;
     width: calc(100% - 18.6vw);
 }
-html:not(.designer) .theme-entry >.drop-menu {
-    /* right: 1.3vw!important; */
-}
+
 }
