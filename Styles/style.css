@@ -59,7 +59,7 @@ html:not(.designer) .theme-entry .styling-outer-wrapper .input-control-m .input-
 html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark{
 	height: 100%!important;
 	min-height: 100%!important;
-	font-size:1rem;
+	font-size: 1rem!important;
 	font-family:var(--regularFont)!important;
 	vertical-align: middle;
 	align-content: center;
@@ -1099,12 +1099,22 @@ width:auto;
 }
 }
 @media(min-width:1600px){
+	.theme-entry .input-control.select-box .input-control-buttons a.picker-search>span span, 
+	.theme-entry .input-control.select-box .input-control-buttons a.picker-search:active>span span, 
+	.theme-entry .input-control.select-box.active .input-control-buttons a.picker-search>span span, 
+	.theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:hover>span span, 
+	.theme-entry .input-control.select-box.read-only .input-control-buttons a.picker-search:focus>span span, 
+	.theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:hover>span span, 
+	.theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:focus>span span
+ {
+    background-size: 1vw !important;
+}
 	html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text,
 	html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
 	font-size: 1vw!important;
 }
     html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark{
-	font-size:1vw;
+	font-size: 1vw!important;
 }
     html:not(.designer) [name*="s_label"] {
     font-size:1vw!important;
@@ -1127,7 +1137,10 @@ width:auto;
 	html:not(.designer) [name*="s_textbox"],
 html:not(.designer) .filterTxt .input-control-m-c,
 html:not(.designer) .filterTxt input,
-html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box{
+html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box,
+html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox, 
+html:not(.designer) .theme-entry .filterTxt .input-control-m-c, 
+html:not(.designer) .theme-entry .filterTxt input{
     border: 1px solid var(--border-color) !important;
     font-size: 1vw !important;
     border-radius: .5vw !important;
