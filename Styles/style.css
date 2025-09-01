@@ -653,6 +653,11 @@ html:not(.deisgner) .theme-entry div [name*="s_collapse"] .grid-body colgroup co
 
 /* Responsive Tables */
 @media(max-width:600px){
+  html:not(.designer)  .runtime-list-item-wrap {
+    white-space: pre-wrap!important;
+    width: 80%!important;
+
+}
     html[dir="ltr"] 
 div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_5bc84844-58fb-8f7e-86d9-70743c2f172d_b5cb9445-859d-022c-6273-b381237fccd9_b8f12ed7-f068-4ecb-aae0-cf4f54d5cd40 
 td .grid-content-cell-wrapper::before{
