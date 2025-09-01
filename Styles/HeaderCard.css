@@ -11,7 +11,8 @@ html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351f
 	width:2rem!important;
 }
 html:not(.designer) body.theme-entry [name*="ProfileTable"] .input-control.select-box{
-	border:none!important;
+    border:none!important;
+
 }
 [name*="urlTextBox"]{
 	display: none!important;
@@ -44,7 +45,8 @@ html:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
 }
 div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table *,
 span#\39 850419e-6a03-9989-c2db-a971eff351fe * {
-    width: fit-content!important;
+    /* width: fit-content!important; */
+
 }
 a#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_9d76c288-51a3-44ed-b230-f14998f945f7_ToolbarButton{
 	padding: 0!important;
@@ -72,11 +74,15 @@ html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db
 	width: 2rem!important;
 	height:2rem!important
 }
-html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table *{width:fit-content!important;}
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table *{
+    /* width:fit-content!important; */
+
+}
 html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
-	height: unset !important;
-	width: fit-content !important;
-	padding: 0;
+    /* height: unset !important; */
+    /* width: fit-content !important; */
+    /* padding: 0; */
+
 }
 
 html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
