@@ -278,7 +278,13 @@ html:not(.designer) .theme-entry td span.runtime-list-item{
 	font-weight: 300!important;
 	padding: 0!important;
 	text-align: inherit;
-	font-size: 1rem!important;
+	font-size: 0.9rem!important;
+}
+html:not(.designer)[dir="ltr"] .theme-entry td span.runtime-list-item{
+	text-align:left;
+}
+html:not(.designer)[dir="rtl"] .theme-entry td span.runtime-list-item{
+	text-align:right;
 }
 html:not(.designer) .theme-entry .grid-column-header-cell-content[style*="text-align:center;"] .grid-column-header-text{
 	padding:0!important;
@@ -305,7 +311,8 @@ html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
 	text-align: right!important;
 	color:#565656!important;
 }
-html:not(.designer) .theme-entry .grid .grid-column-header-cell{
+html:not(.designer) .theme-entry .grid .grid-column-header-cell,
+html:not(.designer) .theme-entry .grid .grid-content-cell{
 	padding: 0 0.6rem;
 	width: calc(100% - 1.2rem)!important;
 }
