@@ -282,6 +282,9 @@ html:not(.designer) .theme-entry td span{
 	font-size: 0.8rem!important;
 	color: #030303!important;
 }
+html:not(.designer) .theme-entry td span[name*="s_label"]{
+	font-size:1rem!important;
+}
 html:not(.designer)[dir="ltr"] .theme-entry td span.runtime-list-item{
 	text-align:left;
 }
