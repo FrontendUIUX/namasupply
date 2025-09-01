@@ -360,8 +360,9 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 	left: auto;
 }
 	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
-	padding: 1.4rem 1rem 0.5rem;
+	padding: 1.4rem 1rem 1.4rem;
 	position: relative;
+	height: unset;
 }
 	html:not(.designer) .theme-entry ul.tab-box-tabs {
 	padding: 0;
