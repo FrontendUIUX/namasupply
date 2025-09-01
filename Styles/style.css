@@ -271,7 +271,8 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 	cursor: pointer;
 }
 html:not(.designer) .theme-entry .grid-body-content table td{
-	padding: 0 1rem!important;
+	padding: 0 .6rem!important;
+	width: calc(100% - 1.2rem)!important;
 }
 html:not(.designer) .theme-entry td span{
 	font-family: var(--regularFont)!important;
@@ -311,11 +312,6 @@ html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
 	font-size: .8rem!important;
 	text-align: right!important;
 	color:#565656!important;
-}
-html:not(.designer) .theme-entry .grid .grid-column-header-cell,
-html:not(.designer) .theme-entry .grid .grid-content-cell{
-	padding: 0 0.6rem;
-	width: calc(100% - 1.2rem)!important;
 }
 html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text{
 	padding-left:.5rem;
