@@ -266,9 +266,12 @@ html[dir=ltr] .theme-entry [name="CustomerDp"] .input-control.select-box:not(.hi
 }
 
 html[dir=ltr] .theme-entry [name="ProfileTable"] .input-control.select-box .input-control-buttons {
-	padding: 0 !important;
-	position: absolute !important;
-	bottom: 0.1rem !important;
+    padding: 0 !important;
+    position: absolute !important;
+    bottom: 0.1rem !important;
+    width: 1rem!important;
+    right: 1rem;
+
 }
 
 .theme-entry [name="ProfileTable"] .input-control a.input-control span,
@@ -278,9 +281,11 @@ html[dir=ltr] .theme-entry [name="ProfileTable"] .input-control.select-box .inpu
 }
 
 .theme-entry [name="ProfileTable"] .input-control.select-box .input-control-buttons a.dropdown>span span {
-	position: absolute;
-	bottom: 1.3rem;
-	right: 1rem;
+    position: absolute;
+    bottom: 1.3rem;
+    right: 1rem;
+    width: 1rem!important;
+
 }
 
 [name="English Lang"],
