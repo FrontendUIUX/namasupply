@@ -16,6 +16,11 @@
 .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
 	/* overflow:visible!important; */
 }
+.theme-entry .grid table.grid-content-table tr.selected>td span.runtime-list-item-wrap, 
+.theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row)>td span.runtime-list-item-wrap, 
+.theme-entry .grid table.grid-content-table tr.selected>td  span.runtime-list-item {
+    color: #ffffff !important;
+}
 div#\30 0000000-0000-0000-0000-000000000000_974134b2-10c6-4f22-87a2-e237763e57f1_Table [name*="s_textbox"]{
     margin-bottom:.5rem!important;
 }
