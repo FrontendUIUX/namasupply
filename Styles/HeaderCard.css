@@ -139,7 +139,7 @@ html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected::after {
 	position: absolute;
 	height: 5px;
 	width: 100%;
-	background-color: red;
+	background-color: var(--main-color);
 	bottom: -1rem;
 	left: 0;
 }
