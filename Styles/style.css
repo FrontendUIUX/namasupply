@@ -329,6 +329,9 @@ html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text{
 	text-align: left!important;
 	color:#565656!important;
 }
+html:not(.dedigner) body.theme-entry .grid-column-header-cell-content[style*="text-align:center;"] .grid-column-header-text{
+    text-align:center!important;
+}
 html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
 	font-size: .8rem!important;
