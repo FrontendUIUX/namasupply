@@ -295,7 +295,7 @@ background-color:transparent!important;
 }
 html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text{
 	font-family:var(--regularFont)!important;
-	font-size: 1rem!important;
+	font-size: 0.9rem!important;
 	text-align: left!important;
 	color:#565656!important;
 }
@@ -306,8 +306,8 @@ html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text{
 	color:#565656!important;
 }
 html:not(.designer) .theme-entry .grid .grid-column-header-cell{
-	padding: 0;
-	width: 100%!important;
+	padding: 0 0.6rem;
+	width: calc(100% - 1.2rem)!important;
 }
 html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text{
 	padding-left:.5rem;
