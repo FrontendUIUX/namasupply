@@ -252,6 +252,9 @@ html:not(.designer) .theme-entry .input-control.select-box{
     box-sizing: border-box;
     padding: 0 1rem;
 }
+html:not(.designer) .theme-entry .input-control.select-box.read-only{
+	background-color:#f5f5f5;
+}
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown>span span, 
 html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.dropdown:active>span span, 
 html:not(.designer) .theme-entry .input-control.select-box.active .input-control-buttons a.dropdown>span span, 
@@ -639,6 +642,7 @@ html:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .i
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	background-color: transparent;
 }
 html:not(.designer) .theme-entry .input-control.select-box .input-control-m .input-control-wrapper{
 	height:100%!important;
