@@ -234,9 +234,9 @@
  }
 
  html:not(.designer).mobile body.theme-entry {
-     margin-top: 0 !important;
+     margin-top: 10rem !important;
      width: 100% !important;
-     top: 5.7rem;
+     /* top: 5.7rem; */
      padding-top: 2rem;
  }
 

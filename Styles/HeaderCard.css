@@ -1,6 +1,5 @@
 html:not(.designer) body form{
 	position:relative!important;
-	top: 6rem;
 }
 html:not(.designer) .theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
     border-bottom: 1px solid rgb(0 0 0 / 20%)!important;
