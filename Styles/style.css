@@ -99,15 +99,15 @@ html:not(.designer) .readonly[name*="s_textbox"]{
 }
 html:not(.designer) .theme-entry [name*="s_textarea"]{
 	 border: 1px solid var(--border-color) !important;
-    font-size: 1rem !important;
-    border-radius: .5rem !important;
-    padding: .4rem 1rem !important;
-    vertical-align: middle;
-    display: flex;
-    align-items: center;
-    font-family: var(--regularFont) !important;
-    width: 100%;
-    min-height: 3rem !important;
+	 font-size: 1rem !important;
+	 border-radius: .5rem !important;
+	 padding: .4rem 1rem !important;
+	 vertical-align: middle;
+	 display: flex;
+	 align-items: center;
+	 font-family: var(--regularFont) !important;
+	 width: 100%;
+	 min-height: 3rem !important;
 }
 .panel-body{
 	border:none!important;
@@ -598,11 +598,11 @@ div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf {
 }
 
 [name*="Text Area"]{
-    font-size:1rem!important;
-    border-radius: .5rem!important;
-    padding: .4rem 1rem!important;
-    min-height: 3rem!important;
-    height: 3rem!important;
+    /* font-size:1rem!important; */
+    /* border-radius: .5rem!important; */
+    /* padding: .4rem 1rem!important; */
+    /* min-height: 3rem!important; */
+    /* height: 3rem!important; */
 }
 html[dir="rtl"]:not(.designer) .sidebar {
    right:0;
