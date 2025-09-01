@@ -1,5 +1,6 @@
 html:not(.designer) body form{
 	position:relative!important;
+	top: 6rem;
 }
 html:not(.designer) .theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
     border-bottom: 1px solid rgb(0 0 0 / 20%)!important;
@@ -383,7 +384,7 @@ html:not(.designer)	#custom-sticky-header {
 	width: calc(100% - 18.6rem);
 }
 }
-@media(min-width:1440px){
+@media(min-width:1660px){
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
 	width: 100%!important;
@@ -398,5 +399,8 @@ html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
     right: 16.6vw;
     width: calc(100% - 18.6vw);
 }
-
+html:not(.designer) body form{
+	position:relative!important;
+	top: 4vw;
+}
 }

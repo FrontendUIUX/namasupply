@@ -461,7 +461,7 @@
  }
 
  html:not(.designer) body.theme-entry.pushdown {
-     padding-top: 11rem !important;
+     /* padding-top: 11rem !important; */
  }
 
  .theme-entry.collapseSidebar {
