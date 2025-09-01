@@ -6,9 +6,6 @@ html:not(.designer) div#custom-sticky-header .panel-body-wrapper > div > div {
     align-items: center;
     justify-content: flex-end;
 }
-html:not(.designer) #custom-sticky-header .input-control.select-box .styling-outer-wrapper{
-	display: table-row!important;
-}
 html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351fe  img{
 	height:2rem!important;
 	width:2rem!important;
@@ -224,10 +221,12 @@ html:not(.designer) [name="CustomerDp"] {
 }
 
 html:not(.designer) [name="CustomerDp"] .select-box * {
-	font-size: 1rem !important;
-	background-color: transparent !important;
-	border: none !important;
-	line-height: 1 !important;
+    font-size: 1rem !important;
+    background-color: transparent !important;
+    border: none !important;
+    line-height: 1 !important;
+    width: 7rem!important;
+
 }
 
 html:not(.designer) [name="ProfileTable"] {
