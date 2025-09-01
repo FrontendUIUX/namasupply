@@ -281,6 +281,7 @@ html:not(.designer) .theme-entry td span{
 	text-align: inherit;
 	font-size: 0.8rem!important;
 	color: #030303!important;
+	align-content: center;
 }
 html:not(.designer) .theme-entry td span[name*="s_label"]{
 	font-size:1rem!important;
