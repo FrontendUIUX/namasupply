@@ -1163,6 +1163,11 @@ html:not(.designer) body.theme-entry .view:not(:has(h4[name="User NameData Label
     margin-left: 16.6vw!important;
     margin-top: 6.1vw;
 }
+	    html:not(.designer) body.theme-entry.doubleTop {
+        padding-top: 1vw !important;
+        width: calc(100% - 16.6vw) !important;
+          margin-top: 8.1vw;
+    }
 .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
         font-size: 1vw;
         line-height: 1.5vw !important;
