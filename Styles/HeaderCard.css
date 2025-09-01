@@ -133,6 +133,7 @@ html:not(.designer) .theme-entry ul.tab-box-tabs li {
 html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
 	padding: 0.5rem;
 	position: relative;
+	height: unset!important;
 }
 
 html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected::after {
@@ -394,6 +395,7 @@ html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
 		left: 16.6vw!important;
 		width: calc(100% - 18.6vw)!important;
 		padding: 1vw!important;
+		padding-bottom: 0!important;
 	}
 	html[dir="rtl"] #custom-sticky-header {
     right: 16.6vw;
