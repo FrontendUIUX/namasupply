@@ -624,9 +624,6 @@
  .theme-entry .base2.base1.modalizer html:not(.designer) .theme-entry .popup-header,
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body,
  html:not(.designer) .theme-entry .popup-footer {
-     /* position:relative!important; */
-     /* top:unset!important; */
-     /* bottom:unset!important; */
      left: unset !important;
      right: unset !important;
      width: 100%;
@@ -663,7 +660,6 @@
  }
 
  html:not(.designer) .popup.dialog {
-     /* height: auto!important; */
      border-radius: 1rem !important;
      overflow: hidden;
      top: 50% !important;
@@ -790,7 +786,6 @@
      position: relative;
      overflow: visible !important;
      padding: 0 !important;
-     /* margin-bottom: 1.5rem!important; */
      font-weight: 600 !important;
      font-family: var(--regularFont) !important;
      background-color: transparent !important;
@@ -800,23 +795,14 @@
  html:not(.designer) [name*="s_collapse"] .grid-header-wrapper {
      background-color: transparent;
  }
-
- /* html:not(.deisgner) .theme-entry div [name*="s_collapse"]  .grid-body {
-  overflow-x: auto !important; 
-}
-
-html:not(.deisgner) .theme-entry div [name*="s_collapse"]  .grid-body table {
-  table-layout: auto !important;
-  overflow-x: hidden;
-}
-
-html:not(.deisgner) .theme-entry div [name*="s_collapse"] .grid-body colgroup col {
-  width: auto !important;
-  align-items: center !important;
-} */
-
  /* Responsive Tables */
  @media(max-width:600px) {
+    div#ff1a93a6-11eb-2411-f502-de982c9278c6_d585314a-ee6d-d2af-0407-022d878af42c_Table {
+        display:flex!important;
+        flex-direction:column!important;
+        align-items:flex-start;
+        justify-content:flex-start;
+    }
      html:not(.designer) .runtime-list-item-wrap {
          white-space: pre-wrap !important;
          width: 80% !important;
@@ -1018,10 +1004,6 @@ html:not(.deisgner) .theme-entry div [name*="s_collapse"] .grid-body colgroup co
      div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(6)::before {
          content: "Mobile";
      }
-
-     /* div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(7)::before{
-		   content:"Mobile";
-	   } */
      div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(8)::before {
          content: "Tariff Name";
      }
@@ -1145,7 +1127,6 @@ html:not(.deisgner) .theme-entry div [name*="s_collapse"] .grid-body colgroup co
      html:not(.designer) table tr td::before {
          font-weight: 600;
          font-size: 1rem;
-         /* padding:0 1rem; */
      }
 
      div#\30 ebda806-4711-413c-ea04-8bce34261b42_f8682b73-aa3c-6043-7e80-e1478ae38c3e_Table {
