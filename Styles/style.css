@@ -795,6 +795,9 @@
  html:not(.designer) [name*="s_collapse"] .grid-header-wrapper {
      background-color: transparent;
  }
+.line-break.clearFloatFix{
+    display: none!important;
+}
  /* Responsive Tables */
  @media(max-width:600px) {
     div#ff1a93a6-11eb-2411-f502-de982c9278c6_d585314a-ee6d-d2af-0407-022d878af42c_Table {
