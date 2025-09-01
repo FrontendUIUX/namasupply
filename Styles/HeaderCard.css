@@ -98,10 +98,9 @@ html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
 	padding: 0!important;
 }
 html:not(.designer) [name^="HeaderCard"] {
-	width: calc(100% - 2rem)!important;
+	width: calc(100% - 1.4rem)!important;
 	text-align: left;
 	font-weight: bold;
-	padding-bottom: 5px;
 	padding: 1rem;
 }
 html:not(.designer) [name^="HeaderCard"] .editor-cell {
@@ -297,7 +296,7 @@ html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 	cursor: pointer;
 	position: relative;
 	margin-right: .5rem;
-	padding: .5rem 1.1rem!important;
+	padding: .5rem 1rem!important;
 }
 html[dir=rtl]:not(.designer) body.theme-entry [name="Arabic Lang"]{
 	display:none!important;
