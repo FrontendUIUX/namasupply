@@ -273,12 +273,13 @@ html:not(.designer) .theme-entry .grid table.grid-column-header-table td{
 html:not(.designer) .theme-entry .grid-body-content table td{
 	padding: 0 1rem!important;
 }
-html:not(.designer) .theme-entry td span.runtime-list-item{
+html:not(.designer) .theme-entry td span{
 	font-family: var(--regularFont)!important;
 	font-weight: 300!important;
 	padding: 0!important;
 	text-align: inherit;
 	font-size: 0.8rem!important;
+	color: #030303!important;
 }
 html:not(.designer)[dir="ltr"] .theme-entry td span.runtime-list-item{
 	text-align:left;
