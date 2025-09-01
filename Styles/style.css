@@ -12,10 +12,6 @@
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
 }
-.theme-entry .panel .panel-body-wrapper, .root-table,
-.SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
-	/* overflow:visible!important; */
-}
 svg.editIcon{
     height: 2rem;
     width: 2rem;
@@ -511,13 +507,6 @@ div#\30 cc04833-8fb3-8c15-3e13-da74f9220f57_12b688f4-183c-4073-8b0d-f7a33a91a1e5
 .SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper .optionwrapper{
    position: unset!important;
 }
-a#\38 be0aae4-96d2-4771-89aa-2168b6f15a37_7c09a884-c5fe-440f-831c-b445cf53e4bb,
-a#\38 be0aae4-96d2-4771-89aa-2168b6f15a37_f75f0229-0950-4523-bd69-8e2926e2629f,
-	a#\34 77ee387-720e-4437-ae04-fd85b3692398_1308973c-0515-4a72-baeb-d0dfc641714f{
-    /* padding: 0.9rem 1rem!important; */
-    /* height: unset; */
-    /* min-height: unset; */
-}
 /* POPUP BRANDING START */
 
 html:not(.designer) .theme-entry .message-box-content,
@@ -621,14 +610,6 @@ div#\36 0ec3a6e-dcd3-423b-8055-d9a64d8077bf {
     overflow:unset!important;
     background-color: transparent;
 }
-
-[name*="Text Area"]{
-    /* font-size:1rem!important; */
-    /* border-radius: .5rem!important; */
-    /* padding: .4rem 1rem!important; */
-    /* min-height: 3rem!important; */
-    /* height: 3rem!important; */
-}
 html[dir="rtl"]:not(.designer) .sidebar {
    right:0;
    transform: translateX(100%);
@@ -657,14 +638,15 @@ html:not(.designer) .theme-entry h2,
 html:not(.designer) .theme-entry [name*="s_title"],
 html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text{
     font-size: 1.8rem!important;
-    color: black !important;
+    color: var(--main-color) !important;
     position: relative;
     overflow:visible!important;
     padding: 0!important;
-    margin-bottom: 1.5rem!important;
+    /* margin-bottom: 1.5rem!important; */
     font-weight: 600!important;
-    font-family: var(--regularFont)!important;
-	background-color:transparent!important;
+    font-family: var(
+    --regularFont)!important;
+    background-color:transparent!important;
 }
 html:not(.designer) [name*="s_collapse"] .grid-header,
 html:not(.designer) [name*="s_collapse"] .grid-header-wrapper{

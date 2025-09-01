@@ -49,11 +49,6 @@ html:not(.designer) .theme-entry ul.tab-box-tabs{
 html:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
     width: fit-content;
 }
-div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table *,
-span#\39 850419e-6a03-9989-c2db-a971eff351fe * {
-    /* width: fit-content!important; */
-
-}
 a#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_9d76c288-51a3-44ed-b230-f14998f945f7_ToolbarButton{
 	padding: 0!important;
 }
@@ -80,13 +75,7 @@ html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db
 	width: 2rem!important;
 	height:2rem!important
 }
-html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table *{
-    /* width:fit-content!important; */
-
-}
 html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
-    /* height: unset !important; */
-    /* width: fit-content !important; */
     padding: 0;
 }
 
@@ -107,16 +96,6 @@ html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
 	height: unset !important;
 	width: fit-content !important;
 	padding: 0!important;
-}
-html:not(.designer)[dir="ltr"] .theme-entry .input-control, 
-html:not(.designer)[dir="ltr"] .theme-entry .input-control.select-box{
-	/* padding-left:1rem; */
-	/* width:calc(100% - 1rem)!important; */
-}
-html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
-html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
-	/* padding-right:1rem;
-	width:calc(100% - 1rem)!important; */
 }
 html:not(.designer) [name^="HeaderCard"] {
 	width: 100%;
@@ -181,21 +160,9 @@ html:not(.designer) .theme-entry .tab-wrapper {
 }
 
 html:not(.designer) .theme-entry >.drop-menu {
-
 z-index: 5000 !important;
-
 background-color: white;
-
 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-
-/* width: 100%; */
-
-/* right:1vw!important; */
-
-/* left: auto!important; */
-}
-.theme-entry .input-control.select-box .styling-outer-wrapper {
-    /* display: flex; */
 }
 html:not(.designer) #custom-sticky-header [name="Cell Cell270"] {
 	border: 1px solid #ddd !important;
@@ -415,15 +382,8 @@ html:not(.designer)	#custom-sticky-header {
 	left: 16.6rem;
 	width: calc(100% - 18.6rem);
 }
-html:not(.designer) .theme-entry >.drop-menu {
-    /* right: 1.3rem!important; */
-}
 }
 @media(min-width:1440px){
-	html:not(.designer)[dir="ltr"] .theme-entry .input-control, 
-html:not(.designer)[dir="ltr"] .theme-entry .input-control.select-box{
-	/* padding-left:1rem; */
-}
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
 	width: 100%!important;
