@@ -16,6 +16,11 @@
 .SFC.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
 	/* overflow:visible!important; */
 }
+.theme-entry .grid table.grid-content-table td.center-align .grid-cell-content{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
 .theme-entry .grid table.grid-content-table tr.selected>td span.runtime-list-item-wrap, 
 .theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row)>td span.runtime-list-item-wrap, 
 .theme-entry .grid table.grid-content-table tr.selected>td  span.runtime-list-item {
