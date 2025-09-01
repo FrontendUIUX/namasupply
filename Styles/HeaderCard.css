@@ -184,7 +184,7 @@ html:not(.designer) body::before {
 	left: 0;
 	width: 100vw;
 	height: .7rem;
-	background-color: #e62b37;
+	background-color:var(--main-color);
 	z-index: 100000;
 }
 
