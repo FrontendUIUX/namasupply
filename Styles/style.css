@@ -585,6 +585,7 @@
      background-position: bottom;
      background-repeat: no-repeat;
      background-size: 115%;
+     left: 0;
  }
 
  .doubleTop .sidebar {
