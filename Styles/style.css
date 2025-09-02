@@ -174,7 +174,7 @@
  .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span,
  .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span {
      background-image: url(https://frontenduiux.github.io/namasupply/images/arrow%201.svg);
-     background-size: 1rem !important;
+     background-size: 1rem;
      background-repeat: no-repeat !important;
      background-position: center !important;
  }
@@ -308,9 +308,9 @@
  html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span,
  html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span {
      background-image: url("https://frontenduiux.github.io/namasupply/images/chevron-down.svg");
-     background-repeat: no-repeat;
-     background-position: center;
-     background-size: 2rem;
+     background-repeat: no-repeat!important;
+     background-position: center!important;
+     background-size: 2rem!important;
  }
 
  html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper>a>span.styling-font {
