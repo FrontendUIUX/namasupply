@@ -1,6 +1,4 @@
-html:not(.designer) body form{
-	position:relative!important;
-}
+
 html:not(.designer) .theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
     border-bottom: 1px solid rgb(0 0 0 / 20%)!important;
     min-height: unset!important;
@@ -354,6 +352,9 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
     min-width: auto;
 }
 @media(min-width:992px){
+	html:not(.designer) body form{
+	position:relative!important;
+}
 	html[dir="rtl"] #custom-sticky-header {
 	right: 21.6rem;
 	left: auto;
