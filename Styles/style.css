@@ -17,7 +17,7 @@
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
 }
 .theme-entry .base0.modal-element.ajaxLoader{
-background-color:transparent!important;
+/* background-color:transparent!important; */
 }
 body>form{
 position:relative!important;
@@ -137,6 +137,10 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
  html:not(.designer) .popup .form-field-element-wrapper .input-control.select-box.lookup-box{
      width: 96%!important;
      margin: auto;
+     padding: 0!important;
+ }
+ html:not(.designer) .popup .form-field-element-wrapper .input-control.select-box.lookup-box .styling-outer-wrapper{
+     align-content:center!important;
  }
  html:not(.designer) .empty[name*="s_textbox"],
  html:not(.designer) .read-only[name*="s_textbox"],
