@@ -257,7 +257,7 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
  }
 
  html:not(.designer) body.theme-entry {
-     margin-top: 11rem !important;
+     margin-top: 10rem !important;
      width: 100% !important;
      position: relative!important;
  }
