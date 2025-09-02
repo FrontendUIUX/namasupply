@@ -1239,6 +1239,9 @@ color:var(--mainColor)!important;
  }
 
  @media(min-width:992px) {
+    html:not(.designer) .theme-entry .sidebar {
+        transform: translateX(0)!important;
+    }
      html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="English Lang"] {
          right: 0 !important;
      }
