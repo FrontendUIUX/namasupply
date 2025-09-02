@@ -290,14 +290,14 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
  /* TEXTBOX BRANDING END */
  /* DROPDOWN BRANDING START */
  html:not(.designer) .theme-entry .input-control.select-box {
-     /* border-radius: .5rem; */
-     /* height: 3rem; */
-     /* min-height: 3rem; */
-     /* border: 1px solid var(--border-color) !important; */
-     /* max-width: 100%; */
-     /* width: 100% !important; */
+     border-radius: .5rem;
+     height: 3rem;
+     min-height: 3rem;
+     border: 1px solid var(--border-color) !important;
+     max-width: 100%;
+     width: 100% !important;
      box-sizing: border-box;
-     /* padding: 0; */
+     padding: 0;
  }
  html:not(.designer) .theme-entry .input-control.select-box .input-control-body{
      padding:0 1rem;
@@ -651,14 +651,14 @@ html:not(.designer) .theme-entry .sidebar {
      background-color: #f7f7f7;
      margin: 0 !important;
      position: relative !important;
-     height: 5rem !important;
+     height: fit-content !important;
      left: 0;
  }
 
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body {
      padding: 1rem 2rem 0;
      border-bottom: none !important;
-     top: 5rem!important;
+     top: 5.7rem;
  }
 
  html:not(.designer) .theme-entry .popup-footer {
