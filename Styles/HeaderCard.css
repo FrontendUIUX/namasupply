@@ -352,9 +352,9 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 }
 @media(min-width:992px){
 	html[dir="rtl"] #custom-sticky-header {
-	right: 18.3rem;
+	right: 17rem;
 	left: auto;
-	width: calc(100% - 18.3rem);
+	width: calc(100% - 17rem);
 }
 	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
 	padding: 1.4rem 1rem 1.4rem;
