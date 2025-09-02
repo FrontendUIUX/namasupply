@@ -67,9 +67,7 @@ position:relative!important;
      margin: 0;
      background-color: transparent!important;
  }
-html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a span{
-background-color:transparent!important;
-}
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a span{background-color:transparent!important;position: relative;}
  html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a:hover {
      background-color: transparent !important
  }
@@ -323,8 +321,11 @@ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box
      background-position: center!important;
      background-size: 2rem!important;
  }
+html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a.dropdown>span span{
+     background-size: 1rem!important;
+}
 
- html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper>a>span.styling-font {
+html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper>a>span.styling-font {
      font-size: 1rem !important;
      font-family: var(--regularFont);
      height: 100% !important;
