@@ -515,12 +515,27 @@ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box
      font-size: 14px !important;
  }
 
- .sidebar {
+html:not(.designer) .theme-entry .sidebar {
      top: 5.7rem;
      transform: translateX(-100%);
      overflow: auto;
      height: 100%;
      transition: all .3s ease-in-out;
+     width: 14rem;
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1100;
+    border-right: 1px solid #ECECEC;
+    background-image: url(https://ns.namaservices.om/Style/sidebarPattern.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 115%;
  }
 
  .doubleTop .sidebar {
@@ -1243,19 +1258,13 @@ color:var(--mainColor)!important;
          width: calc(100% - 17rem)!important;
      }
 
-     .sidebar {
+     html:not(.designer) .theme-entry .sidebar {
          top: 0 !important;
      }
 
      :root {
          --zonePadding: 2rem;
      }
-
-     .sidebar {
-         top: 0;
-         transform: translateX(0%);
-     }
-
      html:not(.designer)[dir="ltr"] body {
          margin-left: 17rem !important;
          margin-right: 0;
@@ -1300,6 +1309,10 @@ color:var(--mainColor)!important;
  }
 
  @media(min-width:1600px) {
+     html:not(.designer) .theme-entry .sidebar{
+         width:14vw;
+         padding:1.3vw;
+     }
      html:not(.designer) .theme-entry h2.page-subtitle,
  html:not(.designer) .theme-entry h2,
  html:not(.designer) .theme-entry [name*="s_title"],
