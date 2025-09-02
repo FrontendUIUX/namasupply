@@ -1283,7 +1283,12 @@ color:var(--mainColor)!important;
  }
 
  @media(min-width:1600px) {
-
+     html:not(.designer) .theme-entry h2.page-subtitle,
+ html:not(.designer) .theme-entry h2,
+ html:not(.designer) .theme-entry [name*="s_title"],
+ html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
+     font-size: 1.8vw !important;
+ }
      .theme-entry .input-control.select-box .input-control-buttons a.picker-search>span span,
      .theme-entry .input-control.select-box .input-control-buttons a.picker-search:active>span span,
      .theme-entry .input-control.select-box.active .input-control-buttons a.picker-search>span span,
@@ -1318,7 +1323,7 @@ color:var(--mainColor)!important;
          min-height: unset !important
      }
 
-     html:not(.designer) .input-control-watermark {
+     html:not(.designer) .theme-entry .input-control-watermark {
          font-size: 1vw !important;
          height: unset !important;
          min-height: unset !important;

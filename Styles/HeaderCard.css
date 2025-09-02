@@ -376,7 +376,33 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841
 	width: calc(100% - 18.3rem);
 }
 }
-@media(min-width:1660px){
+@media(min-width:1600px){
+	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
+		padding: 1.4vw 1vw 1.4vw;
+	
+	}
+	html:not(.designer) [name="ProfileTable"] [name="ProfilePhoto"] {
+	height: 2vw;
+	width: 2vw !important;
+	margin-right: 0.6vw;
+	margin-top: -.4vw;
+}
+	html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
+	font-size: 0.7vw !important;
+}
+	html:not(.designer) [name="ProfileTable"] {
+	border-radius: 4vw !important;
+	padding: 0.6vw 0.7vw 0.2vw !important;
+	margin: 0 0vw;
+	height: 3vw;
+}
+	html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351fe  img{
+	height:2vw!important;
+	width:2vw!important;
+}
+html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
+	font-size: .85vw;
+}
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
 	width: 100%!important;
@@ -391,9 +417,5 @@ html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
 	html[dir="rtl"] #custom-sticky-header {
     right: 16.6vw;
     width: calc(100% - 18.6vw);
-}
-html:not(.designer) body form{
-	position:relative!important;
-	top: 4vw;
 }
 }
