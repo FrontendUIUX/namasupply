@@ -65,8 +65,11 @@ position:relative!important;
  html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a {
      height: 100%;
      margin: 0;
+     background-color: transparent!important;
  }
-
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a span{
+background-color:transparent!important;
+}
  html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a:hover {
      background-color: transparent !important
  }
@@ -111,6 +114,7 @@ position:relative!important;
 
  html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons {
      border: none !important;
+     background-color: transparent;
  }
 
  html:not(.designer) [name*="s_textbox"],
