@@ -256,9 +256,9 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
      background-color: #f5f5f5 !important;
  }
 
- html:not(.designer).mobile body.theme-entry {
+ html:not(.designer) body.theme-entry {
      margin-top: 11rem !important;
-     width: calc(100% - 0rem) !important;
+     width: 100% !important;
      position: relative!important;
  }
 
