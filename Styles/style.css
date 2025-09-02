@@ -131,7 +131,10 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
      min-height: 3rem !important;
      height: 3rem !important;
  }
-
+ html:not(.designer) .popup .form-field-element-wrapper .input-control.select-box.lookup-box{
+     width: 96%!important;
+     margin: auto;
+ }
  html:not(.designer) .empty[name*="s_textbox"],
  html:not(.designer) .read-only[name*="s_textbox"],
  html:not(.designer) .readonly[name*="s_textbox"] {
@@ -651,14 +654,14 @@ html:not(.designer) .theme-entry .sidebar {
      background-color: #f7f7f7;
      margin: 0 !important;
      position: relative !important;
-     height: fit-content !important;
+     height: 5rem !important;
      left: 0;
  }
 
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body {
      padding: 1rem 2rem 0;
      border-bottom: none !important;
-     top: 5.7rem;
+     top: 5rem!important;
  }
 
  html:not(.designer) .theme-entry .popup-footer {
