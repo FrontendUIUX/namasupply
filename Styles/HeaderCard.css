@@ -1,4 +1,6 @@
-
+html:not(.designer) body form{
+	/* position:relative!important; */
+}
 html:not(.designer) .theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
     border-bottom: 1px solid rgb(0 0 0 / 20%)!important;
     min-height: unset!important;
@@ -352,9 +354,6 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
     min-width: auto;
 }
 @media(min-width:992px){
-	html:not(.designer) body form{
-	position:relative!important;
-}
 	html[dir="rtl"] #custom-sticky-header {
 	right: 21.6rem;
 	left: auto;
@@ -375,15 +374,9 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841
     align-items: center;
 		justify-content:flex-end;
 }
-
-html:not(.designer)	#custom-sticky-header {
-			left: 17.5rem;
-			width: calc(100% - 19.5rem);
-			/* padding: 1vw; */
-		}
 	html:not(.designer) #custom-sticky-header {
-	left: 17.4rem;
-	width: calc(100% - 17.5rem);
+	left: 18.3rem;
+	width: calc(100% - 18.3rem);
 }
 }
 @media(min-width:1660px){
