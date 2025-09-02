@@ -16,6 +16,9 @@
     font-family: 'SWCC-Medium';
     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
 }
+body>form{
+position:relative!important;
+}
  svg.editIcon {
      height: 2rem;
      width: 2rem;
@@ -233,6 +236,7 @@
  html:not(.designer).mobile body.theme-entry {
      padding-top: 11rem !important;
      width: calc(100% - 0rem) !important;
+     position: relative!important;
  }
 
  html:not(.designer) body.theme-entry [name*="s_collapse"] {
