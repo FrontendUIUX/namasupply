@@ -18,6 +18,7 @@
 }
 .popupManager[style*="position: absolute"] {
     position: fixed !important;
+    z-index: 2;
 }
 html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
     width: 18rem !important;
