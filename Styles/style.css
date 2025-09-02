@@ -568,7 +568,7 @@
 
  html:not(.designer) .theme-entry .sidebar {
      top: 5.7rem;
-     transform: translateX(-100%);
+     transform: translateX(-200%);
      overflow: auto;
      height: 100%;
      transition: all .3s ease-in-out;
