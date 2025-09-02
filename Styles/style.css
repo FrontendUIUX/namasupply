@@ -838,6 +838,10 @@ color:var(--mainColor)!important;
 }
  /* Responsive Tables */
  @media(max-width:600px) {
+    div#a9df74f1-4662-4815-92a6-8dc1867cef47_7faa5586-86e4-2301-1477-6f49eda723a3_Table {
+    display: flex;
+    flex-direction: column;
+}
    html:not(.designer) div#ff1a93a6-11eb-2411-f502-de982c9278c6_d585314a-ee6d-d2af-0407-022d878af42c_Table,
    html:not(.designer) div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table {
         display:flex!important;
