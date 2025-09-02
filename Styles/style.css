@@ -1226,12 +1226,14 @@ color:var(--mainColor)!important;
          transform: translateX(0%);
      }
 
-     html[dir="rtl"] body {
+    
          .popup-body-content .panel-body-wrapper>.scroll-wrapper {
              overflow: auto !important;
          }
-
-         margin-right: 17.6rem !important;
+     html:not(.designer)[dir="rtl"] body.theme-entry.doubleTop,
+     html:not(.designer)[dir="rtl"] body.theme-entry{
+         margin-right: 18.4rem !important;
+     width: calc(100% - 20.4rem)!important;
      }
 
      .sidebar {
