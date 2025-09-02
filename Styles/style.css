@@ -12,31 +12,40 @@
      --zonePadding: 1.5rem;
      --regularFont: 'SWCC-Medium';
  }
-@font-face {
-    font-family: 'SWCC-Medium';
-    src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
-}
-.popupManager[style*="position: absolute"] {
-    position: fixed !important;
-    z-index: 2;
-}
-html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
-    width: 18rem !important;
-}
-html:not(.designer) .spacer{
-display:none;
-}
-.theme-entry .base0.modal-element.ajaxLoader{
-/* background-color:transparent!important; */
-}
-body>form,html.mobile, html.mobile body{
-position:relative!important;
-    top:unset!important;
-    left:unset!important;
-    right:unset!important;
-    bottom:unset!important;
-    overflow:unset!important;
-}
+
+ @font-face {
+     font-family: 'SWCC-Medium';
+     src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
+ }
+
+ .popupManager[style*="position: absolute"] {
+     position: fixed !important;
+     z-index: 2;
+ }
+
+ html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
+     width: 18rem !important;
+ }
+
+ html:not(.designer) .spacer {
+     display: none;
+ }
+
+ .theme-entry .base0.modal-element.ajaxLoader {
+     /* background-color:transparent!important; */
+ }
+
+ body>form,
+ html.mobile,
+ html.mobile body {
+     position: relative !important;
+     top: unset !important;
+     left: unset !important;
+     right: unset !important;
+     bottom: unset !important;
+     overflow: unset !important;
+ }
+
  svg.editIcon {
      height: 2rem;
      width: 2rem;
@@ -77,17 +86,22 @@ position:relative!important;
  html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c .editable-area.input-control.styling-font {
      align-content: center;
      min-height: 100%;
-     height: 100%!important;
+     height: 100% !important;
      padding: 0;
-     line-height: unset!important;
+     line-height: unset !important;
  }
 
  html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a {
      height: 100%;
      margin: 0;
-     background-color: transparent!important;
+     background-color: transparent !important;
  }
-html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a span{background-color:transparent!important;position: relative;}
+
+ html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a span {
+     background-color: transparent !important;
+     position: relative;
+ }
+
  html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a:hover {
      background-color: transparent !important
  }
@@ -105,7 +119,7 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
      vertical-align: middle;
      align-content: center;
      padding: 0;
-     line-height: unset!important;
+     line-height: unset !important;
  }
 
  html:not(.designer) [name*="s_label"] {
@@ -152,14 +166,17 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
      min-height: 3rem !important;
      height: 3rem !important;
  }
- html:not(.designer) .popup .form-field-element-wrapper .input-control.select-box.lookup-box{
-     width: 96%!important;
+
+ html:not(.designer) .popup .form-field-element-wrapper .input-control.select-box.lookup-box {
+     width: 96% !important;
      margin: auto;
-     padding: 0!important;
+     padding: 0 !important;
  }
- html:not(.designer) .popup .form-field-element-wrapper .input-control.select-box.lookup-box .styling-outer-wrapper{
-     align-content:center!important;
+
+ html:not(.designer) .popup .form-field-element-wrapper .input-control.select-box.lookup-box .styling-outer-wrapper {
+     align-content: center !important;
  }
+
  html:not(.designer) .empty[name*="s_textbox"],
  html:not(.designer) .read-only[name*="s_textbox"],
  html:not(.designer) .readonly[name*="s_textbox"] {
@@ -189,7 +206,7 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
 
  .theme-entry .input-control.select-box .input-control-buttons a.date>span span,
  .theme-entry .input-control.select-box .input-control-buttons a.date:hover>span span {
-     background-image: url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg)!important;
+     background-image: url(https://frontenduiux.github.io/namasupply/images/calendar%20red.svg) !important;
      background-size: 1rem !important;
      background-repeat: no-repeat !important;
      background-position: center !important;
@@ -266,7 +283,7 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
  html:not(.designer) body.theme-entry {
      margin-top: 10rem !important;
      width: 100% !important;
-     position: relative!important;
+     position: relative !important;
  }
 
  html:not(.designer) body.theme-entry [name*="s_collapse"] {
@@ -327,12 +344,15 @@ html:not(.designer) .theme-entry .input-control.select-box .input-control-button
      box-sizing: border-box;
      padding: 0;
  }
- html:not(.designer) .theme-entry .input-control.select-box .input-control-body{
-     padding:0 1rem;
+
+ html:not(.designer) .theme-entry .input-control.select-box .input-control-body {
+     padding: 0 1rem;
  }
-html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-body{
-     padding:0;
+
+ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-body {
+     padding: 0;
  }
+
  html:not(.designer) .theme-entry .input-control.select-box.read-only {
      background-color: #f5f5f5;
  }
@@ -345,15 +365,16 @@ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box
  html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:hover>span span,
  html:not(.designer) .theme-entry .input-control.select-box.read-only .input-control-buttons a.dropdown:focus>span span {
      background-image: url("https://frontenduiux.github.io/namasupply/images/chevron-down.svg");
-     background-repeat: no-repeat!important;
-     background-position: center!important;
-     background-size: 2rem!important;
+     background-repeat: no-repeat !important;
+     background-position: center !important;
+     background-size: 2rem !important;
  }
-html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a.dropdown>span span{
-     background-size: 1rem!important;
-}
 
-html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper>a>span.styling-font {
+ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a.dropdown>span span {
+     background-size: 1rem !important;
+ }
+
+ html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrapper>a>span.styling-font {
      font-size: 1rem !important;
      font-family: var(--regularFont);
      height: 100% !important;
@@ -496,6 +517,7 @@ html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrap
  input#\35 6de97dc-fddf-97d1-9116-c2a8e36a8708_43294d0b-a55b-47e8-8657-52b652a72683 {
      display: none;
  }
+
  .theme-entry.collapseSidebar {
      position: relative;
  }
@@ -544,7 +566,7 @@ html:not(.designer) .theme-entry .dropdown-box.input-control .input-control-wrap
      font-size: 14px !important;
  }
 
-html:not(.designer) .theme-entry .sidebar {
+ html:not(.designer) .theme-entry .sidebar {
      top: 5.7rem;
      transform: translateX(-100%);
      overflow: auto;
@@ -575,6 +597,7 @@ html:not(.designer) .theme-entry .sidebar {
      transform: translateX(0) !important;
      transition: all .3s ease-in-out;
  }
+
  html:not(.designer) .theme-entry .grid table.grid-content-table.zebra-stripes tr.selected {
      background-color: var(--main-color);
  }
@@ -685,7 +708,7 @@ html:not(.designer) .theme-entry .sidebar {
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body {
      padding: 1rem 2rem 0;
      border-bottom: none !important;
-     top: 5rem!important;
+     top: 5rem !important;
  }
 
  html:not(.designer) .theme-entry .popup-footer {
@@ -838,37 +861,54 @@ html:not(.designer) .theme-entry .sidebar {
  html:not(.designer) [name*="s_collapse"] .grid-header-wrapper {
      background-color: transparent;
  }
-.line-break.clearFloatFix{
-    display: none!important;
-}
-html:not(.designer) .theme-entry .top-calendar a.today-title {
-    border: none;
-    border-radius: 0;
-    margin-top: 1rem;
-    padding: 0;
-    background-color: transparent!important;
-}
-html:not(.designer) .theme-entry .top-calendar a.today-title:hover{
-color:var(--mainColor)!important;
-}
+
+ .line-break.clearFloatFix {
+     display: none !important;
+ }
+
+ html:not(.designer) .theme-entry .top-calendar a.today-title {
+     border: none;
+     border-radius: 0;
+     margin-top: 1rem;
+     padding: 0;
+     background-color: transparent !important;
+ }
+
+ html:not(.designer) .theme-entry .top-calendar a.today-title:hover {
+     color: var(--mainColor) !important;
+ }
+
  /* Responsive Tables */
  @media(max-width:600px) {
-    div#a9df74f1-4662-4815-92a6-8dc1867cef47_7faa5586-86e4-2301-1477-6f49eda723a3_Table,
+
+     span#aa83d399-d0f3-7c5d-1ed8-46b8fe02d486,
+     span#a87e4536-ea8a-2dc4-307c-7241141e5c46,
+     span#\37 c2f5ce6-a4e6-64b3-adb4-ddb0fd6b9634,
+     span#e8629aa4-ef62-1060-e6e5-f71922db09d7,
+     span#efd2433b-4cee-8bab-31f9-f9f00ada6b92,
+     span#\37 d99b91a-f954-9f51-a168-30f60331c857 {
+         display: none;
+     }
+
+     div#a9df74f1-4662-4815-92a6-8dc1867cef47_7faa5586-86e4-2301-1477-6f49eda723a3_Table,
      div#a9df74f1-4662-4815-92a6-8dc1867cef47_5d95be8f-c18b-9fe7-e6ec-f21f863a7408_Table,
-     div#\39 d029792-cca9-469c-9a07-d44a634ad90d_37ef987b-9fd0-2a71-b4cd-2b01d2b71530_Table{
-    display: flex;
-    flex-direction: column;
-}
-   html:not(.designer) div#ff1a93a6-11eb-2411-f502-de982c9278c6_d585314a-ee6d-d2af-0407-022d878af42c_Table,
-   html:not(.designer) div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table {
-        display:flex!important;
-        flex-direction:column!important;
-        align-items:flex-start;
-        justify-content:flex-start;
-    }
-    	html:not(.designer).mobile .theme-entry div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table  span.editor-cell{
-		width:100%;
-	}
+     div#\39 d029792-cca9-469c-9a07-d44a634ad90d_37ef987b-9fd0-2a71-b4cd-2b01d2b71530_Table {
+         display: flex;
+         flex-direction: column;
+     }
+
+     html:not(.designer) div#ff1a93a6-11eb-2411-f502-de982c9278c6_d585314a-ee6d-d2af-0407-022d878af42c_Table,
+     html:not(.designer) div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table {
+         display: flex !important;
+         flex-direction: column !important;
+         align-items: flex-start;
+         justify-content: flex-start;
+     }
+
+     html:not(.designer).mobile .theme-entry div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table span.editor-cell {
+         width: 100%;
+     }
+
      html:not(.designer) .runtime-list-item-wrap {
          white-space: pre-wrap !important;
          width: 80% !important;
@@ -1070,6 +1110,7 @@ color:var(--mainColor)!important;
      div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(6)::before {
          content: "Mobile";
      }
+
      div#\36 4d5583a-18a8-46b0-9840-e7228dd104a0_3acf3d4c-c1b9-41fa-9977-819f32ac81b4_477ee387-720e-4437-ae04-fd85b3692398_de5822e3-6214-4615-9d1e-179ea42c3be9 .grid-body-content table tr td:nth-child(8)::before {
          content: "Tariff Name";
      }
@@ -1220,6 +1261,7 @@ color:var(--mainColor)!important;
          display: flex;
          flex-direction: column;
      }
+
      input#\34 77ee387-720e-4437-ae04-fd85b3692398_286c040e-193e-4602-ba8c-2c74f2a477fc {
          border-radius: .5rem;
          padding: 1rem;
@@ -1232,6 +1274,7 @@ color:var(--mainColor)!important;
      div#ae2a35f6-b593-4c5e-9d6a-2c3e0c759acf_17e4e3e7-7c5f-4c8e-b790-0e6bcde571fa_eb0e2dfe-47a8-4f89-a1e3-2c6c22e1775b_e588b459-8f37-43e2-a741-d3f159b81fdd .grid-header-text {
          font-size: 1.3rem !important;
      }
+
      span#\34 f04612f-179e-e66f-9d20-32e01800feac {
          display: none;
      }
@@ -1255,6 +1298,7 @@ color:var(--mainColor)!important;
      span#\39 9d8ee52-1bad-7e30-06b1-52a9c2de1827 {
          width: 20%;
      }
+
      span#\34 3848706-e307-5fb6-6444-9dcff9d957ca {
          display: none;
      }
@@ -1273,15 +1317,16 @@ color:var(--mainColor)!important;
  }
 
  @media(min-width:992px) {
-      html:not(.designer) .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel[name *="s_collapse"] {
-     width: calc(100% - 4rem) !important;
-     background-color: var(--white) !important;
-     border-radius: 0 !important;
-     padding: var(--zonePadding) !important;
-     margin-top: 0rem;
-     border-radius: 1rem !important;
-     overflow: hidden;
- }
+     html:not(.designer) .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel[name *="s_collapse"] {
+         width: calc(100% - 4rem) !important;
+         background-color: var(--white) !important;
+         border-radius: 0 !important;
+         padding: var(--zonePadding) !important;
+         margin-top: 0rem;
+         border-radius: 1rem !important;
+         overflow: hidden;
+     }
+
      html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="English Lang"] {
          right: 0 !important;
      }
@@ -1291,33 +1336,37 @@ color:var(--mainColor)!important;
          transform: translateX(0%);
      }
 
-    
-         .popup-body-content .panel-body-wrapper>.scroll-wrapper {
-             overflow: auto !important;
-         }
+
+     .popup-body-content .panel-body-wrapper>.scroll-wrapper {
+         overflow: auto !important;
+     }
+
      html:not(.designer)[dir="rtl"] body.theme-entry.doubleTop,
-     html:not(.designer)[dir="rtl"] body.theme-entry{
+     html:not(.designer)[dir="rtl"] body.theme-entry {
          margin-right: 17rem !important;
-         width: calc(100% - 17rem)!important;
+         width: calc(100% - 17rem) !important;
      }
 
      html:not(.designer) .theme-entry .sidebar {
          top: 0 !important;
-         transform: translateX(0)!important;
+         transform: translateX(0) !important;
          left: 0;
      }
 
      :root {
          --zonePadding: 2rem;
      }
+
      html:not(.designer)[dir="ltr"] body {
          margin-left: 17rem !important;
          margin-right: 0;
          margin-top: 6rem;
      }
+
      html:not(.designer)[dir="rtl"] body {
          margin-top: 6rem;
      }
+
      html:not(.designer) body.theme-entry.doubleTop {
          width: calc(100% - 17rem) !important;
          margin-top: 9.7rem;
@@ -1354,16 +1403,18 @@ color:var(--mainColor)!important;
  }
 
  @media(min-width:1600px) {
-     html:not(.designer) .theme-entry .sidebar{
-         width:14vw;
-         padding:1.3vw;
+     html:not(.designer) .theme-entry .sidebar {
+         width: 14vw;
+         padding: 1.3vw;
      }
+
      html:not(.designer) .theme-entry h2.page-subtitle,
- html:not(.designer) .theme-entry h2,
- html:not(.designer) .theme-entry [name*="s_title"],
- html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
-     font-size: 1.8vw !important;
- }
+     html:not(.designer) .theme-entry h2,
+     html:not(.designer) .theme-entry [name*="s_title"],
+     html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
+         font-size: 1.8vw !important;
+     }
+
      .theme-entry .input-control.select-box .input-control-buttons a.picker-search>span span,
      .theme-entry .input-control.select-box .input-control-buttons a.picker-search:active>span span,
      .theme-entry .input-control.select-box.active .input-control-buttons a.picker-search>span span,
