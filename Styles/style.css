@@ -838,7 +838,11 @@ color:var(--mainColor)!important;
 }
  /* Responsive Tables */
  @media(max-width:600px) {
-    div#a9df74f1-4662-4815-92a6-8dc1867cef47_7faa5586-86e4-2301-1477-6f49eda723a3_Table {
+     div#a9df74f1-4662-4815-92a6-8dc1867cef47_5d95be8f-c18b-9fe7-e6ec-f21f863a7408_Table{
+         
+     }
+    div#a9df74f1-4662-4815-92a6-8dc1867cef47_7faa5586-86e4-2301-1477-6f49eda723a3_Table,
+     div#a9df74f1-4662-4815-92a6-8dc1867cef47_5d95be8f-c18b-9fe7-e6ec-f21f863a7408_Table{
     display: flex;
     flex-direction: column;
 }
