@@ -352,9 +352,9 @@ html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .in
 }
 @media(min-width:992px){
 	html[dir="rtl"] #custom-sticky-header {
-	right: 18.4rem;
+	right: 17rem;
 	left: auto;
-	width: calc(100% - 18.4rem);
+	width: calc(100% - 17rem);
 }
 	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
 	padding: 1.4rem 1rem 1.4rem;
@@ -373,8 +373,8 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841
 		justify-content:flex-end;
 }
 	html:not(.designer)[dir="ltr"] #custom-sticky-header {
-	left: 17.5rem;
-	width: calc(100% - 17.5rem);
+	left: 17rem;
+	width: calc(100% - 17rem);
 }
 }
 @media(min-width:1600px){
