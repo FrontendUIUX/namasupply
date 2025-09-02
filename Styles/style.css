@@ -304,6 +304,9 @@ background-color:transparent!important;
  html:not(.designer) .theme-entry .input-control.select-box .input-control-body{
      padding:0 1rem;
  }
+html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-body{
+     padding:0;
+ }
  html:not(.designer) .theme-entry .input-control.select-box.read-only {
      background-color: #f5f5f5;
  }

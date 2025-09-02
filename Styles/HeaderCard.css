@@ -195,8 +195,7 @@ html:not(.designer) [name="CustomerDp"] .select-box * {
     background-color: transparent !important;
     border: none !important;
     line-height: 1 !important;
-    width: 7rem!important;
-
+    /* width: 7rem!important; */
 }
 
 html:not(.designer) [name="ProfileTable"] {
@@ -219,13 +218,18 @@ html:not(.designer) [name="ProfileTable"] [name="ProfilePhoto"] {
 	display: flex !important;
 	align-items: center !important;
 	justify-content: center !important;
-	height: 30px;
-	width: 30px !important;
-	margin-right: 0.6rem;
+	height: 2rem;
+	width: 2rem !important;
+
 	padding: 0 !important;
 	margin-top: -.4rem;
 }
-
+html:not(.designer)[dir="ltr"] [name="ProfileTable"] [name="ProfilePhoto"]{
+		margin-right: 0.6rem;
+}
+html:not(.designer)[dir="rtl"] [name="ProfileTable"] [name="ProfilePhoto"]{
+		margin-left: 0.6rem;
+}
 html[dir=ltr] .theme-entry [name="CustomerDp"] .input-control.select-box:not(.hide-buttons) .input-control-m-c {
 	padding: 0 !important;
 	border-radius: 0 !important;
