@@ -1250,6 +1250,7 @@ color:var(--mainColor)!important;
      html:not(.designer)[dir="ltr"] body {
          margin-left: 17.6rem !important;
          margin-right: 0;
+         margin-top: 6rem;
      }
      html:not(.designer) body.theme-entry.doubleTop {
          width: calc(100% - 17.6rem) !important;
