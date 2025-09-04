@@ -569,6 +569,7 @@ html:not(.designer) .file-info.file-ellipsis {
 	div#\32 fbfff65-cbfd-6c9d-b4fb-31b4ffd622fc_f45332a4-2e2c-8e48-fb11-0ade08402f59_Table{
 		display: flex;
 		flex-direction: column;
+		gap: .5rem;
 	}
 }
 @media(min-width: 992px){
