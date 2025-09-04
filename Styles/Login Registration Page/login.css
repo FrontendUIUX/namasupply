@@ -109,6 +109,7 @@ iframe#resetPassIframe
 
 .loginContainer .videoContainer {
     height: 100%;
+    width: 100%;
     position: absolute;
 }
 
@@ -634,6 +635,7 @@ input:-internal-autofill-selected{
     }
     .loginContainer .videoContainer{
         position:relative;
+        width: 50%;
     }
     .loginIntro {
         margin-top:4rem;
