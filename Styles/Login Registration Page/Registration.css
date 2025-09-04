@@ -570,6 +570,7 @@ html:not(.designer) .file-info.file-ellipsis {
 		display: flex;
 		flex-direction: column;
 		gap: .5rem;
+		
 	}
 }
 @media(min-width: 992px){
