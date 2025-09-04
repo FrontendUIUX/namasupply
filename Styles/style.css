@@ -887,7 +887,22 @@
 
  /* Responsive Tables */
  @media(max-width:600px) {
-
+    div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Table {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+ 
+div#a9df74f1-4662-4815-92a6-8dc1867cef47_aa456d99-470a-d4a3-ea82-ab28cf6a5985_Table {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Table {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
      span#aa83d399-d0f3-7c5d-1ed8-46b8fe02d486,
      span#a87e4536-ea8a-2dc4-307c-7241141e5c46,
      span#\37 c2f5ce6-a4e6-64b3-adb4-ddb0fd6b9634,
