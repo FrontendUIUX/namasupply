@@ -282,7 +282,7 @@
 
  html:not(.designer) body.theme-entry {
      margin-top: 10rem !important;
-     width: 100% !important;
+     width: 100%;
      position: relative !important;
  }
 
@@ -1373,7 +1373,9 @@
      html:not(.designer)[dir="rtl"] body {
          margin-top: 6rem;
      }
-
+      html:not(.designer) body.theme-entry{
+          width:calc(100% - 17rem)!important;
+      }
      html:not(.designer) body.theme-entry.doubleTop {
          width: calc(100% - 17rem) !important;
          margin-top: 9.7rem;
