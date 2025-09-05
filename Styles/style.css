@@ -714,6 +714,8 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      position: relative !important;
      height: 5rem !important;
      left: 0;
+     line-height: unset!important;
+     align-content: center;
  }
 
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body {
