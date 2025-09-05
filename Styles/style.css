@@ -22,6 +22,9 @@
      position: fixed !important;
      z-index: 2;
  }
+html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596-afb1-716a-6371-d974af820942_Table {
+ display:flex;
+}
 
  html:not(.designer) .theme-entry .popup.id-calendar-control-popup {
      width: 18rem !important;
