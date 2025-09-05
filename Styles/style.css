@@ -721,10 +721,17 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      border-bottom: none !important;
      top: 5rem !important;
  }
-
+html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
+    /* position:relative!important; */
+    top: 6rem!important;
+    left: 0!important;
+    bottom: 0!important;
+    right: 0!important;
+}
  html:not(.designer) .theme-entry .popup-footer {
      padding: 0rem 2rem 1rem;
      border-top: none !important;
+     line-height: unset!important;
  }
 
  .theme-entry .base2.base1.modalizer {
@@ -1069,7 +1076,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
 
      html.mobile .theme-entry .dialog,
      .mobile .theme-entry .dialog#PickerSearchDialog {
-         height: unset !important;
+         height: 60% !important;
      }
 
      html:not(.designer) .theme-entry .popup-body {
@@ -1080,7 +1087,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
 
      html:not(.designer) .theme-entry .message-box-content,
      html:not(.designer) body.theme-entry .popup.dialog .popup-body {
-         height: unset !important;
+         height: auto !important;
      }
 
      span#dd2a29c6-446c-2448-8036-846eba81b775 {
