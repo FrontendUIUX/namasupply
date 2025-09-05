@@ -849,7 +849,9 @@
      margin: 0 !important;
      width: 100% !important;
  }
-
+ html:not(.designer) body.theme-entry.runtime-view .sidebar{
+     display:none!important;
+ }
  html:not(.designer) .theme-entry h2.page-subtitle,
  html:not(.designer) .theme-entry h2,
  html:not(.designer) .theme-entry [name*="s_title"],
