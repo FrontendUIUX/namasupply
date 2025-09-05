@@ -17,7 +17,10 @@
      font-family: 'SWCC-Medium';
      src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
  }
-
+.theme-entry .picker-search-grid.grid.full {
+    min-height: 16rem !important;
+    overflow: auto;
+}
  .popupManager[style*="position: absolute"] {
      position: fixed !important;
      z-index: 2;
