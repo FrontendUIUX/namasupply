@@ -402,7 +402,9 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
 
  /* WORKLIST BRANDING END */
  /* TABLE BRANDING START */
-html:not(.designer) .theme-entry div#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_398c84cb-7999-491c-acc7-b605b96d9138_Table {
+html:not(.designer) .theme-entry div#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_398c84cb-7999-491c-acc7-b605b96d9138_Table,
+html:not(.designer) .theme-entry div#\39 8d99d9a-ff21-fdfa-76a4-9d6b1c80923e_3cad2e29-0ba0-43ea-8464-0647fe4c9a73_Table,
+html:not(.designer) .theme-entry div#\35 d520cd7-3333-6699-1d7c-6376288aca9a_8442b251-4369-4efc-8d9f-327304a3a7e8_Table {
     gap: 0.5rem;
 }
  html:not(.designer) .theme-entry .grid table.grid-content-table > tbody > tr > td div,
