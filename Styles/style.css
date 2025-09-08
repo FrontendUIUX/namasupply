@@ -402,6 +402,10 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
 
  /* WORKLIST BRANDING END */
  /* TABLE BRANDING START */
+ html:not(.designer) .theme-entry .grid table.grid-content-table > tbody > tr > td div,
+ html:not(.designer) .theme-entry .grid table.grid-content-table > tbody > tr > td span{
+ align-content:center!important;
+}
  html:not(.designer) .theme-entry .grid table.grid-column-header-table td {
      background-color: #f6f6f6;
      border-right: 1px solid rgb(220 220 220 / 80%);
