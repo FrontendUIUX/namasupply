@@ -1489,7 +1489,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
 
      html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text,
      html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text {
-         font-size: 1vw !important;
+         font-size: .8vw !important;
      }
 
      html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark {
