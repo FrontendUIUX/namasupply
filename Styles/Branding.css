@@ -8,6 +8,13 @@ body.doubleTop{
 .theme-entry .dialog .popup-footer .SourceCode-Forms-Controls-Web-Button.help{
 	display:none;
 }
+a#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_2ec66b5a-b2de-4dab-aed6-cefdb52f9c6b_ToolbarButton span.button-text{
+	font-size:1rem;
+	min-height: unset!important;
+	border: none!important;
+	color: white!important;
+
+}
 .picker-collection-grid-row{
 display: flex;
 align-items: center;
