@@ -27,7 +27,8 @@
     overflow: auto;
 }
  .popupManager[style*="position: absolute"] {
-     position: fixed !important;
+     /* position: fixed !important; */
+     position: absolute;
      z-index: 2;
  }
 html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596-afb1-716a-6371-d974af820942_Table {
@@ -763,16 +764,20 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
      height: 100vh;
      width: 100vw;
      overflow: hidden;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
  }
 
  html:not(.designer) .popup.dialog {
      border-radius: 1rem !important;
      overflow: hidden;
-     /* top: 113% !important; */
-     /* left: 50% !important; */
-     /* transform: translate(-50%, -50%); */
+     /* top: 50% !important; */
+     left: 34% !important;
+     transform: translateX(-50%);
      height: unset!important;
-     min-height: 12rem;
+     min-height: fit-content;
+     position: absolute;
  }
 
  html:not(.designer) .popup.dialog .popup-header .popup-header-text {
