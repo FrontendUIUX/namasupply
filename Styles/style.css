@@ -768,9 +768,11 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
  html:not(.designer) .popup.dialog {
      border-radius: 1rem !important;
      overflow: hidden;
-     top: 50% !important;
-     left: 50% !important;
-     transform: translate(-50%, -50%);
+     /* top: 113% !important; */
+     /* left: 50% !important; */
+     /* transform: translate(-50%, -50%); */
+     height: unset!important;
+     min-height: 12rem;
  }
 
  html:not(.designer) .popup.dialog .popup-header .popup-header-text {
