@@ -775,7 +775,7 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
      /* top: 50% !important; */
      left: 34% !important;
      transform: translateX(-50%);
-     height: unset!important;
+     /* height: unset!important; */
      min-height: fit-content;
      position: absolute;
  }
