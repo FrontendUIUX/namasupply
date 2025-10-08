@@ -22,6 +22,10 @@
     align-items: center;
     justify-content: center;
 }
+.searchBar tbody tr{
+   border: 1px solid #666666!important;
+    padding:0 1rem!important;
+}
 .theme-entry .picker-search-grid.grid.full {
     min-height: 16rem !important;
     overflow: auto;
