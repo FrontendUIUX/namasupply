@@ -1442,6 +1442,10 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
  }
 
  @media(min-width:992px) {
+    .theme-entry .SourceCodeFormsControlsWorklist .headerTxt{
+        margin: 0 1rem !important;
+        font-size: 1.2rem!important;
+    }
      html:not(.designer) .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel[name *="s_collapse"] {
          width: calc(100% - 4rem) !important;
          background-color: var(--white) !important;
