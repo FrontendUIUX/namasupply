@@ -945,6 +945,47 @@ span.input-control-text,
 .SFC.SourceCode-Forms-Controls-Web-Label {
     font-family: var(--regularFont)!important;
 }
+html:not(.designer) .filterContainer{
+	display: flex;
+	justify-content: space-between;
+}
+.filterChosen.filter{
+	display: none!important;
+}
+.quickSearch.filter .filterLabel{
+	position:relative;
+	display:none;
+}
+.quickSearch.filter::before{
+	content:"Search by:";
+	position:relative;
+	left:0;
+	width:fit-content;
+	color:#131313;
+	font-size:1rem;
+	font-family:var(--regularFont)!important;
+}
+.filterTxt{
+	width: 21rem!important;
+}
+.filterTxt .input-control-wrapper{
+	width:100%!important;
+}
+.quickSearch.filter .toolbar-button.toolbar-button-inline.style-aware.refresh{
+	position:absolute;
+	right: 0.9rem;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 3rem;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	background-color: transparent!important;
+	border: none!important;
+}
+.quickSearch.filter{
+	position:relative;
+}
  /* Responsive Tables */
  @media(max-width:600px) {
     div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Table {
