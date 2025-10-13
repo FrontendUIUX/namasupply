@@ -1509,7 +1509,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
       }
      html:not(.designer) body.theme-entry.doubleTop {
          width: calc(100% - 17rem) !important;
-         margin-top: 9.7rem;
+         margin-top: 9.7rem!important;
      }
 
      .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv {
