@@ -788,10 +788,10 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
  }
 
  html:not(.designer) .popup.dialog {
-     border-radius: 1rem !important;
-     overflow: hidden;
-     top: unset !important;
-     left: unset !important;
+     /* border-radius: 1rem !important; */
+     /* overflow: hidden; */
+     /* top: unset !important; */
+     /* left: unset !important; */
      /* transform: translateX(-50%); */
      /* height: unset!important; */
      /* min-height: fit-content; */
@@ -1164,7 +1164,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
 
      html.mobile .theme-entry .dialog,
      .mobile .theme-entry .dialog#PickerSearchDialog {
-         height: 60% !important;
+         /* height: 60% !important; */
      }
 
      html:not(.designer) .theme-entry .popup-body {
