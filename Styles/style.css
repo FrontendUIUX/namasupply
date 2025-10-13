@@ -317,7 +317,9 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      width: 100%;
      position: relative !important;
  }
-
+ html:not(.designer) body.theme-entry.doubleTop {
+     margin-top: 10rem !important;
+ }
  html:not(.designer) body.theme-entry [name*="s_collapse"] {
      padding: var(--zonePadding) !important;
      border-radius: var(--zoneBorderRadius) !important;
