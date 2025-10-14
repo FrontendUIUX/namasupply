@@ -998,7 +998,14 @@ html:not(.designer) .filterContainer{
 	position:relative;
 }
  /* Responsive Tables */
- @media(max-width:600px) {
+ @media(max-width:991px) {
+	 input#\30 eda83c0-6d26-e40f-b6fd-1f94bfb74acc_bad820d6-f4a0-4dd9-810d-d1e6f0941591 {
+    font-size: 1rem!important;
+    border-radius: .5rem!important;
+    border: 1px solid #ddd!important;
+    height: 3rem!important;
+    width: 100% !important;
+}
     span#\34 099a6a1-44fe-44de-9c3a-2fc95ceb40b3 {
     display: flex;
     flex-direction: column;
