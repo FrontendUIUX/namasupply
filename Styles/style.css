@@ -1013,6 +1013,19 @@ span#\37 29f41e8-7493-4cd7-9a47-a02da6f5af4b {
 a#\30 eda83c0-6d26-e40f-b6fd-1f94bfb74acc_50bba2d9-2b00-4400-b8bc-a43b8344a5b4 {
     margin: 0!important;
 }
+span#\39 91d7b94-cb4a-4387-aa0d-b2da7b13db19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 1rem;
+}
+
+input#f4536470-4bab-b81f-d28b-d2ee7ff3c3f9_cd7cdcc2-e39b-42b5-b124-419f38f48eba {
+    margin: 0!important;
+    width: 100%!important;
+}
     span#\34 099a6a1-44fe-44de-9c3a-2fc95ceb40b3 {
     display: flex;
     flex-direction: column;
