@@ -999,6 +999,16 @@ html:not(.designer) .filterContainer{
 }
  /* Responsive Tables */
  @media(max-width:991px) {
+    html:not(.designer) .theme-entry h2.page-subtitle, html:not(.designer) .theme-entry h2, html:not(.designer) .theme-entry [name*="s_title"], html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
+    font-size: 1.4rem !important;
+    color: var(--main-color) !important;
+    position: relative;
+    overflow: visible !important;
+    padding: 0 !important;
+    font-weight: 600 !important;
+    font-family: var(--regularFont) !important;
+    background-color: transparent !important;
+}
 	 input#\30 eda83c0-6d26-e40f-b6fd-1f94bfb74acc_bad820d6-f4a0-4dd9-810d-d1e6f0941591 {
     font-size: 1rem!important;
     border-radius: .5rem!important;
