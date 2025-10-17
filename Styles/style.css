@@ -1541,16 +1541,18 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      }
 
      html:not(.designer)[dir="ltr"] body {
-         margin-left: 17rem !important;
+         padding-left: 17rem !important;
          margin-right: 0;
          margin-top: 6rem;
+         position: relative;
+         margin: 0!important;
      }
 
      html:not(.designer)[dir="rtl"] body {
          margin-top: 6rem;
      }
       html:not(.designer) body.theme-entry{
-          width:calc(100% - 17rem)!important;
+          width: calc(100% - 0rem)!important;
       }
      html:not(.designer) body.theme-entry.doubleTop {
          width: calc(100% - 17rem) !important;
