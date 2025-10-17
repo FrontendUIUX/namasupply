@@ -607,8 +607,8 @@ html:not(.designer) .theme-entry div#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_4fed8e
      transition: all .3s ease-in-out;
  }
 
- html,
- body {
+ html:not(.designer),
+  html:not(.designer) body {
      font-size: 14px !important;
  }
 
