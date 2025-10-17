@@ -975,6 +975,29 @@ html:not(.designer) .filterContainer{
 .quickSearch.filter{
 	position:relative;
 }
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-left,
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-right,
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-last,
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-first,
+html:not(.designer) .theme-entry .grid-footer .grid-paging-control{
+	height:3rem!important;
+	min-height:3rem!important;
+	padding:0!important;
+	margin:0!important;
+	display: flex;
+	align-items: center;
+	justify-content: center!important;
+	top: 50%;
+	transform: translateY(-50%);
+}
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-left .button-c,
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-right .button-c,
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-last .button-c,
+html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-first .button-c{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
  /* Responsive Tables */
  @media(max-width:991px) {
     html:not(.designer) .theme-entry h2.page-subtitle, html:not(.designer) .theme-entry h2, html:not(.designer) .theme-entry [name*="s_title"], html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
