@@ -999,6 +999,9 @@ html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.p
 	align-items:center;
 	justify-content:center;
 }
+[name*="tableGap"]{
+    gap:1rem;
+}
  /* Responsive Tables */
  @media(max-width:991px) {
     div#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_398c84cb-7999-491c-acc7-b605b96d9138_Table,
