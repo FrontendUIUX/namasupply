@@ -324,7 +324,7 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      border-radius: var(--zoneBorderRadius) !important;
      background-color: #ffffff !important;
      width: calc(100% - (2 * var(--zonePadding))) !important;
-     margin-top: 1rem;
+     margin-bottom: 1rem;
  }
 
  html:not(.designer) .theme-entry .input-control .input-control-m-c,
