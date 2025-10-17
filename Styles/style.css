@@ -1082,7 +1082,8 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
 
      div#a9df74f1-4662-4815-92a6-8dc1867cef47_7faa5586-86e4-2301-1477-6f49eda723a3_Table,
      div#a9df74f1-4662-4815-92a6-8dc1867cef47_5d95be8f-c18b-9fe7-e6ec-f21f863a7408_Table,
-     div#\39 d029792-cca9-469c-9a07-d44a634ad90d_37ef987b-9fd0-2a71-b4cd-2b01d2b71530_Table {
+     div#\39 d029792-cca9-469c-9a07-d44a634ad90d_37ef987b-9fd0-2a71-b4cd-2b01d2b71530_Table,
+	 div#ff1a93a6-11eb-2411-f502-de982c9278c6_7faa5586-86e4-2301-1477-6f49eda723a3_Table{
          display: flex;
          flex-direction: column;
      }
@@ -1094,7 +1095,11 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
          align-items: flex-start;
          justify-content: flex-start;
      }
-
+     html:not(.designer) div#ff1a93a6-11eb-2411-f502-de982c9278c6_d585314a-ee6d-d2af-0407-022d878af42c_Table span.editor-cell,
+     html:not(.designer) div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table span.editor-cell{
+		width:100%!important;
+		 
+	 }
      html:not(.designer).mobile .theme-entry div#a9df74f1-4662-4815-92a6-8dc1867cef47_d585314a-ee6d-d2af-0407-022d878af42c_Table span.editor-cell {
          width: 100%;
      }
