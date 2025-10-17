@@ -1000,6 +1000,12 @@ html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.p
 }
  /* Responsive Tables */
  @media(max-width:991px) {
+    div#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_398c84cb-7999-491c-acc7-b605b96d9138_Table,
+    div#\39 8d99d9a-ff21-fdfa-76a4-9d6b1c80923e_3cad2e29-0ba0-43ea-8464-0647fe4c9a73_Table,
+    div#\35 d520cd7-3333-6699-1d7c-6376288aca9a_8442b251-4369-4efc-8d9f-327304a3a7e8_Table {
+    display: flex;
+    flex-direction: column;
+}
     html:not(.designer) .theme-entry h2.page-subtitle, html:not(.designer) .theme-entry h2, html:not(.designer) .theme-entry [name*="s_title"], html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
     font-size: 1.4rem !important;
     color: var(--main-color) !important;
