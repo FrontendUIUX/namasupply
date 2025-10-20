@@ -382,6 +382,9 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841
 }
 }
 @media(min-width:1600px){
+	[name^="HeaderCard"] .editor-cell[name="Arabic Lang"] * {
+	height: 1vw !important;
+}
 	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
 		padding: 1.4vw 1vw 1.4vw;
 	

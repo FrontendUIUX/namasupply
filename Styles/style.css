@@ -1605,6 +1605,10 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
  }
 
  @media(min-width:1600px) {
+	 .sidebar-icon{
+		height:1vw;
+		width:1vw;
+	 }
      html:not(.designer) .theme-entry .sidebar {
          width: 14vw;
          padding: 1.3vw;
