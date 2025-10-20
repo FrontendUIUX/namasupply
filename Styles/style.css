@@ -1705,7 +1705,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      html:not(.designer) body.theme-entry {
          /* width: calc(100% - 16.6vw) !important; */
          padding-left: 17vw !important;
-         margin-top: 5vw!important;
+         margin-top: 6vw!important;
      }
 
      html:not(.designer) body.theme-entry.doubleTop {
