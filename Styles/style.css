@@ -1005,8 +1005,8 @@ html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.p
  /* Responsive Tables */
  @media(max-width:991px) {
     div#\36 68575bc-80a6-0bb7-e858-9592aca9675e_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
-    display: flex;
-    align-items: center;
+    display: flex!important;
+    align-items: center!important;
 }
     span#\34 9478b77-2f1d-f7da-4f2a-1edd89ffe625_04fd2e3d-0b23-4a43-9628-be81279cc077,
 input#\34 9478b77-2f1d-f7da-4f2a-1edd89ffe625_767c3a59-0172-4079-8f2c-374c605109b7{
