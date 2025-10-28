@@ -59,10 +59,10 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
  }
 
 .theme-entry .base0.modal-element.ajaxLoader {
-    top: 0 !important;
+    /* top: 0 !important;
     left: 0 !important;
     height: 100% !important;
-    width: 100% !important;
+    width: 100% !important; */
 }
 
  body>form,
