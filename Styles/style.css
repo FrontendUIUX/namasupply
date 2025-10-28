@@ -588,7 +588,7 @@ html:not(.designer) .theme-entry div#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_4fed8e
  }
 
  html[dir="ltr"] button#toggleSidebarBtn {
-     background-color: var(--red);
+     background-color: var(--main-color);
      position: fixed;
      left: -1rem;
      top: 1rem;
