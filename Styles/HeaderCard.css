@@ -289,6 +289,7 @@ html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 	display: flex !important;
 	align-items: center !important;
 	justify-content: center;
+	flex-wrap: nowrap;
 	font-size: 1rem;
 	border: 1px solid #d9d9d9 !important;
 	padding: 0.55rem 1rem 0.55rem !important;
@@ -298,6 +299,7 @@ html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
 	position: relative;
 	margin-right: .5rem;
 	padding: .5rem .9rem!important;
+	width: fit-content;
 }
 html[dir=rtl]:not(.designer) body.theme-entry [name="Arabic Lang"]{
 	display:none!important;
