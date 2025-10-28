@@ -206,7 +206,7 @@ html:not(.designer) .theme-entry .editor-cell{
 @media(min-width:1600px) {
     html:not(.designer) body.theme-entry {
     margin-top: 5.65vw;
-    padding: 1vw !important;
+    /* padding: 1vw !important; */
     height: calc(100% - (4.75vw + 1vw));
     width: calc(100% - 17vw) !important;
 }
@@ -246,7 +246,7 @@ td#\34 dc37f6b-817e-a74b-2353-1b7d11c7e15e {
 }
 html:not(.designer) body.theme-entry {
     margin-top: 5.65vw;
-    padding: 1vw !important;
+    /* padding: 1vw !important; */
     height: calc(100% - (4.75vw + 1vw));
     /* width: calc(100% - 2rem) !important; */
     background-color: #f5f5f5 !important;
