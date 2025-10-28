@@ -382,12 +382,13 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841
 }
 }
 @media(min-width:1600px){
-	html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
-[name^="HeaderCard"] .editor-cell[name="English Lang"] {
-	font-size: 1vw;
+	html:not(.designer) body.theme-entry [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+	html:not(.designer) body.theme-entry [name^="HeaderCard"] .editor-cell[name="English Lang"] {
+	font-size: 1vw!important;
 	padding: 0.55vw 1vw 0.55vw !important;
 	margin-right: .5vw;
 	padding: .5vw .9vw!important;
+	border-radius:1vw;
 }
 	[name^="HeaderCard"] .editor-cell[name="Arabic Lang"] * {
 	height: 1vw !important;
@@ -417,6 +418,8 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841
 }
 html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
 	font-size: .85vw;
+	line-height: 1vw!important;
+	height: 1vw;
 }
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
