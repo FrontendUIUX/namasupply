@@ -1568,7 +1568,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      html:not(.designer)[dir="ltr"] body {
          padding-left: 18rem !important;
          margin-right: 0;
-         padding-top: 3rem!important;
+         margin-top: 6rem;
          position: relative;
          margin-left: 0!important;
      }
