@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const logoContainer = $('<div class="sidebar-logo-container"></div>');
         const logoLink = $('<a></a>');
         // const logoImage = $('<img src="/Style/logo Nama supply .png" alt="Company Logo" class="sidebar-logo">');
-        const logoImage = $('<img src="/Style/logo.png" alt="Company Logo" class="sidebar-logo">');
+        const logoImage = $('<img src="https://ns.namaservices.om/Style/logo.png" alt="Company Logo" class="sidebar-logo">');
         logoLink.append(logoImage);
         logoContainer.append(logoLink);
         sidebar.append(logoContainer);
