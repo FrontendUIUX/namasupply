@@ -1,5 +1,5 @@
 
- Eservices Hub CSS changes*/
+/* Eservices Hub CSS changes*/
 
 
 .SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox {
@@ -88,3 +88,33 @@
     }
 
 }
+/*
+the only diff are these they are set in different values
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox {
+    height: unset !important;
+}
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
+
+    min-height: 18rem;
+}
+
+.SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper .selectPosition {
+
+    height: unset !important;
+
+}
+
+span#\37 37c5df8-a831-454b-a815-763c62224b37{
+
+display:none;
+
+}
+@media(min-width:1600px){
+
+    
+
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
+
+    min-height: 21vw;
+}
+*/
