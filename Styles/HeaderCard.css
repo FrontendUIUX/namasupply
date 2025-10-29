@@ -103,9 +103,7 @@ html:not(.designer) [name^="HeaderCard"] {
 	font-weight: bold;
 	padding: 1rem;
 }
-html:not(.designer) [name="HeaderCard2"]{
-	padding:0!important;
-}
+
 html:not(.designer) [name^="HeaderCard"] .editor-cell {
 	padding: 0 !important;
 }
