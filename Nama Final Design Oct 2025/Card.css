@@ -1,0 +1,426 @@
+/*Card Styling*/
+
+.theme-entry .form .view .innerpanel > .grid, .theme-entry #pgInnerPanel .view .innerpanel > .grid, .theme-entry .form-tabs > .tab-box-body .view .innerpanel > .grid, 
+
+.theme-entry #pgTabContent .view .innerpanel > .grid, .theme-entry .form .view .innerpanel > .panel, .theme-entry #pgInnerPanel .view .innerpanel > .panel, .theme-entry .form-tabs > 
+
+.tab-box-body .view .innerpanel > .panel, .theme-entry #pgTabContent .view .innerpanel > .panel, .theme-entry .form .view-canvas > .grid, .theme-entry #pgInnerPanel .view-canvas > 
+
+.grid, .theme-entry .form-tabs > .tab-box-body .view-canvas > .grid, .theme-entry #pgTabContent .view-canvas > .grid, .theme-entry .form .view-canvas > .panel, .theme-entry #pgInnerPanel .view-canvas > .panel, 
+
+.theme-entry .form-tabs > .tab-box-body .view-canvas > .panel, .theme-entry #pgTabContent .view-canvas > .panel
+
+{
+
+    border-radius: 15px !important;
+
+	height: 10%;
+  }
+
+input#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_388b8856-7121-3485-39e6-5457437682c2,
+
+input#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_4debf34f-ad82-6713-0cee-d23a5d5dd539,
+
+input#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_519e0c7f-3009-27bf-9ffe-bbee5c1255e4,
+
+input#\39 d029792-cca9-469c-9a07-d44a634ad90d_fe363c79-bf13-1d26-b004-dec295ec0f40{
+
+	min-height:unset!important;
+
+	height: 3rem!important;
+
+	padding: 1rem 1rem!important;
+
+	border-radius:.5rem!important;
+
+	border-color:#D7D7D7!important;
+
+	width: 100%!important;
+
+	background-color: white;
+
+	display: flex;
+
+	align-items: center;
+
+}
+/*attachments grif view*/
+.theme-entry .toolbar > .toolbar-wrapper > table > tbody > tr > td
+{
+	padding:5rem 0; /* added by silvana */
+	
+}
+[title="Attachments"] {
+  margin-right: auto!important;
+  width: 67%;
+}
+
+/* Optional: Align text within h2 to the left */
+[title="Attachments"] h2 {
+  text-align: left;
+}
+
+/* Apply padding to grid elements */
+.theme-entry .grid .grid-body,
+.theme-entry .grid-header,
+.theme-entry .grid .grid-column-headers,
+.theme-entry .grid .grid-column-headers-wrapper,
+.theme-entry .grid .grid-column-header-divider {
+   
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+/* Style for grid column headers to remove dividers and center text */
+.theme-entry .grid .grid-column-headers div,
+.theme-entry .grid .grid-column-headers span {
+    background-color: #f0f0f0 !important;
+    height: 100%;
+    text-align: center; /* Center text */
+    border: none; /* Remove any border/divider */
+}
+
+/* Remove the grid view divider */
+.theme-entry .grid .grid-column-header-divider {
+    display: none !important; /* Hide the divider completely */
+}
+
+.theme-entry .grid-content-table tbody tr.highlighted > td.last, .theme-entry .grid-content-table tbody tr.highlighted > td:last-child
+{
+	
+	padding-top:2% !important;
+}
+
+.theme-entry .grid table.grid-content-table > tbody > tr > td, .theme-entry .grid table.grid-content-table > tr > td{
+	vertical-align : middle !important;
+}
+.theme-entry .grid table.grid-column-header-table td{
+	border : #f0f0f0;
+}
+
+.theme-entry span.SourceCode-Forms-Controls-Web-DataLabel
+{
+	font-weight:bold !important;
+	color:#303030;
+	font-size:14px;
+	
+}
+.theme-entry [name^="dl"][name$="value"] {
+	height:unset!important;
+	padding: 1.9rem 1rem!important;
+	border-radius:.5rem!important;
+	border-color:#D7D7D7!important;
+	width: 100%!important;
+}
+[name^="Table_Buttons"]{
+	width:100%;
+	display:flex!important;
+	justify-content:flex-end;
+}
+.theme-entry .input-control.text-input .input-control-m-c{
+     padding:1rem;
+     border-color: #D7D7D7; /* updated by Silvana , older color was black */
+     border-radius: .5rem; /* updated by silvana , older radius was 10px*/
+}
+.theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control .input-control-text{
+
+	max-width:fit-content!important;
+
+}
+
+.theme-entry .input-control.text-input.control-group-container .input-control-m-c{
+
+	height:unset;
+
+	margin-bottom:1rem;
+
+}
+
+div#\32 100e628-ed0b-49cc-b5f2-53b63f3c91de_80309573-a084-72c8-33ac-4773ad15e6b0_Table .input-control-m-c{
+
+	height:unset!important;
+
+}
+
+div#\39 59e4135-1c83-415f-ab07-67ff0a5e1a98_f5b5febd-c051-1675-063d-299803400944_MultiSelectPanel .stack{
+
+	margin: 0 .5rem;
+
+}
+
+.theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control .input-control-text {
+
+    font-size: 1rem;
+
+    padding: 0;
+
+}
+.filter-body-content .input-control.text-input .input-control-m-c{
+
+	padding:0;
+
+	height:3rem;
+
+}
+
+.theme-entry div#ff1a93a6-11eb-2411-f502-de982c9278c6_2997ac5e-0319-e928-60d1-2030939fda33.input-control.select-box:not(.hide-buttons)  .input-control-m-c,
+
+div#ff1a93a6-11eb-2411-f502-de982c9278c6_ef429bb4-d2a7-68c7-6409-5114b719a83c.input-control.select-box:not(.hide-buttons)  .input-control-m-c{
+
+	display:flex;
+
+	align-items:center;
+
+}
+
+label.input-control.radio.style-aware {
+
+    display: flex;
+
+    align-items: center;
+
+}
+.theme-entry .input-control.radio.style-aware svg{
+
+	margin:0;
+
+	height:1.4rem;
+
+}
+
+html[dir="ltr"] .theme-entry .input-control.radio.style-aware svg{
+
+	margin-right:.4rem;
+
+}
+
+html[dir="rtl"] .theme-entry .input-control.radio.style-aware svg{
+
+	margin-left:.4rem;
+
+}
+
+span#\30 cb849bc-58c7-4d19-b43c-a12e40c778ed .input-control-m-c{
+
+	height:unset;
+
+}
+
+span#\30 cb849bc-58c7-4d19-b43c-a12e40c778ed .input-control.text-input{
+
+	width:unset!important;
+
+}
+
+html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_f8f19114-3f74-407b-8770-90cfabf21a52, 
+
+html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_11a20b56-cd13-4479-a05e-f681f896fc11,
+
+html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_ddf3e3d8-55ef-4b42-ac93-42eefe3954fe{
+
+	margin-bottom:1rem;
+
+}
+
+html[dir=ltr]:not(.designer) .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c, 
+
+html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_f8f19114-3f74-407b-8770-90cfabf21a52, 
+
+html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_11a20b56-cd13-4479-a05e-f681f896fc11,
+
+html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_ddf3e3d8-55ef-4b42-ac93-42eefe3954fe{
+
+	border-color: #D7D7D7; 
+
+	padding: .9rem 1rem; 
+
+	height: 3rem !important; 
+
+	min-height: unset!important;
+
+	border-top-left-radius:0.5rem; 
+
+	border-bottom-left-radius:0.5rem; 
+
+}
+html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	border-color: #D7D7D7; /* added by silvana */
+    padding: .9rem 1rem; /* added by silvana */
+    height: unset !important; /* added by silvana */
+	border-top-left-radius:0.5rem; /* added by silvana */
+	border-bottom-left-radius:0.5rem; /* added by silvana */
+	
+}
+html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons{
+	border-color: #D7D7D7; /* added by silvana */
+  	padding: 0; 
+
+	height: unset !important; 
+
+	border-top-right-radius:0.5rem; 
+
+	border-bottom-right-radius:0.5rem; 
+
+	height: 100%;
+
+}
+
+/**/
+
+html[dir=rtl] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+
+	border-color: #D7D7D7; 
+
+	padding: .9rem 1rem; 
+
+	height: 3rem !important; 
+
+	min-height: unset!important;
+
+	border-top-right-radius:0.5rem; 
+
+	border-bottom-right-radius:0.5rem; 
+
+	border-right: 1px solid #ddd;
+
+}
+
+html[dir=rtl] .theme-entry .input-control.select-box .input-control-buttons{
+
+	border-color: #D7D7D7; 
+
+    padding: 0; 
+
+    height: unset !important; 
+
+	border-top-left-radius:0.5rem; 
+
+	border-bottom-left-radius:0.5rem; 
+
+	height:100%;
+    padding: .5rem 1rem; /* added by silvana */
+    height: unset !important; /* added by silvana */
+	border-top-right-radius:0.5rem; /* added by silvana */
+	border-bottom-right-radius:0.5rem; /* added by silvana */
+}
+
+/* new styles added by Silvana */
+
+.theme-entry .tab-box .tab-box-body{
+	background-color:#F5F5F5;
+}
+.theme-entry .scroll-wrapper {
+    padding: 3rem;
+}
+.form .row .view{
+	margin-top:2.5rem!important;
+	margin-bottom:2.5rem!important;
+	padding:0 4rem;
+	background-color:white;
+	border-radius:2rem;
+}
+.theme-entry .toolbar-wrapper,
+.theme-entry .panel.without-header.with-toolbar > .panel-toolbars .toolbars,
+.theme-entry .panel-toolbars,
+.theme-entry .panel .panel-body-wrapper,
+.theme-entry .root-table.Grid-Layout>.editor-cell.lastcellinrow,
+.SourceCode-Forms-Controls-Web-Table.Grid-Layout,
+.toolbars.single,
+.grid-toolbars{
+	overflow:visible !important;
+}
+[name="User NameData Label"]{
+	color:black!important;
+	opacity:1;
+	padding: 0!important;
+	line-height: 1;
+}
+.theme-entry .stack-container{
+
+	display:flex;
+
+	align-items:center;
+
+	justify-content:space-around;
+
+}
+
+.theme-entry .stack-container .stack div.multi-select-box-list-item label.input-control{
+
+	display:flex!important;
+
+	align-items:center!important;
+
+}
+
+[name="Btn_Close"]{
+
+	border-color:var(--main-color);
+
+	color:var(--main-color)!important;
+
+	background-color:transparent!important;
+
+}
+
+[name="Btn_Close"]:hover{
+
+	background-color:var(--main-color)!important;
+
+	color:#fff!important;
+
+}
+
+.theme-entry .grid-toolbars{
+
+	background-color:var(--white);
+
+	border-radius: 0;
+
+	padding: var(--zonePadding);
+
+	margin-bottom: 1rem;
+
+}
+
+div#\39 6ea6574-904a-4698-aea3-f3b00d5abe2f_891ee5ec-0126-4280-9171-a8b9ecda63a4_toolbar{
+
+display:none;
+
+}
+
+@media(min-width:1600px){
+
+	html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c
+
+{
+
+	padding: .9vw 1vw; 
+
+	height: 3vw !important; 
+
+	border-top-left-radius:0.5vw; 
+
+	border-bottom-left-radius:0.5vw; 
+
+}
+
+	html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_f8f19114-3f74-407b-8770-90cfabf21a52, 
+
+	html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_11a20b56-cd13-4479-a05e-f681f896fc11,
+
+	html:not(.designer) input#\30 672016b-7cb3-40d8-b135-bedc439e4370_ddf3e3d8-55ef-4b42-ac93-42eefe3954fe{
+
+		border-radius:.5vw;																		  
+
+	}
+
+html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons{
+
+	border-top-right-radius:0.5vw; 
+
+	border-bottom-right-radius:0.5vw; 
+
+}
+
+}
