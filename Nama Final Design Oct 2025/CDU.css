@@ -1,4 +1,6 @@
-/* Combined Eservices Hub CSS changes */
+
+ Eservices Hub CSS changes*/
+
 
 .SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox {
     height: 1500px !important;
@@ -7,8 +9,9 @@
 
 .SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
     height: 1500px !important;
-    overflow: visible;
+    overflow: visible
 }
+
 
 .hoverdiv {
     display: flex;
@@ -33,7 +36,7 @@
 }
 
 .hoverdiv .service-name{
-    font-size: 1.75rem;
+    font-size: 1.75rem
 }
 
 .hoverdiv:hover {
@@ -49,10 +52,6 @@
 
 .theme-entry .SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper {
     border-color: transparent !important;
-}
-
-.SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper .selectPosition {
-    height: 1500px !important;
 }
 
 .theme-entry .grid.full .grid-body{
@@ -74,9 +73,18 @@
     transform: none !important;
 }
 
+.SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper .selectPosition {
+    height: 1500px !important;
+}
+
 @media(min-width:1600px){
+
     .SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
+
         min-height: 55vh;
-        overflow: visible;
+
+        overflow: visible
+
     }
+
 }
