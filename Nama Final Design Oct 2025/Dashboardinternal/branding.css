@@ -1,0 +1,572 @@
+/* Common CSS */
+body.doubleTop{
+	padding-top: 8.5rem;
+}
+tr.selected td img{
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(43deg) brightness(113%) contrast(101%);
+}
+.theme-entry .month, 
+.theme-entry .year, 
+.theme-entry .month:hover, 
+.theme-entry .year:hover{
+height:3rem;
+}
+.theme-entry .grid-content-table tbody tr.highlighted > td.last, 
+.theme-entry .grid-content-table tbody tr.highlighted > td:last-child{
+	padding: 0!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-text, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-text{
+	padding-right:.5rem!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-cell-wrapper:before, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-cell-wrapper:before {
+    height: 0.9rem!important;
+    margin-top: -0.5rem!important;
+    width: 0.9rem!important;
+    background-image: url(https://ns.namaservices.om/Style/logos/arrowDown.svg)!important;
+    background-position: right center!important;
+    background-size: 100%!important;
+}
+/* GENERAL BRANDING */
+:root{
+	--white:#ffffff;
+	--main-color:#123756;
+	--main-color-hover:#144670;
+	--light-main-color:rgb(18 55 86 / 9%);
+	--zoneBorderRadius:1.5rem;
+	--zonePadding:2rem;
+}
+a#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_725a7434-d26c-830e-05c4-352f2da89125{
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+    border-radius: .5rem !important;
+    border: none !important;
+    margin-top: 1rem;
+}
+	html[dir="rtl"] div#\35 cac654b-bec4-eb1a-26a6-0489e4fc05ac_6fe72839-0273-2269-d2fb-74ad3cdb4801_Table {
+		width: fit-content;
+		display: flex;
+	}
+
+div#\35 cac654b-bec4-eb1a-26a6-0489e4fc05ac_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table {
+    display: flex;
+    justify-content: end;
+}
+html[dir="rtl"] [name="LanguagesTable"]{
+	width:fit-content;
+}
+#custom-sticky-header [name="ProfileContainer"]{
+	width:fit-content!important;
+	margin:0 1rem;
+}
+
+#custom-sticky-header div#dc5086cb-538f-3ee7-a758-f8e30941fec2_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table {
+    display: flex;
+    justify-content: flex-end;
+}
+html[dir="ltr"] a#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_725a7434-d26c-830e-05c4-352f2da89125{
+	margin-left:auto;
+}
+html[dir="rtl"] a#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_725a7434-d26c-830e-05c4-352f2da89125{
+	margin-right:auto;
+}
+.calendar-row.months a,
+.calendar-row.years a  {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: unset;
+    line-height: unset!important;
+}
+.drop-menu li a span{
+	font-size:.9rem;
+}
+html.designer{
+	font-size:62.5%!important;
+}
+.theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
+	padding:0!important;
+	height: 100%;
+	min-height: unset;
+	max-height: unset;
+	line-height: unset!important;
+	font-size: 1rem;
+}
+h2{
+	font-size:1.8rem!important;
+	padding:1rem 0!important;
+	color:black!important;
+	position:relative;
+	overflow:visible!important;
+}
+h2::before{
+	content:"";
+	position: absolute;
+	left: -3rem;
+	top: 0;
+	height: 100%;
+	width: 6px;
+	background-color: var(--main-color);
+	border-radius: 0px;
+}
+@font-face {
+    font-family: 'SWCC-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
+    /* Adjust the path and font format */
+}
+.style-profile-developer-container .style-profile-designer-section{
+	width:50rem!important;
+}
+html{
+font-size:16px!important;
+line-height:24px!important;
+}
+html *{
+	line-height:24px!important;
+	font-size: 1rem;
+	font-family: 'SWCC-Medium' !important;
+}
+html, body, form, body.theme-entry{
+	background-color: #f5f5f5;
+}
+body.theme-entry.runtime-view .sidebar {
+    display: none;
+}
+body.theme-entry.runtime-view{
+    width:100%!important;
+    margin:0!important;
+    padding: 0
+}
+body.theme-entry.runtime-view::before{
+	content:none;
+}
+body.theme-entry.runtime-view #custom-sticky-header{
+    display:none;
+}
+body{
+	padding-top: 5rem;
+	/* width: calc(100% - 16.6rem) !important; */
+}
+.designer body{
+	margin:0!important;
+	width:100%!important;
+}
+.theme-entry .popup-header-button-bar, .theme-entry .popup-header-button-bar-wrapper{
+	display:flex;
+	align-items:center;
+}
+.theme-entry .dialog .popup-header-buttons a{
+	margin:0 1rem;
+}
+.theme-entry .dialog .popup-header-wrapper > .wrapper > div{
+	width:fit-content;
+}
+.theme-entry .dialog .popup-header{
+	height:unset;
+	padding:2rem;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px;
+    background-color: var(--main-color);
+    z-index: 100000;
+}
+
+	html[dir="rtl"] body {
+		margin-right: 16.6rem;
+	}
+	html[dir="ltr"] body{
+		/* margin-left: 16.6rem; */
+		/* margin-right: 0; */
+	}
+html[dir=ltr] .theme-entry a.toolbar-button{
+	margin: 0!important;
+	border: none!important;
+	min-height: unset;
+}
+html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+html[dir="ltr"] [name^="HeaderCard"] .editor-cell[name="English Lang"]{
+	display:none!important;
+}
+[name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+[name^="HeaderCard"] .editor-cell[name="English Lang"]{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.8rem;
+	border: 1px solid #d9d9d9!important;
+	padding: 0.5rem 1rem 0.6rem!important;
+	border-radius: 2rem;
+	opacity: 1;
+	cursor: pointer;
+}
+[name^= "HeaderCard"] span#\32 790f934-27a3-40e6-8904-81dfb783825e,
+[name^= "HeaderCard"] span#\32 790f934-27a3-40e6-8904-81dfb783825e div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_8697eebc-71a4-0dcb-220a-f3d5dd7ba23d_Table{
+	width:fit-content;
+}
+[name^="HeaderCard"] .editor-cell[name="Arabic Lang"]{
+	left: 0rem;
+	position:relative;
+	width: auto;
+}
+.theme-entry a.toolbar-button span, 
+.theme-entry a.toolbar-button.toolbar-button-inline span,
+ .theme-entry a.toolbar-button,
+.theme-entry .input-control a.input-control{
+	min-height:unset!important;
+	height:unset!important;
+	border: none;
+}
+.theme-entry a.toolbar-button span.button-text{
+	font-size:1rem;
+	min-height: unset!important;
+	border: none!important;
+}
+.theme-entry a.Hyperlink{
+	color:var(--main-color);
+	font-size: 1rem;
+}
+[title="*"]{
+	color:#e62b37!important;
+}
+html[dir=rtl] .theme-entry .input-control.select-box .input-control-m-c{
+	padding:0;
+	}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS START */
+.tooltip.validation{
+	font-size: .8rem;
+	color: #ff6a6a!important;
+	background-color: white!important;
+	padding: 0.8rem 1rem;
+	text-wrap: nowrap;
+	height: fit-content;
+	border-radius: 0.7rem!important;
+	border: 1px solid #d3d3d3!important;
+	width: fit-content;
+}
+.tooltip.validation span{
+	line-height: 1.6;
+	display: block;
+	text-wrap: auto;
+}
+.tooltip.validation .tooltip-pointer,
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+ border-color:transparent!important;
+ background: none!important;
+}
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 10px #d3d3d3!important;
+  border-left: solid 10px transparent!important;
+  border-right: solid 10px transparent!important;
+  top: 0.2rem;
+}
+.theme-entry .day {
+    font-size: 1rem;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+    text-align: center!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.calendar-row .dayname{
+	height:2.5rem!important;
+	width:2.5rem!important;
+	margin-bottom:1rem;
+}
+.theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto!important;
+}
+.theme-entry .top-calendar a.today-title {
+    border: none;
+    border-radius: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+.theme-entry .top-calendar a {
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    height: 1rem;
+}
+.theme-entry .week{
+display:flex;
+}
+.theme-entry .today-text{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.datepicker.invalid{
+	border: 1px solid var(--input-error-border-color) !important;
+	background-color: #f8e8e8!important;
+}
+.theme-entry .invalid .input-control-watermark *{
+	background-color:transparent!important;
+}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS END */
+/* Designer Branding */
+.designer{
+	font-size:12px;
+	line-height:26px;
+}
+.designer .toolboxitem{
+	height:auto;
+}
+.designer body::before{
+	display:none;
+	}
+.designer .propertyGridPropertyItem{
+	height:auto!important;
+}
+.designer .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	padding:0;
+}
+/* popup icon */
+.theme-entry .message-box-content:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 0;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.info-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .message-box-content{
+ min-height: max-content!important;
+}
+
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) {
+    height: max-content !important;
+}
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message){
+	width:auto!important;
+	max-width:600px;
+	height: auto!important;
+	margin:auto;
+}
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-footer{
+	padding:2rem!important;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-header{
+	padding:2rem!important;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-body{
+	position:relative!important;
+	display:flex;
+	align-items:center;
+	padding: 1.5rem 2rem;
+}
+.popup-body .scroll-wrapper{
+	overflow:hidden;
+}
+[name="btn.Search"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="SubmitButton1"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	height:3rem;
+}
+[name="Cancel Button"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin:0 1rem;
+	height:3rem;
+	color:var(--main-color)!important;
+}
+[name="btn_submit"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="btn_cancel"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin-top:1rem;
+	color:var(--main-color)!important;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-right .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-left .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-left.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-last .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right-double.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-first .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-left-double.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid-footer .grid-paging-control .input-control-m-c{
+	padding:0;
+}
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control input{
+	padding:0!important;
+	height:unset;
+	min-height:unset;
+}
+[name *="CRM.MasterData.Form"]{
+	background-color: transparent!important;
+	margin-top: 4.5rem;
+}
+[name *="CRM.MasterData.Form"] .grid-footer {
+    margin-top: 1rem;
+}
+[name *="CRM.MasterData.Form"] .grid-footer  .toolbars.single .toolbar .toolbar-wrapper{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:fit-content;
+}
+div#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_ba85b852-b3ad-bd81-e004-dd95506d957b .styling-outer-wrapper .input-control-body .input-control-m-c ,
+.theme-entry .view .innerpanel > .grid.with-footer > .grid-footer > .toolbars > .toolbar:last-child{
+    display: flex;
+    align-items: center;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"],
+html body.theme-entry .view [name *="CustomerComplaint.Form"]{
+	width: unset!important;
+	background-color:var(--white)!important;
+	margin-top:2rem;
+	border-radius: var(--zoneBorderRadius)!important;
+	padding:var(--zonePadding)!important;
+	margin-top: 1rem;
+}
+html body.theme-entry .row:first-child .view [name *="Tariff.TPR.TariffRequests.Form"]{
+	margin-top:0em;
+}
+span#\30 3c4834b-fb41-814b-0fc2-e0dd74943631,
+span#\39 99010ef-afeb-4379-7d40-47fe59c07fb7{
+display:none;
+}
+div#\30 0000000-0000-0000-0000-000000000000_ef11f574-6f4b-9999-2438-4a3080bf6c89_Table{
+	margin-top:1rem;
+}
+html body.theme-entry .row:nth-child(3) .view [name *="CustomerComplaint.Form"],
+div#\39 26f71f6-72ef-4562-9d5b-6e8c08aac1e0_6f8f334d-103e-b40b-c714-c8982da82259_4c4c81d5-53eb-7eb6-07ef-0317062fab46_d4aa5d54-7dd4-44c7-aba6-d8df65d797ed{
+	margin-top: 5rem;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-header,
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-header-wrapper,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-header,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-header-wrapper{
+	background-color:transparent!important;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-header-wrapper .grid-header-text,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-header-wrapper .grid-header-text{
+	font-size:1.8rem;
+	font-weight:600;
+	position:relative;
+	padding: 1rem 0;
+	overflow: visible;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-header-wrapper .grid-header-text::before,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-header-wrapper .grid-header-text::before{
+	content:"";
+	position: absolute;
+	left: -2rem;
+	top: 0;
+	height: 100%;
+	width: 6px;
+	background-color: var(--main-color);
+	border-radius: 0px;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-toolbars,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-toolbars{
+	padding:0!important;
+	background-color:transparent;
+	border-radius:0;
+}
+.theme-entry .grid .grid-footer .toolbar .toolbar-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.theme-entry .grid table.grid-content-table tr.selected > td, .theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td {
+    background-color: var(--main-color)!important;
+    color: var(--white)!important;
+}
+[name="From_Calendar"] .input-control-wrapper{
+    display:flex;
+    align-items:center;
+}
+[name="From_Calendar"] .input-control-wrapper input{
+    padding:0!important;
+}
+@media(min-width:1440px){
+	html *{
+		line-height:1.5vw!important;
+		font-size: 1vw!important;
+}
+	[name="btn.Search"]{
+	border-radius:.5vw!important;
+	margin-top:1vw;
+}
+	html[dir="rtl"] body {
+		margin-right: 16.3vw;
+	}
+	html[dir="ltr"] body{
+		margin-left: 16.6vw;
+		margin-right: 0;
+	}
+	html body{
+		width:calc(100% - 16.3vw);
+	}
+	:not(.designer) body, body{
+	padding-top: 6vw!important;
+	width: calc(100% - 16.6vw) !important;
+}
+.theme-entry a.Hyperlink{
+	font-size: 1vw;
+}
+}

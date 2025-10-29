@@ -1,0 +1,109 @@
+/*Card Styling*/
+.theme-entry .form .view .innerpanel > .grid, .theme-entry #pgInnerPanel .view .innerpanel > .grid, .theme-entry .form-tabs > .tab-box-body .view .innerpanel > .grid, 
+.theme-entry #pgTabContent .view .innerpanel > .grid, .theme-entry .form .view .innerpanel > .panel, .theme-entry #pgInnerPanel .view .innerpanel > .panel, .theme-entry .form-tabs > 
+.tab-box-body .view .innerpanel > .panel, .theme-entry #pgTabContent .view .innerpanel > .panel, .theme-entry .form .view-canvas > .grid, .theme-entry #pgInnerPanel .view-canvas > 
+.grid, .theme-entry .form-tabs > .tab-box-body .view-canvas > .grid, .theme-entry #pgTabContent .view-canvas > .grid, .theme-entry .form .view-canvas > .panel, .theme-entry #pgInnerPanel .view-canvas > .panel, 
+.theme-entry .form-tabs > .tab-box-body .view-canvas > .panel, .theme-entry #pgTabContent .view-canvas > .panel
+{
+    border-radius: 15px !important;
+	height: 10%;
+}
+
+[title="Attachments"] {
+  margin-right: auto!important;
+  width: 67%;
+}
+
+[title="Attachments"] h2 {
+  text-align: left;
+}
+.theme-entry .grid .grid-column-header-divider {
+    display: none !important; /* Hide the divider completely */
+}
+
+.theme-entry .grid-content-table tbody tr.highlighted > td.last, .theme-entry .grid-content-table tbody tr.highlighted > td:last-child
+{
+	
+	padding-top:2% !important;
+}
+.theme-entry .grid table.grid-column-header-table td{
+	border : #f0f0f0;
+}
+
+.theme-entry span.SourceCode-Forms-Controls-Web-DataLabel{
+	/* font-weight:bold !important; */
+	/* color:#303030; */ /* added by silvana */
+	font-size: 1rem; /* added by silvana */
+}
+.theme-entry [name^="dl"][name$="value"] {
+	height:unset!important;
+	padding: 1.9rem 1rem!important;
+	border-radius:.5rem!important;
+	border-color:#DDD!important;
+	width: 100%!important;
+}
+
+html[dir=ltr] .theme-entry a.toolbar-button{
+	margin: 0!important;
+	border: none;
+}
+
+[name^="Table_Buttons"]
+{
+	width:100%;
+	display:flex!important;
+	justify-content:flex-end;
+}
+
+
+.theme-entry .input-control.text-input .input-control-m-c{
+     padding:1rem;
+     border-color: #DDD;
+     border-radius: .5rem;
+}
+.theme-entry .input-control.select-box a.input-control > span{
+	padding:0;
+}
+html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	border-color: #DDDDDD; /* added by silvana */
+	padding: .4rem 1rem; /* added by silvana */
+	height: unset !important; /* added by silvana */
+	border-top-left-radius:0.5rem; /* added by silvana */
+	border-bottom-left-radius:0.5rem; /* added by silvana */
+	
+}
+.theme-entry .input-control.select-box{
+	margin-bottom: 1rem;
+}
+html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons{
+	border-color: #DDD; /* added by silvana */
+	padding: 0 1rem; /* added by silvana */
+	height: unset !important; /* added by silvana */
+	border-top-right-radius:0.5rem; /* added by silvana */
+	border-bottom-right-radius:0.5rem; /* added by silvana */
+
+}
+
+/* new styles added by Silvana */
+
+.theme-entry .tab-box .tab-box-body{
+	background-color:#F5F5F5;
+}
+
+
+.theme-entry .toolbar-wrapper,
+.theme-entry .panel.without-header.with-toolbar > .panel-toolbars .toolbars,
+.theme-entry .panel-toolbars,
+.theme-entry .panel .panel-body-wrapper,
+.theme-entry .root-table.Grid-Layout>.editor-cell.lastcellinrow,
+.SourceCode-Forms-Controls-Web-Table.Grid-Layout,
+.toolbars.single,
+.grid-toolbars{
+	overflow:visible !important;
+}
+[name="User NameData Label"]{
+	color:black!important;
+	opacity:1;
+	padding: 0!important;
+	line-height: 1;
+}

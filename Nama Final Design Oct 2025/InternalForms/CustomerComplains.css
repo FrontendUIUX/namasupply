@@ -1,0 +1,414 @@
+.theme-entry .popup-header-button-bar, .theme-entry .popup-header-button-bar-wrapper{
+	display:flex;
+	align-items:center;
+}
+[name="dl_AccountNumberDisplay"].empty{
+	display:none!important;
+}
+.searchBar .input-control-m-c{
+	padding:0!important;
+}
+.theme-entry .dialog .popup-header-buttons a{
+	margin:0 1rem;
+}
+.theme-entry .dialog .popup-header-wrapper > .wrapper > div{
+	width:fit-content;
+}
+div#ff1a93a6-11eb-2411-f502-de982c9278c6_325931b9-9b2e-e1b7-755b-46e13c5e9ac6_Primary {
+    min-height: unset!important;
+    height: 3rem!important;
+    border-radius:.5rem!important;
+    border-color: #DDD!important;
+    border: 1px solid #ddd!important;
+    width: 100%!important;
+    background-color: white;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+.theme-entry .dialog .popup-header{
+	height:unset;
+	padding:2rem;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px;
+    background-color: var(--main-color);
+    z-index: 100000;
+}
+
+
+html[dir=ltr] .theme-entry a.toolbar-button{
+	margin: 0!important;
+	border: none!important;
+	min-height: unset;
+}
+.theme-entry a.toolbar-button span, 
+.theme-entry a.toolbar-button.toolbar-button-inline span,
+ .theme-entry a.toolbar-button,
+.theme-entry .input-control a.input-control{
+	min-height:unset!important;
+	height:unset!important;
+	border: none;
+}
+.theme-entry a.toolbar-button span.button-text{
+	font-size:1rem;
+	min-height: unset!important;
+	border: none!important;
+}
+.theme-entry a.Hyperlink{
+	color:var(--main-color);
+	font-size: 1rem;
+}
+[title="*"]{
+	color:#e62b37!important;
+}
+html[dir=rtl] .theme-entry .input-control.select-box .input-control-m-c{
+	padding:0;
+	}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS START */
+.tooltip.validation{
+	font-size: .8rem;
+	color: #ff6a6a!important;
+	background-color: white!important;
+	padding: 0.8rem 1rem;
+	text-wrap: nowrap;
+	height: fit-content;
+	border-radius: 0.7rem!important;
+	border: 1px solid #d3d3d3!important;
+	width: fit-content;
+}
+.tooltip.validation span{
+	line-height: 1.6;
+	display: block;
+	text-wrap: auto;
+}
+.tooltip.validation .tooltip-pointer,
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+ border-color:transparent!important;
+ background: none!important;
+}
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 10px #d3d3d3!important;
+  border-left: solid 10px transparent!important;
+  border-right: solid 10px transparent!important;
+  top: 0.2rem;
+}
+.theme-entry .day {
+    font-size: 1rem;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+    text-align: center!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.calendar-row .dayname{
+	height:2.5rem!important;
+	width:2.5rem!important;
+	margin-bottom:1rem;
+}
+.theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto!important;
+}
+.theme-entry .top-calendar a.today-title {
+    border: none;
+    border-radius: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+.theme-entry .top-calendar a {
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    height: 1rem;
+}
+.theme-entry .week{
+display:flex;
+}
+.theme-entry .today-text{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.datepicker.invalid{
+	border: 1px solid var(--input-error-border-color) !important;
+	background-color: #f8e8e8!important;
+}
+.theme-entry .invalid .input-control-watermark *{
+	background-color:transparent!important;
+}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS END */
+/* Designer Branding */
+.designer{
+	font-size:12px;
+	line-height:26px;
+}
+.designer .toolboxitem{
+	height:auto;
+}
+.designer body::before{
+	display:none;
+	}
+.designer .propertyGridPropertyItem{
+	height:auto!important;
+}
+.designer .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	padding:0;
+}
+/* popup icon */
+.theme-entry .message-box-content:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 0;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.info-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .message-box-content{
+ min-height: max-content!important;
+}
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) {
+    height: max-content !important;
+}
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message){
+	width:auto!important;
+	max-width:600px;
+	height: auto!important;
+	margin:auto;
+}
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-footer{
+	padding:2rem!important;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-header{
+	padding:2rem!important;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-body{
+	position:relative!important;
+	display:flex;
+	align-items:center;
+	padding: 1.5rem 2rem;
+}
+html:not(.designer) .popup-body .scroll-wrapper{
+	overflow:hidden;
+}
+html .theme-entry .panel[name="CustomerComplaint.Form Area Item1"]{
+	background-color:white!important;
+}
+.theme-entry .grid table.grid-column-header-table{
+	background-color:#F9F9F9;
+}
+[name *="CustomerComplaint.Form"]{
+	width:unset!important;
+}
+.theme-entry [name *="CustomerComplaint.Form"] span{
+	overflow:visible!important;
+}
+.theme-entry [name="Tariff.TPR.TariffRequests.Form Area Item6"] .grid-column-header-cell .grid-column-header-text{
+	font-size:.6rem;
+}
+.theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
+	background-color:#F9F9F9;
+}
+.theme-entry .grid .grid-body {
+    border: 1px solid #E8E8E8!important;
+    border-radius: .5rem!important;
+    margin-top: 2rem!important;
+    border-radius: 1rem!important;
+}
+html body .form [name *="CRM.MasterData.Form Area"] [name *="txt"],
+input#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_5642ae06-d6e3-813d-394c-56e651c81e05{
+	height:2.5rem!important;
+	border:1px solid #ddd!important;
+	border-radius:.5rem!important;
+}
+span#b6d70ee7-ab49-652c-f249-565a26e4cc80, 
+span#\37 8ecc68e-dcd3-4551-e8f4-7a9740cb7ec8, 
+span#\34 03433b7-6c80-b775-d86b-5b6d869a4041, 
+span#ff1a93a6-11eb-2411-f502-de982c9278c6_164fa239-4d35-bc51-c05e-60f9d2e2734f, 
+span#ff1a93a6-11eb-2411-f502-de982c9278c6_ca81e569-f4ac-caa7-f792-d1fb2bbbf280{
+	border:1px solid #ddd!important;
+	border-radius:.5rem;
+	padding: 0.5rem 1rem;
+	display:flex;
+	align-items:center;
+	background-color: #f3f3f3 !important;
+	height: 2rem;
+}
+span#ff1a93a6-11eb-2411-f502-de982c9278c6_164fa239-4d35-bc51-c05e-60f9d2e2734f[name="DLZoneValue"]{
+	background-color:transparent!important;
+	border:none!important;
+}
+span#ff1a93a6-11eb-2411-f502-de982c9278c6_0500b886-8c11-1bcb-667b-88e98987fc0d {
+    display: block;
+}
+div:not(#custom-sticky-header) [name *="AdminForm_DisplayProfiles"]{
+	background-color:white!important;
+	padding:var(--zonePadding);
+	border-radius:var(--zoneBorderRadius)!important;
+	width: unset!important;
+}
+
+[name="CustomerComplaint.Form Area Item4"] .grid-header,
+[name="Tariff.TPR.TariffRequests.Form Area Item2"] .grid-header,
+[name="Tariff.TPR.TariffRequests.Form Area Item"] .grid-header,
+[name *="UpdateGovertmentForm"] .grid-header,
+[name *="CustomerComplaint.Form"] .panel-header,
+[name *="AdminForm_DisplayProfiles"] .grid-header{
+	background-color:white!important;
+}
+[name="CustomerComplaint.Form Area Item4"] .grid-header .grid-header-wrapper,
+[name="Tariff.TPR.TariffRequests.Form Area Item2"] .grid-header .grid-header-wrapper,
+[name="Tariff.TPR.TariffRequests.Form Area Item"] .grid-header .grid-header-wrapper,
+[name *="UpdateGovertmentForm"] .grid-header .grid-header-wrapper,
+[name *="CustomerComplaint.Form"] .panel-header-wrapper,
+[name *="AdminForm_DisplayProfiles"] .grid-header-wrapper{
+	background-color:white!important;
+}
+[name *="UpdateGovertmentForm"] .grid-header .grid-header-wrapper,
+[name="CustomerComplaint.Form Area Item8"] .panel-header-wrapper,
+[name="CustomerComplaint.Form Area Item1"] .panel-header-wrapper,
+[name *="CustomerComplaint.Form"] .panel-header .grid-header-wrapper,
+[name="CustomerComplaint.Form Area Item4"] .grid-header .grid-header-wrapper,
+[name *="AdminForm_DisplayProfiles"] .grid-header-wrapper{
+	margin:0!important;
+}
+[name *="CustomerComplaint.Form"] .grid-header .grid-header-wrapper .grid-header-text,
+[name="Tariff.TPR.TariffRequests.Form Area Item2"] .grid-header .grid-header-wrapper .grid-header-text,
+[name="Tariff.TPR.TariffRequests.Form Area Item"] .grid-header .grid-header-wrapper .grid-header-text,
+[name *="UpdateGovertmentForm"] .grid-header .grid-header-wrapper .grid-header-text,
+[name *="CustomerComplaint.Form"] .panel-header-wrapper .panel-header-text,
+[name *="AdminForm_DisplayProfiles"] .grid-header-wrapper .grid-header-text span{
+	font-size: 1.8rem !important;
+	color: var(--main-color) !important;
+	position: relative;
+	overflow: visible !important;
+	padding: 1rem 0 !important;
+	margin-bottom: 0rem !important;
+	font-weight: 600 !important;
+	height: unset;
+	background-color: white!important;
+}
+[name="CustomerComplaint.Form Area Item1"] .panel-header-wrapper .panel-header-text{
+	margin-bottom:2rem!important;
+}
+div#\35 51e6671-4327-8d82-2b57-05282c9a6756_e91d6e40-98af-5ffb-56f2-3ce7d037931e_Table .input-control.text-input.control-group-container .input-control-m-c {
+    padding:.4rem 1rem!important;
+    border:1px solid #ddd!important;
+}
+[name *="AdminForm_DisplayProfiles"] .grid-header .grid-header-text{
+	overflow:visible!important;
+}
+[name="Tariff.TPR.TariffRequests.Form Area Item2"]  .grid-toolbars,
+[name="Tariff.TPR.TariffRequests.Form Area Item"] .grid-toolbars,
+[name *="UpdateGovertmentForm"] .grid-toolbars{
+	border-radius:0!important;
+}
+[name="Tariff.TPR.TariffRequests.Form Area Item2"] .grid-header,
+[name="Tariff.TPR.TariffRequests.Form Area Item"] .grid-header{
+	padding-top:1rem;
+}
+span#\34 03433b7-6c80-b775-d86b-5b6d869a4041 {
+    padding:0;
+    height:unset;
+}
+div#\33 7913b83-8b1b-4be9-a6e2-9729ae8454ef {
+    background-color: transparent;
+}
+input.SourceCode-Forms-Controls-Web-TextBox.readonly{
+    border:1px solid #ddd!important;
+	border-radius:.5rem;
+	padding: 0.5rem 1rem;
+	display:flex;
+	align-items:center;
+	background-color: #f3f3f3 !important;
+	height: 2.5rem;
+	margin-bottom:1rem;
+	width:100%;
+}
+td input.SourceCode-Forms-Controls-Web-TextBox.readonly,
+[name="Is Aggregated Text Box"]{
+	border:none!important;
+	background-color:transparent!important;
+	height:unset!important;
+	padding:0!important;
+	margin:0!important;
+	text-align:center;
+	font-size:8pt!important;
+}
+div#b914e715-5ef3-46d2-92f8-e9af798382ec_tabbody .row {
+    margin-bottom: 1rem;
+}
+a#ecc81200-1392-91c0-3ff4-c72981ef7bad_d69a7051-6487-4649-a707-0901b8eb9996_ToolbarButton {
+    margin: 0!important;
+    padding: .4rem 1rem;
+    border-radius: .5rem;
+}
+a#ecc81200-1392-91c0-3ff4-c72981ef7bad_d69a7051-6487-4649-a707-0901b8eb9996_ToolbarButton svg{
+    	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(43deg) brightness(113%) contrast(101%);
+
+}
+.theme-entry.runtime-form span.runtime-list-item-wrap, .theme-entry.runtime-form span.runtime-list-item{
+	padding:0!important
+}
+span#ff1a93a6-11eb-2411-f502-de982c9278c6_ca81e569-f4ac-caa7-f792-d1fb2bbbf280.visible{
+    width: 100%;
+    height: 3rem;
+    margin-top: .2rem;
+}
+.theme-entry .tab-box-body .form {
+    background-color: white;
+    padding: var(--zonePadding) !important;
+    border-radius: var(--zoneBorderRadius);
+}
+div#\30 0000000-0000-0000-0000-000000000000_add3bf52-a3a4-cc73-c7dc-a7e2a62ee410_internal {
+    padding: 1rem!important;
+}
+@media(min-width:1600px){
+.theme-entry a.Hyperlink{
+	font-size: 1vw;
+}
+	[name *="CRM.MasterData.Form Area"] [name *="txt"]{
+	height:2.5vw;
+}
+	html body .form [name *="CRM.MasterData.Form Area"] [name *="txt"],
+input#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_5642ae06-d6e3-813d-394c-56e651c81e05{
+	height:2.5vw!important;
+	border-radius:.5vw!important;
+}
+	span#b6d70ee7-ab49-652c-f249-565a26e4cc80, 
+	span#\37 8ecc68e-dcd3-4551-e8f4-7a9740cb7ec8, 
+	span#\34 03433b7-6c80-b775-d86b-5b6d869a4041, 
+	span#ff1a93a6-11eb-2411-f502-de982c9278c6_164fa239-4d35-bc51-c05e-60f9d2e2734f, 
+	span#ff1a93a6-11eb-2411-f502-de982c9278c6_ca81e569-f4ac-caa7-f792-d1fb2bbbf280{
+	border-radius:.5vw;
+	padding: 0.5vw 1vw;
+	height: 2vw;
+}
+}

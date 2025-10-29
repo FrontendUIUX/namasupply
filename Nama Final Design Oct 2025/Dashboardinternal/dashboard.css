@@ -1,0 +1,290 @@
+.row .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+div#\38 c95f63c-2e53-d971-7f42-de1f585aca33_5a9ef7f1-43bf-ec83-db10-25fdb6bfbb58_Table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap:1rem;
+}
+.row:nth-child(2) .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    padding: 0;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
+    height: 11rem;
+    width: 100%;
+    /* margin: 0.5rem; */
+    box-shadow: none;
+    background-color: white;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center;
+    transition: all .3s ease-in-out;
+    padding: 0 1rem;
+}
+@media(max-width:992px) {
+    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):nth-child(10n+1) {
+        margin-left: 0;
+    }
+
+    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):nth-child(10n+10) {
+        margin-right: 0;
+    }
+}
+
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
+    font-size: 1rem;
+    text-wrap: auto;
+    text-align: center;
+}
+
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget .picture-control-inline {
+    width: 4rem !important;
+    margin-bottom: .7rem;
+    outline: none;
+    border: none;
+}
+
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):hover {
+    box-shadow: none;
+    background-color: #14467014;
+}
+
+.form .row .view:has([name="LCTS.EservicesHub.Form Area Item"]) {
+    background-color: #f5f5f5 !important;
+    padding: 0;
+    border-radius: 0;
+}
+
+.theme-entry .view:has([name="LCTS.EservicesHub.Form Area Item"]) .innerpanel>.panel {
+    background-color: transparent;
+}
+
+.theme-entry .view:has([name="LCTS.EservicesHub.Form Area Item"]) .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    padding: 0 !important;
+    gap: 0;
+}
+
+.theme-entry .tab-box-body .form {
+    margin-top: 0;
+}
+.form .row .view {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+body.theme-entry,
+#pgOuterPanel.theme-entry {
+    padding-top: 6.4rem;
+}
+.theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel {
+    background-color: transparent;
+    border-radius: 0;
+}
+.theme-entry .scroll-wrapper {
+    padding: 3rem;
+    width: calc(100% - 6rem);
+    margin-left: 0rem;
+}
+.innerpanel>div,
+.theme-entry .form {
+    background-color: transparent !important;
+}
+
+[name="ServicesLabel"] {
+    font-size: 1.4rem!important;
+    margin: 1rem 1rem 0;
+    font-weight: 700;
+    color: var(--main-color)!important;
+}
+
+/* SUBMITTED REQUESTS */
+.innerpanel>div[name="External.SubmittedRequests.Form Area Item1"] {
+    background-color: white !important;
+}
+
+div#\31 4756d3d-ed02-ec11-0620-96035132bc28_8697eebc-71a4-0dcb-220a-f3d5dd7ba23d_Table {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+td#\34 dc37f6b-817e-a74b-2353-1b7d11c7e15e {
+    padding: 2rem 0;
+}
+.theme-entry .filterContainer{
+	padding:0 1rem;
+}
+.theme-entry .grid .grid-body{
+	margin-top:1rem;
+}
+.theme-entry .grid .grid-column-headers div{
+	line-height:3;
+	width:auto!important;
+}
+.theme-entry .toolbar, .theme-entry .toolbars.single .toolbar {
+    min-height: 7.4rem;
+}
+.input-control.select-box:not(.hide-buttons) .input-control-m-c {
+    border-color: transparent;
+    padding: .9rem 1rem;
+    height: unset !important;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_4184ef26-2239-3899-6572-402efec6a400_Table{
+    background-color:rgb(255 255 255 / 62%);
+    width: 100%;
+}
+.theme-entry .form{padding: 0!important;}
+html[dir=ltr] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-m-c{
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+}
+html[dir=ltr] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-buttons{
+    border-top-right-radius:2rem;
+    border-bottom-right-radius:2rem;
+}
+html[dir=rtl] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-m-c{
+    border-top-right-radius:2rem;
+    border-bottom-right-radius:2rem;
+}
+html[dir=rtl] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-buttons{
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+}
+div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861{
+    width: 19rem!important;
+     }
+html .theme-entry span[name~="customerTypeCell"]{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: flex-end!important;
+    padding: 1.5rem 3rem!important;
+    margin-left: auto;
+}
+html .theme-entry span[name~="customerTypeCell"] .SFC.SourceCode-Forms-Controls-Web-Label{
+    margin-right:1rem;
+    font-size: 1.4rem;
+}
+.runtime-content{
+    margin:0!important;
+}
+.theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
+	border-bottom:1px solid rgb(0 0 0 / 20%)!important;
+}
+.theme-entry .drop-menu ul.drop-menu li a:hover{
+	background-color:#e62b3736;
+}
+.theme-entry .drop-menu ul.drop-menu li a span{
+	font-size:1rem;
+}
+
+@media(max-width:992px) {
+    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):nth-child(10n+1) {
+        margin-left: 0;
+    }
+
+    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):nth-child(10n+10) {
+        margin-right: 0;
+    }
+}
+@media(min-width:992px){
+	div#\38 c95f63c-2e53-d971-7f42-de1f585aca33_5a9ef7f1-43bf-ec83-db10-25fdb6bfbb58_Table {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap:1rem;
+}
+	.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
+    height: 13rem;
+    width: 13rem;
+    box-shadow: none;
+    background-color: white;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center;
+    transition: all .3s ease-in-out;
+    padding: 0 1rem;
+}
+}
+@media(min-width:1600px) {
+	.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget .picture-control-inline {
+    width: 5vw !important;
+    margin-bottom: .7vw;
+}
+    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
+        height: 12vw;
+        width: 13vw;
+        margin: 1vw;
+        border-radius: 0.7vw;
+    }
+[name="ServicesLabel"] {
+    font-size: 1.6vw!important;
+    margin: 0 2.7vw;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
+    font-size: 1vw;
+}
+td#\34 dc37f6b-817e-a74b-2353-1b7d11c7e15e {
+    padding: 2vw 0;
+}
+.theme-entry .filterContainer{
+	padding:0 1vw;
+}
+.theme-entry .grid .grid-body{
+	margin-top:1vw;
+}
+.theme-entry .toolbar, .theme-entry .toolbars.single .toolbar {
+    min-height: 7.4vw;
+}
+.input-control.select-box:not(.hide-buttons) .input-control-m-c {
+    padding: .9vw 1vw;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+}
+
+.theme-entry .form{padding: 0!important;}
+html[dir=ltr] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-m-c{
+    border-top-left-radius:2vw;
+    border-bottom-left-radius:2vw;
+}
+html[dir=ltr] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-buttons{
+    border-top-right-radius:2vw;
+    border-bottom-right-radius:2vw;
+}
+html[dir=rtl] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-m-c{
+    border-top-right-radius:2vw;
+    border-bottom-right-radius:2vw;
+}
+html[dir=rtl] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-buttons{
+    border-top-left-radius:2vw;
+    border-bottom-left-radius:2vw;
+}
+div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861{
+    width: 19vw!important;
+     }
+html .theme-entry span[name~="customerTypeCell"]{
+    padding: 1.5vw 3vw!important;
+}
+html .theme-entry span[name~="customerTypeCell"] .SFC.SourceCode-Forms-Controls-Web-Label{
+    margin-right:1vw;
+    font-size: 1.4vw;
+}
+	.theme-entry .drop-menu ul.drop-menu li a span{
+		font-size:1.3vw;
+	}
+}

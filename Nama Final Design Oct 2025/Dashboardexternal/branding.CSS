@@ -1,0 +1,380 @@
+/* Common CSS */
+.worklist-action-view-flow{
+	display: none!important;
+}
+.theme-entry .dialog .popup-footer .SourceCode-Forms-Controls-Web-Button.help{
+	display:none;
+}
+tr.selected td img{
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(43deg) brightness(113%) contrast(101%);
+}
+.theme-entry .month, 
+.theme-entry .year, 
+.theme-entry .month:hover, 
+.theme-entry .year:hover{
+height:3rem;
+}
+.theme-entry .grid-content-table tbody tr.highlighted > td.last, 
+.theme-entry .grid-content-table tbody tr.highlighted > td:last-child{
+	padding: 0!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-text, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-text{
+	padding-right:.5rem!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-cell-wrapper:before, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-cell-wrapper:before {
+    height: 0.9rem!important;
+    margin-top: -0.5rem!important;
+    width: 0.9rem!important;
+    background-image: url(https://ns.namaservices.om/Style/logos/arrowDown.svg)!important;
+    background-position: right center!important;
+    background-size: 100%!important;
+}
+/* GENERAL BRANDING */
+:root{
+	--white:#ffffff;
+	--main-color:#e62b37;
+	--main-color-hover:#c01f29;
+	--light-main-color: rgb(230 43 55 / 9%);
+	--zoneBorderRadius:1.5rem;
+	--zonePadding:2rem;
+}
+[name="From_Calendar"] .input-control-wrapper{
+    display:flex;
+    align-items:center;
+}
+[name="From_Calendar"] .input-control-wrapper input{
+    padding:0!important;
+}
+.calendar-row.months a ,
+.calendar-row.years a {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: unset;
+    line-height: unset!important;
+}
+.drop-menu li a span{
+	font-size:.9rem;
+}
+html.designer{
+	font-size:62.5%!important;
+}
+.theme-entry h2.page-subtitle, h2 {
+    font-size: 1.8rem!important;
+    color: black !important;
+    position: relative;
+    overflow:visible!important;
+    padding: 1rem 0!important;
+    margin-bottom: 2rem!important;
+    font-weight: 600!important;
+}
+.theme-entry h2.page-subtitle::before, h2::before {
+    content: "";
+    position: absolute;
+    left: -3rem;
+    top: 0;
+    height: 100%;
+    width: 6px;
+    background-color: var(--main-color);
+    border-radius: 0px;
+}
+.theme-entry .editor-cell{
+	overflow:visible!important;
+}
+.theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
+	padding:0!important;
+	height: 100%;
+	min-height: unset;
+	max-height: unset;
+	line-height: unset!important;
+	font-size: 1rem;
+}
+@font-face {
+    font-family: 'SWCC-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
+    /* Adjust the path and font format */
+}
+.style-profile-developer-container .style-profile-designer-section{
+	width:50rem!important;
+}
+html{
+font-size:16px!important;
+line-height:24px!important;
+}
+html *{
+	line-height:24px!important;
+	font-size: 1rem;
+	font-family: 'SWCC-Medium' !important;
+}
+html, body, form, body.theme-entry{
+	background-color: #f5f5f5;
+}
+body.theme-entry.runtime-view .sidebar {
+    display: none;
+}
+body.theme-entry.runtime-view{
+    width:100%!important;
+    margin:0!important;
+    padding: 0
+}
+body.theme-entry.runtime-view::before{
+	content:none;
+}
+body.theme-entry.runtime-view #custom-sticky-header{
+    display:none;
+}
+.designer body{
+	margin:0!important;
+	width:100%!important;
+}
+.theme-entry .popup-header-button-bar, .theme-entry .popup-header-button-bar-wrapper{
+	display:flex;
+	align-items:center;
+}
+.theme-entry .dialog .popup-header-buttons a{
+	margin:0 1rem;
+}
+.theme-entry .dialog .popup-header-wrapper > .wrapper > div{
+	width:fit-content;
+}
+.theme-entry .dialog .popup-header{
+	height:unset;
+	padding:2rem;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px;
+    background-color: var(--main-color);
+    z-index: 100000;
+}
+html[dir=ltr] .theme-entry a.toolbar-button{
+	margin: 0!important;
+	border: none!important;
+	min-height: unset;
+	padding: 0;
+}
+
+.theme-entry a.toolbar-button span, 
+.theme-entry a.toolbar-button.toolbar-button-inline span,
+ .theme-entry a.toolbar-button,
+.theme-entry .input-control a.input-control{
+	min-height:unset!important;
+	height:unset!important;
+	border: none;
+}
+.theme-entry a.toolbar-button span.button-text{
+	font-size:1rem;
+	min-height: unset!important;
+	border: none!important;
+}
+.theme-entry a.Hyperlink{
+	color:var(--main-color);
+	font-size: 1rem;
+}
+[title="*"]{
+	color:#e62b37!important;
+}
+html[dir=rtl] .theme-entry .input-control.select-box .input-control-m-c{
+	padding:0;
+	}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS START */
+.tooltip.validation{
+	font-size: .8rem;
+	color: #ff6a6a!important;
+	background-color: white!important;
+	padding: 0.8rem 1rem;
+	text-wrap: nowrap;
+	height: fit-content;
+	border-radius: 0.7rem!important;
+	border: 1px solid #d3d3d3!important;
+	width: fit-content;
+}
+.tooltip.validation span{
+	line-height: 1.6;
+	display: block;
+	text-wrap: auto;
+}
+.tooltip.validation .tooltip-pointer,
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+ border-color:transparent!important;
+ background: none!important;
+}
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 10px #d3d3d3!important;
+  border-left: solid 10px transparent!important;
+  border-right: solid 10px transparent!important;
+  top: 0.2rem;
+}
+.theme-entry .day {
+    font-size: 1rem;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+    text-align: center!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.calendar-row .dayname{
+	height:2.5rem!important;
+	width:2.5rem!important;
+	margin-bottom:1rem;
+}
+.theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto!important;
+}
+.theme-entry .top-calendar a.today-title {
+    border: none;
+    border-radius: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+.theme-entry .top-calendar a {
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    height: 1rem;
+}
+.theme-entry .week{
+display:flex;
+}
+.theme-entry .today-text{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.datepicker.invalid{
+	border: 1px solid var(--input-error-border-color) !important;
+	background-color: #f8e8e8!important;
+}
+.theme-entry .invalid .input-control-watermark *{
+	background-color:transparent!important;
+}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS END */
+/* Designer Branding */
+.designer{
+	font-size:12px;
+	line-height:26px;
+}
+.designer .toolboxitem{
+	height:auto;
+}
+.designer body::before{
+	display:none;
+	}
+.designer .propertyGridPropertyItem{
+	height:auto!important;
+}
+.designer .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	padding:0;
+}
+/* popup icon */
+.theme-entry .message-box-content:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 0;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.info-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .message-box-content{
+ min-height: max-content!important;
+}
+
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) {
+    height: max-content !important;
+}
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message){
+	width:auto!important;
+	max-width:600px;
+	height: auto!important;
+	margin:auto;
+}
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-footer{
+	padding:2rem!important;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-header{
+	padding:2rem!important;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-body{
+	position:relative!important;
+	display:flex;
+	align-items:center;
+	padding: 1.5rem 2rem;
+}
+.popup-body .scroll-wrapper{
+	overflow:hidden;
+}
+[name="btn.Search"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="SubmitButton1"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	height:3rem;
+}
+[name="Cancel Button"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin:0 1rem;
+	height:3rem;
+	color:var(--main-color)!important;
+}
+[name="btn_submit"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="btn_cancel"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin-top:1rem;
+	color:var(--main-color)!important;
+}
+@media(min-width:1440px){
+	[name="btn.Search"]{
+	border-radius:.5vw!important;
+	margin-top:1vw;
+}
+.theme-entry a.Hyperlink{
+	font-size: 1vw;
+}
+}

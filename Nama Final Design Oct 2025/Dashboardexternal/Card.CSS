@@ -1,0 +1,126 @@
+
+/*attachments grif view*/
+.theme-entry .toolbar > .toolbar-wrapper > table > tbody > tr > td
+{
+	padding:5rem 0; /* added by silvana */
+	
+}
+[title="Attachments"] {
+  margin-right: auto!important;
+  width: 67%;
+}
+
+/* Optional: Align text within h2 to the left */
+[title="Attachments"] h2 {
+  text-align: left;
+}
+
+/* Apply padding to grid elements */
+.theme-entry .grid .grid-body,
+.theme-entry .grid-header,
+.theme-entry .grid .grid-column-headers,
+.theme-entry .grid .grid-column-headers-wrapper,
+.theme-entry .grid .grid-column-header-divider {
+   
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+/* Style for grid column headers to remove dividers and center text */
+.theme-entry .grid .grid-column-headers div,
+.theme-entry .grid .grid-column-headers span {
+    background-color: #f0f0f0 !important;
+    height: 100%;
+    text-align: center; /* Center text */
+    border: none; /* Remove any border/divider */
+}
+
+/* Remove the grid view divider */
+.theme-entry .grid .grid-column-header-divider {
+    display: none !important; /* Hide the divider completely */
+}
+
+.theme-entry .grid-content-table tbody tr.highlighted > td.last, .theme-entry .grid-content-table tbody tr.highlighted > td:last-child
+{
+	
+	padding-top:2% !important;
+}
+
+.theme-entry .grid table.grid-content-table > tbody > tr > td, .theme-entry .grid table.grid-content-table > tr > td{
+	vertical-align : middle !important;
+}
+.theme-entry .grid table.grid-column-header-table td{
+	border : #f0f0f0;
+}
+
+.theme-entry span.SourceCode-Forms-Controls-Web-DataLabel
+{
+	font-weight:bold !important;
+	color:#303030;
+	font-size:14px;
+	
+}
+.theme-entry [name^="dl"][name$="value"] {
+	height:unset!important;
+	padding: 1.9rem 1rem!important;
+	border-radius:.5rem!important;
+	border-color:#D7D7D7!important;
+	width: 100%!important;
+}
+[name^="Table_Buttons"]{
+	width:100%;
+	display:flex!important;
+	justify-content:flex-end;
+}
+.theme-entry .input-control.text-input .input-control-m-c{
+     padding:1rem;
+     border-color: #D7D7D7; /* updated by Silvana , older color was black */
+     border-radius: .5rem; /* updated by silvana , older radius was 10px*/
+}
+html[dir=ltr] .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	border-color: #D7D7D7; /* added by silvana */
+    padding: .9rem 1rem; /* added by silvana */
+    height: unset !important; /* added by silvana */
+	border-top-left-radius:0.5rem; /* added by silvana */
+	border-bottom-left-radius:0.5rem; /* added by silvana */
+	
+}
+html[dir=ltr] .theme-entry .input-control.select-box .input-control-buttons{
+	border-color: #D7D7D7; /* added by silvana */
+    padding: .5rem 1rem; /* added by silvana */
+    height: unset !important; /* added by silvana */
+	border-top-right-radius:0.5rem; /* added by silvana */
+	border-bottom-right-radius:0.5rem; /* added by silvana */
+}
+
+/* new styles added by Silvana */
+
+.theme-entry .tab-box .tab-box-body{
+	background-color:#F5F5F5;
+}
+.theme-entry .scroll-wrapper {
+    padding: 3rem;
+}
+.form .row .view{
+	margin-top:2.5rem!important;
+	margin-bottom:2.5rem!important;
+	padding:0 4rem;
+	background-color:white;
+	border-radius:2rem;
+}
+.theme-entry .toolbar-wrapper,
+.theme-entry .panel.without-header.with-toolbar > .panel-toolbars .toolbars,
+.theme-entry .panel-toolbars,
+.theme-entry .panel .panel-body-wrapper,
+.theme-entry .root-table.Grid-Layout>.editor-cell.lastcellinrow,
+.SourceCode-Forms-Controls-Web-Table.Grid-Layout,
+.toolbars.single,
+.grid-toolbars{
+	overflow:visible !important;
+}
+[name="User NameData Label"]{
+	color:black!important;
+	opacity:1;
+	padding: 0!important;
+	line-height: 1;
+}

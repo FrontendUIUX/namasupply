@@ -1,0 +1,84 @@
+
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox {
+    height: unset !important;
+    overflow: visible !important;
+}
+
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
+    min-height: 18rem;
+    overflow: visible
+}
+
+
+.hoverdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #545454 !important;
+    background-color: white !important;
+    margin-bottom: 10px !important;
+    margin-right: 20px;
+    height: 100% !important;
+    border-radius: 10px;
+    border: 1px solid #e3e3e3 !important;
+    transition: transform 0.7s ease;
+    direction: flex;
+    flex-direction: column;
+    padding: 10px !important;
+}
+
+.hoverdiv img{
+    height: 160px;
+    border-radius: 8px;
+}
+
+.hoverdiv .service-name{
+    font-size: 1.75rem
+}
+
+.hoverdiv:hover {
+    color: #545454 !important;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(0.97);
+}
+
+.listBoxSelect .title{
+    display: none;
+}
+
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper {
+    border-color: transparent !important;
+}
+
+.theme-entry .grid.full .grid-body{
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    height: 300px;
+}
+
+.theme-entry .grid.full .grid-footer{
+    position: relative !important;
+    top: auto !important;
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+}
+
+.SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper .selectPosition {
+    height: unset !important;
+}
+span#\37 37c5df8-a831-454b-a815-763c62224b37{
+display:none;
+}
+@media(min-width:1600px){
+    
+.SFC.SourceCode-Forms-Controls-Web-ControlPack-ListBox .listwrapper{
+    min-height: 21vw;
+    overflow: visible
+}
+}

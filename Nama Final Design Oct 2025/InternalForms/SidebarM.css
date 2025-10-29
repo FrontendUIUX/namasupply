@@ -1,0 +1,197 @@
+.sidebar {
+
+  background-image: url("https://ns.namaservices.om/Style/logos/bluePattern.png")!important;
+}
+html[dir="rtl"] .sidebar {
+right:0;
+}
+html[dir="ltr"] .sidebar {
+left:0;
+}
+
+.sidebar-logo-container {
+ text-align: center;
+ padding-bottom: 20px;
+}
+.sidebar-logo {
+ width: 8rem;
+ height:auto;
+}
+.sidebar-section {
+ font-size: .9rem;
+ font-weight: bold;
+ text-transform: uppercase;
+ color: #999;
+ margin: 20px 0 10px;
+}
+/* Sidebar Links */
+.sidebar-link {
+ display: flex;
+ align-items: center;
+ color: #333;
+ text-decoration: none;
+ font-size: 1rem;
+ padding: 12px;
+ border-radius: 6px;
+ transition: background 0.3s;
+}
+.sidebar-link:hover {
+ background: #f0f0f0;
+}
+.sidebar-link.active {
+ background: #14467014;
+ color: var(--main-color);
+ font-weight: bold;
+}
+/* Sidebar Icons */
+.sidebar-icon {
+ font-size: 18px;
+ height: 1.2rem;
+ width: 1.2rem;
+}
+html[dir="rtl"] .sidebar-icon {
+ margin-left: 10px;
+}
+html[dir="ltr"] .sidebar-icon {
+ margin-right: 10px;
+}
+.theme-entry .tab-box-body .form {
+padding:0;
+}
+.theme-entry .dialog{
+/*z-index:10000;	*/
+}
+html:not(.designer) .theme-entry #custom-sticky-header .tab-box.tabs-top ul.tab-box-tabs {
+display: flex;
+list-style: none;
+z-index: 1000;
+position: fixed;
+padding: 0;
+top: 10px;
+}
+.theme-entry #custom-sticky-header .tab-box.tabs-top ul.tab-box-tabs li a {
+color: #999; 
+text-decoration: none;
+padding: 8px 12px;
+font-weight: 400;
+}
+html:not(.designer) .theme-entry #custom-sticky-header .form-tabs.tab-box ul.tab-box-tabs li a.tab.selected{  
+color: #000; 
+font-weight: 600;
+border-bottom: 3px solid #d32f2f; 
+background-color:  #ffffff !important;
+}
+.sidebar-profile-card {
+width: 18rem;
+padding: 1rem;
+border-radius: 12px;
+background-image: url('https://ns.namaservices.om/Style/logos/pattern.jpg'); /* your pattern image */
+background-size: cover;
+background-position: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+font-family: 'Segoe UI', sans-serif;
+margin-top: auto;
+margin-bottom : 40px;
+}
+ .profile-title {
+     font-weight: bold;
+     margin-bottom: 5px;
+     color: #333;
+     font-size: 1.3rem;
+ }
+ .profile-desc {
+     color: #777;
+     margin-bottom: .8rem;
+     font-size: 1rem;
+     font-weight: 500;
+ }
+ .create-profile-btn {
+display: inline-flex;
+align-items: center;
+padding: 10px 16px;
+background-color: #d1222a;
+color: white;
+text-decoration: none;
+border-radius: 20px;
+font-weight: bold;
+font-size: 14px;
+transition: background-color 0.2s;
+ }
+ .create-profile-btn:hover {
+     background-color: #c92e44;
+ }
+.btn-arrow {
+margin-left: 8px;
+background-color: white;
+border-radius: 50%;
+padding: 3px;
+}
+html[dir="rtl"]	.btn-arrow {
+
+margin-right: 8px;
+ margin-left:0;
+transform:scaleX(-1);
+}
+@media(min-width:1440px){
+.sidebar {
+  width: 14vw;
+  padding: 1.3vw;
+}
+.sidebar-logo-container {
+ padding-bottom: 1.3vw;
+}
+.sidebar-logo {
+ width: 8vw;
+}
+.sidebar-section {
+ font-size: .9vw;
+ margin: 1.1vw 0 .9vw;
+}
+/* Sidebar Links */
+.sidebar-link {
+ font-size: 1vw;
+ padding: .8vw;
+ border-radius: .5vw;
+}
+html[dir="rtl"] .sidebar-icon {
+ margin-left: .7vw;
+}
+html[dir="ltr"] .sidebar-icon {
+ margin-right: .7vw;
+}
+.theme-entry .tab-box.tabs-top ul.tab-box-tabs {
+top: .7vw;
+}
+.theme-entry .tab-box.tabs-top ul.tab-box-tabs li a {
+padding: .6vw .8vw;
+}
+.sidebar-profile-card {
+width: 18vw;
+padding: 1vw;
+border-radius: .75vw;
+margin-bottom : 1vw;
+}
+ .profile-title {
+     font-weight: bold;
+     margin-bottom: .3vw;
+     font-size: 1.1vw;
+ }
+ .profile-desc {
+     color: #777;
+     margin-bottom: .8rem;
+     font-size: 1rem;
+     font-weight: 500;
+ }
+ .create-profile-btn {
+ padding: .7vw 1vw;
+ border-radius: 1.3vw;
+ font-size: .8vw;
+ }
+ .btn-arrow {
+   margin-left: .7vw;
+   padding: .2vw;
+ }
+ html[dir="rtl"]	.btn-arrow {
+   margin-right: .8vw;
+ }
+}

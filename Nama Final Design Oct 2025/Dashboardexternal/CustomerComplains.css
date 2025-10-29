@@ -1,0 +1,161 @@
+h2 {
+    color: black !important; /* Set text color to black */
+    position: relative; /* Required for pseudo-element */
+    /*padding-left: 40px !important;*/ /* Space between text and vertical line */ /*commented by silvana */
+	overflow:visible!important; /* added by silvana */
+}
+
+/* Add a red vertical line to the left */
+h2::before {
+    content: "";
+    position: absolute;
+    left: -4rem;
+    top: 0;
+    height: 100%;
+    width: 6px; /* Thickness of the red line */
+    background-color: #e62b37; /* Red color for vertical line */
+    border-radius: 0px; /* Optional: Rounded corners */
+	
+}
+.panel-body-wrapper h2::before{
+	left:-5rem;
+}
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab
+{
+color:  gray !important ;
+
+    
+}
+.theme-entry.psf div.sidebar
+{
+    background-color : white !important
+}
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected {
+    background-color: #e7dede !important; /* Change text color to red for the active tab */
+}
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab.selected
+{
+    border-radius : 10px 10px 10px 10px;
+    color : #e62b37 !important;
+    font-weight : bold;
+}
+    .theme-entry.psf div.sidebar
+    {width: 300px;}
+.theme-entry.psf div.sidebar ul.tab-box-tabs>li>a.tab span.tab-text
+    {
+        width: max-content;
+    }
+    
+.theme-entry.psf, body.theme-entry .psf, .theme-entry.psf .form, .theme-entry.psf #pgInnerPanel, .theme-entry.psf 
+    .form-tabs>.tab-box-body, .theme-entry.psf #pgTabContent, .theme-entry.psf .view .innerpanel>.grid, .theme-entry.psf .view 
+    .innerpanel>.panel, .theme-entry.psf .view-canvas>.grid, .theme-entry.psf .view-canvas>.panel, .theme-entry .form .view 
+    .innerpanel>.grid, .theme-entry #pgInnerPanel .view .innerpanel>.grid, .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.grid,
+    .theme-entry #pgTabContent .view .innerpanel>.grid, .theme-entry .form .view .innerpanel>.panel, .theme-entry #pgInnerPanel .view .innerpanel>.panel,
+    .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel, .theme-entry #pgTabContent .view .innerpanel>.panel, .theme-entry .form .view-canvas>.grid, 
+    .theme-entry #pgInnerPanel .view-canvas>.grid, .theme-entry .form-tabs>.tab-box-body .view-canvas>.grid, .theme-entry #pgTabContent .view-canvas>.grid, 
+    .theme-entry .form .view-canvas>.panel, .theme-entry #pgInnerPanel .view-canvas>.panel, .theme-entry .form-tabs>.tab-box-body .view-canvas>.panel, 
+    .theme-entry #pgTabContent .view-canvas>.panel   {
+    --sidebar-width-ratio: 3% !important;
+    }
+div#\39 c50675f-a67a-44d3-96c7-d44818c1a686_f200ecd5-aa92-4581-8f9c-0541b29649ea_Table
+    {
+        border-radius : 50px;
+        
+    }
+.theme-entry a.SourceCode-Forms-Controls-Web-Button
+{
+    background : #e62b37;
+    border-color: #e62b37;    
+	transition:all .3s ease-in-out;
+}
+.theme-entry a.SourceCode-Forms-Controls-Web-Button:hover
+{
+    background : #be262f;
+    border-color: #be262f;    
+}
+a#\30 0000000-0000-0000-0000-000000000000_4d558aef-c0d4-48ab-9389-79b38792a97c {
+    color : #e62b37;
+    /*background-color : white;*/ /* commented by silvana */
+	background-color:transparent; /* added by silvana */
+}
+a#\30 0000000-0000-0000-0000-000000000000_4d558aef-c0d4-48ab-9389-79b38792a97c:hover{
+	background-color:#E52A36;
+	color:white;
+	border-color:#E52A36;
+}
+.theme-entry .grid .grid-column-headers div, .theme-entry .grid .grid-column-headers span
+{
+    background: #e62b37 !important;
+}
+.theme-entry.psf div.sidebar div.logo > img {
+    width : 200px !important;
+    height: auto !important;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;	
+    left: 0;
+    width: 100vw;
+    height: 8px; /* Same as border thickness */
+    background-color: #e62b37; /* Red color */
+    z-index: 100000; /* Ensure it's on top */
+}
+.theme-entry.psf div.sidebar
+{
+    border-top: 8px solid  #e62b37 !important;
+}
+.theme-entry .form .toolbars, .theme-entry #pgInnerPanel .toolbars, .theme-entry .form-tabs > .tab-box-body .toolbars, .theme-entry #pgTabContent .toolbars
+{
+    --toolbar-button-icon-highlight-color : #e62b37;
+    --toolbar-button-icon-base-color :  #e62b37;
+    --toolbar-button-icon-base-secondary-color : #e62b37;
+        --toolbar-button-icon-destructive-color :  #e62b37;
+}
+
+.theme-entry a.SourceCode-Forms-Controls-Web-Button
+{
+	/*width: 150px;*/ /*commented by silvana */
+	/*height:30px;*/ /* commented by silvana */
+	/*font-size: medium;*/ /* commented by silvana */
+	/*border-radius:10px;*/ /* commented by silvana */
+	padding: 0.7rem 4rem !important; /* added by silvana */
+	border-radius:.5rem; /* added by silvana */
+	font-size:16px; /* added by silvana */
+}
+
+
+
+html {
+    background-color: #ffffff; /* Match the div's background */
+}
+
+html, body, form{
+	 /* background-color: #d4d4d4;*/ /* Match the div's background *//* commented by silvana*/
+	  height: 100vh;
+	  background-color:#F5F5F5;
+
+	 	
+	  
+	
+}
+body
+{
+	padding-top: 60px;
+}
+/* added by silvana */
+.theme-entry .runtime-form{
+	width:calc(100% - 27rem)!important;
+	margin-left:27rem;
+	
+}
+
+/* cud form */
+
+
+
+
+
+
+
+

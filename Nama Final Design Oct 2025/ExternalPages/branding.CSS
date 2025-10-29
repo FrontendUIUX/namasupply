@@ -1,0 +1,702 @@
+/* Common CSS */
+.worklist-action-view-flow{
+	display: none!important;
+}
+.theme-entry .dialog .popup-footer .SourceCode-Forms-Controls-Web-Button.help{
+	display:none;
+}
+.SFC.SourceCode-Forms-Controls-Web-TextBox.readonly{
+	border:1px solid #ddd!important;
+	border-radius:.5rem;
+	padding: 0.5rem 1rem;
+	display:flex;
+	align-items:center;
+	background-color: #f3f3f3 !important;
+	height: 2.5rem;
+	width:100%;
+}
+html[dir=ltr] .theme-entry .input-control.select-box.read-only  .input-control-buttons{
+	display:none;
+}
+input#bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_f79deaae-3c03-475e-7a79-01335476a0b7,
+input#\34 9478b77-2f1d-f7da-4f2a-1edd89ffe625_767c3a59-0172-4079-8f2c-374c605109b7,
+input#f4536470-4bab-b81f-d28b-d2ee7ff3c3f9_cd7cdcc2-e39b-42b5-b124-419f38f48eba {
+    height: 3rem;
+    border: 1px solid #ddd;
+    border-radius: .5rem;
+    margin-left: 0.7rem;
+}
+html[dir="rtl"] input#bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_f79deaae-3c03-475e-7a79-01335476a0b7 ,
+html[dir="rtl"] input#\34 9478b77-2f1d-f7da-4f2a-1edd89ffe625_767c3a59-0172-4079-8f2c-374c605109b7,
+html[dir="rtl"] input#f4536470-4bab-b81f-d28b-d2ee7ff3c3f9_cd7cdcc2-e39b-42b5-b124-419f38f48eba{
+
+    margin-right: 0.7rem;
+	margin-left:0;
+}
+div#\31 4756d3d-ed02-ec11-0620-96035132bc28_c3463596-afb1-716a-6371-d974af820942_Table {
+    display: flex;
+    justify-content: flex-end;
+}
+html[dir="ltr"] div#\31 4756d3d-ed02-ec11-0620-96035132bc28_c3463596-afb1-716a-6371-d974af820942_Table{
+	margin-right:1rem;
+}
+html[dir="rtl"] div#\31 4756d3d-ed02-ec11-0620-96035132bc28_c3463596-afb1-716a-6371-d974af820942_Table{
+	margin-left:1vw;
+}
+tr.selected td img{
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(43deg) brightness(113%) contrast(101%);
+}
+.base2.base1.ajaxLoader.modal-element {
+    z-index:3!important;
+}
+.theme-entry .month, 
+.theme-entry .year, 
+.theme-entry .month:hover, 
+.theme-entry .year:hover{
+height:3rem;
+}
+.theme-entry .grid-content-table tbody tr.highlighted > td.last, 
+.theme-entry .grid-content-table tbody tr.highlighted > td:last-child{
+	padding: 0!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-text, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-text{
+	padding-right:.5rem!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-cell-wrapper:before, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-cell-wrapper:before {
+    height: 0.9rem!important;
+    margin-top: -0.5rem!important;
+    width: 0.9rem!important;
+    background-image: url(https://ns.namaservices.om/Style/logos/arrowDown.svg)!important;
+    background-position: right center!important;
+    background-size: 100%!important;
+}
+/* GENERAL BRANDING */
+:root{
+	--white:#ffffff;
+	--main-color:#e62b37;
+	--main-color-hover:#c01f29;
+	--light-main-color: rgb(230 43 55 / 9%);
+	--zoneBorderRadius:1.5rem;
+	--zonePadding: 1.5rem;
+}
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c {
+    display: flex;
+    align-items: center;
+}
+html body.theme-entry [name="Add Button"]{
+	background-color: var(--main-color);
+	padding:.4rem 1.3rem;
+	font-size: 1rem;
+	color: white;
+	border:none;
+	border-radius:.5rem
+}
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c .editable-area.input-control.styling-font {
+    height:unset!important;
+    line-height:unset!important;
+}
+.empty[name="DLMappedAttachments"]{
+	display:none;
+}
+.input-control.select-box.dropdown-box.read-only .input-control-buttons{
+	display:none;
+}
+html[dir="rtl"] .input-control.select-box.dropdown-box.read-only .input-control-body{
+	border-left:1px solid #ddd;
+	border-top-left-radius:.5rem;
+	border-bottom-left-radius:.5rem;
+}
+.calendar-row.months a,
+.calendar-row.years a  {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: unset;
+    line-height: unset!important;
+}
+.theme-entry .input-control.select-box.read-only input[type=text]{
+	height:unset;
+}
+.drop-menu li a span{
+	font-size:.9rem;
+}
+html.designer{
+	font-size:62.5%!important;
+}
+.theme-entry span{
+	color:#333;
+}
+html:not(.designer) .theme-entry .scroll-wrapper{
+	overflow:hidden;
+}
+.theme-entry .sidebar-link.active span{
+	color:var(--main-color);
+}
+.theme-entry .grid table.grid-content-table > tbody > tr > td{
+	vertical-align:middle;
+}
+.theme-entry h2.page-subtitle, h2 {
+    font-size: 1.5rem!important;
+    color: black !important;
+    position: relative;
+    overflow:visible!important;
+    padding: 0.7rem 0!important;
+    margin-bottom: 2rem!important;
+    font-weight: 600!important;
+}
+div#\30 0000000-0000-0000-0000-000000000000_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_internal {
+    background-color: white!important;
+    padding: var(--zonePadding)!important;
+    border-radius: var(--zoneBorderRadius)!important;
+}
+.theme-entry span.SourceCode-Forms-Controls-Web-Label{
+	font-size:1rem;
+}
+div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_cfa8ffae-7706-834b-9ec1-23ca5ee7296d_73bdd545-5054-45ba-8104-42c50024465e{
+	padding:0!important;
+}
+span#c7064d07-8c85-1ef9-21bc-e9dba2e80357,
+span#\37 295df76-0886-3881-ace0-2978d165bc7e{
+	display:none;
+}
+html[dir="ltr"] div#\30 0000000-0000-0000-0000-000000000000_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_internal h2::before{
+	left: -1.5rem;
+}
+html[dir="rtl"] div#\30 0000000-0000-0000-0000-000000000000_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_internal h2::before{
+	right:-2rem;
+}
+html[dir="ltr"] .theme-entry h2.page-subtitle::before,html[dir="ltr"] h2::before {
+    content: "";
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+    height: 100%;
+    width: 6px;
+    background-color: var(--main-color);
+    border-radius: 0px;
+}
+html[dir="ltr"] h2#b5cb9445-859d-022c-6273-b381237fccd9_4e89b593-201e-0ea1-d0be-0a422626b2a0::before{
+	left: -1.5rem;
+}
+html[dir="rtl"] h2#b5cb9445-859d-022c-6273-b381237fccd9_4e89b593-201e-0ea1-d0be-0a422626b2a0::before{
+	right: -2rem;
+}
+html[dir="rtl"] .theme-entry h2.page-subtitle::before,html[dir="rtl"] h2::before {
+    content: "";
+    position: absolute;
+    right: -3rem;
+    top: 0;
+    height: 100%;
+    width: 6px;
+    background-color: var(--main-color);
+    border-radius: 0px;
+}
+.theme-entry .editor-cell{
+	overflow:visible!important;
+}
+.theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
+	padding:0!important;
+	height: 100%;
+	min-height: unset;
+	max-height: unset;
+	line-height: unset!important;
+	font-size: 1rem;
+}
+@font-face {
+    font-family: 'SWCC-Medium';
+    src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
+}
+.style-profile-developer-container .style-profile-designer-section{
+	width:50rem!important;
+}
+html{
+font-size:16px!important;
+line-height:24px!important;
+}
+html *{
+	line-height:24px!important;
+	font-size: 1rem;
+	font-family: 'SWCC-Medium' !important;
+}
+html, body, body.theme-entry{
+	background-color: #f5f5f5;
+}
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control .input-control-wrapper{
+	min-height:unset!important;
+}
+.tab-box-body{
+	background-color:transparent!important;
+}
+body.theme-entry.runtime-view .sidebar {
+    display: none;
+}
+body.theme-entry.runtime-view{
+    width:100%!important;
+    margin:0!important;
+    padding: 0
+}
+body.theme-entry.runtime-view::before{
+	content:none;
+}
+body.theme-entry.runtime-view #custom-sticky-header{
+    display:none;
+}
+.designer body{
+	padding:0!important;
+	margin:0!important;
+	width:100%!important;
+}
+.theme-entry .popup-header-button-bar, .theme-entry .popup-header-button-bar-wrapper{
+	display:flex;
+	align-items:center;
+}
+.theme-entry .dialog .popup-header-buttons a{
+	margin:0 1rem;
+}
+.theme-entry .dialog .popup-header-wrapper > .wrapper > div{
+	width:fit-content;
+}
+.theme-entry .dialog .popup-header{
+	height:unset;
+	padding: 0.7rem;
+	position: unset;
+}
+.theme-entry .dialog .popup-body {
+    padding: 1rem;
+    position: unset;
+    height: min-content;
+}
+.theme-entry .dialog .popup-footer{
+	position:unset;
+	margin: 0;
+	padding: .7rem 1rem;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px;
+    background-color: var(--main-color);
+    z-index: 100000;
+}
+.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark{
+	padding-left:1rem;
+	padding-right:1rem;
+}
+div#ab642874-1d7b-2f91-8480-72d227976003_c3463596-afb1-716a-6371-d974af820942_Table{
+	display:flex;
+	justify-content:flex-end;
+}
+.theme-entry a.toolbar-button span.button-text{
+	font-size:1rem;
+	min-height: unset!important;
+	border: none!important;
+}
+.theme-entry a.Hyperlink{
+	color:var(--main-color);
+	font-size: 1rem;
+}
+[title="*"]{
+	color:#e62b37!important;
+}
+html[dir=rtl] .theme-entry .input-control.select-box .input-control-m-c{
+	padding:0;
+	}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS START */
+.tooltip.validation{
+	font-size: .8rem;
+	color: #ff6a6a!important;
+	background-color: white!important;
+	padding: 0.8rem 1rem;
+	text-wrap: nowrap;
+	height: fit-content;
+	border-radius: 0.7rem!important;
+	border: 1px solid #d3d3d3!important;
+	width: fit-content;
+}
+.tooltip.validation span{
+	line-height: 1.6;
+	display: block;
+	text-wrap: auto;
+}
+.tooltip.validation .tooltip-pointer,
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+ border-color:transparent!important;
+ background: none!important;
+}
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 10px #d3d3d3!important;
+  border-left: solid 10px transparent!important;
+  border-right: solid 10px transparent!important;
+  top: 0.2rem;
+}
+.theme-entry .day {
+    font-size: 1rem;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+    text-align: center!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.calendar-row .dayname{
+	height:2.5rem!important;
+	width:2.5rem!important;
+	margin-bottom:1rem;
+}
+.theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto!important;
+}
+.theme-entry .top-calendar a.today-title {
+    border: none;
+    border-radius: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+.theme-entry .top-calendar a {
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    height: 1rem;
+}
+.theme-entry .week{
+display:flex;
+}
+.theme-entry .today-text{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.datepicker.invalid{
+	border: 1px solid var(--input-error-border-color) !important;
+	background-color: #f8e8e8!important;
+}
+.theme-entry .invalid .input-control-watermark *{
+	background-color:transparent!important;
+}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS END */
+/* Designer Branding */
+.designer{
+	font-size:12px;
+	line-height:26px;
+}
+.designer .toolboxitem{
+	height:auto;
+}
+.designer body::before{
+	display:none;
+	}
+.designer .propertyGridPropertyItem{
+	height:auto!important;
+}
+.designer .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	padding:0;
+}
+/* popup icon */
+.theme-entry .message-box-content:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 0;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.info-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .message-box-content{
+ min-height: max-content!important;
+}
+
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) {
+    height: max-content !important;
+}
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message){
+	width:auto!important;
+	max-width:600px;
+	height: auto!important;
+	margin:auto;
+}
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-footer{
+	padding:2rem!important;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-header{
+	padding:2rem!important;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-body{
+	position:relative!important;
+	display:flex;
+	align-items:center;
+	padding: 1.5rem 2rem;
+}
+.popup .wrapper {
+    overflow: auto!important;
+}
+[name="btn.Search"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="SubmitButton1"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	height:3rem;
+}
+[name="Cancel Button"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin:0 1rem;
+	height:3rem;
+	color:var(--main-color)!important;
+}
+[name="btn_submit"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="btn_cancel"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin-top:1rem;
+	color:var(--main-color)!important;
+}
+div#be775982-3621-4a0f-ac60-762310ba891f{
+	margin: 2rem 0;
+	border-radius:var(--zoneBorderRadius);
+	padding:var(--zonePadding);
+}
+html[dir="ltr"] h2#\30 0000000-0000-0000-0000-000000000000_6a227391-ec65-44d7-bb96-eedec2dae6e3::before{
+	left:-2rem;
+}
+html[dir="rtl"] h2#\30 0000000-0000-0000-0000-000000000000_6a227391-ec65-44d7-bb96-eedec2dae6e3::before{
+	right:-2rem;
+}
+.theme-entry .form-tabs > .tab-box-body .view .innerpanel > .panel[name *="CustomerComplaint.Form"]{
+	width: unset!important;
+	background-color:var(--white)!important;
+	margin-top:2rem;
+	border-radius: var(--zoneBorderRadius)!important;
+	padding:var(--zonePadding)!important;
+	margin-top: 1rem;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-right .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-left .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-left.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-last .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right-double.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-first .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-left-double.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid-footer .grid-paging-control .input-control-m-c{
+	padding:0;
+	height: unset;
+	min-height: unset;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control input{
+	padding:0!important;
+	top: unset;
+	bottom: unset;
+	height: unset!important;
+}
+
+html:not(.designer) .theme-entry .grid .grid-footer .grid-paging-control .text-input.input-control{
+	margin:0!important;
+}
+html:not(.designer) .theme-entry .view .innerpanel > .grid.with-footer > .grid-footer > .toolbars > .toolbar:last-child .toolbar-wrapper {
+    display: flex;
+    align-items: center;
+}
+[name="BtnSearch"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+.theme-entry .dialog .popup-footer .SourceCode-Forms-Controls-Web-Button{
+	background-color:var(--main-color);
+	color:white;
+	border:none;
+	border-radius:.5rem;
+}
+.theme-entry .dialog .popup-footer .SourceCode-Forms-Controls-Web-Button:last-child{
+	background-color:transparent;
+	border:1px solid var(--main-color);
+	color:var(--main-color);
+}
+.tab-box-body, .theme-entry .tab-box{
+	background-color: transparent!important;
+}
+[name="HomePage.Form Area Item1"] .grid-toolbars {
+    display: none;
+}
+.popup:not(.id-calendar-control-popup){
+	border-radius:1rem!important;
+	overflow:hidden;
+}
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-footer{
+	padding:2rem!important;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-header{
+	padding:2rem!important;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-body{
+	position:relative!important;
+	display:flex;
+	align-items:center;
+	padding: 1.5rem 2rem;
+}
+.popup-body .scroll-wrapper{
+	overflow: auto!important;
+}
+div#\31 8f46192-2079-4012-8ffd-b066e8de3b49 {
+    background-color: white!important;
+    padding: 2rem 2rem 0!important;
+    border-radius: var(--zoneBorderRadius)!important;
+    width: unset;
+    margin: 2rem 1rem;
+}
+div#\31 8f46192-2079-4012-8ffd-b066e8de3b49 h2{
+    margin:0!important;
+}
+html[dir="ltr"] div#\31 8f46192-2079-4012-8ffd-b066e8de3b49 h2::before{
+    left:-2rem;
+}
+html[dir="rtl"] div#\31 8f46192-2079-4012-8ffd-b066e8de3b49 h2::before{
+    right:-2rem;
+}
+span#\39 1fb2e8c-ebdb-4ed0-b607-1f5a015746df {
+    display:flex;
+    justify-content:flex-end;
+}
+.input-control-m-c.styling-inner-wrapper,
+.select-box.dropdown-box .input-control-m-c{
+	display:flex;
+	align-items:center;
+}
+.grid-content-cell-wrapper > span{
+	padding:0!important;
+}
+body.theme-entry [name="CDU.EditCUSTOMERPROFIL.Form Area Item1 verticalView"]{
+	background-color:white!important;
+	border-radius:var(--zoneBorderRadius)!important;
+	padding:0!important;
+}
+html[dir="rtl"] body.theme-entry [name="CDU.EditCUSTOMERPROFIL.Form Area Item1 verticalView"] h2::before{
+	right:-4rem!important
+}
+span#\39 1fb2e8c-ebdb-4ed0-b607-1f5a015746df a#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_2ec66b5a-b2de-4dab-aed6-cefdb52f9c6b_ToolbarButton svg path{
+    fill:#fff;
+}
+div#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_4fed8ee2-32a5-4af7-8553-6f9f810df2d0_Table .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark{
+    border-radius:.5rem;
+    border:1px solid #DDD;
+    padding: 0rem 1rem;
+    width:100%;
+    height: 2.8rem;
+    font-size: 1rem;
+}
+
+div#\30 0000000-0000-0000-0000-000000000000_79d46006-ba80-7e98-f442-bbb1bc028bb0_Table{
+    padding:0!important;
+}
+.theme-entry .popup .scroll-wrapper{
+	padding:0;
+}
+[name="From_Calendar"] .input-control-wrapper{
+    display:flex;
+    align-items:center;
+}
+[name="From_Calendar"] .input-control-wrapper input{
+    padding:0!important;
+}
+@media(min-width:1600px){
+	:not(.designer) body.doubleTop {
+    padding-top: 9vw;
+}
+	.theme-entry span.SourceCode-Forms-Controls-Web-Label{
+	font-size:1vw;
+}
+	div#\30 0000000-0000-0000-0000-000000000000_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_internal {
+		margin: 0vw 1vw;
+	}
+	html body.theme-entry [name="Add Button"]{
+	padding:.4vw 1.3vw;
+	font-size: 1vw;
+	border-radius:.5vw;
+}
+.theme-entry a.Hyperlink{
+	font-size: 1vw;
+}
+	.theme-entry h2.page-subtitle, h2 {
+    font-size: 1.8vw!important;
+    padding: 1vw 0!important;
+    margin-bottom: 2vw!important;
+}
+	html {
+	line-height:1.5vw!important;
+	font-size: 1vw!important;
+}
+}

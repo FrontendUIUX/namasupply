@@ -1,0 +1,461 @@
+:root{
+	--white:#ffffff;
+	--main-color:#e62b37;
+	--light-main-color:#fdecec;
+	--zoneBorderRadius:1.5rem;
+	--zonePadding:2rem;
+}
+[name*="verticalView"] .SourceCode-Forms-Controls-Web-Table.Grid-Layout{
+	flex-direction:column;
+}
+div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_cfa8ffae-7706-834b-9ec1-23ca5ee7296d_73bdd545-5054-45ba-8104-42c50024465e .grid-toolbars{
+	padding:0;
+}
+div#af758f26-ca0c-d063-35c1-86678e2f2772_5a9c31d4-7a73-442b-9f32-b18b1387394c_Table.SourceCode-Forms-Controls-Web-Table.Grid-Layout{
+	display:block;
+	padding:0;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px;
+    background-color: #e62b37;
+    z-index: 100000;
+}
+.row:nth-child(2) .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    padding: 0;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]){
+    height: 25rem!important;
+    width: 24rem;
+    margin: 1rem;
+    box-shadow: none;
+    background-color: white;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center;
+    transition: all .3s ease-in-out;
+    padding: 0 1rem;
+}
+
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper .hoverdiv:hover{
+	box-shadow: none;
+    background-color: #e62b3724!important;
+	transform:none;
+}
+.SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer{
+	display:flex;
+	flex-wrap:wrap;
+	width: 100%;
+}
+.SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv{
+	height: 6rem!important;
+	width: 14rem;
+	margin: 0.5rem;
+	padding: 1rem!important;
+	box-shadow: none;
+	background-color: white;
+	border-radius: 0.7rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center !important;
+	justify-content: center !important;
+	align-content: center;
+	transition: all .3s ease-in-out;
+	padding: 0 1rem;
+	font-size: .95rem;
+	cursor: pointer;
+}
+html[dir="ltr"] .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack:first-child .hoverdiv{
+	margin-left:0;
+}
+html[dir="rtl"] .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack:first-child .hoverdiv{
+	margin-right:0;
+}
+
+html[dir="ltr"] .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack:last-child .hoverdiv{
+	margin-right:0;
+}
+html[dir="rtl"] .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack:last-child .hoverdiv{
+	margin-left:0;
+}
+span#\30 929028e-a252-4d6e-ad13-2342c0397670{
+	width:fit-content;
+	padding:0;
+}
+span#c03fa442-43ed-ff40-fa3a-42fffea86aed{
+	padding: 0;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
+    font-size: 17px;
+    text-wrap: auto;
+    text-align: center;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget .picture-control-inline {
+    width: 9rem !important;
+    margin-bottom: .7rem;
+}
+.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):hover {
+    box-shadow: none;
+    background-color: #e62b3724;
+}
+.form .row .view:has([name="LCTS.EservicesHub.Form Area Item"]) {
+    background-color: #f5f5f5 !important;
+    padding: 0;
+    border-radius: 0;
+}
+.theme-entry .view:has([name="LCTS.EservicesHub.Form Area Item"]) .innerpanel>.panel {
+    background-color: transparent;
+}
+.theme-entry .view:has([name="LCTS.EservicesHub.Form Area Item"]) .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
+    padding: 0 !important;
+    gap: 0;
+}
+.form .row .view {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0;
+    background-color: transparent;
+    border-radius: 0;
+}
+.theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel {
+    background-color: transparent;
+    border-radius: 0;
+}
+.theme-entry .form-tabs>.tab-box-body .view  [name="CDU.MasterData.Form1 Area Item22"]{
+	background-color:transparent!important;
+}
+.grid-body-content .scroll-wrapper{
+ padding: 1rem 0;
+ width: 100%;
+}
+.form .row {
+    width: 100%;
+}
+div#\31 8f46192-2079-4012-8ffd-b066e8de3b49.form .row:nth-child(3){
+    padding: 0;
+    width: 100%;
+}
+div#\31 8f46192-2079-4012-8ffd-b066e8de3b49.form .row:nth-child(3) .formcontrol{
+	margin-bottom: 0!important;
+}
+div#\31 8f46192-2079-4012-8ffd-b066e8de3b49.form .row:nth-child(3) .formcontrol div#\30 0000000-0000-0000-0000-000000000000_672bfa45-42b5-80ea-62cd-96666f13d5db_Table{
+	padding:0;
+}
+#d24789d0-19d6-4b2b-b8ff-87169ca6898d {
+    margin-left: auto;
+}
+span#f1ae8c7d-0b20-5e6d-a939-5c42c69017a4,
+span#e4eafb0c-a1a9-2cb7-6b15-8f58d1f4cca2,
+span#\34 2ea88d0-2e5e-c6d5-5855-5df2060e6bc8{
+display:none;
+}
+div#af758f26-ca0c-d063-35c1-86678e2f2772_d11fab65-b214-9f16-9000-38d10cd0f997{
+	overflow:unset;
+	height: auto!important;
+}
+.theme-entry .SourceCode-Forms-Controls-Web-ControlPack-ListBox .stylewrapper .hoverdiv{
+	height: 100%!important;
+	width:100%;
+	padding: 0!important;
+	margin: 0;
+}
+
+div#\30 0000000-0000-0000-0000-000000000000_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_internal{
+	padding:0!important;
+}
+div#\30 0000000-0000-0000-0000-000000000000_4a75e988-3d3d-86ec-cbb7-cee3567ffc0a_internal.form .row:nth-child(3){
+	padding:0;
+	width:100%;
+}
+.theme-entry .innerpanel>div[name *="CDU.MasterData.Form1"] .toolbar > .toolbar-wrapper > table > tbody > tr > td{
+	padding:0!important;
+}
+.theme-entry .innerpanel>div[name *="CDU.MasterData.Form1"] .toolbar, 
+.theme-entry .innerpanel>div[name *="CDU.MasterData.Form1"] .toolbars.single .toolbar{
+	min-height:unset!important;
+}
+.theme-entry .innerpanel>div[name *="CDU.MasterData.Form1"] .grid-toolbars{
+	padding:0;
+}
+.theme-entry .innerpanel>div[name *="CDU.MasterData.Form1"] h2::before {
+    content: "";
+    position: absolute;
+    left: -2rem;
+    top: 0;
+    height: 100%;
+    width: 6px; 
+    background-color: #e62b37;
+    border-radius: 0px;
+}
+.theme-entry .form{
+	background-color: transparent;
+}
+[name="ServicesLabel"] {
+    font-size: 2rem;
+    margin: 0 6rem;
+    font-weight: 700;
+}
+div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_8697eebc-71a4-0dcb-220a-f3d5dd7ba23d_Table {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+/* SUBMITTED REQUESTS */
+.theme-entry .grid-toolbars{
+	background-color:var(--white);
+	padding: var(--zonePadding);
+}
+td#\34 dc37f6b-817e-a74b-2353-1b7d11c7e15e {
+    padding: 0;
+}
+.theme-entry .filterContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+.theme-entry .grid .grid-body{
+	margin-top:1rem;
+	padding: 0!important;
+	border-radius: var(--zoneBorderRadius);
+	border: 2px solid #E8E8E8;
+}
+.theme-entry .grid .grid-footer{
+	margin-top:1rem;
+}
+.theme-entry .grid .grid-column-headers div{
+	line-height:3;
+	font-size: .85rem;
+}
+.grid-column-header-cell-content{padding: 0 0rem!important;}
+.theme-entry .toolbar, .theme-entry .toolbars.single .toolbar {
+    min-height: 7.4rem;
+}
+div#b0225f6f-b591-16c9-e53b-4ccb77d5ed09_9e37508e-5d78-42a3-8e74-c8a925163080_toolbar{
+	min-height:unset
+}
+.theme-entry .filterContainer .filterLabel{
+	font-size:1rem;
+										  }
+html[dir="rtl"] .theme-entry .filterContainer .filterLabel {
+    margin-right: 0;
+    margin-left: .5rem;
+}
+html[dir=rtl] .theme-entry a.toolbar-button:first-child {
+    margin-right: 0;
+	padding:0;
+}
+.input-control.select-box:not(.hide-buttons) .input-control-m-c {
+    border-color: transparent;
+    padding: .9rem 1rem;
+    height: unset !important;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_4184ef26-2239-3899-6572-402efec6a400_Table{
+    background-color:rgb(255 255 255 / 62%);
+    width: 100%;
+}
+html[dir=ltr] .theme-entry .filterContainer .input-control.select-box .input-control-buttons{
+	padding:0;
+}
+html[dir=ltr] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-m-c{
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+}
+html[dir=ltr] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-buttons{
+    border-top-right-radius:2rem;
+    border-bottom-right-radius:2rem;
+}
+html[dir=rtl] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-m-c{
+    border-top-right-radius:2rem;
+    border-bottom-right-radius:2rem;
+}
+html[dir=rtl] div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861 .input-control-buttons{
+    border-top-left-radius:2rem;
+    border-bottom-left-radius:2rem;
+}
+div#\33 1fb7579-c6bc-cd6a-3b37-02e6a2894b8d_f3775d5d-3776-5acf-e6bb-2c8df96ff861{
+    width: 19rem!important;
+     }
+html .theme-entry span[name~="customerTypeCell"]{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: flex-end!important;
+    padding: 1.5rem 3rem!important;
+    margin-left: auto;
+}
+html .theme-entry span[name~="customerTypeCell"] .SFC.SourceCode-Forms-Controls-Web-Label{
+    margin-right:1rem;
+    font-size: 1.4rem;
+}
+.runtime-content{
+    margin:0!important;
+}
+.sidebar-profile-card{
+	display:none;
+}
+.theme-entry .grid .grid-column-headers-wrapper{
+	padding-left:0!important;
+	padding-right:0!important;
+}
+.theme-entry .grid td.first{
+    padding-left: 2.6rem;
+    min-height: 2.2rem;
+}
+.runtime-list-item-, td span{
+	font-size: 0.8rem;
+}
+td  span.runtime-list-item{
+	padding:1rem 0!important;
+}
+html body.theme-entry [name="HomePage.Form Area Item1"] tr td.first{
+	padding:0!important;
+}
+html body.theme-entry [name="HomePage.Form Area Item1"]  .grid-column-headers div{
+	text-align:inherit!important;
+}
+.theme-entry.runtime-form span.runtime-list-item{
+	font-size: 0.8rem;
+}
+tr.selected td span{
+	color:white!important;
+}
+
+.theme-entry .grid table.grid-content-table.zebra-stripes tr:nth-child(even){
+	background:transparent!important;
+}
+.theme-entry .grid .grid-paging-control .text-input.input-control{
+	display:flex;
+}
+.theme-entry .grid .grid-footer .toolbar .toolbar-wrapper{
+	display:flex!important;
+	align-items:center!important;
+	justify-content:center!important;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-last {
+    left: 4rem;
+}
+span#\30 eda83c0-6d26-e40f-b6fd-1f94bfb74acc_3a2fbef6-382d-4cc9-a974-b461405fd6ba {
+    margin-right: 1rem;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-first {
+    right: 4rem;
+}
+.styling-font{
+	padding:0!important;
+	height: unset!important;
+	line-height: unset!important;
+	font-size: 1rem;
+	}
+ .theme-entry .filterContainer .styling-outer-wrapper .input-control-m .input-control-m-c .input-control-wrapper,
+.theme-entry .filterContainer .styling-outer-wrapper .input-control-m .input-control-m-c .input-control-wrapper a{
+	 height:unset!important;
+	 min-height:unset!important;
+ }
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#ea4d16b2-66ce-e099-113c-10f44e71c8d2, 
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#\33 51c61c2-66be-9b36-83b1-9dd19cfcc819, 
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#\34 1823076-03cf-40f7-bd42-c4de156b19ef, 
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#\39 52ad60e-f46b-4def-81bb-71bb5de0a1c7, 
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#\35 660a852-4074-474c-800c-e1776b46176e, 
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#c5befe87-a1c8-4614-97a4-442d2a3b2f3f, 
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#\36 f8f0185-ec35-47f7-bdce-a5c052e9b058, 
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#c9d3cb1d-9f09-4e9e-8e90-37dc42925766{
+	display:none;
+}
+ .innerpanel>div[name *="CDU.MasterData.Form1"] span#\37 29f41e8-7493-4cd7-9a47-a02da6f5af4b span.SourceCode-Forms-Controls-Web-Label,
+ .innerpanel>div[name *="CDU.MasterData.Form1"] span#bd8cf567-fab8-b0cd-9afc-d938e6ce2d29_d8465793-3cc2-32ae-758a-f0c803f13e64,
+ .innerpanel>div[name *="CDU.MasterData.Form1"] span#\34 099a6a1-44fe-44de-9c3a-2fc95ceb40b3 span.SourceCode-Forms-Controls-Web-Label,
+ .innerpanel>div[name *="CDU.MasterData.Form1"] span#\39 91d7b94-cb4a-4387-aa0d-b2da7b13db19 span.SourceCode-Forms-Controls-Web-Label{
+	 font-size:1rem!important;
+	 margin-top: 0.5rem;
+	}
+.innerpanel>div[name *="CDU.MasterData.Form1"]  span#\32 2fd2909-5354-4ab2-a76e-9be0ae90cd70{
+	display:flex;
+	align-items:center;
+}
+h2#\30 eda83c0-6d26-e40f-b6fd-1f94bfb74acc_9995788c-c9f8-4e4c-837e-69fdbca706b8::before {
+    left: -1.5rem;
+}
+.innerpanel>div[name *="CDU.MasterData.Form1"]  span#\32 2fd2909-5354-4ab2-a76e-9be0ae90cd70 .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.innerpanel>div[name *="CDU.MasterData.Form1"]  span#\38 a6da67b-4424-23c9-9a5e-6f4649b30238 .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#\38 7c17639-6092-4e50-94e4-a7164a041793 .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark,
+.innerpanel>div[name *="CDU.MasterData.Form1"] span#aca6a793-f508-4135-b6b9-e3b72dc940b1 .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark{
+	font-size:1rem;
+	height:3rem;
+	border:1px solid #ddd;
+	border-radius:.5rem;
+	padding:1rem;
+	min-width:7rem;
+}
+.innerpanel>div[name *="CDU.MasterData.Form1"] [name="Search Button"]{
+	background-color:var(--main-color);
+	border:none;
+	border-radius:.5rem;
+	color:white;
+	font-size:1rem;
+}
+div#b0225f6f-b591-16c9-e53b-4ccb77d5ed09_9e37508e-5d78-42a3-8e74-c8a925163080_filter {
+    min-height: unset;
+}
+input#\30 eda83c0-6d26-e40f-b6fd-1f94bfb74acc_bad820d6-f4a0-4dd9-810d-d1e6f0941591 {
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: 1px solid #ddd;
+    height: 3rem;
+}
+div#\30 0000000-0000-0000-0000-000000000000_8ceb46f8-8f76-c6ae-fed2-7372af9e2581_internal {
+    background-color: transparent!important;
+}
+@media(max-width:1200px){
+	div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_5bc84844-58fb-8f7e-86d9-70743c2f172d_b5cb9445-859d-022c-6273-b381237fccd9_b8f12ed7-f068-4ecb-aae0-cf4f54d5cd40 table.grid-column-header-table{
+		display:none;
+	}
+	div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_5bc84844-58fb-8f7e-86d9-70743c2f172d_b5cb9445-859d-022c-6273-b381237fccd9_b8f12ed7-f068-4ecb-aae0-cf4f54d5cd40 table tr {
+		display: flex;
+		flex-direction: column;
+	}
+	div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_5bc84844-58fb-8f7e-86d9-70743c2f172d_b5cb9445-859d-022c-6273-b381237fccd9_b8f12ed7-f068-4ecb-aae0-cf4f54d5cd40 table tr td{
+			 width: 100%!important;
+			 max-width: 100%!important;
+			 display: flex;
+			 position: relative;
+		 }
+	div#\30 21945a2-51ef-4df6-a11d-e4222913cdf7_5bc84844-58fb-8f7e-86d9-70743c2f172d_b5cb9445-859d-022c-6273-b381237fccd9_b8f12ed7-f068-4ecb-aae0-cf4f54d5cd40 table col{
+			width:100%!important;
+			max-width:100%!important;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-start;
+		}
+	}
+ @media(min-width:1600px) {
+	.SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv{
+	height: 7vw!important;
+	width: 15vw;
+	margin:1vw;
+	border-radius: 0.7vw;
+	padding: 0 1vw;
+	font-size: 1vw;
+}
+    .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"])
+	{
+        height: 16vw!important;
+        width: 14vw;
+        margin: 1vw;
+        border-radius: 0.7vw;
+    }
+ .theme-entry .grid .grid-column-headers div{
+	font-size: .85vw;
+}
+.innerpanel>div[name *="CDU.MasterData.Form1"] [name="Search Button"]{
+	border-radius:.5vw;
+	font-size:1vw;
+}
+}

@@ -1,0 +1,1197 @@
+/* GENERAL BRANDING */
+:root{
+	--white:#ffffff;
+	--main-color:#123756!important;
+	--main-color-hover:#144670!important;
+	--light-main-color:rgb(18 55 86 / 9%);
+	--zoneBorderRadius:1.5rem;
+	--zonePadding:2rem;
+}
+ html:not(.designer) button#toggleSidebarBtn {
+     background-color: #123756!important;
+ }
+html:not(.designer) body.doubleTop{
+	padding-top: 9rem;
+}
+html:not(.designer).desktop.webkit body.theme-entry {
+    margin-top: 5rem !important;
+    width: 100%;
+    position: relative !important;
+}
+html:not(.designer).desktop.webkit body.theme-entry.doubleTop {
+    margin-top: 10rem !important;
+    width: 100%;
+    position: relative !important;
+}
+html:not(.designer){
+font-size:14px!important;
+line-height:24px!important;
+}
+html:not(.designer) *{
+	line-height:24px!important;
+	font-size: 1rem;
+	font-family: 'SWCC-Medium' !important;
+}
+html:not(.designer),html:not(.designer) body,html:not(.designer) body form,html:not(.designer) body body.theme-entry{
+	background-color: #f5f5f5!important;
+}
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.date>span span,
+html:not(.designer) .theme-entry .input-control.select-box .input-control-buttons a.date:hover>span span {
+     background-image: url(https://frontenduiux.github.io/namasupply/images/calendar%20blue.svg)!important;
+     background-size: 1rem !important;
+     background-repeat: no-repeat !important;
+     background-position: center !important;
+ }
+
+.picker-collection-grid-row{
+	display: flex;
+	align-items: center;
+	}
+	html[dir="rtl"] div#\36 015d145-0b9a-4bb3-aa17-5797df3c7819_fc2f2520-1bec-ca7d-a31a-bda3da0f5394_a67201ca-ff06-e58d-24c3-395eae08efa7_f25a4aab-8dc7-430a-838d-98c1eb8ace06 span#a67201ca-ff06-e58d-24c3-395eae08efa7_f1d7dfb7-7e49-08e3-14cb-a044c2a30589::before{
+    content:"";
+	font-weight:200!important;
+	position:absolute;
+	right: 0.4rem!important;
+	left: auto!important;
+	transform:scaleX(-1);
+	bottom: 0.1rem;
+	height: 1.3rem;
+	width: 1.3rem;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-image:url("https://nshq-k2uat-wfe.supply.nama.om/Style/logos/chevron-right.svg");
+    
+}
+	a#picker-collection-share-add-button,
+	a#picker-collection-share-remove-button{
+		display: flex;
+		justify-content: center;
+	}
+	#picker-collection-share-operation-box-body > div{
+	display:flex;
+	align-items:center;
+	}
+	.picker-collection-grid-row-user-image{
+		height:2rem!important;
+		width:2rem!important;
+		top:0!important;
+	}
+	.theme-entry #picker-collection-popup-root {
+		width: 500px !important;
+		height: 300px !important;
+	}
+span#ff1a93a6-11eb-2411-f502-de982c9278c6_ca81e569-f4ac-caa7-f792-d1fb2bbbf280 {
+    width: 100%;
+    height: 3rem;
+    margin-top: 0.2rem;
+}
+.theme-entry .view .innerpanel>.grid, .theme-entry .view .innerpanel>.panel, .theme-entry .view-canvas>.grid, .theme-entry .view-canvas>.panel{
+	background-color:white;
+}
+tr.selected td img{
+	filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(43deg) brightness(113%) contrast(101%);
+}
+.theme-entry .month, 
+.theme-entry .year, 
+.theme-entry .month:hover, 
+.theme-entry .year:hover{
+height:3rem;
+}
+.theme-entry .grid-content-table tbody tr.highlighted > td.last, 
+.theme-entry .grid-content-table tbody tr.highlighted > td:last-child{
+	padding: 0!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-text, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-text{
+	padding-right:.5rem!important;
+}
+.theme-entry .grid .grid-column-header-cell.asc .grid-column-header-cell-wrapper:before, 
+.theme-entry .grid .grid-column-header-cell.desc .grid-column-header-cell-wrapper:before {
+    height: 0.9rem!important;
+    margin-top: -0.5rem!important;
+    width: 0.9rem!important;
+    background-image: url(https://ns.namaservices.om/Style/logos/arrowDown.svg)!important;
+    background-position: right center!important;
+    background-size: 100%!important;
+}
+.theme-entry .SourceCodeFormsControlsWorklist .loadmore{
+	font-size:1vw!important;
+	margin:2rem 0!important;
+	height:unset!important;
+}
+.SourceCodeFormsControlsWorklist{
+	border-radius: var(--zoneBorderRadius)!important;
+}
+.theme-entry .SourceCodeFormsControlsWorklist .loadmore a{
+	padding:.7rem 1.3rem!important;
+}
+.theme-entry .SourceCodeFormsControlsWorklist span.worklist-grid-column-header-cell-text {
+    font-size: .8rem;
+}
+div#\36 d115c34-a71f-40f8-add9-74f54385187c {
+    background-color: transparent;
+}
+.calendar-control{
+	border: 1px solid #ddd!important;
+	border-radius:.5rem!important;
+}
+div#\36 015d145-0b9a-4bb3-aa17-5797df3c7819_fc2f2520-1bec-ca7d-a31a-bda3da0f5394_a67201ca-ff06-e58d-24c3-395eae08efa7_f25a4aab-8dc7-430a-838d-98c1eb8ace06 {
+    background-color:transparent!important
+}
+div#\36 015d145-0b9a-4bb3-aa17-5797df3c7819_fc2f2520-1bec-ca7d-a31a-bda3da0f5394_a67201ca-ff06-e58d-24c3-395eae08efa7_f25a4aab-8dc7-430a-838d-98c1eb8ace06 span#a67201ca-ff06-e58d-24c3-395eae08efa7_f1d7dfb7-7e49-08e3-14cb-a044c2a30589{
+ position:relative;
+  padding-top:0;
+	padding-bottom:0;
+}
+div#\36 015d145-0b9a-4bb3-aa17-5797df3c7819_fc2f2520-1bec-ca7d-a31a-bda3da0f5394_a67201ca-ff06-e58d-24c3-395eae08efa7_f25a4aab-8dc7-430a-838d-98c1eb8ace06 span#a67201ca-ff06-e58d-24c3-395eae08efa7_f1d7dfb7-7e49-08e3-14cb-a044c2a30589::before{
+    content:"";
+	font-weight:200!important;
+	position:absolute;
+	left: 0.4rem;
+	bottom: 0.1rem;
+	height: 1.3rem;
+	width: 1.3rem;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right.svg");
+    
+}
+
+html[dir="ltr"] span#a67201ca-ff06-e58d-24c3-395eae08efa7_f1d7dfb7-7e49-08e3-14cb-a044c2a30589 {
+	
+    margin-top: 0;
+    padding-left: 2rem;
+    position: relative;
+    overflow: visible;
+}
+html[dir="rtl"] span#a67201ca-ff06-e58d-24c3-395eae08efa7_f1d7dfb7-7e49-08e3-14cb-a044c2a30589 {
+	
+    margin-top: 0;
+    padding-right: 2rem;
+    position: relative;
+    overflow: visible;
+}
+div#\38 f44a0f4-44a4-4baf-87b6-f0c03ec98f4e_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table{
+	display:flex;
+	justify-content:flex-end;
+}
+html .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	display:flex;
+	align-items:center!important;
+}
+.theme-entry .filterContainer .quickSearch .filterTxt .input-control .input-control-m-c .input-control-wrapper{
+	height:unset!important;
+	min-height:unset!important;
+	line-height:unset!important;
+}
+div#\38 128fe50-c104-4a04-9f28-83096a041454_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table{
+	display:flex;
+	justify-content:end;
+}
+#custom-sticky-header div#dc5086cb-538f-3ee7-a758-f8e30941fec2_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table {
+    display: flex;
+    justify-content: flex-end;
+}
+html[dir="rtl"]  [name="LanguagesTable"] [name="Table1"]{
+	display:flex!important;
+	width: fit-content;
+}
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c {
+    display: flex;
+    align-items: center;
+}
+
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c .editable-area.input-control.styling-font {
+    height:unset!important;
+    line-height:unset!important;
+}
+.empty[name="DLMappedAttachments"]{
+	display:none;
+}
+.input-control.select-box.dropdown-box.read-only .input-control-buttons{
+	display:none!important;
+}
+.theme-entry .input-control textarea{
+	padding:0;
+}
+label.input-control.checkbox.style-aware{
+	display:flex;
+	align-items:center;
+}
+.theme-entry .input-control.checkbox.style-aware svg{
+	height:1.5rem;
+}
+label.input-control.checkbox.style-aware svg{
+	margin:0!important;
+}
+label.input-control.checkbox.style-aware span.input-control-text{
+	font-size:1rem!important;
+}
+[name="DLMappedAttachments"]{
+	font-size:1rem!important;
+	font-weight:500!important;
+	background-color: #ffebb3;
+	padding: 1rem!important;
+	border-radius: 1rem;
+}
+.theme-entry .message-box-content .panel.without-header.full .panel-body{
+	top:unset!important;
+	bottom:unset!important;
+	left:unset!important;
+	right:usnet!important;
+	margin:0!important;
+	padding:1rem 0;
+}
+table tr.selected td a {
+	color:white;
+}
+table tr td a {
+	color:var(--main-color);
+}
+div#ff1a93a6-11eb-2411-f502-de982c9278c6_325931b9-9b2e-e1b7-755b-46e13c5e9ac6_Primary .input-control-m-c{
+	display:flex;
+	align-items:center;
+}
+.theme-entry .dialog .popup-footer .SourceCode-Forms-Controls-Web-Button{
+	background-color:var(--main-color)!important;
+	color:white;
+	border:none;
+	border-radius:.5rem;
+}
+.theme-entry .dialog:not(#FilterConfig_secondPageOutside) .popup-footer{
+	padding:1rem 2rem;
+    margin:0;
+}
+.theme-entry .input-control.select-box.picker-input[data-maxrows="1"] div.editable-area{
+	display:flex;
+	align-items:center;
+	min-height: unset!important;
+	height: unset!important;
+	line-height: unset!important;
+	padding: 0!important;
+}
+.input-control-watermark{
+	padding:0!important;
+	height:unset!important;
+	min-height:unset!important;
+	line-height:unset!important;
+}
+a#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_725a7434-d26c-830e-05c4-352f2da89125{
+    background-color: var(--main-color) !important;
+    color: #fff !important;
+    border-radius: .5rem !important;
+    border: none !important;
+    margin-top: 1rem;
+	
+}
+html[dir="ltr"] a#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_725a7434-d26c-830e-05c4-352f2da89125{
+	margin-left:auto;
+}
+html[dir="rtl"] a#\34 c4c81d5-53eb-7eb6-07ef-0317062fab46_725a7434-d26c-830e-05c4-352f2da89125{
+	margin-right:auto;
+}
+.calendar-row.months a,
+.calendar-row.years a  {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: unset;
+    line-height: unset!important;
+}
+.drop-menu li a span{
+	font-size:.9rem;
+}
+html.designer{
+	font-size:62.5%!important;
+}
+.theme-entry .dropdown-box.input-control .input-control-wrapper > a > span.styling-font{
+	padding:0!important;
+	height: 100%;
+	min-height: unset;
+	max-height: unset;
+	line-height: unset!important;
+	font-size: 1rem;
+}
+h2{
+	font-size:1.8rem!important;
+	padding:1rem 0!important;
+	color:var(--main-color-color)!important;
+	position:relative;
+	overflow:visible!important;
+}
+table tr.selected td span{
+	color:white!important;
+}
+.style-profile-developer-container .style-profile-designer-section{
+	width:50rem!important;
+}
+
+body.theme-entry.runtime-view .sidebar {
+    display: none;
+}
+body.theme-entry.runtime-view{
+    width:100%!important;
+    margin:0!important;
+    padding: 0
+}
+body.theme-entry.runtime-view::before{
+	content:none;
+}
+body.theme-entry.runtime-view #custom-sticky-header{
+    display:none;
+}
+body{
+	/* padding-top: 6rem; */
+	/* width: calc(100% - 16.6rem) !important; */
+}
+.designer body{
+	margin:0!important;
+	width:100%!important;
+}
+.theme-entry .popup-header-button-bar, .theme-entry .popup-header-button-bar-wrapper{
+	display:flex;
+	align-items:center;
+}
+.theme-entry .dialog .popup-header-buttons a{
+	margin:0 1rem;
+}
+.theme-entry .dialog .popup-header-wrapper > .wrapper > div {
+    width: fit-content;
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.theme-entry .dialog .popup-header {
+    height: unset;
+    padding: 1rem 0rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 8px;
+    background-color: var(--main-color);
+    z-index: 100000;
+}
+
+	html[dir="rtl"] body {
+		margin-right: 16.6rem;
+	}
+	html[dir="ltr"] body{
+		/* margin-left: 16.6rem; */
+		/* margin-right: 0; */
+	}
+html[dir=ltr] .theme-entry a.toolbar-button{
+	margin: 0!important;
+	border: none!important;
+	min-height: unset;
+}
+html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+html[dir="ltr"] [name^="HeaderCard"] .editor-cell[name="English Lang"]{
+	display:none!important;
+}
+[name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+[name^="HeaderCard"] .editor-cell[name="English Lang"]{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.8rem;
+	border: 1px solid #d9d9d9!important;
+	padding: 0.5rem 1rem 0.6rem!important;
+	border-radius: 2rem;
+	opacity: 1;
+	cursor: pointer;
+	width: fit-content;
+	margin: 0 0.5rem;
+}
+[name^= "HeaderCard"] span#\32 790f934-27a3-40e6-8904-81dfb783825e,
+[name^= "HeaderCard"] span#\32 790f934-27a3-40e6-8904-81dfb783825e div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_8697eebc-71a4-0dcb-220a-f3d5dd7ba23d_Table{
+	width:fit-content;
+}
+.theme-entry a.toolbar-button span, 
+.theme-entry a.toolbar-button.toolbar-button-inline span,
+ .theme-entry a.toolbar-button,
+.theme-entry .input-control a.input-control{
+	min-height:unset!important;
+	height:unset!important;
+	border: none;
+}
+.theme-entry a.toolbar-button span.button-text{
+	font-size:1rem;
+	min-height: unset!important;
+	border: none!important;
+}
+.theme-entry a.Hyperlink{
+	color:var(--main-color);
+	font-size: 1rem;
+}
+[title="*"]{
+	color:#e62b37!important;
+}
+html[dir=rtl] .theme-entry .input-control.select-box .input-control-m-c{
+	padding:0;
+	}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS START */
+.tooltip.validation{
+	font-size: .8rem;
+	color: #ff6a6a!important;
+	background-color: white!important;
+	padding: 0.8rem 1rem;
+	text-wrap: nowrap;
+	height: fit-content;
+	border-radius: 0.7rem!important;
+	border: 1px solid #d3d3d3!important;
+	width: fit-content;
+}
+.tooltip.validation span{
+	line-height: 1.6;
+	display: block;
+	text-wrap: auto;
+}
+.tooltip.validation .tooltip-pointer,
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+ border-color:transparent!important;
+ background: none!important;
+}
+.tooltip.validation .tooltip-pointer .tooltip-pointer-inner{
+  width: 0px;
+  height: 0px;
+  border-bottom: solid 10px #d3d3d3!important;
+  border-left: solid 10px transparent!important;
+  border-right: solid 10px transparent!important;
+  top: 0.2rem;
+}
+.theme-entry .day {
+    font-size: 1rem;
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+    text-align: center!important;
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+}
+.calendar-row .dayname{
+	height:2.5rem!important;
+	width:2.5rem!important;
+	margin-bottom:1rem;
+}
+.theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto!important;
+}
+.theme-entry .top-calendar a.today-title {
+    border: none;
+    border-radius: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+.theme-entry .top-calendar a {
+    margin-top: 1rem;
+    background-repeat: no-repeat;
+    height: 1rem;
+}
+.theme-entry .week{
+display:flex;
+}
+.theme-entry .today-text{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+.datepicker.invalid{
+	border: 1px solid var(--input-error-border-color) !important;
+	background-color: #f8e8e8!important;
+}
+.theme-entry .invalid .input-control-watermark *{
+	background-color:transparent!important;
+}
+/* CALENDAR AND ERROR TOOLTIP DESIGN ADJUSTMENTS END */
+/* Designer Branding */
+.designer{
+	font-size:12px;
+	line-height:26px;
+}
+.designer .toolboxitem{
+	height:auto;
+}
+.designer body::before{
+	display:none;
+	}
+.designer .propertyGridPropertyItem{
+	height:auto!important;
+}
+.designer .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+	padding:0;
+}
+/* popup icon */
+.theme-entry .message-box-content:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    top: 2rem;
+    left: 0;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.info-message:not(.runtime-message) .message-box-content, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .message-box-content{
+ min-height: max-content!important;
+}
+
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) {
+    height: max-content !important;
+}
+.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message){
+	width:auto!important;
+	max-width:600px;
+	height: auto!important;
+	margin:auto;
+}
+.popup:not(.id-calendar-control-popup), html:not(.designer) .popup:not(#FilterConfig_secondPageOutside){
+	border-radius:1rem!important;
+	overflow:hidden;
+	min-height: auto!important;
+}
+
+.popup.id-calendar-control-popup{
+	overflow:visible!important;
+}
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-footer{
+	padding:2rem!important;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-header{
+	padding:2rem!important;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-body{
+	position:relative!important;
+	display:flex;
+	align-items:center;
+	padding: 1.5rem 2rem;
+}
+html:not(.designer) .popup-body .scroll-wrapper{
+	overflow:hidden;
+}
+[name="btn.Search"]
+{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="SubmitButton1"],
+[name="BtnCloseROV"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	height:3rem;
+}
+[name="BtnCloseROV"]{
+	padding:1rem 2rem!important;
+}
+[name="Cancel Button"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin:0 1rem;
+	height:3rem;
+	color:var(--main-color)!important;
+}
+[name="btn_submit"]{
+	background-color:var(--main-color)!important;
+	color:#fff!important;
+	border-radius:.5rem!important;
+	border:none!important;
+	margin-top:1rem;
+}
+[name="btn_cancel"]{
+	border-color:var(--main-color)!important;
+	background-color:transparent!important;
+	border-radius:.5rem!important;
+	margin-top:1rem;
+	color:var(--main-color)!important;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-right .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-left .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-left.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-last .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right-double.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid .grid-footer .toolbars a.toolbar-button.paging-first .button-icon{
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-left-double.svg");
+	height:1.6rem!important;
+	background-size: 100%;
+	background-position: center;
+}
+.theme-entry .grid-footer .grid-paging-control .input-control-m-c{
+	padding:0;
+}
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control input{
+	padding:0!important;
+	height:unset;
+	min-height:unset;
+}
+[name *="CRM.MasterData.Form"] .grid-footer {
+    margin-top: 1rem;
+}
+[name *="CRM.MasterData.Form"] .grid-footer  .toolbars.single .toolbar .toolbar-wrapper{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width:fit-content;
+}
+div#\39 53fdc8a-d6fe-04f5-ab1e-90fdaca692ed_ba85b852-b3ad-bd81-e004-dd95506d957b .styling-outer-wrapper .input-control-body .input-control-m-c ,
+.theme-entry .view .innerpanel > .grid.with-footer > .grid-footer > .toolbars > .toolbar:last-child{
+    display: flex;
+    align-items: center;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]{
+	width: unset!important;
+	background-color:var(--white)!important;
+}
+html body.theme-entry .row:first-child .view [name *="Tariff.TPR.TariffRequests.Form"]{
+	margin-top:0em;
+}
+span#\30 3c4834b-fb41-814b-0fc2-e0dd74943631,
+span#\39 99010ef-afeb-4379-7d40-47fe59c07fb7{
+display:none;
+}
+div#\30 0000000-0000-0000-0000-000000000000_ef11f574-6f4b-9999-2438-4a3080bf6c89_Table{
+	margin-top:1rem;
+}
+html body [name *="CRM.MasterData.Form"]{
+	background-color:white!important;
+	width: unset!important;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-header,
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-header-wrapper,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-header,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-header-wrapper,
+html body [name *="CRM.MasterData.Form"] .panel-header,
+html body [name *="CRM.MasterData.Form"] .panel-header-wrapper,
+html body .grid-header,
+html body .grid-header .grid-header-wrapper{
+	background-color:transparent!important;
+	overflow: visible;
+}
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-header-wrapper .grid-header-text,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-header-wrapper .grid-header-text,
+html body [name *="CRM.MasterData.Form"] .panel-header .panel-header-wrapper .panel-header-text,
+html body .grid-header .grid-header-wrapper .grid-header-text{
+	font-size:1.8rem!important;
+	font-weight:600;
+	position:relative!important;
+	padding: 1rem 0;
+	color:var(--main-color)!important;
+	overflow: visible;
+}
+
+html body.theme-entry .view [name *="Tariff.TPR.TariffRequests.Form"]  .grid-toolbars,
+html body.theme-entry .view [name *="CustomerComplaint.Form"] .grid-toolbars{
+	padding:0!important;
+	background-color:transparent;
+	border-radius:0;
+}
+.theme-entry .grid .grid-footer .toolbar .toolbar-wrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.theme-entry .grid table.grid-content-table tr.selected > td, .theme-entry .grid table.grid-content-table.zebra-stripes tr.selected:not(.action-row) > td {
+    background-color: var(--main-color)!important;
+    color: var(--white)!important;
+}
+span#\38 247ea12-f2ea-90a9-4511-ce109bc21e7d,
+span#\33 451126c-e771-67f3-6523-c9bf49fa62e6,
+span#f9112459-cdb5-990c-02ce-a63345541c6b,
+span#fa9a0e19-33d3-d95b-eb0e-9d576d9e8445,
+span#\30 d4bfbd5-7ebb-ffe3-f5f4-575191027bac,
+span#b39ed15f-fc9b-09b0-4bc6-a23103d2ae1b,
+span#\39 9dfb85a-689d-6bce-fccc-4b9589befbb1,
+span#\35 eda3f09-a82e-d673-9a3a-1cfe0c9a4dad,
+span#baf317d6-3d51-394c-e387-a7a6d2e1b6d1,
+span#\35 42dab72-b0bd-9726-ab79-771fa27b8803,
+span#\39 f8fda11-1e96-9601-0ad0-cd85812ba5ea,
+span#d92f1d78-d17e-7b6c-9f9a-8c7700a5930c,
+span#b32d0af2-75e1-9700-94aa-c3af9974aad1{
+    display: none;
+}
+span#\35 4ca8b99-a7c4-19d5-e073-f4822e9f4b26{
+    padding:0;
+}
+input#a608bb14-2587-0485-d50f-d551eebce185_92eff169-b757-2be6-2093-437c0e9707a3 {
+    width: 75%!important;
+}
+html[dir="ltr"] input#a608bb14-2587-0485-d50f-d551eebce185_92eff169-b757-2be6-2093-437c0e9707a3{
+    margin-left: 1%;
+}
+html[dir="rtl"] input#a608bb14-2587-0485-d50f-d551eebce185_92eff169-b757-2be6-2093-437c0e9707a3{
+    margin-right:2%;
+}
+[name="dl_AccountNumberDisplay"]{
+	padding: 0.8rem 1rem !important;
+}
+.theme-entry .drop-menu ul.drop-menu a span{
+	font-size:1rem;
+}
+.theme-entry a.SourceCode-Forms-Controls-Web-Button{
+	padding:.4rem 1rem!important;
+}
+.hidden[name="txt_RejectionOthersText"]{
+	display:none!important;
+}
+div#e8cd15be-b827-4ce2-9446-b26ac5993b34{
+	margin-top:2rem;
+	border-radius:var(--zoneBorderRadius)!important;
+	padding:var(--zonePadding);
+}
+div#e8cd15be-b827-4ce2-9446-b26ac5993b34_0897c261-eb40-4265-9c16-63416abc2ef5_2388f8eb-1499-4dd7-841f-5e469ab05285_0e29df9d-11ad-43b7-b0fb-85c0d76fa0a5{
+	background-color:transparent;
+}
+span#\30 b3846c8-2334-c124-8d2b-c15d02733025{
+	display:flex;
+	align-items:center;
+	padding:0!important;
+}
+span#\36 d3f4eec-96de-5c4e-4533-3e493f1f19e3_18b8104d-6be2-dded-c717-a4fa48fa55dc,
+span#\32 388f8eb-1499-4dd7-841f-5e469ab05285_5a6f2605-a182-d99c-ba52-c97d73fff9a6,
+span#\35 14e7e85-ed46-a0ff-7c1b-397f596dd82b_e314c684-ee32-c13e-1faf-7d386ffaa774{
+	margin-top:0;
+	padding-left: 2rem;
+	position:relative;
+	overflow: visible;
+}
+html[dir="rtl"] span#\36 d3f4eec-96de-5c4e-4533-3e493f1f19e3_18b8104d-6be2-dded-c717-a4fa48fa55dc,
+html[dir="rtl"] span#\32 388f8eb-1499-4dd7-841f-5e469ab05285_5a6f2605-a182-d99c-ba52-c97d73fff9a6,
+html[dir="rtl"] span#\35 14e7e85-ed46-a0ff-7c1b-397f596dd82b_e314c684-ee32-c13e-1faf-7d386ffaa774{
+	margin-top:0;
+	padding-right: 2rem;
+	padding-left:unset;
+	position:relative;
+	overflow: visible;
+}
+span#\32 388f8eb-1499-4dd7-841f-5e469ab05285_5a6f2605-a182-d99c-ba52-c97d73fff9a6,
+span#\35 14e7e85-ed46-a0ff-7c1b-397f596dd82b_e314c684-ee32-c13e-1faf-7d386ffaa774{
+	padding-top:0;
+	padding-bottom:0;
+}
+span#\36 d3f4eec-96de-5c4e-4533-3e493f1f19e3_18b8104d-6be2-dded-c717-a4fa48fa55dc::before,
+span#\32 388f8eb-1499-4dd7-841f-5e469ab05285_5a6f2605-a182-d99c-ba52-c97d73fff9a6::before,
+span#\35 14e7e85-ed46-a0ff-7c1b-397f596dd82b_e314c684-ee32-c13e-1faf-7d386ffaa774::before{
+	content:"";
+	font-weight:200!important;
+	position:absolute;
+	left: 0.4rem;
+	bottom: 0.1rem;
+	height: 1.3rem;
+	width: 1.3rem;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-image:url("https://ns.namaservices.om/Style/logos/chevron-right.svg");
+}
+html[dir="rtl"] span#\36 d3f4eec-96de-5c4e-4533-3e493f1f19e3_18b8104d-6be2-dded-c717-a4fa48fa55dc::before,
+html[dir="rtl"] span#\32 388f8eb-1499-4dd7-841f-5e469ab05285_5a6f2605-a182-d99c-ba52-c97d73fff9a6::before,
+html[dir="rtl"] span#\35 14e7e85-ed46-a0ff-7c1b-397f596dd82b_e314c684-ee32-c13e-1faf-7d386ffaa774::before{
+	left:auto;
+	right:.4rem;
+	transform:scaleX(-1);
+}
+html[dir=rtl] .hyperlinkTopPanel{
+	padding:0;
+}
+span#\39 ee8690f-9802-a89a-190b-031d8d4add78,
+span#b22f1479-a2e0-4d5f-8e8c-89764ab28d13,
+span#ec2cc6c0-4ba1-0b22-2318-2c23f48770e6,
+span#\35 614d8c4-c26e-e061-5cf7-069b9dd2c8bf,
+span#c2aa7363-3857-3d76-5253-5dbacc40ff27,
+span#\31 03144fa-5614-d4af-ed5e-7cda77f6b33d,
+span#\30 2af430c-4ad9-0f65-dd49-e71fda1e684a,
+span#\33 8079a97-705a-72db-717e-87b5df6336f7,
+span#\30 7cbd77b-a50c-7f64-c5ee-8616906042d7,
+span#\37 a0334d6-42cc-ba13-f0b3-3199ab2a2236,
+span#f745069d-6a2c-f956-01b6-97e772ced218,
+span#\30 52f0966-8eec-cace-bf07-61fe3a3de396,
+span#\30 925be07-9233-36d2-80f6-75f32c52dec0,
+span#\39 4654ff0-9c9b-a79d-3b48-cbbe0f570460,
+span#\34 2e5aa53-7992-56ed-2984-335c54be8259,
+span#\33 1028928-2279-56e6-60fb-26c6e28275d1,
+span#\31 9c624f1-ec22-95f2-b135-0c0f4231e53b,
+span#a70741f0-7b96-d45e-14dc-d776ff597ccf,
+span#\31 15e08ac-768e-359f-e908-37837a362fe7,
+span#\35 72e2027-7741-0488-6d11-d72ff8640be3,
+span#\33 d148c27-f582-9b76-ee2a-a461d8d3b34c,
+span#\31 f5dbd0e-36a2-0ee7-bd5e-425baadf0818,
+span#\39 db1015a-fc3d-7ec0-aa7b-e6e7a945073d,
+span#\38 b02dfae-df9d-a5b4-8a44-8a3dd1644b89,
+span#\37 2dfb0e4-08bb-79dc-e1b9-77ebdf5e41ef,
+span#f4e11534-ac6b-5fc6-d972-79bd558ac410,
+span#dbc4115c-c570-9fbc-b88b-1e80ebbb4abd,
+span#\39 633fa48-81f5-870c-931a-257d37d3aae8,
+span#\37 f46c35b-bc52-2fd4-4dc4-8b5869bf6351,
+span#\35 cabdd82-ea6b-eee9-a380-4469dd12c63a,
+span#\31 2ec4b7c-957b-0359-c6dd-4838ad4d4ebc,
+span#\37 215ae8e-9be5-821e-56c7-eb68fb99f334,
+span#\30 99c84fd-f72c-eef2-b789-521b81768ee2,
+span#\32 188439a-e0ef-9614-49c8-d3a18602fed4,
+span#b074fbec-7b07-a60e-023a-32be8b54f9e8,
+span#\36 f64dd4f-a355-4826-e642-b798bc157520,
+span#\33 65ddcf7-3d7e-cd7f-b106-336d7cf2fa0e,
+span#\30 e031668-acc4-d5ca-1856-4f7924bf8091,
+span#\32 fb3a91e-2b33-8438-5689-16d63efab4dd,
+span#\39 f46aa46-115d-11d6-f370-218e254287d8,
+span#\33 db2b2d8-866a-0ca5-8ddc-ea841df489f8,
+span#fca0ff5f-eeea-cc7d-be2b-960615de3f21,
+span#bcbf2d36-dba2-339f-53f6-894dfa32796a,
+span#\30 788837b-67a2-e033-2468-fe75738435bd,
+span#\34 d675f59-bcdb-bb7b-fc1b-10333b6130de,
+span#\32 03c3334-81be-4c7a-92a5-8a64faf208d3,
+span#\38 0d4d57c-cc20-d467-dcbd-ef5e665966f9,
+span#\37 309e81d-132b-4cc2-a66c-52dc9b98f06f,
+span#\31 2f2b35d-22ed-6c35-1c68-aab0fd5d8f4e,
+span#\39 28908bd-0d16-d1ef-8fc3-7900abbf400b,
+span#f73d4dd4-38eb-1e34-5b47-d7aa3ba996a2,
+span#\39 60f74d2-ead7-6471-f1ad-7360323a288b,
+span#\32 4dac742-1214-f1e0-9a2a-f64f839b1296,
+span#\34 239d306-5853-bbdf-f6af-5c15d7fc8b43,
+span#\31 4649159-694b-8206-a8a3-2ede23191fbe,
+span#\32 dfde23e-5cb1-3701-d1d8-fd7e0b9f605d,
+span#\38 04fa67c-80d3-563f-42b3-ffd802614def,
+span#f8635f60-e0d5-8eb6-85ed-f5837724c1e1,
+span#d94ac74f-c3f2-6a78-e147-5cd05366add4,
+span#\33 f0b9819-8e46-1abf-a677-0e5cbe6e20b3,
+span#\39 21599f3-810a-21b2-185a-5e99474088a8,
+span#cb8b2c47-9153-25d4-876d-7e28fe18b0c9,
+span#b9cc80e9-0347-af27-ed8f-e559fc6f5071,
+span#c0cf3717-ea68-cf36-dca3-4a14ad24d049{
+	border:1px solid #ddd!important;
+	border-radius:.5rem;
+	padding: 0.5rem 1rem;
+	display:flex;
+	align-items:center;
+	background-color: #f3f3f3 !important;
+	height: 2rem;
+}
+span#\39 ee8690f-9802-a89a-190b-031d8d4add78,
+span#b22f1479-a2e0-4d5f-8e8c-89764ab28d13,
+span#ec2cc6c0-4ba1-0b22-2318-2c23f48770e6,
+span#\35 614d8c4-c26e-e061-5cf7-069b9dd2c8bf,
+span#c2aa7363-3857-3d76-5253-5dbacc40ff27,
+span#\31 03144fa-5614-d4af-ed5e-7cda77f6b33d,
+span#\30 2af430c-4ad9-0f65-dd49-e71fda1e684a,
+span#\33 8079a97-705a-72db-717e-87b5df6336f7,
+span#\30 7cbd77b-a50c-7f64-c5ee-8616906042d7,
+span#\37 a0334d6-42cc-ba13-f0b3-3199ab2a2236,
+span#f745069d-6a2c-f956-01b6-97e772ced218,
+span#\30 52f0966-8eec-cace-bf07-61fe3a3de396,
+span#\30 925be07-9233-36d2-80f6-75f32c52dec0,
+span#\39 4654ff0-9c9b-a79d-3b48-cbbe0f570460,
+span#\34 2e5aa53-7992-56ed-2984-335c54be8259,
+span#\33 1028928-2279-56e6-60fb-26c6e28275d1,
+span#\31 9c624f1-ec22-95f2-b135-0c0f4231e53b,
+span#a70741f0-7b96-d45e-14dc-d776ff597ccf,
+span#\31 15e08ac-768e-359f-e908-37837a362fe,
+span#\35 72e2027-7741-0488-6d11-d72ff8640be3,
+span#\31 15e08ac-768e-359f-e908-37837a362fe7,
+span#\33 d148c27-f582-9b76-ee2a-a461d8d3b34c,
+span#\31 f5dbd0e-36a2-0ee7-bd5e-425baadf0818,
+span#\39 db1015a-fc3d-7ec0-aa7b-e6e7a945073d,
+span#\38 b02dfae-df9d-a5b4-8a44-8a3dd1644b89,
+span#\37 2dfb0e4-08bb-79dc-e1b9-77ebdf5e41ef,
+span#f4e11534-ac6b-5fc6-d972-79bd558ac410,
+span#dbc4115c-c570-9fbc-b88b-1e80ebbb4abd,
+span#\39 633fa48-81f5-870c-931a-257d37d3aae8,
+span#\37 f46c35b-bc52-2fd4-4dc4-8b5869bf6351,
+span#\35 cabdd82-ea6b-eee9-a380-4469dd12c63a,
+span#\31 2ec4b7c-957b-0359-c6dd-4838ad4d4ebc,
+span#\37 215ae8e-9be5-821e-56c7-eb68fb99f334,
+span#\30 99c84fd-f72c-eef2-b789-521b81768ee2,
+span#\32 188439a-e0ef-9614-49c8-d3a18602fed4,
+span#b074fbec-7b07-a60e-023a-32be8b54f9e8,
+span#\36 f64dd4f-a355-4826-e642-b798bc157520,
+span#\33 65ddcf7-3d7e-cd7f-b106-336d7cf2fa0e,
+span#\30 e031668-acc4-d5ca-1856-4f7924bf8091,
+span#\32 fb3a91e-2b33-8438-5689-16d63efab4dd,
+span#\39 f46aa46-115d-11d6-f370-218e254287d8,
+span#\33 db2b2d8-866a-0ca5-8ddc-ea841df489f8,
+span#fca0ff5f-eeea-cc7d-be2b-960615de3f21,
+span#bcbf2d36-dba2-339f-53f6-894dfa32796a,
+span#\30 788837b-67a2-e033-2468-fe75738435bd,
+span#\34 d675f59-bcdb-bb7b-fc1b-10333b6130de,
+span#\32 03c3334-81be-4c7a-92a5-8a64faf208d3,
+span#\38 0d4d57c-cc20-d467-dcbd-ef5e665966f9,
+span#\37 309e81d-132b-4cc2-a66c-52dc9b98f06f,
+span#\31 2f2b35d-22ed-6c35-1c68-aab0fd5d8f4e,
+span#\39 28908bd-0d16-d1ef-8fc3-7900abbf400b,
+span#f73d4dd4-38eb-1e34-5b47-d7aa3ba996a2,
+span#\39 60f74d2-ead7-6471-f1ad-7360323a288b,
+span#\32 4dac742-1214-f1e0-9a2a-f64f839b1296,
+span#\34 239d306-5853-bbdf-f6af-5c15d7fc8b43,
+span#\31 4649159-694b-8206-a8a3-2ede23191fbe,
+span#\32 dfde23e-5cb1-3701-d1d8-fd7e0b9f605d,
+span#\38 04fa67c-80d3-563f-42b3-ffd802614def,
+span#f8635f60-e0d5-8eb6-85ed-f5837724c1e1,
+span#d94ac74f-c3f2-6a78-e147-5cd05366add4,
+span#\33 f0b9819-8e46-1abf-a677-0e5cbe6e20b3,
+span#\39 21599f3-810a-21b2-185a-5e99474088a8,
+span#cb8b2c47-9153-25d4-876d-7e28fe18b0c9,
+span#b9cc80e9-0347-af27-ed8f-e559fc6f5071,
+span#c0cf3717-ea68-cf36-dca3-4a14ad24d049{
+	margin-bottom: 0.7rem;
+}
+.select-box.lookup-box .input-control-m-c,
+.select-box.lookup-box .input-control-buttons{
+	border:none!important;
+	background-color:transparent!important;
+}
+div#\34 b8df5db-7ac8-45a8-b618-0cb8f8a427f1_tabbody{
+	overflow:visible!important;
+}
+span#\32 b40f663-19e3-4ce0-84d1-da8b16532f3d .input-control-m-c.styling-inner-wrapper .input-control.styling-font,
+span#b74fd771-3a9e-4302-9f57-a519884bfa28 .input-control-m-c.styling-inner-wrapper .input-control.styling-font{
+	padding:0;
+	height:unset!important;
+	line-height:unset!important;
+	min-height:unset!important;
+	display:flex;
+	align-items:center;
+}
+div#\33 fd8bdb8-4806-45da-b9a6-696825bc7077_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table {
+    display: flex;
+    justify-content: end;
+}
+.theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox{
+	border:1px solid #ddd;
+	border-radius:.5rem;
+	height: 3rem;
+}
+span#\34 37c0353-d8b6-8eff-ce07-af6ae923e909,
+span#\36 7a2f95a-eea9-2cc2-eab2-dc2f107e58d7{
+    display: none;
+}
+div#c2fd041f-ad12-4522-b4b8-224c8d8f8d9a_f61d1c2c-da29-475f-99ee-9ccc2fe7d5cb_953fdc8a-d6fe-04f5-ab1e-90fdaca692ed_4375fcec-5b6a-456f-b81a-70b8f65464ae .grid-toolbars {
+    padding: 0;
+}
+span#bbe8d27c-98c8-5eca-443e-21e0b2e990db,
+span#\31 74a4086-f954-53b2-f1ab-31d08d36c81f,
+span#e2d40a11-a870-a46f-b9c0-ebe2d62d8501,
+span#\30 1e7efb5-8df0-c7e5-7b30-b1654df137a7{
+    display: none;
+}
+div#\36 015d145-0b9a-4bb3-aa17-5797df3c7819_fc2f2520-1bec-ca7d-a31a-bda3da0f5394_4a8ebec2-fddc-0274-568a-da1a914488b5_d4aa5d54-7dd4-44c7-aba6-d8df65d797ed{
+	background-color: unset!important;
+}
+[name="CDU.InternalAdminPage.Form Area Item2"]{
+	background-color: transparent!important;
+}
+div#\31 ae0b1c1-d558-4c39-85ac-222170999c97 {
+    border-radius: var(--zoneBorderRadius);
+    padding: var(--zonePadding);
+}
+
+input#bdec49cb-0d18-051c-4c33-27e6f91ebcba_e794ad47-e4c9-476b-9d49-76e69b2ecf3b_TextBox {
+    height: unset!important;
+    min-height: unset!important;
+    line-height: unset!important;
+    position: unset!important;
+    display: flex;
+    align-items: center;
+}
+
+.input-control-wrapper {
+    height: unset!important;
+    min-height: unset;
+    line-height: unset;
+}
+a#bdec49cb-0d18-051c-4c33-27e6f91ebcba_db9a18e9-2682-4a6d-901d-0f4d759459e7_ToolbarButton.toolbar-button svg path{
+    fill:#fff;
+}
+div#rtSearchConfig_ffFind_ff1a93a6-11eb-2411-f502-de982c9278c6_325931b9-9b2e-e1b7-755b-46e13c5e9ac6 {
+    border-radius: .5rem;
+    padding: 0rem 1rem;
+    margin-top: 1rem;
+    height: 3rem!important;
+    min-height: unset!important;
+    border: 1px solid #ddd!important;
+    display: block;
+}
+.theme-entry .grid-footer .grid-paging-control .input-control-m-c,
+html body.theme-entry .grid-footer .grid-paging-control{
+	padding: 0!important;
+	height: unset!important;
+	min-height: unset!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0.3rem!important;
+}
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control input{
+	padding:0!important;
+	height: unset!important;
+	min-height:unset;
+}
+.theme-entry .grid-footer .grid-paging-control .text-input.input-control .input-control-wrapper {
+    min-height: unset !important;
+}
+a#bdec49cb-0d18-051c-4c33-27e6f91ebcba_db9a18e9-2682-4a6d-901d-0f4d759459e7_ToolbarButton.toolbar-button{
+    padding:.5rem 1rem;
+    border-radius:.5rem;
+}
+[name="Date_From_Calendar"]{
+	border:1px solid #ddd;
+	border-radius: .5rem;
+}
+[name="From_Calendar"] .input-control-wrapper{
+    display:flex;
+    align-items:center;
+}
+[name="From_Calendar"] .input-control-wrapper input{
+    padding:0!important;
+}
+.theme-entry .picker-search-grid.grid.full {
+    min-height: fit-content;
+}
+div#c448f61d-ffae-fd64-40e5-e7ea60a756d6_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table {
+    display: flex;
+    justify-content: flex-end;
+}
+@media(max-width:600px){
+	html:not(.designer).mobile body.theme-entry.doubleTop {
+         padding-top: 5rem !important;
+         width: 100% !important;
+         padding: 0 1rem;
+         margin-top: 9.7rem;
+         height: calc(100% - 10.7rem);
+     }
+	 	html:not(.designer).mobile .theme-entry div#ff1a93a6-11eb-2411-f502-de982c9278c6_d585314a-ee6d-d2af-0407-022d878af42c_Table span.editor-cell{
+		width:100%;
+	}
+}
+@media(min-width:1600px){
+	.theme-entry div#\31 ae0b1c1-d558-4c39-85ac-222170999c97 input.SFC.SourceCode-Forms-Controls-Web-TextBox{
+
+	height: 2.4vw;
+}
+	html .theme-entry div#\31 ae0b1c1-d558-4c39-85ac-222170999c97 .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+		height:2.4vw!important;
+	}
+	.theme-entry h2 {
+    font-size: 1.8vw !important;
+    padding: 1vw 0 !important;
+   
+}
+	.theme-entry a.SourceCode-Forms-Controls-Web-Button{
+		padding:.6vw 1.4vw!important;
+	}
+	.theme-entry  .dialog:not(#FilterConfig_secondPageOutside) .popup-footer{
+	padding:1vw 2vw;
+	margin:0;
+	height: 4vw;
+}
+	.theme-entry .dialog.error-message:not(.runtime-message), 
+.theme-entry .dialog.warning-message:not(.runtime-message), 
+.theme-entry .dialog.info-message:not(.runtime-message), 
+.theme-entry .dialog.confirmation-message:not(.runtime-message){
+	width:auto!important;
+	max-width:30vw;
+}
+	.theme-entry .drop-menu ul.drop-menu a span{
+	font-size:1vw;
+}
+	[name="BtnCloseROV"]{
+	padding:.5vw 2vw!important;
+	border-radius:.5vw!important;
+		margin-top:.5vw;
+}
+	html *{
+		line-height: 1.5vw;
+		font-size: 1vw;
+}
+	[name="btn.Search"]{
+	border-radius:.5vw!important;
+	margin-top:1vw;
+}
+	html[dir="rtl"] body {
+		margin-right: 16.6vw;
+	}
+	html[dir="ltr"] body{
+		margin-left: 16.6vw;
+		margin-right: 0;
+	}
+	html body{
+		width:calc(100% - 16.6vw);
+	}
+	:not(.designer) body{
+	padding-top: 6vw!important;
+	width: calc(100% - 16.6vw) !important;
+}
+		:not(.designer) body.doubleTop{
+			padding-top: 10vw!important;
+		}
+.theme-entry a.Hyperlink{
+	font-size: 1vw;
+}
+	[name="DLMappedAttachments"]{
+	font-size:1vw!important;
+	padding: 1vw!important;
+	border-radius: 1vw;
+}
+	.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-footer{
+	padding:2vw!important;
+	
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-header, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-header{
+	padding:2vw!important;
+	
+}
+.popup{
+	max-width:30vw;
+}
+.theme-entry .dialog.error-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.warning-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.info-message:not(.runtime-message) .popup-body, 
+.theme-entry .dialog.confirmation-message:not(.runtime-message) .popup-body{
+
+	padding: 1.5vw 2vw;
+}
+}
