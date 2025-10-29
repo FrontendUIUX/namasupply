@@ -94,11 +94,17 @@ html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
 	width: fit-content !important;
 	padding: 0!important;
 }
+div#\32 d3cecc5-cc8e-4e5c-88b9-d95d476f6ab2_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table {
+    padding: 0;
+}
 html:not(.designer) [name^="HeaderCard"] {
 	width: calc(100% - 1.4rem)!important;
 	text-align: left;
 	font-weight: bold;
 	padding: 1rem;
+}
+html:not(.designer) [name="HeaderCard2"]{
+	padding:0!important;
 }
 html:not(.designer) [name^="HeaderCard"] .editor-cell {
 	padding: 0 !important;
