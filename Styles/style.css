@@ -165,7 +165,7 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      font-family: var(--regularFont);
  }
  html:not(.designer) .theme-entry .popup.dialog a.SourceCode-Forms-Controls-Web-Button {
-     background-color: #E53935;
+     background-color: var(--main-color);
      color: #ffffff;
      border: transparent;
 }
@@ -344,8 +344,6 @@ html:not(.designer) .theme-entry .popup.dialog a.SourceCode-Forms-Controls-Web-B
  /* GENERAL STYLES END */
  /* BUTTON BRANDING START */
  html:not(.designer) .theme-entry .SourceCode-Forms-Controls-Web-Button {
-     height: unset !important;
-     min-height: unset !important;
      padding: .8rem 1rem;
  }
 
@@ -784,11 +782,6 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
     position: relative !important;
     margin-top: 2rem;
 }
-.theme-entry .popupManager .popup.dialog .popup-body,
-.theme-entry .popupManager .popup.dialog .popup-body *{
-    /* position: relative !important; */
-}
-
  .theme-entry .base2.base1.modalizer {
      position: fixed;
      top: 0;
@@ -1252,11 +1245,6 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
          margin-left: 0 !important;
      }
 
-     html.mobile .theme-entry .dialog,
-     .mobile .theme-entry .dialog#PickerSearchDialog {
-         /* height: 60% !important; */
-     }
-
      html:not(.designer) .theme-entry .popup-body {
          position: absolute;
          top: 5.2rem;
@@ -1683,9 +1671,9 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      }
 
      html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button {
-         padding: .7vw 1vw !important;
+         padding: 0.3vw 1vw !important;
          border-radius: .5vw;
-         font-size: 1vw !important;
+         font-size: 0.8vw !important;
      }
 
      html:not(.designer) .input-control-wrapper {
@@ -1743,14 +1731,12 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      }
 
      html:not(.designer) body.theme-entry {
-         /* width: calc(100% - 16.6vw) !important; */
          padding-left: 17vw !important;
          margin-top: 6vw!important;
      }
 
      html:not(.designer) body.theme-entry.doubleTop {
          padding-top: 1vw !important;
-         /* width: calc(100% - 16.6vw) !important; */
          margin-top: 8.1vw;
          margin-top: 9vw !important;
          padding-left: 19vw !important;
