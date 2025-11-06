@@ -786,7 +786,7 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
 }
 .theme-entry .popupManager .popup.dialog .popup-body,
 .theme-entry .popupManager .popup.dialog .popup-body *{
-    position: relative !important;
+    /* position: relative !important; */
 }
 
  .theme-entry .base2.base1.modalizer {
