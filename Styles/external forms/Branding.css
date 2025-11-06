@@ -698,13 +698,6 @@ input#\39 d029792-cca9-469c-9a07-d44a634ad90d_fe363c79-bf13-1d26-b004-dec295ec0f
 	margin-top: 1vw;
 	margin-bottom: 1vw;
 }
-	html[dir="rtl"] body {
-		margin-right: 16.6vw;
-	}
-	html[dir="ltr"] body{
-		margin-left: 16.6vw;
-		margin-right: 0;
-	}
 	html body{
 		width:calc(100% - 17.6vw);
 	}
