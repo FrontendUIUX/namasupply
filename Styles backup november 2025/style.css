@@ -726,18 +726,22 @@ html:not(.designer) body {
  html:not(.designer) .theme-entry .message-box-content,
 
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body {
-     /* height: fit-content !important; */
+     height: fit-content !important;
  }
 
- html:not(.designer) .theme-entry .popupManager .popup.dialog .panel-body .panel-body-m-c {margin: 0;min-height: 3rem;}
+ html:not(.designer) .theme-entry .popup.dialog.error-message:not(.runtime-message) .message-box-content .panel-body-m-c {
+
+     margin: 0;
+
+ }
 
  .theme-entry .base2.base1.modalizer html:not(.designer) .theme-entry .popup-header,
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body,
  html:not(.designer) .theme-entry .popup-footer {
-     /* left: unset !important; */
-     /* right: unset !important; */
-     /* width: 100%; */
-     /* height: fit-content !important; */
+     left: unset !important;
+     right: unset !important;
+     width: 100%;
+     height: fit-content !important;
  }
 
  html:not(.designer) .theme-entry .popup-header {
@@ -750,23 +754,11 @@ html:not(.designer) body {
      line-height: unset!important;
      align-content: center;
  }
-.theme-entry .popupManager .popup.dialog .popup-footer {
-    position: relative !important;
-    margin-top: 1rem;
-    height: auto;
-}
-html:not(.designer) .theme-entry .popup.dialog a.SourceCode-Forms-Controls-Web-Button {
-    background-color: #E53935;
-    color: #ffffff;
-    border: transparent;
-}
-html:not(.designer) .theme-entry .popup.dialog a.SourceCode-Forms-Controls-Web-Button:hover {
-    background-color: var(--badge-error-background-color);
-}
+
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body {
-     padding: 2rem;
+     padding: 1rem 2rem 0;
      border-bottom: none !important;
-     /* top: 5rem !important; */
+     top: 5rem !important;
  }
 html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
     top: 6rem!important;
@@ -774,7 +766,7 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
     bottom: 0!important;
     right: 0!important;
 }
- html:not(.designer)  .theme-entry .popup-footer {
+ html:not(.designer) .theme-entry .popup-footer {
      padding: 0rem 2rem 1rem;
      border-top: none !important;
      line-height: unset!important;
@@ -1664,7 +1656,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      }
 
      html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button {
-         padding: 0.5vw 1vw !important;
+         padding: .7vw 1vw !important;
          border-radius: .5vw;
          font-size: 1vw !important;
      }
@@ -1730,10 +1722,9 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      }
 
      html:not(.designer) body.theme-entry.doubleTop {
-         padding-top: 2vw !important;
-	     margin-top: 9vw !important;
-         padding-left: 19vw !important;
-         width: 100% !important;
+         padding-top: 1vw !important;
+         width: calc(100% - 16.6vw) !important;
+         margin-top: 8.1vw;
      }
 
      .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {

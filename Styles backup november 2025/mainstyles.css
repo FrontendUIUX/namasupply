@@ -1,0 +1,315 @@
+:root{
+    --red:#e62b37;
+    --mainColor:#e62b37;
+    --text-color:#3E3E3E;
+    --field-label:#303030;
+    --border-color:#D7D7D7;
+}
+html:not(.designer) .panel-body{
+    border: none!important;
+}
+html,body{
+    font-size: 14px!important;
+}
+[name*="s_asterik"]{
+    color: var(--red);
+}
+/* DISPLAYS START */
+[name*="d-flex"]{
+    display: flex!important;
+}
+[name*="d-block"]{
+    display: block!important;
+}
+[name*="d-none"]{
+    display: none!important;
+}
+/* DISPLAYS END */
+/* PADDING START */
+[name*="pt-1"]{
+    padding-top: 1rem!important;
+}
+[name*="pt-2"]{
+    padding-top: 2rem!important;
+}
+[name*="pt-3"]{
+    padding-top:3rem!important;
+}
+[name*="pt-4"]{
+    padding-bottom:4rem!important;
+}
+/* PADDING BOTTOM */
+[name*="pb-1"]{
+    padding-bottom: 1rem!important;
+}
+[name*="pb-2"]{
+    padding-bottom: 2rem!important;
+}
+[name*="pb-3"]{
+    padding-bottom:3rem!important;
+}
+[name*="pb-4"]{
+    padding-bottom:4rem!important;
+}
+/* PADDING LEFT */
+[name*="pl-1"]{
+    padding-left: 1rem!important;
+}
+[name*="pl-2"]{
+    padding-left: 2rem!important;
+}
+[name*="pl-3"]{
+    padding-left:3rem!important;
+}
+[name*="pl-4"]{
+    padding-left:4rem!important;
+}
+/* PADDING RIGHT */
+[name*="pr-1"]{
+    padding-right: 1rem!important;
+}
+[name*="pr-2"]{
+    padding-right: 2rem!important;
+}
+[name*="pr-3"]{
+    padding-right:3rem!important;
+}
+[name*="pr-4"]{
+    padding-right:4rem!important;
+}
+/* PADDING END */
+/* MARGIN START */
+/* PADDING START */
+[name*="mt-1"]{
+    margin-top: 1rem!important;
+}
+[name*="mt-2"]{
+    margin-top: 2rem!important;
+}
+[name*="mt-3"]{
+    margin-top:3rem!important;
+}
+[name*="mt-4"]{
+    margin-bottom:4rem!important;
+}
+/* PADDING BOTTOM */
+[name*="mb-1"]{
+    margin-bottom: 1rem!important;
+}
+[name*="mb-2"]{
+    margin-bottom: 2rem!important;
+}
+[name*="mb-3"]{
+    margin-bottom:3rem!important;
+}
+[name*="mb-4"]{
+    margin-bottom:4rem!important;
+}
+/* PADDING LEFT */
+[name*="ml-1"]{
+    margin-left: 1rem!important;
+}
+[name*="ml-2"]{
+    margin-left: 2rem!important;
+}
+[name*="ml-3"]{
+    margin-left:3rem!important;
+}
+[name*="ml-4"]{
+    margin-left:4rem!important;
+}
+/* PADDING RIGHT */
+[name*="mr-1"]{
+    margin-right: 1rem!important;
+}
+[name*="mr-2"]{
+    margin-right: 2rem!important;
+}
+[name*="mr-3"]{
+    margin-right:3rem!important;
+}
+[name*="mr-4"]{
+    margin-right:4rem!important;
+}
+/* MARGIN END */
+/* K2 BUTTON BRANDING START */
+.SFC.SourceCode-Forms-Controls-Web-Button[name*="primary-button"]{
+    padding: 0.7rem 4rem !important;
+    border-radius: .5rem;
+    font-size: 1rem;
+    background: var(--mainColor) !important;
+    border-color: var(--mainColor) !important;
+    color: white !important;
+}
+/* label Branding Start */
+[name*="s_label"]{
+    font-size: 1rem;
+    color: var(--text-color);
+}
+[name*="s_textbox"],
+[name*="Username Text Box"],
+[name*="Password Text Box"],
+[name*="FullName Text Box"],
+[name*="CivilIDNumber Text Box"],
+[name*="MobileNumber Text Box"],
+[name*="Email Text Box"],
+[name*="Text Box"]{
+     border:1px solid var(--border-color)!important;
+    font-size:1rem!important;
+    border-radius: .5rem!important;
+    padding: .4rem 1rem!important;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    font-family: var(--regularFont)!important;
+    width: 100%;
+    min-height: 3rem!important;
+    height: 3rem!important;
+}
+
+
+span#a06e9621-5b9f-fba6-5abe-ef21d2f46287,
+span#\37 ef1a4a9-eff8-5cb0-3ee4-659ce2944e59,
+span#\34 03ba7d0-6d30-6431-55c2-fca6f82004d4,
+span#bc44e4e2-8ff0-f785-2cb8-1ec1778f68aa,
+span#\33 35c0e32-6ec6-cdf3-0b3e-d9d9f211ec0b,
+span#\31 659e674-bc0c-213b-5983-798b239b7ae2,
+span#e47b6a9b-1cb6-7b73-6b0c-df9e5e56baf9,
+span#\39 b70a021-750d-4092-1000-7995f11aab22,
+span#\37 c01538e-55f6-e6ab-2874-52d735b13ffc,
+span#\35 163f6be-576d-06bc-36cf-aeb8073624a5,
+span#\37 31c6d2a-caff-7b89-f813-6da9d33cb9fb,
+span#\36 3926e57-634e-0297-b282-c1c3d64df3da,
+span#d1b7485f-ff22-c942-fb66-a96bed8c16fc,
+span#\31 60cb84c-c5f4-c2b9-a4c1-2a2a8f59da3c,
+span#e37ac077-d78f-ce04-fc34-73d22e37687b,
+span#\33 16e21f9-d7ad-f4b6-c986-136a866ec25d,
+span#\35 ff3bb5d-9219-16f4-9ef1-865d090bf56f,
+span#\39 17d4210-58e7-2097-8f36-65ee270ea7e6,
+span#\37 129f124-8205-5ce0-2479-d9d1aa0c301d,
+span#d7cc9bc3-e5c6-806d-20ac-8ee783318559,
+span#\37 4367a18-ae1c-a547-727c-7dc2317d4fd2,
+span#\30 915ffc8-892c-490a-6b07-5b9005987dca,
+span#\39 7f66474-b18e-052b-9537-3a604c700ecd,
+span#\35 2d21b66-f066-2ab1-d0ba-e2d9ac633dc9,
+span#c526e237-eeaf-8eb3-84ea-e973b3ce3d77,
+span#\37 65299b9-09c0-066c-9284-af4baeae6ebd,
+span#e979d7ab-ea5f-d19b-4bc8-7bee9d51dae4,
+span#a81ef522-b034-3afa-2162-3cceb0618f9a,
+span#cd90423c-a903-65e2-3f5a-979ce0a58f2b,
+span#\32 ef34050-ae87-c61b-7c50-69bbdb2d1040,
+span#\38 1137e1e-f16e-23a2-2cbf-bbcbf39a5950,
+span#a77e553e-4cab-82f7-b876-d920260502f8,
+span#\39 9eadd0f-2cd7-ba68-4012-cd4e13f6dd95,
+span#afb5c9aa-e7b9-31ee-c042-c20cc08ec5c7,
+span#\30 abb063f-eabc-5b0d-d5a9-59ed4d282c45,
+span#\36 0ee0598-e298-1337-b620-022caa84af40,
+span#\33 38bd428-6a65-1ce4-3196-d63de4223927,
+span#d516c645-d8f3-fa98-f2fd-ac80ff7e83d6,
+span#\31 5df43a4-03aa-0f53-990e-ab25fac6054c,
+span#e6844b28-2751-49c1-39ff-0977ef25cf57,
+span#\38 c50f114-eb7b-7ea2-5ee1-4517a9a2b3bd,
+span#\33 a4b42e5-c89f-2e58-b839-798908b59c1d,
+span#\38 74df0ff-6d37-202a-269a-12a966b67f16,
+span#\37 8c49949-1bc5-3176-59c0-c743913d43d5,
+span#\39 8528e09-93b4-01b8-6561-839f335ee1e0,
+span#\38 82c4010-1a9f-9d74-05ce-1573fda1c8d8,
+span#bd295d85-e79f-03ae-cc53-fa3232b7037d,
+span#f05eb119-7f02-9a38-0486-4a976275db5a{
+    display: none;
+}
+
+html:not(.designer) .input-control.select-box.lookup-box.calendar-control.datepicker *,
+.input-control-watermark{
+	font-size:1rem!important;
+}
+[name="DateOfBirthCalendar"]{
+    height:3rem!important;
+}
+html:not(.designer) [name*="OBB_dropdown"] .select-box,
+html:not(.designer) .select-box[name*="OBB_calendar"],
+html:not(.designer) .input-control.select-box.lookup-box.picker-input.double-buttons,
+.searchDdl .select-box{
+    border:1px solid var(--borderColor)!important;
+    border-radius:.5rem!important;
+    height:2.9rem;
+    min-height:2.9rem;
+    overflow: hidden;
+}
+html[dir="ltr"] a#\30 0000000-0000-0000-0000-000000000000_2e4b9221-ddd9-6be1-e3d3-9a540d9641e9{
+    margin-left:0!important;
+    margin-right:.5rem!important
+}
+html[dir="ltr"]a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57cb-d2d34fee830e{
+    margin-right:0!important;
+    margin-left:.5rem!important;
+}
+html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_2e4b9221-ddd9-6be1-e3d3-9a540d9641e9{
+    margin-right:0!important;
+    margin-left:.5rem!important;
+}
+html[dir="rtl"] a#\30 0000000-0000-0000-0000-000000000000_5c0f8526-1a01-7a88-57cb-d2d34fee830e{
+    margin-left:0!important;
+    margin-right:.5rem!important
+}
+.theme-entry .input-control .input-control-watermark, 
+.theme-entry .input-control.select-box .input-control-watermark, 
+.theme-entry .input-control.select-box div.editable-area, 
+.theme-entry .input-control.select-box input[type=text]{
+    font-size:1rem!important;
+}
+.input-control.select-box.lookup-box.picker-input.double-buttons, 
+.input-control.select-box.lookup-box.calendar-control.datepicker, 
+.input-control.select-box.lookup-box.picker-input.double-buttons .input-control-m-c, 
+.input-control.select-box.lookup-box.calendar-control.datepicker .input-control-m-c{
+    height: 3rem!important;
+    min-height: 3rem!important;
+}
+.theme-entry .select-box.lookup-box.calendar-control.datepicker .input-control-buttons a,
+.theme-entry .input-control.select-box .input-control-buttons a{
+    height: 100%!important;
+}
+.mobile .theme-entry div.picker-input.select-box.double-buttons .input-control-buttons.styling-right{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 2.9rem;
+}
+span.styling-font{
+    font-size: 1rem!important;
+}
+.theme-entry .input-control a.input-control{
+    height: 3rem;
+}
+ .theme-entry .input-control.select-box:not(.hide-buttons) .input-control-m-c{
+    min-height: unset!important;
+ }
+ .theme-entry .input-control.select-box.picker-input[data-maxrows="1"] div.editable-area{
+    height: unset!important;
+ }
+ .overlay-content {
+    align-items: center;
+ }
+ .sidebar{
+    transform:translateX(-100%);
+ }
+@media(min-width:992px){
+     .overlay-content {
+    align-items: flex-start;
+ }
+    .theme-entry .popup.id-calendar-control-popup {
+    width: 18rem !important;
+    height: auto !important;
+}
+}
+@media(min-width:1600px){
+span.styling-font{
+    font-size: 1vw!important;
+}
+.theme-entry .input-control .input-control-watermark, 
+.theme-entry .input-control.select-box .input-control-watermark, 
+.theme-entry .input-control.select-box div.editable-area, 
+.theme-entry .input-control.select-box input[type=text]{
+    font-size:1rem!important;
+}
+}

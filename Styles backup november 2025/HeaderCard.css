@@ -1,0 +1,451 @@
+html:not(.designer) .theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
+    border-bottom: 1px solid rgb(0 0 0 / 20%)!important;
+    min-height: unset!important;
+    height: unset!important;
+
+}
+html:not(.designer) div#custom-sticky-header .panel-body-wrapper > div > div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351fe  img{
+	height:2rem!important;
+	width:2rem!important;
+}
+html:not(.designer) body.theme-entry [name*="ProfileTable"] .input-control.select-box{
+    border:none!important;
+
+}
+[name*="urlTextBox"]{
+	display: none!important;
+}
+.theme-entry [name="ProfileTable"] .styling-outer-wrapper{
+	height:1rem;
+}
+html:not(.designer) div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+html:not(.designer) div#dd6240dc-b93e-1eb3-cf9f-e2ca8d12f39f_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+div#\39 63b27b0-2488-7c4b-de16-da0b16ac23b5_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+div#\35 6de97dc-fddf-97d1-9116-c2a8e36a8708_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+html:not(.designer) .theme-entry ul.tab-box-tabs{
+	padding:0 1rem;
+}
+
+[name="ProfileTable"] *{
+   width: fit-content!important;
+}
+.theme-entry [name="ProfileTable"] .styling-outer-wrapper{
+	height:1rem;
+}
+html:not(.designer) span#\37 9297435-28f8-a312-16cd-abc9b001de55 {
+    width: fit-content;
+}
+a#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_9d76c288-51a3-44ed-b230-f14998f945f7_ToolbarButton{
+	padding: 0!important;
+}
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_c3463596-afb1-716a-6371-d974af820942_Table {
+    display: flex;
+    width: fit-content;
+}
+html:not(.designer) #custom-sticky-header {
+	position: fixed;
+	top: 9px;
+	left: 0rem;
+	width: 100%;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	justify-content: flex-start;
+	border-bottom: 1px solid #ddd;
+	z-index: 1;
+	/* padding: 1rem; */
+	/* height: 3rem; */
+}
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7b29d3fc-c2f4-db11-b913-f2319985b35f_Table img{
+	width: 2rem!important;
+	height:2rem!important
+}
+html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box.dropdown-box.watermark {
+    padding: 0;
+}
+
+html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
+	position: relative;
+	bottom: 0.8rem;
+	right: 2rem;
+}
+
+html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
+	font-size: .85rem;
+	color: #131313;
+	margin: 0;
+}
+
+html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
+	font-size: 0.7rem !important;
+	height: unset !important;
+	width: fit-content !important;
+	padding: 0!important;
+}
+div#\32 d3cecc5-cc8e-4e5c-88b9-d95d476f6ab2_3765ef76-28a6-4a3c-a822-9b9ca5324d1e_Table {
+    padding: 0;
+}
+html:not(.designer) [name^="HeaderCard"] {
+	width: calc(100% - 1.4rem)!important;
+	text-align: left;
+	font-weight: bold;
+	padding: 1rem;
+}
+
+html:not(.designer) [name^="HeaderCard"] .editor-cell {
+	padding: 0 !important;
+}
+
+html:not(.designer) .theme-entry ul.tab-box-tabs {
+	border: none;
+	border-top: 1px solid #ECECEC;
+	display: flex;
+	list-style: none;
+	padding: 0;
+	gap: 5px;
+	height: unset;
+	padding: 0;
+	padding-top: 1rem;
+}
+
+html:not(.designer) .theme-entry a.tab>span>span {
+	font-size: 0.9rem;
+	color: #828282;
+}
+
+html:not(.designer) .theme-entry ul.tab-box-tabs li {
+	cursor: pointer;
+	font-weight: bold;
+}
+
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
+	padding: .5rem .5rem 1rem;
+	position: relative;
+	height: unset!important;
+}
+
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected::after {
+	content: "";
+	position: absolute;
+	height: 0.4rem;
+	width: 100%;
+	background-color: var(--main-color);
+	bottom: 0rem;
+	left: 0;
+}
+
+html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab.selected span {
+	color: black;
+}
+
+/* Optional: Hover Effect */
+html:not(.designer) .theme-entry ul.tab-box-tabs li:hover {
+	color: black;
+}
+
+html:not(.designer) .theme-entry a.tab,
+html:not(.designer) .theme-entry a.tab.selected .tab-wrapper,
+html:not(.designer) .theme-entry .tab-wrapper {
+	border: none;
+}
+
+html:not(.designer) .theme-entry >.drop-menu {
+z-index: 5000 !important;
+background-color: white;
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+html:not(.designer) #custom-sticky-header [name="Cell Cell270"] {
+	border: 1px solid #ddd !important;
+	padding: .4rem 2rem !important;
+	border-radius: 4rem;
+	margin-right: 1.6rem;
+}
+
+html:not(.designer) [name="CustomerDp"] .select-box {
+	width: 18rem !important;
+	position: relative !important;
+	line-height: 1;
+}
+
+html:not(.designer) body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: .7rem;
+	background-color:var(--main-color);
+	z-index: 100000;
+}
+
+html:not(.designer) [name="CustomerDp"] {
+	height: 1.4rem !important;
+}
+
+html:not(.designer) [name="CustomerDp"] .select-box * {
+    font-size: 1rem !important;
+    background-color: transparent !important;
+    border: none !important;
+    line-height: 1 !important;
+    /* width: 7rem!important; */
+}
+
+html:not(.designer) [name="ProfileTable"] {
+	display: flex !important;
+	align-items: center !important;
+	border: 1px solid #ddd;
+	border-radius: 4rem !important;
+	padding: 0.6rem 0.7rem 0.2rem !important;
+	width: fit-content;
+	margin: 0 0rem;
+	height: 3rem;
+	min-width: max-content;
+}
+
+html:not(.designer) [name="ProfileTable"] .theme-entry .input-control.select-box {
+	width: 100% !important
+}
+
+html:not(.designer) [name="ProfileTable"] [name="ProfilePhoto"] {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center !important;
+	height: 2rem;
+	width: 2rem !important;
+
+	padding: 0 !important;
+	margin-top: -.4rem;
+}
+html:not(.designer)[dir="ltr"] [name="ProfileTable"] [name="ProfilePhoto"]{
+		margin-right: 0.6rem;
+}
+html:not(.designer)[dir="rtl"] [name="ProfileTable"] [name="ProfilePhoto"]{
+		margin-left: 0.6rem;
+}
+html[dir=ltr] .theme-entry [name="CustomerDp"] .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+	padding: 0 !important;
+	border-radius: 0 !important;
+}
+
+[name="ProfileTable"] [name="Table3"] {
+	padding: 0 !important;
+}
+
+html[dir=ltr] .theme-entry [name="ProfileTable"] .input-control.select-box .input-control-buttons {
+    padding: 0 !important;
+    position: absolute !important;
+    bottom: 0.1rem !important;
+    width: 1rem!important;
+    right: 1rem;
+
+}
+
+.theme-entry [name="ProfileTable"] .input-control a.input-control span,
+.theme-entry .input-control.watermark a.input-control span {
+	padding: 0;
+	line-height: 1;
+}
+
+.theme-entry [name="ProfileTable"] .input-control.select-box .input-control-buttons a.dropdown>span span {
+    position: absolute;
+    bottom: 1.3rem;
+    right: 1rem;
+    width: 1rem!important;
+
+}
+
+[name="English Lang"],
+[name="Arabic Lang"] {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center;
+	border: 1px solid #ddd !important;
+	width: fit-content;
+}
+
+html[dir=ltr] [name^="HeaderCard"] .editor-cell[name="English Lang"] {
+	display: none !important;
+	width: 0!important;
+}
+
+html[dir=rtl] [name^="HeaderCard"] .editor-cell[name="Arabic Lang"] {
+	display: none !important;
+}
+html[dir="rtl"] [name^="HeaderCard"] .editor-cell[name="English Lang"]{
+	right: 0rem;
+	padding:.4rem!important;
+	margin-left: .5rem;
+}
+html:not(.designer) [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+[name^="HeaderCard"] .editor-cell[name="English Lang"] {
+	display: flex !important;
+	align-items: center !important;
+	justify-content: center;
+	flex-wrap: nowrap;
+	font-size: 1rem;
+	border: 1px solid #d9d9d9 !important;
+	padding: 0.55rem 1rem 0.55rem !important;
+	border-radius: 2rem;
+	opacity: 1;
+	cursor: pointer;
+	position: relative;
+	margin-right: .5rem;
+	padding: .5rem .9rem!important;
+	width: fit-content;
+}
+html[dir=rtl]:not(.designer) body.theme-entry [name="Arabic Lang"]{
+	display:none!important;
+								  }
+html[dir=rtl] .theme-entry #custom-sticky-header a.toolbar-button {
+	display: block !important;
+	padding: 0 !important;
+	min-height: unset;
+}
+
+html[dir=ltr] .theme-entry a.toolbar-button[name="ar ToolBar Button"] span {
+	opacity: 1;
+	margin-left: 0.2rem;
+	text-align: center;
+}
+
+[name^="HeaderCard"] .editor-cell[name="Arabic Lang"] * {
+	height: unset !important;
+	vertical-align: middle;
+	padding: 0;
+	min-height: unset!important;
+	margin: 0!important;
+	line-height: unset!important;
+	font-family: var(--regularFont);
+}
+html:not(.designer)[dir="ltr"] .theme-entry [name^="HeaderCard"] .editor-cell[name*="Lang"] img{
+	margin-right:.5rem!important;
+}
+html:not(.designer)[dir="rtl"] .theme-entry [name^="HeaderCard"] .editor-cell[name*="Lang"] img{
+	margin-left:.5rem!important;
+}
+.theme-entry .SourceCodeFormsControlsWorklist .WorkListItemTable .WorklistItemGridRow>td {
+	width: auto;
+}
+
+.theme-entry [name="ProfileTable"] .input-control.watermark a.input-control span {
+	font-size: .85rem !important;
+}
+
+/* ARABIC PAGES */
+html[dir="rtl"] #custom-sticky-header {
+	right: 0rem;
+	left: auto;
+}
+
+html[dir="rtl"] #custom-sticky-header .input-control.select-box:not(.hide-buttons) .input-control-m-c {
+	padding: 0 !important;
+}
+
+html[dir="rtl"] .theme-entry #custom-sticky-header .input-control.select-box .input-control-buttons a {
+	left: 0rem;
+	right: auto;
+}
+.styling-outer-wrapper {
+    min-width: auto;
+}
+@media(max-width:991px){
+	div#\36 68575bc-80a6-0bb7-e858-9592aca9675e_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+	div#\36 68575bc-80a6-0bb7-e858-9592aca9675e_8697eebc-71a4-0dcb-220a-f3d5dd7ba23d_Table,
+	div#\36 68575bc-80a6-0bb7-e858-9592aca9675e_c3463596-afb1-716a-6371-d974af820942_Table {
+    	padding: 0;
+	}
+}
+@media(min-width:992px){
+	html[dir="rtl"] #custom-sticky-header {
+	right: 17rem;
+	left: auto;
+	width: calc(100% - 17rem);
+}
+	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
+	padding: 1.4rem 1rem 1.4rem;
+	position: relative;
+	height: unset;
+}
+	html:not(.designer) .theme-entry ul.tab-box-tabs {
+	padding: 0;
+}
+	html:not(.designer) div#\34 92b4837-af1f-d02f-bf52-d0ee6eb73a46_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+html:not(.designer) div#dd6240dc-b93e-1eb3-cf9f-e2ca8d12f39f_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+html:not(.designer) div#\30 5d498f8-fd07-6b86-f897-5fd7d41a511b_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table,
+div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
+    display: flex;
+    align-items: center;
+		justify-content:flex-end;
+}
+	html:not(.designer)[dir="ltr"] #custom-sticky-header {
+	left: 17rem;
+	width: calc(100% - 17rem);
+}
+}
+@media(min-width:1600px){
+	html:not(.designer) body.theme-entry [name^="HeaderCard"] .editor-cell[name="Arabic Lang"],
+	html:not(.designer) body.theme-entry [name^="HeaderCard"] .editor-cell[name="English Lang"] {
+	font-size: 1vw!important;
+	padding: 0.55vw 1vw 0.55vw !important;
+	margin-right: .5vw;
+	padding: .5vw .9vw!important;
+	border-radius:1vw;
+}
+	[name^="HeaderCard"] .editor-cell[name="Arabic Lang"] * {
+	height: 1vw !important;
+}
+	html:not(.designer) .theme-entry ul.tab-box-tabs li a.tab {
+		padding: 1.4vw 1vw 1.4vw;
+	
+	}
+	html:not(.designer) [name="ProfileTable"] [name="ProfilePhoto"] {
+	height: 2vw;
+	width: 2vw !important;
+	margin-right: 0.6vw;
+	margin-top: -.4vw;
+}
+	html:not(.designer) .theme-entry #custom-sticky-header .styling-font {
+	font-size: 0.7vw !important;
+}
+	html:not(.designer) [name="ProfileTable"] {
+	border-radius: 4vw !important;
+	padding: 0.6vw 0.7vw 0.2vw !important;
+	margin: 0 0vw;
+	height: 3vw;
+}
+	html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351fe  img{
+	height:2vw!important;
+	width:2vw!important;
+}
+html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
+	font-size: .85vw;
+	line-height: 1vw!important;
+	height: 1vw;
+}
+html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
+html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
+	width: 100%!important;
+}
+	
+	html:not(.designer)[dir="ltr"] #custom-sticky-header {
+		left: 16.6vw!important;
+		width: calc(100% - 18.7vw)!important;
+		padding: 1vw!important;
+	}
+	html[dir="rtl"] #custom-sticky-header {
+    right: 16.6vw;
+    width: calc(100% - 18.6vw);
+}
+}
