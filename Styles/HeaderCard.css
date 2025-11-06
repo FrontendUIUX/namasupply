@@ -446,10 +446,9 @@ html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
 	html:not(.designer)[dir="ltr"] #custom-sticky-header {
 		left: 16.6vw!important;
 		width: calc(100% - 16.7vw)!important;
-		/* padding: 1vw!important; */
 	}
 	html[dir="rtl"] #custom-sticky-header {
     right: 16.6vw;
-    width: calc(100% - 18.6vw);
+    width: calc(100% - 16.6vw);
 }
 }
