@@ -495,7 +495,7 @@ html:not(.designer) .theme-entry div#\39 8d99d9a-ff21-fdfa-76a4-9d6b1c80923e_3ca
 html:not(.designer) .theme-entry div#\35 d520cd7-3333-6699-1d7c-6376288aca9a_8442b251-4369-4efc-8d9f-327304a3a7e8_Table,
 html:not(.designer) .theme-entry div#bdec49cb-0d18-051c-4c33-27e6f91ebcba_a619054d-1ebe-4c2b-b0a2-e1488adb05ab_Table, 
 html:not(.designer) .theme-entry .form [name="Table"] {
-    gap: 1.5rem .5rem;
+    /* gap: 1.5rem .5rem; */
 }
  html:not(.designer) .theme-entry .grid table.grid-content-table > tbody > tr > td div,
  html:not(.designer) .theme-entry .grid table.grid-content-table > tbody > tr > td span{
@@ -1869,7 +1869,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      html:not(.designer) .theme-entry div#\39 8d99d9a-ff21-fdfa-76a4-9d6b1c80923e_3cad2e29-0ba0-43ea-8464-0647fe4c9a73_Table, 
      html:not(.designer) .theme-entry div#\35 d520cd7-3333-6699-1d7c-6376288aca9a_8442b251-4369-4efc-8d9f-327304a3a7e8_Table, html:not(.designer) .theme-entry div#bdec49cb-0d18-051c-4c33-27e6f91ebcba_a619054d-1ebe-4c2b-b0a2-e1488adb05ab_Table, 
      html:not(.designer) .theme-entry .form [name="Table"] {
-         gap:1.5vw 0.5vw;
+         /* gap:1.5vw 0.5vw; */
     }
      .form span[name="Count Label2"], .form span[name="Count Data Label2"] {
         margin: 0 0.5vw;
@@ -2768,7 +2768,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      html:not(.designer) .theme-entry div#\39 8d99d9a-ff21-fdfa-76a4-9d6b1c80923e_3cad2e29-0ba0-43ea-8464-0647fe4c9a73_Table, 
      html:not(.designer) .theme-entry div#\35 d520cd7-3333-6699-1d7c-6376288aca9a_8442b251-4369-4efc-8d9f-327304a3a7e8_Table, html:not(.designer) .theme-entry div#bdec49cb-0d18-051c-4c33-27e6f91ebcba_a619054d-1ebe-4c2b-b0a2-e1488adb05ab_Table, 
      html:not(.designer) .theme-entry .form [name="Table"] {
-         gap:1.5vw 0.5vw;
+         /* gap:1.5vw 0.5vw; */
     }
      .form span[name="Count Label2"], .form span[name="Count Data Label2"] {
         margin: 0 0.5vw;
