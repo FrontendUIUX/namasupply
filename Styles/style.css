@@ -170,7 +170,7 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      border: transparent; */
 }
 html:not(.designer) .theme-entry .popup.dialog a.SourceCode-Forms-Controls-Web-Button:hover {
-     background-color: var(--badge-error-background-color);
+     /* background-color: var(--badge-error-background-color); */
 }
 
  html:not(.designer) .theme-entry .styling-outer-wrapper {
