@@ -758,7 +758,7 @@ html:not(.designer) body {
  html:not(.designer) .theme-entry .dialog:not(.sub-view) .popup-body {
      padding: 1rem 2rem 0;
      border-bottom: none !important;
-     top: 5rem !important;
+     /* top: 5rem !important; */
  }
 html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
     top: 6rem!important;
