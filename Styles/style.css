@@ -663,7 +663,9 @@ html:not(.designer) body {
      left: 50% !important;
      transform: translate(-50%, -50%);
  }
-
+.theme-entry .popupManager .dialog.popup .popup-body-content {
+    position: relative;
+}
  [name="ar ToolBar Button"] {
      padding: 0 !important;
  }
