@@ -154,9 +154,13 @@ div#PopupWin_1744379094101 .popup-header-wrapper > .wrapper > div{
 	font-size:1.8rem!important;
 }
 .theme-entry .popup.dialog.id-runtime-dialog.sub-view.ui-draggable.no-buttons  .popup-body{
-	top: 5.7rem;
+	/* top: 5.7rem; */
 	padding: 0;
 	bottom: 0;
+}
+html .theme-entry .popupManager .popup.dialog .popup-body {
+    position: relative;
+    top: 0;
 }
 div#PopupWin_1744379094101 .popup-header{
 	display:block;
