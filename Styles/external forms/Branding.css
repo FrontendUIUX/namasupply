@@ -160,6 +160,7 @@ div#PopupWin_1744379094101 .popup-header-wrapper > .wrapper > div{
 html .theme-entry .popupManager .popup.dialog .popup-body {
     position: relative;
     top: 0;
+	height: 100%;
 }
 div#PopupWin_1744379094101 .popup-header{
 	display:block;
