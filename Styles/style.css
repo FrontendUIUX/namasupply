@@ -1714,12 +1714,12 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
          margin-bottom: 1vw;
      }
 
-     html:not(.designer) body.theme-entry .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
-         /* height: 12vw !important; */
-         /* width: 12vw !important; */
-         /* border-radius: 0.7vw !important; */
-         /* padding: 0 1vw !important; */
-         /* margin: 1vw !important; */
+     html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"] {
+         height: 12vw !important;
+         width: 12vw !important;
+         border-radius: 0.7vw !important;
+         padding: 0 1vw !important;
+         margin: 1vw !important;
      }
 
      .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv {
