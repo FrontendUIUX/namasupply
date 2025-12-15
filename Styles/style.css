@@ -1054,9 +1054,9 @@ html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardT
     border: none;
 }
 
-html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"] :hover {
+html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]:hover {
     box-shadow: none;
-    background-color: #14467014;
+    background-color: var(--light-main-color)!important;
 }
 /* NEW CSS FILE END */
  /* Responsive Tables */
