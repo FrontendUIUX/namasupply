@@ -1037,7 +1037,9 @@ html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardT
     text-wrap: auto;
     text-align: center;
 }
-
+html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]:has(.hidden){
+    display:none;
+}
 html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]  .picture-control-inline {
     width: 4rem !important;
     margin-bottom: .7rem;
