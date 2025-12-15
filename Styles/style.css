@@ -172,14 +172,14 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
 
  html:not(.designer) [name*="s_label"] {
      color: var(--black) !important;
-     font-size: 1rem !important;
+     font-size: var(--fs-body);
      font-family: var(--regularFont);
  }
 
  html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button {
      padding: .7rem 1rem !important;
      border-radius: .5rem !important;
-     font-size: 1rem !important;
+     font-size: var(--fs-caption)!important;
      font-family: var(--regularFont);
  }
  html:not(.designer) .theme-entry .styling-outer-wrapper {
@@ -351,12 +351,6 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
  }
 
  /* GENERAL STYLES END */
- /* BUTTON BRANDING START */
- html:not(.designer) .theme-entry .SourceCode-Forms-Controls-Web-Button {
-     padding: .8rem 1rem;
- }
-
- /* BUTTON BRANDING END */
  /* TEXTBOX BRANDING START */
  html:not(.designer) .theme-entry input.SFC.SourceCode-Forms-Controls-Web-TextBox,
  html:not(.designer) .theme-entry .filterTxt .input-control-m-c,
@@ -1594,7 +1588,7 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      html:not(.designer) .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel[name *="s_collapse"] {
          width: calc(100% - 4rem) !important;
          background-color: var(--white) !important;
-         border-radius: 0 !important;
+         border-radius: var(--zoneBorderRadius)!important;
          padding: var(--zonePadding) !important;
          margin-top: 0rem;
          border-radius: 1rem !important;
@@ -1715,15 +1709,9 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark {
          font-size: 1vw !important;
      }
-
-     html:not(.designer) [name*="s_label"] {
-         font-size: 1vw !important;
-     }
-
      html:not(.designer) .theme-entry a.SourceCode-Forms-Controls-Web-Button {
          padding: 0.3vw 1vw !important;
          border-radius: .5vw;
-         font-size: 0.8vw !important;
      }
 
      html:not(.designer) .input-control-wrapper {
