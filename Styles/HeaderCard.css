@@ -121,7 +121,7 @@ html:not(.designer) .theme-entry ul.tab-box-tabs {
 }
 
 html:not(.designer) .theme-entry a.tab>span>span {
-	font-size: 0.9rem;
+	font-size: var(--fs-body);
 	color: #828282;
 }
 
