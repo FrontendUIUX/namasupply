@@ -1017,6 +1017,37 @@ html:not(.designer) body.theme-entry [name*="dashboardTable"]{
     flex-direction:row;
     width:100%!important;
 }
+html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]  {
+    height: 11rem;
+    width: 100%;
+    box-shadow: none;
+    border-radius: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+    align-content: center;
+    transition: all .3s ease-in-out;
+    padding: 0 1rem;
+}
+
+html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]  .SFC.SourceCode-Forms-Controls-Web-Label {
+    font-size: 1rem;
+    text-wrap: auto;
+    text-align: center;
+}
+
+html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]  .picture-control-inline {
+    width: 4rem !important;
+    margin-bottom: .7rem;
+    outline: none;
+    border: none;
+}
+
+html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"] :hover {
+    box-shadow: none;
+    background-color: #14467014;
+}
 /* NEW CSS FILE END */
  /* Responsive Tables */
  @media(max-width:991px) {
