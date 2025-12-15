@@ -196,7 +196,9 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      border: none !important;
      background-color: transparent;
  }
-
+ html:not(.designer) [name*="s_textbox"].hidden{
+    display: none;
+ }
  html:not(.designer) [name*="s_textbox"],
  html:not(.designer) .filterTxt .input-control-m-c,
  html:not(.designer) .filterTxt input,
