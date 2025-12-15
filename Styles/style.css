@@ -1,17 +1,27 @@
- :root {
-     --red: #e62b37;
-     --main-color: #e62b37;
-     --text-color: #3E3E3E;
-     --field-label: #303030;
-     --border-color: #D7D7D7;
-     --zonePadding: 1rem;
-     --white: #ffffff;
-     --main-color-hover: #c01f29;
-     --light-main-color: rgb(230 43 55 / 9%);
-     --zoneBorderRadius: 1rem;
-     --zonePadding: 1.5rem;
-     --regularFont: 'SWCC-Medium';
- }
+:root {
+    --red: #e62b37;
+    --main-color: #e62b37;
+    --text-color: #3E3E3E;
+    --field-label: #303030;
+    --border-color: #D7D7D7;
+    --zonePadding: 1rem;
+    --white: #ffffff;
+    --main-color-hover: #c01f29;
+    --light-main-color: rgb(230 43 55 / 9%);
+    --zoneBorderRadius: 1rem;
+    --zonePadding: 1.5rem;
+    --regularFont: 'SWCC-Medium';
+    --fs-h1: clamp(1.9rem, 1.6vw + 0.9rem, 2.3rem);
+    --fs-h2: clamp(1.65rem, 1.3vw + 0.85rem, 2rem);
+    --fs-h3: clamp(1.4rem, 1.1vw + 0.75rem, 1.7rem);
+    --fs-h4: clamp(1.2rem, 0.95vw + 0.7rem, 1.5rem);
+    --fs-h5: clamp(1.05rem, 0.85vw + 0.6rem, 1.35rem);
+    --fs-h6: clamp(0.95rem, 0.75vw + 0.55rem, 1.2rem);
+    --fs-h7: clamp(0.85rem, 0.7vw + 0.45rem, 1rem);
+    --fs-body: clamp(0.95rem, 0.45vw + 0.85rem, 1.05rem);
+    --fs-button: clamp(0.85rem, 0.35vw + 0.85rem, 0.95rem);
+    --fs-caption: clamp(0.85rem, 0.3vw + 0.8rem, 0.9rem);
+}
 
  @font-face {
      font-family: 'SWCC-Medium';
