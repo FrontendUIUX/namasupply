@@ -502,7 +502,7 @@ html:not(.designer) .theme-entry div#cfa8ffae-7706-834b-9ec1-23ca5ee7296d_4fed8e
 
  html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text {
      font-family: var(--regularFont) !important;
-     font-size: 0.8rem !important;
+     font-size: var(--fs-caption)!important;
      text-align: left !important;
      color: #565656 !important;
  }
@@ -1698,14 +1698,6 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      .theme-entry .input-control.select-box.disabled .input-control-buttons a.picker-search:focus>span span {
          background-size: 1vw !important;
      }
-
-     html:not(.designer)[dir="ltr"] .theme-entry .grid .grid-column-header-text,
-     html:not(.designer)[dir="rtl"] .theme-entry .grid .grid-column-header-text,
-     html:not(.designer) .theme-entry table tbody td span
-  {
-         font-size: .8vw !important;
-     }
-
      html:not(.designer) .theme-entry .input-control.select-box .input-control-watermark {
          font-size: 1vw !important;
      }
