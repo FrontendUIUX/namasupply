@@ -48,6 +48,8 @@ left:0;
  padding: 12px;
  border-radius: 6px;
  transition: background 0.3s;
+ font-family: var(--regularFont)!important;
+ font-size: var(--fs-body)!important;
 }
 .sidebar-link:hover {
  background: #f0f0f0;
