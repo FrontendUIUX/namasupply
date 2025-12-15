@@ -83,7 +83,7 @@ html:not(.designer) .theme-entry #custom-sticky-header .input-control.select-box
 }
 
 html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
-	font-size: .85rem;
+	font-size: var(--fs-caption);
 	color: #131313;
 	margin: 0;
 }
@@ -432,11 +432,6 @@ div#\31 4756d3d-ed02-ec11-0620-96035132bc28_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841
 	html:not(.designer) body.theme-entry span#\39 850419e-6a03-9989-c2db-a971eff351fe  img{
 	height:2vw!important;
 	width:2vw!important;
-}
-html:not(.designer) .theme-entry #custom-sticky-header .SourceCode-Forms-Controls-Web-DataLabel {
-	font-size: .85vw;
-	line-height: 1vw!important;
-	height: 1vw;
 }
 html:not(.designer)[dir="rtl"] .theme-entry .input-control, 
 html:not(.designer)[dir="rtl"] .theme-entry .input-control.select-box{
