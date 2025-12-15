@@ -21,7 +21,7 @@
     border: none;
 }
 
-.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]):hover {
+html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]:hover {
     box-shadow: none;
     background-color: var(--light-main-color);
 }
@@ -157,6 +157,8 @@ html:not(.designer) .theme-entry .drop-menu ul.drop-menu li:not(:last-child) a{
 html:not(.designer) .theme-entry .editor-cell{
     padding: 0!important;
 }
+
+
 @media(min-width:1600px) {
     html:not(.designer) body.theme-entry {
     margin-top: 5.65vw;
