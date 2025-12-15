@@ -1043,7 +1043,7 @@ html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardT
 }
 
 html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]  .SFC.SourceCode-Forms-Controls-Web-Label {
-    font-size: 1rem;
+    font-size: var(--fs-body)!important;
     text-wrap: auto;
     text-align: center;
 }
@@ -1787,12 +1787,6 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
          padding-left: 19vw !important;
          width: 100% !important;
      }
-
-     .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
-         font-size: 1vw;
-         line-height: 1.5vw !important;
-     }
-
      .theme-entry span {
          font-size: 1vw !important;
      }
