@@ -1684,6 +1684,10 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
     background-color: #f5f5f5 !important;
     padding-left: 17vw !important;
 }
+	      html:not(.designer)[dir="rtl"] body.theme-entry {
+    padding-right: 17vw !important;
+			  padding-left:0!important;
+}
      .sidebar-icon{
         height:1vw;
         width:1vw;
