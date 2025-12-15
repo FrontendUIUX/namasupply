@@ -53,8 +53,8 @@ left:0;
  background: #f0f0f0;
 }
 .sidebar-link.active {
- background: #fdecec;
- color: #d32f2f;
+ background: var(--light-main-color)!important;
+ color: var(--main-color)!important;
  font-weight: bold;
 }
 /* Sidebar Icons */
