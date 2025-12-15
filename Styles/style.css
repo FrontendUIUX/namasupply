@@ -1029,6 +1029,7 @@ html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardT
     align-content: center;
     transition: all .3s ease-in-out;
     padding: 0 1rem;
+    background-color: white;
 }
 
 html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]  .SFC.SourceCode-Forms-Controls-Web-Label {
