@@ -1,7 +1,4 @@
-.sidebar {
 
-  background-image: url("https://ns.namaservices.om/Style/logos/bluePattern.png")!important;
-}
 html[dir="rtl"] .sidebar {
 right:0;
 }
