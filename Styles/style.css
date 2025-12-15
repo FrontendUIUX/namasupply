@@ -202,7 +202,7 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
  html:not(.designer) .filterTxt input,
  html:not(.designer) .form-field-element-wrapper .input-control.select-box.lookup-box {
      border: 1px solid var(--border-color) !important;
-     font-size: 1rem !important;
+     font-size: var(--fs-body)!important;
      border-radius: .5rem !important;
      padding: .4rem 1rem !important;
      vertical-align: middle;
@@ -1726,7 +1726,6 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      html:not(.designer) .theme-entry .filterTxt .input-control-m-c,
      html:not(.designer) .theme-entry .filterTxt input {
          border: 1px solid var(--border-color) !important;
-         font-size: 1vw !important;
          border-radius: .5vw !important;
          padding: .4vw 1vw !important;
          min-height: 3vw !important;
