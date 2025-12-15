@@ -905,13 +905,15 @@ html:not(.designer).mobile .theme-entry .dialog#PickerSearchDialog .popup-body{
  html:not(.designer) .theme-entry h2,
  html:not(.designer) .theme-entry [name*="s_title"],
  html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
-     font-size: 1.8rem !important;
-     color: var(--main-color) !important;
+     font-size: var(--fs-h4)!important;
+     color: var(
+     --main-color) !important;
      position: relative;
      overflow: visible !important;
      padding: 0 !important;
      font-weight: 600 !important;
-     font-family: var(--regularFont) !important;
+     font-family: var(
+     --regularFont) !important;
      background-color: transparent !important;
  }
 
@@ -1669,6 +1671,8 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
  @media(min-width:1600px) {
     :root{
         --gap_1:1vw;
+		--zonePadding: 2vw;
+		--zoneBorderRadius:1vw;
     }
      html:not(.designer) body.theme-entry {
     margin-top: 6vw!important;
@@ -1684,14 +1688,6 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
          width: 14vw;
          padding: 1.3vw;
      }
-
-     html:not(.designer) .theme-entry h2.page-subtitle,
-     html:not(.designer) .theme-entry h2,
-     html:not(.designer) .theme-entry [name*="s_title"],
-     html:not(.designer) .theme-entry [name*="s_collapse"] .grid-header-text {
-         font-size: 1.8vw !important;
-     }
-
      .theme-entry .input-control.select-box .input-control-buttons a.picker-search>span span,
      .theme-entry .input-control.select-box .input-control-buttons a.picker-search:active>span span,
      .theme-entry .input-control.select-box.active .input-control-buttons a.picker-search>span span,
