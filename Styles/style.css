@@ -1,13 +1,4 @@
 :root {
-    --red: #e62b37;
-    --main-color: #e62b37;
-    --text-color: #3E3E3E;
-    --field-label: #303030;
-    --border-color: #D7D7D7;
-    --zonePadding: 1rem;
-    --white: #ffffff;
-    --main-color-hover: #c01f29;
-    --light-main-color: rgb(230 43 55 / 9%);
     --zoneBorderRadius: 1rem;
     --zonePadding: 1.5rem;
     --regularFont: 'SWCC-Medium';
@@ -27,6 +18,16 @@
      font-family: 'SWCC-Medium';
      src: url('https://cdn.jsdelivr.net/gh/julianogharzeddine/CustomFiles@main/SWCC-3-Medium.otf') format('opentype');
  }
+html:not(.designer) body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: .7rem;
+	background-color:var(--main-color);
+	z-index: 100000;
+}
  td i{
     display: flex;
     align-items: center;
