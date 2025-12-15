@@ -107,7 +107,12 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
  div#\30 0000000-0000-0000-0000-000000000000_974134b2-10c6-4f22-87a2-e237763e57f1_Table [name*="s_textbox"] {
      margin-bottom: .5rem !important;
  }
-
+.theme-entry .view .innerpanel>.grid .panel:not([name*="s_collapse"]), 
+.theme-entry .view .innerpanel>.panel:not([name*="s_collapse"]), 
+.theme-entry .view-canvas>.grid, .theme-entry .view-canvas>.panel:not([name*="s_collapse"]){
+    background-color: transparent!important;
+    border-radius: 0!important;
+}
  html:not(.designer) .theme-entry .form-tabs>.tab-box-body .view .innerpanel>.panel[name *="s_collapse"] {
      width: calc(100% - 3rem) !important;
      background-color: var(--white) !important;
@@ -116,6 +121,7 @@ html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596
      margin-top: 0rem;
      border-radius: 1rem !important;
      overflow: hidden;
+	 background-color:white!important;
  }
 
  html:not(.designer) .theme-entry .input-control-watermark {
@@ -1060,11 +1066,7 @@ html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardT
     box-shadow: none;
     background-color: var(--light-main-color)!important;
 }
-html:not(.designer) body.theme-entry .view .innerpanel>.grid, .theme-entry .view .innerpanel>.panel, 
-html:not(.designer) body.theme-entry .view-canvas>.grid, .theme-entry .view-canvas>.panel{
-    background-color: transparent!important;
-    border-radius: 0!important;
-}
+
 /* NEW CSS FILE END */
  /* Responsive Tables */
  @media(max-width:991px) {
