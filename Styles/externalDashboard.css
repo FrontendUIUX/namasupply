@@ -8,12 +8,6 @@
 .row:nth-child(2) .SourceCode-Forms-Controls-Web-Table.Grid-Layout {
     padding: 0;
 }
-.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
-    font-size: 1rem;
-    text-wrap: auto;
-    text-align: center;
-}
-
 .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget .picture-control-inline {
     width: 5rem !important;
     margin-bottom: .7rem;
@@ -172,9 +166,6 @@ html:not(.designer) .theme-entry .editor-cell{
 [name="ServicesLabel"] {
     font-size: 2vw;
     margin: 0 6vw;
-}
-.view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) .SFC.SourceCode-Forms-Controls-Web-Label {
-    font-size: 1vw;
 }
 td#\34 dc37f6b-817e-a74b-2353-1b7d11c7e15e {
     padding: 2vw 0;
