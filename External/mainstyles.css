@@ -1,0 +1,11 @@
+:root {
+    --red: #e62b37;
+    --main-color: #e62b37;
+    --text-color: #3E3E3E;
+    --field-label: #303030;
+    --border-color: #D7D7D7;
+    --zonePadding: 1rem;
+    --white: #ffffff;
+    --main-color-hover: #c01f29;
+    --light-main-color: rgb(230 43 55 / 9%);
+}

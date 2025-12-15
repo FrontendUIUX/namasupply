@@ -1,0 +1,9 @@
+/* GENERAL BRANDING */
+:root{
+	--white:#ffffff;
+	--main-color:#123756;
+	--main-color-hover:#144670;
+	--light-main-color:rgb(18 55 86 / 9%);
+	--zoneBorderRadius:1.5rem;
+	--zonePadding:2rem;
+}
