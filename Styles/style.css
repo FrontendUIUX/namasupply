@@ -1010,6 +1010,14 @@ html:not(.designer) .theme-entry .grid .grid-footer .toolbars a.toolbar-button.p
     max-width: 600px;
     /* height: max-content !important; */
 }
+/* NEW CSS FILE START */
+html:not(.designer) body.theme-entry [name*="dashboardTable"]{
+    display:flex!important;
+    align-items:center!important;
+    flex-direction:row;
+    width:100%!important;
+}
+/* NEW CSS FILE END */
  /* Responsive Tables */
  @media(max-width:991px) {
     div#\36 68575bc-80a6-0bb7-e858-9592aca9675e_7ac149f4-2d55-4eaf-b1c8-88d73fcaf841_Table {
@@ -1707,11 +1715,11 @@ div#a9df74f1-4662-4815-92a6-8dc1867cef47_ff504155-1a3a-8b5f-6216-17a39274534f_Ta
      }
 
      html:not(.designer) body.theme-entry .view:not(:has(h4[name="User NameData Label"])) .editor-cell.droptarget:has(img[name*="card-icon"]) {
-         height: 12vw !important;
-         width: 12vw !important;
-         border-radius: 0.7vw !important;
-         padding: 0 1vw !important;
-         margin: 1vw !important;
+         /* height: 12vw !important; */
+         /* width: 12vw !important; */
+         /* border-radius: 0.7vw !important; */
+         /* padding: 0 1vw !important; */
+         /* margin: 1vw !important; */
      }
 
      .SourceCode-Forms-Controls-Web-ControlPack-ListBox div.optionwrapper div.stackContainer .stack .hoverdiv {
