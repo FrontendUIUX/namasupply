@@ -1031,7 +1031,7 @@ html:not(.designer) body.theme-entry [name*="dashboardTable"]{
 }
 html:not(.designer) body.theme-entry [name*="dashboardTable"] [name*="dashboardTile"]  {
     height: 11rem;
-    width: 100%;
+    width: 16rem;
     box-shadow: none;
     border-radius: 0.7rem;
     display: flex;
