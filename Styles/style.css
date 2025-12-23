@@ -47,7 +47,7 @@ html:not(.designer) body::before {
     overflow: auto;
 }
  .popupManager[style*="position: absolute"] {
-     position: fixed !important;
+     /* position: fixed !important;
      position: absolute;
      z-index: 2;
      top: 0!important;
@@ -57,7 +57,7 @@ html:not(.designer) body::before {
      display: flex;
      align-items: center;
      justify-content: center;
-     align-content: center;
+     align-content: center; */
  }
 html:not(.designer)[dir="rtl"] div#e8792145-7633-45f1-8fad-4c678dfff9e4_c3463596-afb1-716a-6371-d974af820942_Table {
  display:flex;
